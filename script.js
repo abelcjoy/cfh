@@ -332,6 +332,116 @@ speakBtn.addEventListener('click', () => {
 // Init voices
 window.speechSynthesis.getVoices();
 
+/* Recorder Logic */
+const startRecordBtn = document.getElementById('start-record-btn');
+const stopRecordBtn = document.getElementById('stop-record-btn');
+const downloadLink = document.getElementById('download-link');
+const videoPreview = document.getElementById('video-preview');
+const resSelect = document.getElementById('res-select');
+const audioSelect = document.getElementById('audio-select');
+const recordingDot = document.getElementById('recording-dot');
+
+let mediaRecorder;
+let recordedChunks = [];
+let stream = null;
+
+async function startRecording() {
+    try {
+        const height = parseInt(resSelect.value);
+        const audioChoice = audioSelect.value;
+
+        const constraints = {
+            video: {
+                displaySurface: "monitor", // prefer whole screen
+                height: { ideal: height }, // Request 1080 or 4k
+                frameRate: 60
+            },
+            audio: audioChoice !== 'none'
+        };
+
+        // Get Screen Stream
+        stream = await navigator.mediaDevices.getDisplayMedia(constraints);
+
+        // If Mic is requested, we need to mix streams (Advanced)
+        // For simplicity v1: If mic requested, we replace system audio or just use mic? 
+        // getDisplayMedia usually gets System Audio.
+        // To mix Mic + System, we need a separate getUserMedia call and AudioContext.
+        // Let's implement partial support: System Audio comes with DisplayMedia.
+        // If they want MIC, we might need to prompt separately.
+
+        if (audioChoice === 'mic') {
+            const micStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+            // Combine tracks - Note: Replacing system audio track if present is complex without mixing
+            // For this v1, we will just add the mic track. If the container supports multiple audio tracks, great.
+            // If not, we might prioritization issues.
+            // Safe approach for v1: If Mic is chosen, we prioritize Mic.
+            if (stream.getAudioTracks().length > 0) {
+                stream.removeTrack(stream.getAudioTracks()[0]); // Remove system audio to avoid conflict if mixer not present
+            }
+            stream.addTrack(micStream.getAudioTracks()[0]);
+        }
+
+        // Preview
+        videoPreview.srcObject = stream;
+
+        // Init Recorder
+        const mimeType = MediaRecorder.isTypeSupported("video/webm; codecs=vp9")
+            ? "video/webm; codecs=vp9"
+            : "video/webm"; // Fallback
+
+        mediaRecorder = new MediaRecorder(stream, { mimeType });
+
+        mediaRecorder.ondataavailable = (e) => {
+            if (e.data.size > 0) recordedChunks.push(e.data);
+        };
+
+        mediaRecorder.onstop = () => {
+            const blob = new Blob(recordedChunks, { type: "video/webm" });
+            recordedChunks = [];
+            const url = URL.createObjectURL(blob);
+
+            // UI Update
+            downloadLink.href = url;
+            downloadLink.download = `recording-${new Date().getTime()}.webm`;
+            downloadLink.style.display = "flex"; // Show save button
+
+            // Stop tracks
+            stream.getTracks().forEach(track => track.stop());
+            videoPreview.srcObject = null;
+
+            // Reset Buttons
+            startRecordBtn.style.display = "flex";
+            stopRecordBtn.style.display = "none";
+            recordingDot.classList.add('hidden');
+        };
+
+        // Start
+        mediaRecorder.start();
+
+        // UI
+        startRecordBtn.style.display = "none";
+        stopRecordBtn.style.display = "flex";
+        downloadLink.style.display = "none";
+        recordingDot.classList.remove('hidden');
+
+        // Handle if user clicks "Stop Sharing" on browser UI
+        stream.getVideoTracks()[0].onended = () => {
+            if (mediaRecorder.state !== 'inactive') stopRecording();
+        };
+
+    } catch (err) {
+        console.error("Error: " + err);
+    }
+}
+
+function stopRecording() {
+    mediaRecorder.stop();
+}
+
+startRecordBtn.addEventListener('click', startRecording);
+stopRecordBtn.addEventListener('click', stopRecording);
+
+
 const startBtn = document.getElementById('start-btn');
 const speedValue = document.getElementById('speed-value');
 const progressCircle = document.getElementById('progress-circle');

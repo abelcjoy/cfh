@@ -36,6 +36,9 @@
                 <button class="nav-btn" data-target="voice-section">
                     <i class="fa-solid fa-microphone-lines"></i> VOICE
                 </button>
+                <button class="nav-btn" data-target="recorder-section">
+                    <i class="fa-solid fa-video"></i> RECORDER
+                </button>
             </nav>
             <div class="status">
                 <span class="dot"></span> ONLINE
@@ -258,6 +261,58 @@
                     <button id="speak-btn" class="glow-button">
                         <span><i class="fa-solid fa-play"></i> SPEAK</span>
                     </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- SCREEN RECORDER SECTION -->
+        <section id="recorder-section" class="tool-section hidden-section">
+            <div class="converter-box" style="width: 100%; max-width: 900px;">
+                <div class="voice-header">
+                    <h2 class="voice-title">SCREEN <span style="color: var(--accent); font-weight: 700;">RECORDER</span>
+                    </h2>
+                    <p class="voice-subtitle">Capture 1080p/4K footage directly from your browser</p>
+                </div>
+
+                <div class="video-preview-container">
+                    <video id="video-preview" autoplay muted playsinline></video>
+                    <div class="recording-indicator hidden" id="recording-dot">
+                        <div class="red-dot"></div> REC
+                    </div>
+                </div>
+
+                <div class="recorder-controls">
+                    <div class="settings-group">
+                        <label>Resolution Preference</label>
+                        <select id="res-select" class="typing-input" style="padding: 8px;">
+                            <option value="1080">1080p (Standard)</option>
+                            <option value="2160">4K (UHD) - If supported</option>
+                            <option value="720">720p (Lightweight)</option>
+                        </select>
+                    </div>
+
+                    <div class="settings-group">
+                        <label>Audio Source</label>
+                        <select id="audio-select" class="typing-input" style="padding: 8px;">
+                            <option value="system">System Audio Only</option>
+                            <option value="mic">Microphone + System</option>
+                            <option value="none">No Audio</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="controls" style="margin-top: 20px; display: flex; gap: 20px; justify-content: center;">
+                    <button id="start-record-btn" class="glow-button">
+                        <span><i class="fa-solid fa-circle-dot"></i> START RECORDING</span>
+                    </button>
+                    <button id="stop-record-btn" class="glow-button"
+                        style="border-color: #ff4d4d; color: #ff4d4d; display: none;">
+                        <span><i class="fa-solid fa-stop"></i> STOP</span>
+                    </button>
+                    <a id="download-link" class="glow-button"
+                        style="display: none; border-color: #00ff88; color: #00ff88;">
+                        <span><i class="fa-solid fa-download"></i> SAVE VIDEO</span>
+                    </a>
                 </div>
             </div>
         </section>

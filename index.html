@@ -33,6 +33,9 @@
                 <button class="nav-btn" data-target="typing-section">
                     <i class="fa-solid fa-keyboard"></i> TYPING
                 </button>
+                <button class="nav-btn" data-target="voice-section">
+                    <i class="fa-solid fa-microphone-lines"></i> VOICE
+                </button>
             </nav>
             <div class="status">
                 <span class="dot"></span> ONLINE
@@ -190,6 +193,62 @@
                 <div class="controls" style="margin-top: 30px;">
                     <button id="start-typing-btn" class="glow-button">
                         <span>START TYPING</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- VOICE DIRECTOR SECTION -->
+        <section id="voice-section" class="tool-section hidden-section">
+            <div class="converter-box" style="width: 100%; max-width: 800px;">
+                <div class="voice-header" style="text-align: center; margin-bottom: 20px;">
+                    <h2 style="font-weight: 300; letter-spacing: 2px; margin-bottom: 10px;">VOICE <span
+                            style="color: var(--accent); font-weight: 700;">DIRECTOR</span></h2>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem;">Prototype: Browser TTS Engine Control
+                    </p>
+                </div>
+
+                <div class="typing-area" style="min-height: 100px; padding: 0;">
+                    <textarea id="voice-text" class="typing-input" placeholder="Type what you want to say..."
+                        style="height: 120px; resize: none;"></textarea>
+                </div>
+
+                <div class="controls-grid"
+                    style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin: 30px 0;">
+                    <!-- Pitch Control -->
+                    <div class="slider-group">
+                        <div class="slider-label"
+                            style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                            <label style="color: var(--text-secondary);">PITCH (Emotion)</label>
+                            <span id="pitch-val" style="color: var(--accent);">1.0</span>
+                        </div>
+                        <input type="range" id="pitch-slider" min="0.5" max="2" step="0.1" value="1"
+                            style="width: 100%; accent-color: var(--accent);">
+                    </div>
+
+                    <!-- Speed Control -->
+                    <div class="slider-group">
+                        <div class="slider-label"
+                            style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                            <label style="color: var(--text-secondary);">SPEED (Pacing)</label>
+                            <span id="rate-val" style="color: var(--accent);">1.0</span>
+                        </div>
+                        <input type="range" id="rate-slider" min="0.5" max="2" step="0.1" value="1"
+                            style="width: 100%; accent-color: var(--accent);">
+                    </div>
+                </div>
+
+                <div class="voice-presets"
+                    style="display: flex; justify-content: center; gap: 10px; margin-bottom: 30px; flex-wrap: wrap;">
+                    <button class="preset-btn" data-preset="angry">😠 Angry</button>
+                    <button class="preset-btn" data-preset="happy">😊 Happy</button>
+                    <button class="preset-btn" data-preset="news">📰 News</button>
+                    <button class="preset-btn" data-preset="robot">🤖 Robot</button>
+                </div>
+
+                <div class="controls" style="margin-top: 10px;">
+                    <button id="speak-btn" class="glow-button">
+                        <span><i class="fa-solid fa-play"></i> SPEAK</span>
                     </button>
                 </div>
             </div>

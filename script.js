@@ -224,6 +224,80 @@ function resetGame() {
 startTypingBtn.addEventListener('click', resetGame);
 typingInput.addEventListener('input', initTyping);
 
+/* Voice Director Logic */
+const voiceText = document.getElementById('voice-text');
+const pitchSlider = document.getElementById('pitch-slider');
+const rateSlider = document.getElementById('rate-slider');
+const pitchVal = document.getElementById('pitch-val');
+const rateVal = document.getElementById('rate-val');
+const speakBtn = document.getElementById('speak-btn');
+const presetBtns = document.querySelectorAll('.preset-btn');
+
+// Update UI labels
+pitchSlider.addEventListener('input', (e) => pitchVal.innerText = e.target.value);
+rateSlider.addEventListener('input', (e) => rateVal.innerText = e.target.value);
+
+// Presets
+const presets = {
+    'angry': { pitch: 0.6, rate: 1.4 },
+    'happy': { pitch: 1.4, rate: 1.2 },
+    'news': { pitch: 1.0, rate: 0.9 }, // Slower, steady
+    'robot': { pitch: 0.5, rate: 0.8 }
+};
+
+presetBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const p = presets[btn.getAttribute('data-preset')];
+        if (p) {
+            pitchSlider.value = p.pitch;
+            rateSlider.value = p.rate;
+            pitchVal.innerText = p.pitch;
+            rateVal.innerText = p.rate;
+            // Visual feedback
+            voiceText.style.borderColor = "var(--accent)";
+            setTimeout(() => voiceText.style.borderColor = "var(--accent)", 200);
+        }
+    });
+});
+
+// Speak
+speakBtn.addEventListener('click', () => {
+    // 1. Cancel current speech
+    window.speechSynthesis.cancel();
+
+    const text = voiceText.value;
+    if (!text) return;
+
+    const utterance = new SpeechSynthesisUtterance(text);
+
+    // 2. Get available voices and try to find a natural one
+    const voices = window.speechSynthesis.getVoices();
+    // Prefer Google US or Microsoft David/Zira if available
+    const preferredVoice = voices.find(v => v.name.includes('Google US English')) ||
+        voices.find(v => v.name.includes('Zira')) ||
+        voices[0];
+
+    if (preferredVoice) utterance.voice = preferredVoice;
+
+    // 3. Apply Controls
+    utterance.pitch = parseFloat(pitchSlider.value);
+    utterance.rate = parseFloat(rateSlider.value);
+
+    // 4. Animate Button
+    speakBtn.innerHTML = '<span><i class="fa-solid fa-waveform-lines"></i> SPEAKING...</span>';
+    speakBtn.style.opacity = "0.8";
+
+    utterance.onend = () => {
+        speakBtn.innerHTML = '<span><i class="fa-solid fa-play"></i> SPEAK</span>';
+        speakBtn.style.opacity = "1";
+    };
+
+    window.speechSynthesis.speak(utterance);
+});
+
+// Init voices
+window.speechSynthesis.getVoices();
+
 const startBtn = document.getElementById('start-btn');
 const speedValue = document.getElementById('speed-value');
 const progressCircle = document.getElementById('progress-circle');

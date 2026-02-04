@@ -107,6 +107,123 @@ function calculateBMI() {
 weightInput.addEventListener('input', calculateBMI);
 heightInput.addEventListener('input', calculateBMI);
 
+
+/* Typing Test Logic */
+const typingTextDisplay = document.getElementById('typing-text-display');
+const typingInput = document.getElementById('typing-input');
+const wpmText = document.getElementById('wpm-text');
+const accuracyText = document.getElementById('accuracy-text');
+const timeText = document.getElementById('time-text');
+const startTypingBtn = document.getElementById('start-typing-btn');
+
+const paragraphs = [
+    "The quick brown fox jumps over the lazy dog. Programming is the art of telling another human what one wants the computer to do. Complexity is the enemy of execution.",
+    "To be successful, you have to use each day as an opportunity to improve, to be better, to get a little bit closer to your goals. It might sound like a lot of work.",
+    "Success is not final, failure is not fatal: it is the courage to continue that counts. Believe you can and you're halfway there. I have not failed. I've just found 10,000 ways that won't work.",
+    "Technology is best when it brings people together. It is not a faith in technology. It is faith in people. We are changing the world with technology."
+];
+
+let timer;
+let timeLeft = 60;
+let charIndex = 0;
+let mistakes = 0;
+let isTyping = false;
+
+function loadParagraph() {
+    const randIndex = Math.floor(Math.random() * paragraphs.length);
+    typingTextDisplay.innerHTML = "";
+    paragraphs[randIndex].split("").forEach(char => {
+        let span = `<span>${char}</span>`;
+        typingTextDisplay.innerHTML += span;
+    });
+    typingTextDisplay.querySelectorAll("span")[0].classList.add("char-current");
+}
+
+function initTyping() {
+    let characters = typingTextDisplay.querySelectorAll("span");
+    let typedChar = typingInput.value.split("")[charIndex];
+
+    if (charIndex < characters.length && timeLeft > 0) {
+        if (!isTyping) {
+            timer = setInterval(initTimer, 1000);
+            isTyping = true;
+        }
+
+        if (typedChar == null) { // Backspace
+            if (charIndex > 0) {
+                charIndex--;
+                if (characters[charIndex].classList.contains("char-wrong")) {
+                    mistakes--;
+                }
+                characters[charIndex].classList.remove("char-correct", "char-wrong");
+                characters[charIndex].classList.add("char-current");
+                characters[charIndex + 1].classList.remove("char-current");
+            }
+        } else {
+            if (characters[charIndex].innerText === typedChar) { // Correct
+                characters[charIndex].classList.add("char-correct");
+            } else { // Wrong
+                mistakes++;
+                characters[charIndex].classList.add("char-wrong");
+            }
+            characters[charIndex].classList.remove("char-current");
+
+            charIndex++;
+            if (charIndex < characters.length) {
+                characters[charIndex].classList.add("char-current");
+            } else {
+                clearInterval(timer); // Done with paragraph
+                typingInput.value = ""; // Clear for next paragraph if we wanted continuous, but for now stop
+            }
+        }
+
+        let wpm = Math.round(((charIndex - mistakes) / 5) / ((60 - timeLeft) / 60));
+        wpm = wpm < 0 || !wpm || wpm === Infinity ? 0 : wpm;
+
+        wpmText.innerText = wpm;
+        let accuracy = Math.floor(((charIndex - mistakes) / charIndex) * 100);
+        accuracy = isNaN(accuracy) ? 100 : accuracy;
+        accuracyText.innerText = accuracy + "%";
+
+    } else {
+        clearInterval(timer);
+        typingInput.value = "";
+    }
+}
+
+function initTimer() {
+    if (timeLeft > 0) {
+        timeLeft--;
+        timeText.innerText = timeLeft + "s";
+        let wpm = Math.round(((charIndex - mistakes) / 5) / ((60 - timeLeft) / 60));
+        wpmText.innerText = wpm;
+    } else {
+        clearInterval(timer);
+        typingInput.disabled = true;
+        startTypingBtn.innerText = "TRY AGAIN";
+        startTypingBtn.disabled = false;
+    }
+}
+
+function resetGame() {
+    loadParagraph();
+    clearInterval(timer);
+    timeLeft = 60;
+    charIndex = mistakes = 0;
+    isTyping = false;
+    typingInput.value = "";
+    timeText.innerText = "60s";
+    wpmText.innerText = 0;
+    accuracyText.innerText = "100%";
+
+    typingInput.disabled = false;
+    typingInput.focus();
+    startTypingBtn.innerText = "RESTART";
+}
+
+startTypingBtn.addEventListener('click', resetGame);
+typingInput.addEventListener('input', initTyping);
+
 const startBtn = document.getElementById('start-btn');
 const speedValue = document.getElementById('speed-value');
 const progressCircle = document.getElementById('progress-circle');

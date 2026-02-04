@@ -30,6 +30,9 @@
                 <button class="nav-btn" data-target="bmi-section">
                     <i class="fa-solid fa-weight-scale"></i> BMI
                 </button>
+                <button class="nav-btn" data-target="typing-section">
+                    <i class="fa-solid fa-keyboard"></i> TYPING
+                </button>
             </nav>
             <div class="status">
                 <span class="dot"></span> ONLINE
@@ -148,6 +151,46 @@
                     <span id="bmi-result-val" style="font-size: 3rem; font-weight: 700; color: #fff;">--.-</span>
                     <span id="bmi-category" style="font-size: 1.2rem; color: var(--text-secondary);">Enter
                         Details</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- TYPING TEST SECTION -->
+        <section id="typing-section" class="tool-section hidden-section">
+            <div class="dashboard">
+                <div class="stats-grid" style="grid-template-columns: repeat(3, 1fr); margin-bottom: 20px;">
+                    <div class="stat-card active-card">
+                        <div class="info">
+                            <h3>WPM</h3>
+                            <p id="wpm-text">0</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="info">
+                            <h3>ACCURACY</h3>
+                            <p id="accuracy-text">100%</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="info">
+                            <h3>TIME</h3>
+                            <p id="time-text">60s</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="converter-box" style="width: 100%; max-width: 800px; margin-top: 0;">
+                    <div class="typing-area" id="typing-text-display">
+                        Click "Start Typing" to begin...
+                    </div>
+                    <input type="text" id="typing-input" class="typing-input" placeholder="Type here..." disabled
+                        autocomplete="off">
+                </div>
+
+                <div class="controls" style="margin-top: 30px;">
+                    <button id="start-typing-btn" class="glow-button">
+                        <span>START TYPING</span>
+                    </button>
                 </div>
             </div>
         </section>

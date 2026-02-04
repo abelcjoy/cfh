@@ -459,3 +459,50 @@ input::-webkit-inner-spin-button {
         font-size: 1.5rem;
     }
 }
+/* Typing Test Styles */
+.typing-area {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+    user-select: none;
+    text-align: left;
+    min-height: 150px;
+    max-height: 300px;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.typing-input {
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    border: 1px solid var(--accent);
+    padding: 15px;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.typing-input:disabled {
+    opacity: 0.5;
+    border-color: transparent;
+    cursor: not-allowed;
+}
+
+.char-correct {
+    color: #00ff88;
+}
+
+.char-wrong {
+    color: #ff4d4d;
+    text-decoration: underline;
+}
+
+.char-current {
+    background-color: var(--accent);
+    color: #000;
+}
+

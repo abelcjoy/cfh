@@ -39,6 +39,9 @@
                 <button class="nav-btn" data-target="recorder-section">
                     <i class="fa-solid fa-video"></i> RECORDER
                 </button>
+                <button class="nav-btn" data-target="pdf-section">
+                    <i class="fa-solid fa-file-pdf"></i> PDF
+                </button>
             </nav>
             <div class="status">
                 <span class="dot"></span> ONLINE
@@ -317,8 +320,39 @@
             </div>
         </section>
 
+        <!-- PDF CONVERTER SECTION -->
+        <section id="pdf-section" class="tool-section hidden-section">
+            <div class="converter-box" style="width: 100%; max-width: 800px;">
+                <div class="voice-header">
+                    <h2 class="voice-title">IMAGE TO <span style="color: var(--accent); font-weight: 700;">PDF</span>
+                    </h2>
+                    <p class="voice-subtitle">Convert multiple images into a single document instantly</p>
+                </div>
+
+                <div class="upload-zone" id="drop-zone">
+                    <i class="fa-solid fa-cloud-arrow-up"
+                        style="font-size: 3rem; color: var(--accent); margin-bottom: 15px;"></i>
+                    <p>Drag & Drop Images Here</p>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">or click to browse</p>
+                    <input type="file" id="file-input" multiple accept="image/*" style="display: none;">
+                </div>
+
+                <div class="image-preview-list" id="image-list">
+                    <!-- Images will appear here -->
+                </div>
+
+                <div class="controls" style="margin-top: 30px;">
+                    <button id="convert-pdf-btn" class="glow-button" disabled
+                        style="opacity: 0.5; cursor: not-allowed;">
+                        <span><i class="fa-solid fa-wand-magic-sparkles"></i> CONVERT TO PDF</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
     </main>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="script.js"></script>
 </body>
 

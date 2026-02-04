@@ -442,6 +442,124 @@ startRecordBtn.addEventListener('click', startRecording);
 stopRecordBtn.addEventListener('click', stopRecording);
 
 
+/* PDF Converter Logic */
+const dropZone = document.getElementById('drop-zone');
+const fileInput = document.getElementById('file-input');
+const imageList = document.getElementById('image-list');
+const convertPdfBtn = document.getElementById('convert-pdf-btn');
+
+let uploadedImages = []; // Array of Data URLs
+
+// Drag & Drop
+dropZone.addEventListener('dragover', (e) => {
+    e.preventDefault();
+    dropZone.style.borderColor = "var(--accent)";
+});
+
+dropZone.addEventListener('dragleave', (e) => {
+    e.preventDefault();
+    dropZone.style.borderColor = "rgba(255,255,255,0.2)";
+});
+
+dropZone.addEventListener('drop', (e) => {
+    e.preventDefault();
+    dropZone.style.borderColor = "rgba(255,255,255,0.2)";
+    handleFiles(e.dataTransfer.files);
+});
+
+dropZone.addEventListener('click', () => fileInput.click());
+
+fileInput.addEventListener('change', (e) => handleFiles(e.target.files));
+
+function handleFiles(files) {
+    if (!files.length) return;
+
+    Array.from(files).forEach(file => {
+        if (!file.type.startsWith('image/')) return;
+
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            uploadedImages.push(e.target.result);
+            renderPreviews();
+        };
+        reader.readAsDataURL(file);
+    });
+}
+
+function renderPreviews() {
+    imageList.innerHTML = "";
+    uploadedImages.forEach((src, index) => {
+        const div = document.createElement('div');
+        div.className = 'preview-item';
+        div.innerHTML = `
+            <img src="${src}">
+            <button class="remove-btn" onclick="removeImage(${index})">&times;</button>
+        `;
+        imageList.appendChild(div);
+    });
+
+    // Enable button
+    if (uploadedImages.length > 0) {
+        convertPdfBtn.disabled = false;
+        convertPdfBtn.style.opacity = "1";
+        convertPdfBtn.style.cursor = "pointer";
+    } else {
+        convertPdfBtn.disabled = true;
+        convertPdfBtn.style.opacity = "0.5";
+        convertPdfBtn.style.cursor = "not-allowed";
+    }
+}
+
+window.removeImage = (index) => {
+    uploadedImages.splice(index, 1);
+    renderPreviews();
+};
+
+convertPdfBtn.addEventListener('click', async () => {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+
+    const pageWidth = doc.internal.pageSize.getWidth();
+    const pageHeight = doc.internal.pageSize.getHeight();
+    const margin = 10;
+    const maxWid = pageWidth - (margin * 2);
+    const maxHei = pageHeight - (margin * 2);
+
+    convertPdfBtn.innerHTML = `<span><i class="fa-solid fa-spinner fa-spin"></i> GENERATING...</span>`;
+
+    for (let i = 0; i < uploadedImages.length; i++) {
+        if (i > 0) doc.addPage();
+
+        const imgData = uploadedImages[i];
+
+        // Load image to get dims
+        const img = new Image();
+        img.src = imgData;
+        await new Promise(r => img.onload = r);
+
+        const imgRatio = img.width / img.height;
+        const pageRatio = maxWid / maxHei;
+
+        let w = maxWid;
+        let h = w / imgRatio;
+
+        if (h > maxHei) {
+            h = maxHei;
+            w = h * imgRatio;
+        }
+
+        const x = (pageWidth - w) / 2;
+        const y = (pageHeight - h) / 2;
+
+        doc.addImage(imgData, 'JPEG', x, y, w, h);
+    }
+
+    doc.save(`clarity-docs-${new Date().getTime()}.pdf`);
+
+    convertPdfBtn.innerHTML = `<span><i class="fa-solid fa-wand-magic-sparkles"></i> CONVERT TO PDF</span>`;
+});
+
+
 const startBtn = document.getElementById('start-btn');
 const speedValue = document.getElementById('speed-value');
 const progressCircle = document.getElementById('progress-circle');

@@ -233,26 +233,11 @@ header {
     transform: scale(0.95);
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .stats-grid {
-        grid-template-columns: 1fr;
-        gap: 10px;
-    }
-
-    .gauge-container {
-        transform: scale(0.8);
-    }
-
-    #speed-value {
-        font-size: 3.5rem;
-    }
-}
 /* Navigation */
 .tool-nav {
     display: flex;
     gap: 15px;
-    background: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.05);
     padding: 5px;
     border-radius: 30px;
     backdrop-filter: blur(5px);
@@ -314,8 +299,8 @@ header {
     background: var(--card-bg);
     padding: 40px;
     border-radius: 30px;
-    border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: 0 10px 40px -10px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(20px);
     margin-top: 40px;
     width: 100%;
@@ -326,10 +311,10 @@ header {
     display: flex;
     align-items: center;
     gap: 20px;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.3);
     padding: 20px;
     border-radius: 20px;
-    border: 1px solid rgba(255,255,255,0.05);
+    border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .flag-icon {
@@ -362,15 +347,15 @@ header {
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .exchange-icon {
     align-self: center;
     color: var(--text-secondary);
     font-size: 1.2rem;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     width: 40px;
     height: 40px;
     display: flex;
@@ -401,6 +386,76 @@ input::-webkit-inner-spin-button {
 
 /* Animations */
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 15px;
+        justify-content: flex-start;
+        overflow-y: auto;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .tool-nav {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .nav-btn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+        flex-grow: 1;
+        justify-content: center;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .gauge-container {
+        transform: scale(0.85);
+        margin: -20px 0;
+    }
+
+    #speed-value {
+        font-size: 3.5rem;
+    }
+
+    .converter-box {
+        padding: 25px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .currency-card {
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .flag-icon {
+        font-size: 2rem;
+    }
+
+    .input-group input {
+        font-size: 1.5rem;
+    }
 }

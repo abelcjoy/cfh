@@ -232,10 +232,47 @@ const pitchVal = document.getElementById('pitch-val');
 const rateVal = document.getElementById('rate-val');
 const speakBtn = document.getElementById('speak-btn');
 const presetBtns = document.querySelectorAll('.preset-btn');
+const voiceSelect = document.getElementById('voice-select');
 
 // Update UI labels
 pitchSlider.addEventListener('input', (e) => pitchVal.innerText = e.target.value);
 rateSlider.addEventListener('input', (e) => rateVal.innerText = e.target.value);
+
+// Load Voices
+let voices = [];
+function loadVoices() {
+    voices = window.speechSynthesis.getVoices();
+    voiceSelect.innerHTML = '';
+
+    // Sort Google/Microsoft to top
+    voices.sort((a, b) => {
+        const aName = a.name.toUpperCase();
+        const bName = b.name.toUpperCase();
+        const prio = ['GOOGLE', 'MICROSOFT', 'NATURAL'];
+        const aScore = prio.some(k => aName.includes(k)) ? 1 : 0;
+        const bScore = prio.some(k => bName.includes(k)) ? 1 : 0;
+        return bScore - aScore;
+    });
+
+    if (voices.length === 0) {
+        const op = document.createElement('option');
+        op.innerText = "No voices found (Wait...)";
+        voiceSelect.appendChild(op);
+    } else {
+        voices.forEach((voice, index) => {
+            const option = document.createElement('option');
+            option.textContent = `${voice.name} (${voice.lang})`;
+            option.value = index;
+            // Default to Google US
+            if (voice.name.includes('Google US English') || voice.name.includes('Zira')) {
+                option.selected = true;
+            }
+            voiceSelect.appendChild(option);
+        });
+    }
+}
+window.speechSynthesis.onvoiceschanged = loadVoices;
+loadVoices();
 
 // Presets
 const presets = {
@@ -270,14 +307,11 @@ speakBtn.addEventListener('click', () => {
 
     const utterance = new SpeechSynthesisUtterance(text);
 
-    // 2. Get available voices and try to find a natural one
-    const voices = window.speechSynthesis.getVoices();
-    // Prefer Google US or Microsoft David/Zira if available
-    const preferredVoice = voices.find(v => v.name.includes('Google US English')) ||
-        voices.find(v => v.name.includes('Zira')) ||
-        voices[0];
-
-    if (preferredVoice) utterance.voice = preferredVoice;
+    // 2. Get selected voice
+    const selectedIdx = voiceSelect.value;
+    if (selectedIdx && voices[selectedIdx]) {
+        utterance.voice = voices[selectedIdx];
+    }
 
     // 3. Apply Controls
     utterance.pitch = parseFloat(pitchSlider.value);

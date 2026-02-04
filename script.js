@@ -66,6 +66,46 @@ usdInput.addEventListener('input', calculate);
 fetchRate();
 calculate();
 
+/* BMI Logic */
+const weightInput = document.getElementById('weight-input');
+const heightInput = document.getElementById('height-input');
+const bmiVal = document.getElementById('bmi-result-val');
+const bmiCat = document.getElementById('bmi-category');
+
+function calculateBMI() {
+    const w = parseFloat(weightInput.value);
+    const h = parseFloat(heightInput.value);
+
+    if (w > 0 && h > 0) {
+        const heightM = h / 100;
+        const bmi = w / (heightM * heightM);
+        const bmiRounded = bmi.toFixed(1);
+
+        bmiVal.innerText = bmiRounded;
+
+        // Categorize
+        if (bmi < 18.5) {
+            bmiCat.innerText = "Underweight";
+            bmiCat.style.color = "#4facfe"; // Blue like accent
+        } else if (bmi >= 18.5 && bmi < 24.9) {
+            bmiCat.innerText = "Normal Weight";
+            bmiCat.style.color = "#00ff88"; // Green
+        } else if (bmi >= 25 && bmi < 29.9) {
+            bmiCat.innerText = "Overweight";
+            bmiCat.style.color = "#ffd700"; // Yellow/Gold
+        } else {
+            bmiCat.innerText = "Obese";
+            bmiCat.style.color = "#ff4d4d"; // Red
+        }
+    } else {
+        bmiVal.innerText = "--.-";
+        bmiCat.innerText = "Enter Details";
+        bmiCat.style.color = "var(--text-secondary)";
+    }
+}
+
+weightInput.addEventListener('input', calculateBMI);
+heightInput.addEventListener('input', calculateBMI);
 
 const startBtn = document.getElementById('start-btn');
 const speedValue = document.getElementById('speed-value');

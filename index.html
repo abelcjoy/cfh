@@ -27,6 +27,9 @@
                 <button class="nav-btn" data-target="currency-section">
                     <i class="fa-solid fa-coins"></i> CURRENCY
                 </button>
+                <button class="nav-btn" data-target="bmi-section">
+                    <i class="fa-solid fa-weight-scale"></i> BMI
+                </button>
             </nav>
             <div class="status">
                 <span class="dot"></span> ONLINE
@@ -116,6 +119,35 @@
                 <div class="live-rate">
                     <span id="rate-display">1 USD = -- INR</span>
                     <span class="refresh-time" id="last-updated">Updating...</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- BMI CALCULATOR SECTION -->
+        <section id="bmi-section" class="tool-section hidden-section">
+            <div class="converter-box">
+                <div class="currency-card">
+                    <div class="flag-icon"><i class="fa-solid fa-weight-hanging"
+                            style="font-size: 1.5rem; color: var(--accent);"></i></div>
+                    <div class="input-group">
+                        <label>Weight (kg)</label>
+                        <input type="number" id="weight-input" placeholder="0">
+                    </div>
+                </div>
+
+                <div class="currency-card">
+                    <div class="flag-icon"><i class="fa-solid fa-ruler-vertical"
+                            style="font-size: 1.5rem; color: var(--accent);"></i></div>
+                    <div class="input-group">
+                        <label>Height (cm)</label>
+                        <input type="number" id="height-input" placeholder="0">
+                    </div>
+                </div>
+
+                <div class="live-rate" style="margin-top: 30px;">
+                    <span id="bmi-result-val" style="font-size: 3rem; font-weight: 700; color: #fff;">--.-</span>
+                    <span id="bmi-category" style="font-size: 1.2rem; color: var(--text-secondary);">Enter
+                        Details</span>
                 </div>
             </div>
         </section>

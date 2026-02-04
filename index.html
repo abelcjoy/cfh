@@ -13,77 +13,113 @@
 </head>
 
 <body>
-
     <div class="background-mesh"></div>
 
     <main class="container">
         <header>
             <div class="logo">
-                <i class="fa-solid fa-bolt"></i> FAST<span>LANE</span>
+                <i class="fa-solid fa-bolt"></i> CLARITY<span>TOOLS</span>
             </div>
+            <nav class="tool-nav">
+                <button class="nav-btn active" data-target="speed-section">
+                    <i class="fa-solid fa-gauge-high"></i> SPEED
+                </button>
+                <button class="nav-btn" data-target="currency-section">
+                    <i class="fa-solid fa-coins"></i> CURRENCY
+                </button>
+            </nav>
             <div class="status">
                 <span class="dot"></span> ONLINE
             </div>
         </header>
 
-        <div class="dashboard">
-            <!-- Main Gauge -->
-            <div class="gauge-container">
-                <div class="gauge-outer">
-                    <div class="gauge-inner"></div>
-                    <div class="gauge-center">
-                        <span id="speed-value">0</span>
-                        <span class="unit">Mbps</span>
+        <!-- SPEED TESTER SECTION -->
+        <section id="speed-section" class="tool-section active-section">
+            <div class="dashboard">
+                <div class="gauge-container">
+                    <div class="gauge-outer">
+                        <div class="gauge-inner"></div>
+                        <div class="gauge-center">
+                            <span id="speed-value">0</span>
+                            <span class="unit">Mbps</span>
+                        </div>
+                    </div>
+                    <svg class="progress-ring" width="300" height="300">
+                        <circle class="progress-ring__circle" stroke="rgba(255,255,255,0.1)" stroke-width="12"
+                            fill="transparent" r="140" cx="150" cy="150" />
+                        <circle class="progress-ring__circle progress-fill" id="progress-circle" stroke="url(#gradient)"
+                            stroke-width="12" fill="transparent" r="140" cx="150" cy="150" />
+                        <defs>
+                            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#00f2fe" />
+                                <stop offset="100%" stop-color="#4facfe" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="icon"><i class="fa-solid fa-server"></i></div>
+                        <div class="info">
+                            <h3>PING</h3>
+                            <p id="ping-text">-- ms</p>
+                        </div>
+                    </div>
+                    <div class="stat-card active-card">
+                        <div class="icon"><i class="fa-solid fa-download"></i></div>
+                        <div class="info">
+                            <h3>DOWNLOAD</h3>
+                            <p id="download-text">-- Mbps</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="icon"><i class="fa-solid fa-upload"></i></div>
+                        <div class="info">
+                            <h3>UPLOAD</h3>
+                            <p id="upload-text">-- Mbps</p>
+                        </div>
                     </div>
                 </div>
-                <svg class="progress-ring" width="300" height="300">
-                    <circle class="progress-ring__circle" stroke="rgba(255,255,255,0.1)" stroke-width="12"
-                        fill="transparent" r="140" cx="150" cy="150" />
-                    <circle class="progress-ring__circle progress-fill" id="progress-circle" stroke="url(#gradient)"
-                        stroke-width="12" fill="transparent" r="140" cx="150" cy="150" />
-                    <defs>
-                        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" stop-color="#00f2fe" />
-                            <stop offset="100%" stop-color="#4facfe" />
-                        </linearGradient>
-                    </defs>
-                </svg>
+
+                <div class="controls">
+                    <button id="start-btn" class="glow-button">
+                        <span>START TEST</span>
+                    </button>
+                </div>
             </div>
+        </section>
 
-            <!-- Stats Grid -->
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="icon"><i class="fa-solid fa-server"></i></div>
-                    <div class="info">
-                        <h3>PING</h3>
-                        <p id="ping-text">-- ms</p>
+        <!-- CURRENCY CONVERTER SECTION -->
+        <section id="currency-section" class="tool-section hidden-section">
+            <div class="converter-box">
+                <div class="currency-card">
+                    <div class="flag-icon">🇺🇸</div>
+                    <div class="input-group">
+                        <label>USD (Dollars)</label>
+                        <input type="number" id="usd-input" placeholder="0.00" value="1">
                     </div>
                 </div>
 
-                <div class="stat-card active-card">
-                    <div class="icon"><i class="fa-solid fa-download"></i></div>
-                    <div class="info">
-                        <h3>DOWNLOAD</h3>
-                        <p id="download-text">-- Mbps</p>
+                <div class="exchange-icon">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </div>
+
+                <div class="currency-card">
+                    <div class="flag-icon">🇮🇳</div>
+                    <div class="input-group">
+                        <label>INR (Rupees)</label>
+                        <input type="number" id="inr-input" placeholder="0.00" readonly>
                     </div>
                 </div>
 
-                <div class="stat-card">
-                    <div class="icon"><i class="fa-solid fa-upload"></i></div>
-                    <div class="info">
-                        <h3>UPLOAD</h3>
-                        <p id="upload-text">-- Mbps</p>
-                    </div>
+                <div class="live-rate">
+                    <span id="rate-display">1 USD = -- INR</span>
+                    <span class="refresh-time" id="last-updated">Updating...</span>
                 </div>
             </div>
+        </section>
 
-            <!-- Controls -->
-            <div class="controls">
-                <button id="start-btn" class="glow-button">
-                    <span>START TEST</span>
-                </button>
-            </div>
-        </div>
     </main>
 
     <script src="script.js"></script>

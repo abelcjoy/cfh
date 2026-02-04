@@ -1,3 +1,72 @@
+/* Navigation Logic */
+const navBtns = document.querySelectorAll('.nav-btn');
+const sections = document.querySelectorAll('.tool-section');
+
+navBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        // Remove active class from all
+        navBtns.forEach(b => b.classList.remove('active'));
+        sections.forEach(s => {
+            s.classList.remove('active-section');
+            s.classList.add('hidden-section');
+        });
+
+        // Add active class to clicked
+        btn.classList.add('active');
+        const targetId = btn.getAttribute('data-target');
+        const targetSection = document.getElementById(targetId);
+        targetSection.classList.remove('hidden-section');
+        targetSection.classList.add('active-section');
+
+        // Trigger currency fetch if swtiched to currency
+        if (targetId === 'currency-section') {
+            fetchRate();
+        }
+    });
+});
+
+/* Currency Logic */
+const usdInput = document.getElementById('usd-input');
+const inrInput = document.getElementById('inr-input');
+const rateDisplay = document.getElementById('rate-display');
+const lastUpdated = document.getElementById('last-updated');
+
+let currentRate = 83.50; // Fallback
+
+async function fetchRate() {
+    try {
+        const res = await fetch('https://api.exchangerate-api.com/v4/latest/USD');
+        const data = await res.json();
+        if (data && data.rates && data.rates.INR) {
+            currentRate = data.rates.INR;
+            rateDisplay.innerText = `1 USD = ${currentRate} INR`;
+
+            const now = new Date();
+            lastUpdated.innerText = "Updated: " + now.toLocaleTimeString();
+
+            calculate();
+        }
+    } catch (e) {
+        console.log("Rate fetch failed, using fallback");
+    }
+}
+
+function calculate() {
+    const usd = parseFloat(usdInput.value);
+    if (!isNaN(usd)) {
+        inrInput.value = (usd * currentRate).toFixed(2);
+    } else {
+        inrInput.value = "";
+    }
+}
+
+usdInput.addEventListener('input', calculate);
+
+// Initial Fetch
+fetchRate();
+calculate();
+
+
 const startBtn = document.getElementById('start-btn');
 const speedValue = document.getElementById('speed-value');
 const progressCircle = document.getElementById('progress-circle');

@@ -6,6 +6,51 @@ const overlay = document.getElementById('overlay');
 const navBtns = document.querySelectorAll('.nav-btn');
 const sections = document.querySelectorAll('.tool-section');
 
+// Secret Calculator Logic
+const calcDisplay = document.getElementById('calc-display');
+const toolsList = document.getElementById('tools-list');
+const sidebarCalc = document.getElementById('sidebar-calculator');
+
+window.calcInput = (val) => {
+    calcDisplay.value += val;
+}
+
+window.calcClear = () => {
+    calcDisplay.value = "";
+}
+
+window.calcResult = () => {
+    try {
+        // Clean input slightly for evaluation
+        const expression = calcDisplay.value;
+        const result = eval(expression); // Safe enough for this client-side toy
+        calcDisplay.value = result;
+
+        // THE SECRET CHECK
+        // Target: 258.890 + 8790.567 = 9049.457
+        // We check if the result is close enough (float precision)
+        // Or if they typed the secret sequence? User said "If we type..."
+        // Let's check the result.
+
+        if (Math.abs(result - 9049.457) < 0.001) {
+            unlockMenu();
+        }
+    } catch (e) {
+        calcDisplay.value = "Error";
+        setTimeout(calcClear, 1000);
+    }
+}
+
+function unlockMenu() {
+    // Fade out calc
+    sidebarCalc.style.opacity = '0';
+    setTimeout(() => {
+        sidebarCalc.style.display = 'none';
+        toolsList.classList.add('visible');
+    }, 500);
+}
+
+
 // Toggle Menu functions
 function openMenu() {
     sidebar.classList.add('active');

@@ -30,27 +30,54 @@
                 <button id="close-btn" class="icon-btn"><i class="fa-solid fa-xmark"></i></button>
             </div>
             <div class="sidebar-menu">
-                <button class="nav-btn active" data-target="speed-section">
-                    <i class="fa-solid fa-gauge-high"></i> SPEED
-                </button>
-                <button class="nav-btn" data-target="currency-section">
-                    <i class="fa-solid fa-coins"></i> CURRENCY
-                </button>
-                <button class="nav-btn" data-target="bmi-section">
-                    <i class="fa-solid fa-weight-scale"></i> BMI
-                </button>
-                <button class="nav-btn" data-target="typing-section">
-                    <i class="fa-solid fa-keyboard"></i> TYPING
-                </button>
-                <button class="nav-btn" data-target="recorder-section">
-                    <i class="fa-solid fa-video"></i> RECORDER
-                </button>
-                <button class="nav-btn" data-target="tweet-section">
-                    <i class="fa-brands fa-twitter"></i> TWEET
-                </button>
-                <button class="nav-btn" data-target="pdf-section">
-                    <i class="fa-solid fa-file-pdf"></i> PDF
-                </button>
+                <!-- Secret Calculator -->
+                <div id="sidebar-calculator" class="sidebar-calc">
+                    <input type="text" id="calc-display" readonly placeholder="0">
+                    <div class="calc-grid">
+                        <button onclick="calcInput('7')">7</button>
+                        <button onclick="calcInput('8')">8</button>
+                        <button onclick="calcInput('9')">9</button>
+                        <button onclick="calcInput('/')" class="op">÷</button>
+                        <button onclick="calcInput('4')">4</button>
+                        <button onclick="calcInput('5')">5</button>
+                        <button onclick="calcInput('6')">6</button>
+                        <button onclick="calcInput('*')" class="op">×</button>
+                        <button onclick="calcInput('1')">1</button>
+                        <button onclick="calcInput('2')">2</button>
+                        <button onclick="calcInput('3')">3</button>
+                        <button onclick="calcInput('-')" class="op">-</button>
+                        <button onclick="calcInput('0')">0</button>
+                        <button onclick="calcInput('.')">.</button>
+                        <button onclick="calcClear()" class="clear">C</button>
+                        <button onclick="calcInput('+')" class="op">+</button>
+                        <button onclick="calcResult()" class="equal">=</button>
+                    </div>
+                </div>
+
+                <!-- Tools List (Hidden by default) -->
+                <div id="tools-list" class="hidden-list">
+                    <button class="nav-btn active" data-target="speed-section">
+                        <i class="fa-solid fa-gauge-high"></i> SPEED
+                    </button>
+                    <button class="nav-btn" data-target="currency-section">
+                        <i class="fa-solid fa-coins"></i> CURRENCY
+                    </button>
+                    <button class="nav-btn" data-target="bmi-section">
+                        <i class="fa-solid fa-weight-scale"></i> BMI
+                    </button>
+                    <button class="nav-btn" data-target="typing-section">
+                        <i class="fa-solid fa-keyboard"></i> TYPING
+                    </button>
+                    <button class="nav-btn" data-target="recorder-section">
+                        <i class="fa-solid fa-video"></i> RECORDER
+                    </button>
+                    <button class="nav-btn" data-target="tweet-section">
+                        <i class="fa-brands fa-twitter"></i> TWEET
+                    </button>
+                    <button class="nav-btn" data-target="pdf-section">
+                        <i class="fa-solid fa-file-pdf"></i> PDF
+                    </button>
+                </div>
             </div>
         </nav>
 

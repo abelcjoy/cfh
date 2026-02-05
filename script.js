@@ -305,6 +305,10 @@ speakBtn.addEventListener('click', () => {
     const text = voiceText.value;
     if (!text) return;
 
+    speakText(text);
+});
+
+async function speakText(text) {
     const utterance = new SpeechSynthesisUtterance(text);
 
     // 2. Get selected voice
@@ -327,6 +331,77 @@ speakBtn.addEventListener('click', () => {
     };
 
     window.speechSynthesis.speak(utterance);
+    return utterance; // Return for recorder
+}
+
+// Download Voice (The "Audio Loopback" Hack)
+const downloadVoiceBtn = document.getElementById('download-voice-btn');
+
+downloadVoiceBtn.addEventListener('click', async () => {
+    const text = voiceText.value;
+    if (!text) return;
+
+    // Warning / Instruction
+    const confirm = window.confirm("To save audio, we need to record this tab. \n\n1. Select 'This Tab' or 'Entire Screen'.\n2. Share System Audio.\n3. The audio will play and record automatically.");
+    if (!confirm) return;
+
+    try {
+        // 1. Get Tab Stream (System Audio)
+        const stream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: true });
+
+        // Check if we got audio
+        if (stream.getAudioTracks().length === 0) {
+            alert("No audio track selected! Please make sure to check 'Share System Audio'.");
+            stream.getTracks().forEach(t => t.stop());
+            return;
+        }
+
+        // 2. Start Recorder
+        const audioStream = new MediaStream([stream.getAudioTracks()[0]]);
+        const mediaRecorder = new MediaRecorder(audioStream, { mimeType: 'audio/webm' });
+        const chunks = [];
+
+        mediaRecorder.ondataavailable = e => chunks.push(e.data);
+
+        mediaRecorder.onstop = () => {
+            const blob = new Blob(chunks, { type: 'audio/webm' });
+            const url = URL.createObjectURL(blob);
+
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `voice-note-${Date.now()}.webm`; // WebM Audio is standard
+            a.click();
+
+            // Cleanup
+            stream.getTracks().forEach(t => t.stop());
+            downloadVoiceBtn.innerHTML = '<span><i class="fa-solid fa-download"></i> SAVE AUDIO</span>';
+        };
+
+        mediaRecorder.start();
+        downloadVoiceBtn.innerHTML = '<span><i class="fa-solid fa-circle-dot"></i> RECORDING...</span>';
+
+        // 3. Speak
+        const ut = new SpeechSynthesisUtterance(text);
+        const selectedIdx = voiceSelect.value;
+        if (selectedIdx && voices[selectedIdx]) ut.voice = voices[selectedIdx];
+        ut.pitch = parseFloat(pitchSlider.value);
+        ut.rate = parseFloat(rateSlider.value);
+
+        // We need to stop recording when speech ends
+        // BUT strict 'onend' might fire before audio buffer finishes flushing. 
+        // We add a safety delay.
+        ut.onend = () => {
+            setTimeout(() => {
+                mediaRecorder.stop();
+            }, 500); // 500ms tail
+        };
+
+        window.speechSynthesis.speak(ut);
+
+    } catch (err) {
+        console.error(err);
+        alert("Could not start recording. Permission denied or canceled.");
+    }
 });
 
 // Init voices

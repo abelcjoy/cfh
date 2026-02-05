@@ -512,19 +512,11 @@ input::-webkit-inner-spin-button {
 /* Voice Director Styles Removed */
 
 /* Responsive Overrides */
+/* Responsive Overrides */
 @media (max-width: 768px) {
     .controls-grid {
         grid-template-columns: 1fr;
         gap: 20px;
-    }
-
-    .voice-presets {
-        gap: 8px;
-    }
-
-    .preset-btn {
-        font-size: 0.85rem;
-        padding: 6px 12px;
     }
 }
 

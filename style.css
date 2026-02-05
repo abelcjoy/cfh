@@ -145,6 +145,7 @@ header {
     line-height: 1;
     background: linear-gradient(135deg, #ffffff 0%, #a5b4fc 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -593,6 +594,7 @@ input::-webkit-inner-spin-button {
         padding: 6px 12px;
     }
 }
+
 /* Recorder Styles */
 .video-preview-container {
     width: 100%;
@@ -601,8 +603,8 @@ input::-webkit-inner-spin-button {
     border-radius: 15px;
     overflow: hidden;
     position: relative;
-    border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: inset 0 0 50px rgba(0,0,0,0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.8);
 }
 
 #video-preview {
@@ -615,7 +617,7 @@ input::-webkit-inner-spin-button {
     position: absolute;
     top: 20px;
     right: 20px;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 5px 15px;
     border-radius: 20px;
@@ -640,9 +642,17 @@ input::-webkit-inner-spin-button {
 }
 
 @keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 0.3; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .recorder-controls {
@@ -669,13 +679,13 @@ input::-webkit-inner-spin-button {
 
 /* PDF Tool Styles */
 .upload-zone {
-    border: 2px dashed rgba(255,255,255,0.2);
+    border: 2px dashed rgba(255, 255, 255, 0.2);
     border-radius: 20px;
     padding: 40px;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s;
-    background: rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .upload-zone:hover {
@@ -697,8 +707,8 @@ input::-webkit-inner-spin-button {
     border-radius: 10px;
     overflow: hidden;
     position: relative;
-    border: 1px solid rgba(255,255,255,0.2);
-    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .preview-item img {
@@ -711,7 +721,7 @@ input::-webkit-inner-spin-button {
     position: absolute;
     top: 5px;
     right: 5px;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     color: #fff;
     border: none;
     width: 20px;
@@ -727,4 +737,3 @@ input::-webkit-inner-spin-button {
 .remove-btn:hover {
     background: #ff4d4d;
 }
-

@@ -30,33 +30,15 @@
                 <button id="close-btn" class="icon-btn"><i class="fa-solid fa-xmark"></i></button>
             </div>
             <div class="sidebar-menu">
-                <!-- Secret Calculator -->
-                <div id="sidebar-calculator" class="sidebar-calc">
-                    <input type="text" id="calc-display" readonly placeholder="0">
-                    <div class="calc-grid">
-                        <button onclick="calcInput('7')">7</button>
-                        <button onclick="calcInput('8')">8</button>
-                        <button onclick="calcInput('9')">9</button>
-                        <button onclick="calcInput('/')" class="op">÷</button>
-                        <button onclick="calcInput('4')">4</button>
-                        <button onclick="calcInput('5')">5</button>
-                        <button onclick="calcInput('6')">6</button>
-                        <button onclick="calcInput('*')" class="op">×</button>
-                        <button onclick="calcInput('1')">1</button>
-                        <button onclick="calcInput('2')">2</button>
-                        <button onclick="calcInput('3')">3</button>
-                        <button onclick="calcInput('-')" class="op">-</button>
-                        <button onclick="calcInput('0')">0</button>
-                        <button onclick="calcInput('.')">.</button>
-                        <button onclick="calcClear()" class="clear">C</button>
-                        <button onclick="calcInput('+')" class="op">+</button>
-                        <button onclick="calcResult()" class="equal">=</button>
-                    </div>
-                </div>
+                <!-- Initial Visible Tool -->
+                <button class="nav-btn active" data-target="calculator-section">
+                    <i class="fa-solid fa-calculator"></i> CALCULATOR
+                </button>
 
-                <!-- Tools List (Hidden by default) -->
-                <div id="tools-list" class="hidden-list">
-                    <button class="nav-btn active" data-target="speed-section">
+                <!-- Hidden Tools Container -->
+                <div id="hidden-tools" class="hidden-tools-container" style="display: none;">
+                    <div style="height: 1px; background: rgba(255,255,255,0.1); margin: 10px 0;"></div>
+                    <button class="nav-btn" data-target="speed-section">
                         <i class="fa-solid fa-gauge-high"></i> SPEED
                     </button>
                     <button class="nav-btn" data-target="currency-section">
@@ -81,8 +63,43 @@
             </div>
         </nav>
 
+        <!-- CALCULATOR SECTION (MAIN) -->
+        <section id="calculator-section" class="tool-section active-section">
+            <div class="converter-box" style="width: 100%; max-width: 400px; padding: 30px;">
+                <div class="voice-header" style="text-align: center; margin-bottom: 20px;">
+                    <h2 class="voice-title">CALCULATOR</h2>
+                </div>
+
+                <div class="main-calc" style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 15px;">
+                    <input type="text" id="main-calc-display" readonly placeholder="0"
+                        style="width: 100%; height: 60px; font-size: 2rem; background: transparent; border: none; color: #fff; text-align: right; margin-bottom: 20px; font-family: monospace;">
+
+                    <div class="calc-grid" style="grid-template-columns: repeat(4, 1fr); gap: 15px;">
+                        <button onclick="calcInput('7')">7</button>
+                        <button onclick="calcInput('8')">8</button>
+                        <button onclick="calcInput('9')">9</button>
+                        <button onclick="calcInput('/')" class="op">÷</button>
+                        <button onclick="calcInput('4')">4</button>
+                        <button onclick="calcInput('5')">5</button>
+                        <button onclick="calcInput('6')">6</button>
+                        <button onclick="calcInput('*')" class="op">×</button>
+                        <button onclick="calcInput('1')">1</button>
+                        <button onclick="calcInput('2')">2</button>
+                        <button onclick="calcInput('3')">3</button>
+                        <button onclick="calcInput('-')" class="op">-</button>
+                        <button onclick="calcInput('0')">0</button>
+                        <button onclick="calcInput('.')">.</button>
+                        <button onclick="calcClear()" class="clear">C</button>
+                        <button onclick="calcInput('+')" class="op">+</button>
+                        <button onclick="calcResult()" class="equal"
+                            style="grid-column: span 4; background: var(--accent); color: #000; font-weight: 700;">=</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- SPEED TESTER SECTION -->
-        <section id="speed-section" class="tool-section active-section">
+        <section id="speed-section" class="tool-section hidden-section">
             <div class="dashboard">
                 <div class="gauge-container">
                     <div class="gauge-outer">

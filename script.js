@@ -295,125 +295,90 @@ presetBtns.forEach(btn => {
     });
 });
 
-// -- ROBUST SPEECH ENGINE (CHUNKING) --
-
-let isSpeaking = false;
-let speechQueue = [];
-
-function splitText(text) {
-    // Split by punctuation but keep it
-    // Look for . ! ? followed by space or end of string
-    return text.match(/[^\.!\?]+[\.!\?]+|.+$/g) || [text];
-}
-
-async function speakSequentially(sentences, onStart, onEnd) {
-    isSpeaking = true;
-
-    // LOCK THE VOICE BEFORE LOOPING
-    // This prevents the browser from checking the DOM every time or defaulting
-    const selectedIdx = voiceSelect.value;
-    let lockedVoice = null;
-    if (selectedIdx && voices[selectedIdx]) {
-        lockedVoice = voices[selectedIdx];
-    }
-
-    for (let i = 0; i < sentences.length; i++) {
-        if (!isSpeaking) break;
-
-        await new Promise(resolve => {
-            const textChunk = sentences[i].trim();
-            if (!textChunk) { resolve(); return; }
-
-            const ut = new SpeechSynthesisUtterance(textChunk);
-
-            // STRICTLY ASSIGN LOCKED VOICE
-            if (lockedVoice) {
-                ut.voice = lockedVoice;
-                ut.lang = lockedVoice.lang; // Force language to match voice
-            }
-
-            ut.pitch = parseFloat(pitchSlider.value);
-            ut.rate = parseFloat(rateSlider.value);
-
-            ut.onstart = () => { if (onStart) onStart(i, sentences.length); };
-
-            ut.onend = () => {
-                resolve();
-            };
-
-            ut.onerror = (e) => {
-                console.error("Speech error", e);
-                resolve(); // Continue even on error
-            };
-
-            window.speechSynthesis.speak(ut);
-
-            if (window.speechSynthesis.speaking && i > 0) {
-                window.speechSynthesis.pause();
-                window.speechSynthesis.resume();
-            }
-        });
-    }
-    isSpeaking = false;
-    if (onEnd) onEnd();
-}
-
-// Speak Button
+// Speak
 speakBtn.addEventListener('click', () => {
-    // Stop if currently speaking
-    if (isSpeaking) {
-        isSpeaking = false;
-        window.speechSynthesis.cancel();
-        speakBtn.innerHTML = '<span><i class="fa-solid fa-play"></i> SPEAK</span>';
-        speakBtn.style.opacity = "1";
-        return;
-    }
+    // 1. Cancel current speech
+    window.speechSynthesis.cancel();
 
     const text = voiceText.value;
     if (!text) return;
 
-    window.speechSynthesis.cancel();
-
-    // Chunking
-    const chunks = splitText(text);
-
-    speakSequentially(chunks,
-        (idx, total) => {
-            speakBtn.innerHTML = `<span><i class="fa-solid fa-waveform-lines"></i> PLAYING (${idx + 1}/${total})</span>`;
-            speakBtn.style.opacity = "0.8";
-        },
-        () => {
-            speakBtn.innerHTML = '<span><i class="fa-solid fa-play"></i> SPEAK</span>';
-            speakBtn.style.opacity = "1";
-        }
-    );
+    speakText(text);
 });
 
-// Download Voice (MP3 Encoding via LameJS with Chunking)
+async function speakText(text) {
+    // REVERTED TO METHOD A: ONE-SHOT (Stable Voice)
+    const utterance = new SpeechSynthesisUtterance(text);
+
+    // 2. Get selected voice
+    const selectedIdx = voiceSelect.value;
+    if (selectedIdx && voices[selectedIdx]) {
+        utterance.voice = voices[selectedIdx];
+        utterance.lang = voices[selectedIdx].lang;
+    }
+
+    // 3. Apply Controls
+    utterance.pitch = parseFloat(pitchSlider.value);
+    utterance.rate = parseFloat(rateSlider.value);
+
+    // 4. Animate Button
+    speakBtn.innerHTML = '<span><i class="fa-solid fa-waveform-lines"></i> SPEAKING...</span>';
+    speakBtn.style.opacity = "0.8";
+
+    utterance.onend = () => {
+        speakBtn.innerHTML = '<span><i class="fa-solid fa-play"></i> SPEAK</span>';
+        speakBtn.style.opacity = "1";
+    };
+
+    // Chrome Bug Workaround (The infamous infinite loop fix for long text in single-shot)
+    // We just ping the resume function every few seconds to keep it alive
+    window.speechSynthesis.speak(utterance);
+
+    // Simple "Keep Alive" timer
+    let r = setInterval(() => {
+        if (!window.speechSynthesis.speaking) {
+            clearInterval(r);
+        } else {
+            window.speechSynthesis.pause();
+            window.speechSynthesis.resume();
+        }
+    }, 14000); // Ping every 14s
+
+    return utterance;
+}
+
+// Download Voice (MP3 Encoding via LameJS - One Shot)
 const downloadVoiceBtn = document.getElementById('download-voice-btn');
 
 downloadVoiceBtn.addEventListener('click', async () => {
     const text = voiceText.value;
     if (!text) return;
-    if (typeof lamejs === 'undefined') { alert("Encoder loading..."); return; }
 
-    const confirm = window.confirm("Preparing to Record.\n\nInstructions:\n1. Select 'This Tab'.\n2. Check 'Share System Audio'.\n3. Wait for the reading to finish.");
+    // Check if lamejs is loaded
+    if (typeof lamejs === 'undefined') {
+        alert("MP3 Encoder not loaded yet. Please wait or refresh.");
+        return;
+    }
+
+    const confirm = window.confirm("Preparing to Record MP3.\n\nOnly the first ~15-30 seconds may record due to browser limits on long text.\n\n1. Use 'This Tab'.\n2. 'Share System Audio'.\n3. Click Start.");
     if (!confirm) return;
 
     try {
         const stream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: true });
+
         if (stream.getAudioTracks().length === 0) {
-            alert("System Audio was not shared. Cancelled.");
+            alert("No audio track! Please check 'Share System Audio'.");
             stream.getTracks().forEach(t => t.stop());
             return;
         }
 
         downloadVoiceBtn.innerHTML = '<span><i class="fa-solid fa-circle-dot"></i> RECORDING...</span>';
 
-        // Setup Audio Context & Encoder
         const audioContext = new (window.AudioContext || window.webkitAudioContext)();
         const source = audioContext.createMediaStreamSource(stream);
         const processor = audioContext.createScriptProcessor(4096, 1, 1);
+
+        // Init Lame Encoder
         const mp3Encoder = new lamejs.Mp3Encoder(1, 44100, 128);
         let mp3Data = [];
 
@@ -421,7 +386,7 @@ downloadVoiceBtn.addEventListener('click', async () => {
         processor.connect(audioContext.destination);
 
         processor.onaudioprocess = (e) => {
-            const inputData = e.inputBuffer.getChannelData(0);
+            const inputData = e.inputBuffer.getChannelData(0); // Mono
             const inputInt16 = new Int16Array(inputData.length);
             for (let i = 0; i < inputData.length; i++) {
                 const s = Math.max(-1, Math.min(1, inputData[i]));
@@ -431,39 +396,53 @@ downloadVoiceBtn.addEventListener('click', async () => {
             if (mp3buf.length > 0) mp3Data.push(mp3buf);
         };
 
-        // Start Speaking Chunks
-        window.speechSynthesis.cancel();
-        const chunks = splitText(text);
+        // Speak - using strict speakText logic
+        const utterance = new SpeechSynthesisUtterance(text);
+        const selectedIdx = voiceSelect.value;
+        if (selectedIdx && voices[selectedIdx]) {
+            utterance.voice = voices[selectedIdx];
+            utterance.lang = voices[selectedIdx].lang;
+        }
+        utterance.pitch = parseFloat(pitchSlider.value);
+        utterance.rate = parseFloat(rateSlider.value);
 
-        await speakSequentially(chunks,
-            (idx, total) => {
-                downloadVoiceBtn.innerHTML = `<span><i class="fa-solid fa-circle-dot"></i> REC (${idx + 1}/${total})</span>`;
-            },
-            () => {
-                // Finished
+        // Handle End
+        utterance.onend = () => {
+            setTimeout(() => {
+                // Flush Encoder
+                const mp3buf = mp3Encoder.flush();
+                if (mp3buf.length > 0) mp3Data.push(mp3buf);
+
+                // Save
+                const blob = new Blob(mp3Data, { type: 'audio/mp3' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `voice-${Date.now()}.mp3`;
+                a.click();
+
+                // Cleanup
+                stream.getTracks().forEach(t => t.stop());
+                audioContext.close();
+                downloadVoiceBtn.innerHTML = '<span><i class="fa-solid fa-download"></i> SAVE AUDIO</span>';
+            }, 500);
+        };
+
+        window.speechSynthesis.speak(utterance);
+
+        // Keep Alive for recording too
+        let r = setInterval(() => {
+            if (!window.speechSynthesis.speaking) {
+                clearInterval(r);
+            } else {
+                window.speechSynthesis.pause();
+                window.speechSynthesis.resume();
             }
-        );
-
-        // Wait a bit for buffer flush
-        setTimeout(() => {
-            const mp3buf = mp3Encoder.flush();
-            if (mp3buf.length > 0) mp3Data.push(mp3buf);
-
-            const blob = new Blob(mp3Data, { type: 'audio/mp3' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = `voice-${Date.now()}.mp3`;
-            a.click();
-
-            stream.getTracks().forEach(t => t.stop());
-            audioContext.close();
-            downloadVoiceBtn.innerHTML = '<span><i class="fa-solid fa-download"></i> SAVE AUDIO</span>';
-        }, 1000);
+        }, 14000);
 
     } catch (err) {
         console.error(err);
-        alert("Recording failed.");
+        alert("Recording error.");
         downloadVoiceBtn.innerHTML = '<span><i class="fa-solid fa-download"></i> SAVE AUDIO</span>';
     }
 });

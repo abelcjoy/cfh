@@ -308,15 +308,30 @@ function splitText(text) {
 
 async function speakSequentially(sentences, onStart, onEnd) {
     isSpeaking = true;
+
+    // LOCK THE VOICE BEFORE LOOPING
+    // This prevents the browser from checking the DOM every time or defaulting
+    const selectedIdx = voiceSelect.value;
+    let lockedVoice = null;
+    if (selectedIdx && voices[selectedIdx]) {
+        lockedVoice = voices[selectedIdx];
+    }
+
     for (let i = 0; i < sentences.length; i++) {
-        if (!isSpeaking) break; // Allow cancel
+        if (!isSpeaking) break;
 
         await new Promise(resolve => {
-            const ut = new SpeechSynthesisUtterance(sentences[i].trim());
+            const textChunk = sentences[i].trim();
+            if (!textChunk) { resolve(); return; }
 
-            // Config
-            const selectedIdx = voiceSelect.value;
-            if (selectedIdx && voices[selectedIdx]) ut.voice = voices[selectedIdx];
+            const ut = new SpeechSynthesisUtterance(textChunk);
+
+            // STRICTLY ASSIGN LOCKED VOICE
+            if (lockedVoice) {
+                ut.voice = lockedVoice;
+                ut.lang = lockedVoice.lang; // Force language to match voice
+            }
+
             ut.pitch = parseFloat(pitchSlider.value);
             ut.rate = parseFloat(rateSlider.value);
 
@@ -326,16 +341,13 @@ async function speakSequentially(sentences, onStart, onEnd) {
                 resolve();
             };
 
-            // Error handling
             ut.onerror = (e) => {
                 console.error("Speech error", e);
-                resolve();
+                resolve(); // Continue even on error
             };
 
             window.speechSynthesis.speak(ut);
 
-            // Chrome Bug Fix: Infinite Event Loop to keep speech active
-            // (Chrome sometimes freezes on long speech without this)
             if (window.speechSynthesis.speaking && i > 0) {
                 window.speechSynthesis.pause();
                 window.speechSynthesis.resume();

@@ -1,29 +1,50 @@
 /* Navigation Logic */
+const menuBtn = document.getElementById('menu-btn');
+const closeBtn = document.getElementById('close-btn');
+const sidebar = document.getElementById('sidebar');
+const overlay = document.getElementById('overlay');
 const navBtns = document.querySelectorAll('.nav-btn');
 const sections = document.querySelectorAll('.tool-section');
 
+// Toggle Menu functions
+function openMenu() {
+    sidebar.classList.add('active');
+    overlay.classList.add('active');
+}
+
+function closeMenu() {
+    sidebar.classList.remove('active');
+    overlay.classList.remove('active');
+}
+
+menuBtn.addEventListener('click', openMenu);
+closeBtn.addEventListener('click', closeMenu);
+overlay.addEventListener('click', closeMenu);
+
 navBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-        // Remove active class from all
+        // Navigation Logic
         navBtns.forEach(b => b.classList.remove('active'));
         sections.forEach(s => {
             s.classList.remove('active-section');
             s.classList.add('hidden-section');
         });
 
-        // Add active class to clicked
+        // Activate
         btn.classList.add('active');
         const targetId = btn.getAttribute('data-target');
         const targetSection = document.getElementById(targetId);
         targetSection.classList.remove('hidden-section');
         targetSection.classList.add('active-section');
 
-        // Trigger currency fetch if swtiched to currency
-        if (targetId === 'currency-section') {
-            fetchRate();
-        }
+        // Close Menu automatically on selection
+        closeMenu();
+
+        // Specific Tool Initialization
+        if (targetId === 'currency-section') fetchRate();
     });
 });
+
 
 /* Currency Logic */
 const usdInput = document.getElementById('usd-input');

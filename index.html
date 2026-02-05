@@ -18,7 +18,18 @@
     <main class="container">
         <header>
             <div class="logo"></div>
-            <nav class="tool-nav">
+            <button id="menu-btn" class="icon-btn">
+                <i class="fa-solid fa-bars"></i> MENU
+            </button>
+        </header>
+
+        <div class="sidebar-overlay" id="overlay"></div>
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h3>TOOLS</h3>
+                <button id="close-btn" class="icon-btn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="sidebar-menu">
                 <button class="nav-btn active" data-target="speed-section">
                     <i class="fa-solid fa-gauge-high"></i> SPEED
                 </button>
@@ -40,8 +51,8 @@
                 <button class="nav-btn" data-target="pdf-section">
                     <i class="fa-solid fa-file-pdf"></i> PDF
                 </button>
-            </nav>
-        </header>
+            </div>
+        </nav>
 
         <!-- SPEED TESTER SECTION -->
         <section id="speed-section" class="tool-section active-section">

@@ -453,6 +453,147 @@ convertPdfBtn.addEventListener('click', async () => {
 });
 
 
+/* Tweet Generator Logic */
+const tweetNameInput = document.getElementById('tweet-name');
+const tweetHandleInput = document.getElementById('tweet-handle');
+const tweetContentInput = document.getElementById('tweet-content');
+const tweetVerifiedCheck = document.getElementById('tweet-verified');
+const tweetThemeSelect = document.getElementById('tweet-theme');
+const tweetPfpInput = document.getElementById('tweet-pfp-input');
+const downloadTweetBtn = document.getElementById('download-tweet-img');
+const recordTweetBtn = document.getElementById('record-tweet-video');
+
+const previewName = document.getElementById('preview-name');
+const previewHandle = document.getElementById('preview-handle');
+const previewContent = document.getElementById('preview-content');
+const previewVerified = document.getElementById('preview-verified');
+const previewPfp = document.getElementById('tweet-pfp-img');
+const tweetCard = document.getElementById('tweet-card');
+
+// Update Functions
+function updateTweet() {
+    previewName.innerText = tweetNameInput.value || "Name";
+    previewHandle.innerText = tweetHandleInput.value || "@handle";
+    previewContent.innerHTML = tweetContentInput.value.replace(/\n/g, '<br>') || "Tweet content...";
+
+    if (tweetVerifiedCheck.checked) {
+        previewVerified.classList.add('visible');
+    } else {
+        previewVerified.classList.remove('visible');
+    }
+
+    // Theme
+    tweetCard.className = `tweet-card ${tweetThemeSelect.value}-theme`;
+}
+
+// Event Listeners
+tweetNameInput.addEventListener('input', updateTweet);
+tweetHandleInput.addEventListener('input', updateTweet);
+tweetContentInput.addEventListener('input', updateTweet);
+tweetVerifiedCheck.addEventListener('change', updateTweet);
+tweetThemeSelect.addEventListener('change', updateTweet);
+
+// PFP Upload
+tweetPfpInput.addEventListener('change', (e) => {
+    if (e.target.files && e.target.files[0]) {
+        const reader = new FileReader();
+        reader.onload = (e) => previewPfp.src = e.target.result;
+        reader.readAsDataURL(e.target.files[0]);
+    }
+});
+
+// Download Image
+downloadTweetBtn.addEventListener('click', () => {
+    downloadTweetBtn.innerHTML = `<span><i class="fa-solid fa-spinner fa-spin"></i> SAVING...</span>`;
+
+    // Scale up for high res
+    html2canvas(tweetCard, { scale: 3, backgroundColor: null }).then(canvas => {
+        const link = document.createElement('a');
+        link.download = `tweet-${Date.now()}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+        downloadTweetBtn.innerHTML = `<span><i class="fa-solid fa-image"></i> SAVE IMG</span>`;
+    });
+});
+
+// Record Video (1080p WebM/MP4 mimic)
+recordTweetBtn.addEventListener('click', async () => {
+    recordTweetBtn.innerHTML = `<span><i class="fa-solid fa-circle-notch fa-spin"></i> RENDERING (5s)...</span>`;
+
+    // 1. Create a canvas from the tweet card
+    const canvas = await html2canvas(tweetCard, { scale: 3 }); // High res capture
+
+    // 2. Create a stream from this static canvas
+    // To make it a video, we need to draw this image onto a new canvas repeatedly?
+    // Actually, canvas.captureStream() works if the canvas changes. If static, it might not emit frames.
+    // Solution: We draw the image to a new canvas in a loop for 5 seconds.
+
+    const videoCanvas = document.createElement('canvas');
+    videoCanvas.width = 1920; // 1080p width
+    videoCanvas.height = 1080; // 1080p height
+    const ctx = videoCanvas.getContext('2d');
+
+    // Fill background (Black or matching theme)
+    // Actually, let's center the tweet on a nice background
+    const theme = tweetThemeSelect.value;
+    const bg = theme === 'light' ? '#f0f0f0' : '#000000';
+
+    const stream = videoCanvas.captureStream(30); // 30 FPS
+    const recorder = new MediaRecorder(stream, { mimeType: 'video/webm; codecs=vp9' });
+
+    const chunks = [];
+    recorder.ondataavailable = e => chunks.push(e.data);
+    recorder.onstop = () => {
+        const blob = new Blob(chunks, { type: 'video/webm' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `tweet-video-${Date.now()}.webm`;
+        a.click();
+        recordTweetBtn.innerHTML = `<span><i class="fa-solid fa-video"></i> SAVE MP4</span>`;
+    };
+
+    recorder.start();
+
+    // Animation Loop (5 seconds)
+    // We will simple "Zoom In" slightly or just hold static
+    let frame = 0;
+    const totalFrames = 30 * 5; // 5 seconds
+    const img = canvas; // The capture
+
+    // Centering math
+    // We want the tweet card centered on 1920x1080
+    // Scale tweet to fit nicely if too big
+    let scale = 1;
+    if (img.width > 1800) scale = 1800 / img.width;
+
+    const draw = setInterval(() => {
+        if (frame >= totalFrames) {
+            clearInterval(draw);
+            recorder.stop();
+            return;
+        }
+
+        // Draw Background
+        ctx.fillStyle = bg;
+        ctx.fillRect(0, 0, videoCanvas.width, videoCanvas.height);
+
+        // Draw Tweet Centered
+        // Optional: Slight breathable scale effect
+        // const breathe = 1 + (Math.sin(frame / 30) * 0.02); 
+
+        const w = img.width * scale;
+        const h = img.height * scale;
+        const x = (1920 - w) / 2;
+        const y = (1080 - h) / 2;
+
+        ctx.drawImage(img, x, y, w, h);
+
+        frame++;
+    }, 1000 / 30);
+});
+
+
 const startBtn = document.getElementById('start-btn');
 const speedValue = document.getElementById('speed-value');
 const progressCircle = document.getElementById('progress-circle');

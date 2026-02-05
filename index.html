@@ -34,6 +34,9 @@
                 <button class="nav-btn" data-target="recorder-section">
                     <i class="fa-solid fa-video"></i> RECORDER
                 </button>
+                <button class="nav-btn" data-target="tweet-section">
+                    <i class="fa-brands fa-twitter"></i> TWEET
+                </button>
                 <button class="nav-btn" data-target="pdf-section">
                     <i class="fa-solid fa-file-pdf"></i> PDF
                 </button>
@@ -280,8 +283,99 @@
             </div>
         </section>
 
+        <!-- TWEET GENERATOR SECTION -->
+        <section id="tweet-section" class="tool-section hidden-section">
+            <div class="converter-box"
+                style="width: 100%; max-width: 1000px; display: flex; flex-wrap: wrap; gap: 30px;">
+
+                <!-- Controls -->
+                <div class="tweet-controls" style="flex: 1; min-width: 300px;">
+                    <div class="voice-header" style="text-align: left; margin-bottom: 20px;">
+                        <h2 class="voice-title">TWEET <span style="color: var(--accent); font-weight: 700;">GEN</span>
+                        </h2>
+                        <p class="voice-subtitle">Create viral-style tweet images & videos</p>
+                    </div>
+
+                    <div class="input-group" style="margin-bottom: 15px;">
+                        <label>Profile Photo</label>
+                        <input type="file" id="tweet-pfp-input" accept="image/*" class="typing-input">
+                    </div>
+
+                    <div class="input-group" style="margin-bottom: 15px;">
+                        <label>Name</label>
+                        <input type="text" id="tweet-name" class="typing-input" value="Dan Go" placeholder="Name">
+                    </div>
+
+                    <div class="input-group" style="margin-bottom: 15px;">
+                        <label>Handle</label>
+                        <input type="text" id="tweet-handle" class="typing-input" value="@CoachDanGo"
+                            placeholder="@handle">
+                    </div>
+
+                    <div class="input-group"
+                        style="margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                        <input type="checkbox" id="tweet-verified" checked style="width: 20px; height: 20px;">
+                        <label style="margin: 0;">Verified Blue Tick</label>
+                    </div>
+
+                    <div class="input-group" style="margin-bottom: 15px;">
+                        <label>Tweet Content</label>
+                        <textarea id="tweet-content" class="typing-input" style="height: 100px; resize: none;">The biggest flexes on the planet are a healthy body, a house full of love, and a peaceful mind.
+
+You can't buy that shit. It must be earned.</textarea>
+                    </div>
+
+                    <div class="input-group" style="margin-bottom: 20px;">
+                        <label>Theme</label>
+                        <select id="tweet-theme" class="typing-input">
+                            <option value="light">Light Mode (Viral Style)</option>
+                            <option value="dark">Dark Mode</option>
+                            <option value="dim">Dim (Midnight)</option>
+                        </select>
+                    </div>
+
+                    <div class="controls" style="display: flex; gap: 10px;">
+                        <button id="download-tweet-img" class="glow-button" style="flex: 1;">
+                            <span><i class="fa-solid fa-image"></i> SAVE IMG</span>
+                        </button>
+                        <button id="record-tweet-video" class="glow-button"
+                            style="flex: 1; border-color: #ff4d4d; color: #ff4d4d;">
+                            <span><i class="fa-solid fa-video"></i> SAVE MP4</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Preview Area -->
+                <div class="tweet-preview-container"
+                    style="flex: 1.5; min-width: 350px; display: flex; justify-content: center; align-items: center; background: #1a1a1a; border-radius: 20px; padding: 20px; border: 1px solid rgba(255,255,255,0.1);">
+
+                    <!-- The Tweet Card -->
+                    <div id="tweet-card" class="tweet-card light-theme">
+                        <div class="tweet-header">
+                            <img src="https://ui-avatars.com/api/?name=Dan+Go&background=0D8ABC&color=fff"
+                                id="tweet-pfp-img" class="tweet-pfp">
+                            <div class="tweet-user-info">
+                                <div class="tweet-name-row">
+                                    <span id="preview-name" class="tweet-name">Dan Go</span>
+                                    <i class="fa-solid fa-circle-check tweet-verified" id="preview-verified"></i>
+                                </div>
+                                <span id="preview-handle" class="tweet-handle">@CoachDanGo</span>
+                            </div>
+                        </div>
+                        <div class="tweet-body">
+                            <p id="preview-content">The biggest flexes on the planet are a healthy body, a house full of
+                                love, and a peaceful mind.<br><br>You can't buy that shit. It must be earned.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
     </main>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="script.js"></script>
 </body>

@@ -662,3 +662,99 @@ input::-webkit-inner-spin-button {
 .remove-btn:hover {
     background: #ff4d4d;
 }
+/* Tweet Generator Styles */
+.tweet-card {
+    width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+/* Themes */
+.light-theme {
+    background-color: #ffffff;
+    color: #0f1419;
+}
+
+.dark-theme {
+    background-color: #000000;
+    color: #d9d9d9;
+    border: 1px solid #2f3336;
+}
+
+.dim-theme {
+    background-color: #15202b;
+    color: #ffffff;
+}
+
+/* Header */
+.tweet-header {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.tweet-pfp {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.tweet-user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tweet-name-row {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.tweet-name {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.tweet-verified {
+    color: #1d9bf0;
+    font-size: 16px;
+    display: none; /* Toggled by JS */
+}
+
+.tweet-verified.visible {
+    display: inline-block;
+}
+
+.tweet-handle {
+    font-size: 15px;
+    color: #536471;
+}
+
+.dark-theme .tweet-handle, .dim-theme .tweet-handle {
+    color: #71767b;
+}
+
+/* Body */
+.tweet-body {
+    font-size: 23px;
+    line-height: 1.3;
+    font-weight: 400;
+    white-space: pre-wrap; /* Preserves newlines */
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+    .tweet-card {
+        width: 100%;
+        font-size: 90%;
+    }
+    .tweet-body {
+        font-size: 18px;
+    }
+}
+

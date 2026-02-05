@@ -263,6 +263,7 @@ function loadVoices() {
             const option = document.createElement('option');
             option.textContent = `${voice.name} (${voice.lang})`;
             option.value = index;
+            // Default to Google US
             if (voice.name.includes('Google US English') || voice.name.includes('Zira')) {
                 option.selected = true;
             }
@@ -277,7 +278,7 @@ loadVoices();
 const presets = {
     'angry': { pitch: 0.6, rate: 1.4 },
     'happy': { pitch: 1.4, rate: 1.2 },
-    'news': { pitch: 1.0, rate: 0.9 },
+    'news': { pitch: 1.0, rate: 0.9 }, // Slower, steady
     'robot': { pitch: 0.5, rate: 0.8 }
 };
 
@@ -289,6 +290,7 @@ presetBtns.forEach(btn => {
             rateSlider.value = p.rate;
             pitchVal.innerText = p.pitch;
             rateVal.innerText = p.rate;
+            // Visual feedback
             voiceText.style.borderColor = "var(--accent)";
             setTimeout(() => voiceText.style.borderColor = "var(--accent)", 200);
         }
@@ -307,14 +309,12 @@ speakBtn.addEventListener('click', () => {
 });
 
 async function speakText(text) {
-    // REVERTED TO METHOD A: ONE-SHOT (Stable Voice)
     const utterance = new SpeechSynthesisUtterance(text);
 
     // 2. Get selected voice
     const selectedIdx = voiceSelect.value;
     if (selectedIdx && voices[selectedIdx]) {
         utterance.voice = voices[selectedIdx];
-        utterance.lang = voices[selectedIdx].lang;
     }
 
     // 3. Apply Controls
@@ -330,122 +330,82 @@ async function speakText(text) {
         speakBtn.style.opacity = "1";
     };
 
-    // Chrome Bug Workaround (The infamous infinite loop fix for long text in single-shot)
-    // We just ping the resume function every few seconds to keep it alive
     window.speechSynthesis.speak(utterance);
-
-    // Simple "Keep Alive" timer
-    let r = setInterval(() => {
-        if (!window.speechSynthesis.speaking) {
-            clearInterval(r);
-        } else {
-            window.speechSynthesis.pause();
-            window.speechSynthesis.resume();
-        }
-    }, 14000); // Ping every 14s
-
-    return utterance;
+    return utterance; // Return for recorder
 }
 
-// Download Voice (MP3 Encoding via LameJS - One Shot)
+// Download Voice (The "Audio Loopback" Hack)
 const downloadVoiceBtn = document.getElementById('download-voice-btn');
 
 downloadVoiceBtn.addEventListener('click', async () => {
     const text = voiceText.value;
     if (!text) return;
 
-    // Check if lamejs is loaded
-    if (typeof lamejs === 'undefined') {
-        alert("MP3 Encoder not loaded yet. Please wait or refresh.");
-        return;
-    }
-
-    const confirm = window.confirm("Preparing to Record MP3.\n\nOnly the first ~15-30 seconds may record due to browser limits on long text.\n\n1. Use 'This Tab'.\n2. 'Share System Audio'.\n3. Click Start.");
+    // Warning / Instruction
+    const confirm = window.confirm("To save audio, we need to record this tab. \n\n1. Select 'This Tab' or 'Entire Screen'.\n2. Share System Audio.\n3. The audio will play and record automatically.");
     if (!confirm) return;
 
     try {
+        // 1. Get Tab Stream (System Audio)
         const stream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: true });
 
+        // Check if we got audio
         if (stream.getAudioTracks().length === 0) {
-            alert("No audio track! Please check 'Share System Audio'.");
+            alert("No audio track selected! Please make sure to check 'Share System Audio'.");
             stream.getTracks().forEach(t => t.stop());
             return;
         }
 
+        // 2. Start Recorder
+        const audioStream = new MediaStream([stream.getAudioTracks()[0]]);
+        const mediaRecorder = new MediaRecorder(audioStream, { mimeType: 'audio/webm' });
+        const chunks = [];
+
+        mediaRecorder.ondataavailable = e => chunks.push(e.data);
+
+        mediaRecorder.onstop = () => {
+            const blob = new Blob(chunks, { type: 'audio/webm' });
+            const url = URL.createObjectURL(blob);
+
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `voice-note-${Date.now()}.webm`; // WebM Audio is standard
+            a.click();
+
+            // Cleanup
+            stream.getTracks().forEach(t => t.stop());
+            downloadVoiceBtn.innerHTML = '<span><i class="fa-solid fa-download"></i> SAVE AUDIO</span>';
+        };
+
+        mediaRecorder.start();
         downloadVoiceBtn.innerHTML = '<span><i class="fa-solid fa-circle-dot"></i> RECORDING...</span>';
 
-        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-        const source = audioContext.createMediaStreamSource(stream);
-        const processor = audioContext.createScriptProcessor(4096, 1, 1);
-
-        // Init Lame Encoder
-        const mp3Encoder = new lamejs.Mp3Encoder(1, 44100, 128);
-        let mp3Data = [];
-
-        source.connect(processor);
-        processor.connect(audioContext.destination);
-
-        processor.onaudioprocess = (e) => {
-            const inputData = e.inputBuffer.getChannelData(0); // Mono
-            const inputInt16 = new Int16Array(inputData.length);
-            for (let i = 0; i < inputData.length; i++) {
-                const s = Math.max(-1, Math.min(1, inputData[i]));
-                inputInt16[i] = s < 0 ? s * 0x8000 : s * 0x7FFF;
-            }
-            const mp3buf = mp3Encoder.encodeBuffer(inputInt16);
-            if (mp3buf.length > 0) mp3Data.push(mp3buf);
-        };
-
-        // Speak - using strict speakText logic
-        const utterance = new SpeechSynthesisUtterance(text);
+        // 3. Speak
+        const ut = new SpeechSynthesisUtterance(text);
         const selectedIdx = voiceSelect.value;
-        if (selectedIdx && voices[selectedIdx]) {
-            utterance.voice = voices[selectedIdx];
-            utterance.lang = voices[selectedIdx].lang;
-        }
-        utterance.pitch = parseFloat(pitchSlider.value);
-        utterance.rate = parseFloat(rateSlider.value);
+        if (selectedIdx && voices[selectedIdx]) ut.voice = voices[selectedIdx];
+        ut.pitch = parseFloat(pitchSlider.value);
+        ut.rate = parseFloat(rateSlider.value);
 
-        // Handle End
-        utterance.onend = () => {
+        // We need to stop recording when speech ends
+        // BUT strict 'onend' might fire before audio buffer finishes flushing. 
+        // We add a safety delay.
+        ut.onend = () => {
             setTimeout(() => {
-                // Flush Encoder
-                const mp3buf = mp3Encoder.flush();
-                if (mp3buf.length > 0) mp3Data.push(mp3buf);
-
-                // Save
-                const blob = new Blob(mp3Data, { type: 'audio/mp3' });
-                const url = URL.createObjectURL(blob);
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = `voice-${Date.now()}.mp3`;
-                a.click();
-
-                // Cleanup
-                stream.getTracks().forEach(t => t.stop());
-                audioContext.close();
-                downloadVoiceBtn.innerHTML = '<span><i class="fa-solid fa-download"></i> SAVE AUDIO</span>';
-            }, 500);
+                mediaRecorder.stop();
+            }, 500); // 500ms tail
         };
 
-        window.speechSynthesis.speak(utterance);
-
-        // Keep Alive for recording too
-        let r = setInterval(() => {
-            if (!window.speechSynthesis.speaking) {
-                clearInterval(r);
-            } else {
-                window.speechSynthesis.pause();
-                window.speechSynthesis.resume();
-            }
-        }, 14000);
+        window.speechSynthesis.speak(ut);
 
     } catch (err) {
         console.error(err);
-        alert("Recording error.");
-        downloadVoiceBtn.innerHTML = '<span><i class="fa-solid fa-download"></i> SAVE AUDIO</span>';
+        alert("Could not start recording. Permission denied or canceled.");
     }
 });
+
+// Init voices
+window.speechSynthesis.getVoices();
 
 /* Recorder Logic */
 const startRecordBtn = document.getElementById('start-record-btn');

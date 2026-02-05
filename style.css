@@ -509,74 +509,7 @@ input::-webkit-inner-spin-button {
 }
 
 
-/* Voice Director Styles */
-.voice-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.voice-title {
-    font-weight: 300;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-    display: inline-block;
-}
-
-.voice-subtitle {
-    color: var(--text-secondary);
-    font-size: 0.9rem;
-}
-
-.voice-select-container {
-    margin-bottom: 20px;
-}
-
-.controls-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    margin: 30px 0;
-}
-
-.slider-group {
-    width: 100%;
-}
-
-.slider-label {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.voice-presets {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
-}
-
-/* Voice Preset Buttons */
-.preset-btn {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    color: var(--text-secondary);
-    padding: 8px 16px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-family: var(--font-main);
-    transition: all 0.2s;
-}
-
-.preset-btn:hover {
-    background: rgba(255, 255, 255, 0.1);
-    color: #fff;
-    border-color: var(--accent);
-}
-
-.preset-btn:active {
-    transform: scale(0.95);
-}
+/* Voice Director Styles Removed */
 
 /* Responsive Overrides */
 @media (max-width: 768px) {

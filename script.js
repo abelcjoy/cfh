@@ -334,73 +334,94 @@ async function speakText(text) {
     return utterance; // Return for recorder
 }
 
-// Download Voice (The "Audio Loopback" Hack)
+// Download Voice (MP3 Encoding via LameJS)
 const downloadVoiceBtn = document.getElementById('download-voice-btn');
 
 downloadVoiceBtn.addEventListener('click', async () => {
     const text = voiceText.value;
     if (!text) return;
 
-    // Warning / Instruction
-    const confirm = window.confirm("To save audio, we need to record this tab. \n\n1. Select 'This Tab' or 'Entire Screen'.\n2. Share System Audio.\n3. The audio will play and record automatically.");
+    // Check if lamejs is loaded
+    if (typeof lamejs === 'undefined') {
+        alert("MP3 Encoder not loaded yet. Please wait or refresh.");
+        return;
+    }
+
+    const confirm = window.confirm("To save as MP3, we need to record this tab.\n\n1. Select 'This Tab' (or Entire Screen).\n2. Share System Audio.\n3. The audio will play and convert automatically.");
     if (!confirm) return;
 
     try {
-        // 1. Get Tab Stream (System Audio)
         const stream = await navigator.mediaDevices.getDisplayMedia({ video: true, audio: true });
 
-        // Check if we got audio
         if (stream.getAudioTracks().length === 0) {
-            alert("No audio track selected! Please make sure to check 'Share System Audio'.");
+            alert("No audio track! Please check 'Share System Audio'.");
             stream.getTracks().forEach(t => t.stop());
             return;
         }
 
-        // 2. Start Recorder
-        const audioStream = new MediaStream([stream.getAudioTracks()[0]]);
-        const mediaRecorder = new MediaRecorder(audioStream, { mimeType: 'audio/webm' });
-        const chunks = [];
-
-        mediaRecorder.ondataavailable = e => chunks.push(e.data);
-
-        mediaRecorder.onstop = () => {
-            const blob = new Blob(chunks, { type: 'audio/webm' });
-            const url = URL.createObjectURL(blob);
-
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = `voice-note-${Date.now()}.webm`; // WebM Audio is standard
-            a.click();
-
-            // Cleanup
-            stream.getTracks().forEach(t => t.stop());
-            downloadVoiceBtn.innerHTML = '<span><i class="fa-solid fa-download"></i> SAVE AUDIO</span>';
-        };
-
-        mediaRecorder.start();
         downloadVoiceBtn.innerHTML = '<span><i class="fa-solid fa-circle-dot"></i> RECORDING...</span>';
 
-        // 3. Speak
+        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        const source = audioContext.createMediaStreamSource(stream);
+        const processor = audioContext.createScriptProcessor(4096, 1, 1);
+
+        // Init Lame Encoder
+        // Mono, 44.1kHz, 128kbps
+        const mp3Encoder = new lamejs.Mp3Encoder(1, 44100, 128);
+        let mp3Data = [];
+
+        source.connect(processor);
+        processor.connect(audioContext.destination);
+
+        processor.onaudioprocess = (e) => {
+            const inputData = e.inputBuffer.getChannelData(0); // Mono
+            // Convert Float32 to Int16
+            const inputInt16 = new Int16Array(inputData.length);
+            for (let i = 0; i < inputData.length; i++) {
+                const s = Math.max(-1, Math.min(1, inputData[i]));
+                inputInt16[i] = s < 0 ? s * 0x8000 : s * 0x7FFF;
+            }
+
+            // Encode
+            const mp3buf = mp3Encoder.encodeBuffer(inputInt16);
+            if (mp3buf.length > 0) mp3Data.push(mp3buf);
+        };
+
+        // Speak
         const ut = new SpeechSynthesisUtterance(text);
         const selectedIdx = voiceSelect.value;
         if (selectedIdx && voices[selectedIdx]) ut.voice = voices[selectedIdx];
         ut.pitch = parseFloat(pitchSlider.value);
         ut.rate = parseFloat(rateSlider.value);
 
-        // We need to stop recording when speech ends
-        // BUT strict 'onend' might fire before audio buffer finishes flushing. 
-        // We add a safety delay.
+        // Handle End
         ut.onend = () => {
             setTimeout(() => {
-                mediaRecorder.stop();
-            }, 500); // 500ms tail
+                // Flush Encoder
+                const mp3buf = mp3Encoder.flush();
+                if (mp3buf.length > 0) mp3Data.push(mp3buf);
+
+                // Save
+                const blob = new Blob(mp3Data, { type: 'audio/mp3' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `voice-${Date.now()}.mp3`;
+                a.click();
+
+                // Cleanup
+                stream.getTracks().forEach(t => t.stop());
+                audioContext.close();
+                downloadVoiceBtn.innerHTML = '<span><i class="fa-solid fa-download"></i> SAVE AUDIO</span>';
+            }, 500);
         };
 
         window.speechSynthesis.speak(ut);
 
     } catch (err) {
         console.error(err);
-        alert("Could not start recording. Permission denied or canceled.");
+        alert("Recording error. Ensure you shared system audio.");
+        downloadVoiceBtn.innerHTML = '<span><i class="fa-solid fa-download"></i> SAVE AUDIO</span>';
     }
 });
 

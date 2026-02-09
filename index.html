@@ -4,434 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Premium Internet Speed Test Tool">
-    <title>SpeedForce // Net Speed</title>
+    <meta name="description"
+        content="Global Waste Intelligence - Real-time updates on waste management technology, policy, and innovation.">
+    <title>WasteIntel | Global Intelligence Hub</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♻️</text></svg>">
 </head>
 
 <body>
-    <div class="background-mesh"></div>
 
-    <main class="container">
-        <header>
-            <div class="logo"></div>
-            <button id="menu-btn" class="icon-btn">
-                <i class="fa-solid fa-bars"></i> MENU
-            </button>
-        </header>
+    <header>
+        <a href="#" class="logo">
+            <span>♻️</span> WA.STE.INTEL
+        </a>
+        <div class="search-container">
+            <span>🔍</span>
+            <input type="text" id="searchInput" class="search-input" placeholder="Search technology, policy...">
+        </div>
+        <div style="font-size: 0.9rem; color: #22c55e;">● LIVE FEED</div>
+    </header>
 
-        <div class="sidebar-overlay" id="overlay"></div>
-        <nav class="sidebar" id="sidebar">
-            <div class="sidebar-header">
-                <h3>TOOLS</h3>
-                <button id="close-btn" class="icon-btn"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-            <div class="sidebar-menu">
-                <!-- Initial Visible Tool -->
-                <button class="nav-btn active" data-target="calculator-section">
-                    <i class="fa-solid fa-calculator"></i> CALCULATOR
-                </button>
+    <div class="container">
 
-                <!-- Hidden Tools Container -->
-                <div id="hidden-tools" class="hidden-tools-container" style="display: none;">
-                    <div style="height: 1px; background: rgba(255,255,255,0.1); margin: 10px 0;"></div>
-                    <button class="nav-btn" data-target="speed-section">
-                        <i class="fa-solid fa-gauge-high"></i> SPEED
-                    </button>
-                    <button class="nav-btn" data-target="currency-section">
-                        <i class="fa-solid fa-coins"></i> CURRENCY
-                    </button>
-                    <button class="nav-btn" data-target="bmi-section">
-                        <i class="fa-solid fa-weight-scale"></i> BMI
-                    </button>
-                    <button class="nav-btn" data-target="typing-section">
-                        <i class="fa-solid fa-keyboard"></i> TYPING
-                    </button>
-                    <button class="nav-btn" data-target="recorder-section">
-                        <i class="fa-solid fa-video"></i> RECORDER
-                    </button>
-                    <button class="nav-btn" data-target="tweet-section">
-                        <i class="fa-brands fa-twitter"></i> TWEET
-                    </button>
-                    <button class="nav-btn" data-target="pdf-section">
-                        <i class="fa-solid fa-file-pdf"></i> PDF
-                    </button>
-                </div>
-            </div>
-        </nav>
+        <div class="hero">
+            <h1>The Future of Waste, Decoded.</h1>
+            <p>Autonomous intelligence aggregation for the modern recycling industry.</p>
+        </div>
 
-        <!-- CALCULATOR SECTION (MAIN) -->
-        <section id="calculator-section" class="tool-section active-section">
-            <div class="converter-box" style="width: 100%; max-width: 400px; padding: 30px;">
-                <div class="voice-header" style="text-align: center; margin-bottom: 20px;">
-                    <h2 class="voice-title">CALCULATOR</h2>
-                </div>
+        <div id="loading" class="loading">
+            Initializing Spider... Fetching Global Data...
+        </div>
 
-                <div class="main-calc" style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 15px;">
-                    <input type="text" id="main-calc-display" readonly placeholder="0"
-                        style="width: 100%; height: 60px; font-size: 2rem; background: transparent; border: none; color: #fff; text-align: right; margin-bottom: 20px; font-family: monospace;">
+        <div id="newsGrid" class="news-grid">
+            <!-- News cards will be injected here by JS -->
+        </div>
 
-                    <div class="calc-grid" style="grid-template-columns: repeat(4, 1fr); gap: 15px;">
-                        <button onclick="calcInput('7')">7</button>
-                        <button onclick="calcInput('8')">8</button>
-                        <button onclick="calcInput('9')">9</button>
-                        <button onclick="calcInput('/')" class="op">÷</button>
-                        <button onclick="calcInput('4')">4</button>
-                        <button onclick="calcInput('5')">5</button>
-                        <button onclick="calcInput('6')">6</button>
-                        <button onclick="calcInput('*')" class="op">×</button>
-                        <button onclick="calcInput('1')">1</button>
-                        <button onclick="calcInput('2')">2</button>
-                        <button onclick="calcInput('3')">3</button>
-                        <button onclick="calcInput('-')" class="op">-</button>
-                        <button onclick="calcInput('0')">0</button>
-                        <button onclick="calcInput('.')">.</button>
-                        <button onclick="calcClear()" class="clear">C</button>
-                        <button onclick="calcInput('+')" class="op">+</button>
-                        <button onclick="calcResult()" class="equal"
-                            style="grid-column: span 4; background: var(--accent); color: #000; font-weight: 700;">=</button>
-                    </div>
-                </div>
-            </div>
-        </section>
+    </div>
 
-        <!-- SPEED TESTER SECTION -->
-        <section id="speed-section" class="tool-section hidden-section">
-            <div class="dashboard">
-                <div class="gauge-container">
-                    <div class="gauge-outer">
-                        <div class="gauge-inner"></div>
-                        <div class="gauge-center">
-                            <span id="speed-value">0</span>
-                            <span class="unit">Mbps</span>
-                        </div>
-                    </div>
-                    <svg class="progress-ring" width="300" height="300">
-                        <circle class="progress-ring__circle" stroke="rgba(255,255,255,0.1)" stroke-width="12"
-                            fill="transparent" r="140" cx="150" cy="150" />
-                        <circle class="progress-ring__circle progress-fill" id="progress-circle" stroke="url(#gradient)"
-                            stroke-width="12" fill="transparent" r="140" cx="150" cy="150" />
-                        <defs>
-                            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                                <stop offset="0%" stop-color="#00f2fe" />
-                                <stop offset="100%" stop-color="#4facfe" />
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                </div>
-
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="icon"><i class="fa-solid fa-server"></i></div>
-                        <div class="info">
-                            <h3>PING</h3>
-                            <p id="ping-text">-- ms</p>
-                        </div>
-                    </div>
-                    <div class="stat-card active-card">
-                        <div class="icon"><i class="fa-solid fa-download"></i></div>
-                        <div class="info">
-                            <h3>DOWNLOAD</h3>
-                            <p id="download-text">-- Mbps</p>
-                        </div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="icon"><i class="fa-solid fa-upload"></i></div>
-                        <div class="info">
-                            <h3>UPLOAD</h3>
-                            <p id="upload-text">-- Mbps</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="controls">
-                    <button id="start-btn" class="glow-button">
-                        <span>START TEST</span>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- CURRENCY CONVERTER SECTION -->
-        <section id="currency-section" class="tool-section hidden-section">
-            <div class="converter-box">
-                <div class="currency-card">
-                    <div class="flag-icon">🇺🇸</div>
-                    <div class="input-group">
-                        <label>USD (Dollars)</label>
-                        <input type="number" id="usd-input" placeholder="0.00" value="1">
-                    </div>
-                </div>
-
-                <div class="exchange-icon">
-                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
-                </div>
-
-                <div class="currency-card">
-                    <div class="flag-icon">🇮🇳</div>
-                    <div class="input-group">
-                        <label>INR (Rupees)</label>
-                        <input type="number" id="inr-input" placeholder="0.00" readonly>
-                    </div>
-                </div>
-
-                <div class="live-rate">
-                    <span id="rate-display">1 USD = -- INR</span>
-                    <span class="refresh-time" id="last-updated">Updating...</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- BMI CALCULATOR SECTION -->
-        <section id="bmi-section" class="tool-section hidden-section">
-            <div class="converter-box">
-                <div class="currency-card">
-                    <div class="flag-icon"><i class="fa-solid fa-weight-hanging"
-                            style="font-size: 1.5rem; color: var(--accent);"></i></div>
-                    <div class="input-group">
-                        <label>Weight (kg)</label>
-                        <input type="number" id="weight-input" placeholder="0">
-                    </div>
-                </div>
-
-                <div class="currency-card">
-                    <div class="flag-icon"><i class="fa-solid fa-ruler-vertical"
-                            style="font-size: 1.5rem; color: var(--accent);"></i></div>
-                    <div class="input-group">
-                        <label>Height (cm)</label>
-                        <input type="number" id="height-input" placeholder="0">
-                    </div>
-                </div>
-
-                <div class="live-rate" style="margin-top: 30px;">
-                    <span id="bmi-result-val" style="font-size: 3rem; font-weight: 700; color: #fff;">--.-</span>
-                    <span id="bmi-category" style="font-size: 1.2rem; color: var(--text-secondary);">Enter
-                        Details</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- TYPING TEST SECTION -->
-        <section id="typing-section" class="tool-section hidden-section">
-            <div class="dashboard">
-                <div class="stats-grid" style="grid-template-columns: repeat(3, 1fr); margin-bottom: 20px;">
-                    <div class="stat-card active-card">
-                        <div class="info">
-                            <h3>WPM</h3>
-                            <p id="wpm-text">0</p>
-                        </div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="info">
-                            <h3>ACCURACY</h3>
-                            <p id="accuracy-text">100%</p>
-                        </div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="info">
-                            <h3>TIME</h3>
-                            <p id="time-text">60s</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="converter-box" style="width: 100%; max-width: 800px; margin-top: 0;">
-                    <div class="typing-area" id="typing-text-display">
-                        Click "Start Typing" to begin...
-                    </div>
-                    <input type="text" id="typing-input" class="typing-input" placeholder="Type here..." disabled
-                        autocomplete="off">
-                </div>
-
-                <div class="controls" style="margin-top: 30px;">
-                    <button id="start-typing-btn" class="glow-button">
-                        <span>START TYPING</span>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- VOICE DIRECTOR SECTION REMOVED -->
-
-        <!-- SCREEN RECORDER SECTION -->
-        <section id="recorder-section" class="tool-section hidden-section">
-            <div class="converter-box" style="width: 100%; max-width: 900px;">
-                <div class="voice-header">
-                    <h2 class="voice-title">SCREEN <span style="color: var(--accent); font-weight: 700;">RECORDER</span>
-                    </h2>
-                    <p class="voice-subtitle">Capture 1080p/4K footage directly from your browser</p>
-                </div>
-
-                <div class="video-preview-container">
-                    <video id="video-preview" autoplay muted playsinline></video>
-                    <div class="recording-indicator hidden" id="recording-dot">
-                        <div class="red-dot"></div> REC
-                    </div>
-                </div>
-
-                <div class="recorder-controls">
-                    <div class="settings-group">
-                        <label>Resolution Preference</label>
-                        <select id="res-select" class="typing-input" style="padding: 8px;">
-                            <option value="1080">1080p (Standard)</option>
-                            <option value="2160">4K (UHD) - If supported</option>
-                            <option value="720">720p (Lightweight)</option>
-                        </select>
-                    </div>
-
-                    <div class="settings-group">
-                        <label>Audio Source</label>
-                        <select id="audio-select" class="typing-input" style="padding: 8px;">
-                            <option value="system">System Audio Only</option>
-                            <option value="mic">Microphone + System</option>
-                            <option value="none">No Audio</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="controls" style="margin-top: 20px; display: flex; gap: 20px; justify-content: center;">
-                    <button id="start-record-btn" class="glow-button">
-                        <span><i class="fa-solid fa-circle-dot"></i> START RECORDING</span>
-                    </button>
-                    <button id="stop-record-btn" class="glow-button"
-                        style="border-color: #ff4d4d; color: #ff4d4d; display: none;">
-                        <span><i class="fa-solid fa-stop"></i> STOP</span>
-                    </button>
-                    <a id="download-link" class="glow-button"
-                        style="display: none; border-color: #00ff88; color: #00ff88;">
-                        <span><i class="fa-solid fa-download"></i> SAVE VIDEO</span>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- PDF CONVERTER SECTION -->
-        <section id="pdf-section" class="tool-section hidden-section">
-            <div class="converter-box" style="width: 100%; max-width: 800px;">
-                <div class="voice-header">
-                    <h2 class="voice-title">IMAGE TO <span style="color: var(--accent); font-weight: 700;">PDF</span>
-                    </h2>
-                    <p class="voice-subtitle">Convert multiple images into a single document instantly</p>
-                </div>
-
-                <div class="upload-zone" id="drop-zone">
-                    <i class="fa-solid fa-cloud-arrow-up"
-                        style="font-size: 3rem; color: var(--accent); margin-bottom: 15px;"></i>
-                    <p>Drag & Drop Images Here</p>
-                    <p style="font-size: 0.8rem; color: var(--text-secondary);">or click to browse</p>
-                    <input type="file" id="file-input" multiple accept="image/*" style="display: none;">
-                </div>
-
-                <div class="image-preview-list" id="image-list">
-                    <!-- Images will appear here -->
-                </div>
-
-                <div class="controls" style="margin-top: 30px;">
-                    <button id="convert-pdf-btn" class="glow-button" disabled
-                        style="opacity: 0.5; cursor: not-allowed;">
-                        <span><i class="fa-solid fa-wand-magic-sparkles"></i> CONVERT TO PDF</span>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- TWEET GENERATOR SECTION -->
-        <section id="tweet-section" class="tool-section hidden-section">
-            <div class="converter-box"
-                style="width: 100%; max-width: 1000px; display: flex; flex-wrap: wrap; gap: 30px;">
-
-                <!-- Controls -->
-                <div class="tweet-controls" style="flex: 1; min-width: 300px;">
-                    <div class="voice-header" style="text-align: left; margin-bottom: 20px;">
-                        <h2 class="voice-title">TWEET <span style="color: var(--accent); font-weight: 700;">GEN</span>
-                        </h2>
-                        <p class="voice-subtitle">Create viral-style tweet images & videos</p>
-                    </div>
-
-                    <div class="input-group" style="margin-bottom: 15px;">
-                        <label>Profile Photo</label>
-                        <input type="file" id="tweet-pfp-input" accept="image/*" class="typing-input">
-                    </div>
-
-                    <div class="input-group" style="margin-bottom: 15px;">
-                        <label>Name</label>
-                        <input type="text" id="tweet-name" class="typing-input" value="Dan Go" placeholder="Name">
-                    </div>
-
-                    <div class="input-group" style="margin-bottom: 15px;">
-                        <label>Handle</label>
-                        <input type="text" id="tweet-handle" class="typing-input" value="@CoachDanGo"
-                            placeholder="@handle">
-                    </div>
-
-                    <div class="input-group"
-                        style="margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
-                        <input type="checkbox" id="tweet-verified" checked style="width: 20px; height: 20px;">
-                        <label style="margin: 0;">Verified Blue Tick</label>
-                    </div>
-
-                    <div class="input-group" style="margin-bottom: 15px;">
-                        <label>Tweet Content</label>
-                        <textarea id="tweet-content" class="typing-input" style="height: 100px; resize: none;">The biggest flexes on the planet are a healthy body, a house full of love, and a peaceful mind.
-
-You can't buy that shit. It must be earned.</textarea>
-                    </div>
-
-                    <div class="input-group" style="margin-bottom: 20px;">
-                        <label>Theme</label>
-                        <select id="tweet-theme" class="typing-input">
-                            <option value="light">Light Mode (Viral Style)</option>
-                            <option value="dark">Dark Mode</option>
-                            <option value="dim">Dim (Midnight)</option>
-                        </select>
-                    </div>
-
-                    <div class="controls" style="display: flex; gap: 10px;">
-                        <button id="download-tweet-img" class="glow-button" style="flex: 1;">
-                            <span><i class="fa-solid fa-image"></i> SAVE IMG</span>
-                        </button>
-                        <button id="record-tweet-video" class="glow-button"
-                            style="flex: 1; border-color: #ff4d4d; color: #ff4d4d;">
-                            <span><i class="fa-solid fa-video"></i> SAVE MP4</span>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Preview Area -->
-                <div class="tweet-preview-container"
-                    style="flex: 1.5; min-width: 350px; display: flex; justify-content: center; align-items: center; background: #1a1a1a; border-radius: 20px; padding: 20px; border: 1px solid rgba(255,255,255,0.1);">
-
-                    <!-- The Tweet Card -->
-                    <div id="tweet-card" class="tweet-card light-theme">
-                        <div class="tweet-header">
-                            <img src="https://ui-avatars.com/api/?name=Dan+Go&background=0D8ABC&color=fff"
-                                id="tweet-pfp-img" class="tweet-pfp">
-                            <div class="tweet-user-info">
-                                <div class="tweet-name-row">
-                                    <span id="preview-name" class="tweet-name">Dan Go</span>
-                                    <i class="fa-solid fa-circle-check tweet-verified" id="preview-verified"></i>
-                                </div>
-                                <span id="preview-handle" class="tweet-handle">@CoachDanGo</span>
-                            </div>
-                        </div>
-                        <div class="tweet-body">
-                            <p id="preview-content">The biggest flexes on the planet are a healthy body, a house full of
-                                love, and a peaceful mind.<br><br>You can't buy that shit. It must be earned.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-    </main>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="script.js"></script>
 </body>
 

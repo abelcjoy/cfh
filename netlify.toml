@@ -1,9 +1,11 @@
 [build]
-  base = "."
+  functions = "netlify/functions"
   publish = "."
-  command = "echo 'Building Static Site'"
 
+[dev]
+  framework = "#static"
+  
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
   status = 200

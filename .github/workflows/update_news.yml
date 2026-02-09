@@ -1,0 +1,35 @@
+name: Daily Waste Intelligence Update
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Run every 6 hours
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Run News Spider 🕷️
+      run: node scripts/fetch_news.js
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name 'WasteBot 🤖'
+        git config --global user.email 'bot@wasteintel.com'
+        git add news.json
+        git commit -m "Generated new waste intelligence report 📰" || exit 0
+        git push

@@ -1,0 +1,16 @@
+{
+  "name": "waste-intel-hub",
+  "version": "1.0.0",
+  "description": "Autonomous Waste Management Intelligence Hub",
+  "main": "index.html",
+  "scripts": {
+    "start": "node scripts/fetch_news.js",
+    "spider": "node scripts/fetch_news.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}

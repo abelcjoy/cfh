@@ -55,6 +55,98 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
+    // --- DATASET LOGIC ---
+
+    const renderDatasets = (datasets) => {
+        const datasetGrid = document.getElementById('datasetGrid');
+        datasetGrid.innerHTML = '';
+
+        if (datasets.length === 0) {
+            datasetGrid.innerHTML = '<div class="loading">No datasets found.</div>';
+            return;
+        }
+
+        datasets.forEach(dataset => {
+            const card = document.createElement('div');
+            card.className = 'news-card';
+
+            // Simulating a "Downloads" badge or similar
+            const cleanSnippet = dataset.description || 'No description available.';
+
+            card.innerHTML = `
+                <div>
+                  <div class="news-meta">
+                    <span class="news-source" style="color: #60a5fa;">${dataset.source}</span>
+                    <span>Updated: ${dataset.updated}</span>
+                  </div>
+                  <div class="news-title">${dataset.title}</div>
+                  <div class="news-snippet">${cleanSnippet}</div>
+                  <div style="font-size: 0.8rem; color: #94a3b8; margin-bottom: 1rem;">
+                    🖼️ Images: <b>${dataset.images}</b>
+                  </div>
+                </div>
+                <div class="card-actions" style="display: flex; gap: 0.5rem; margin-top: auto;">
+                    <a href="${dataset.url}" target="_blank" class="read-more" style="flex: 1; background: #60a5fa; color: #0f172a;">Download Dataset 💾</a>
+                </div>
+            `;
+
+            datasetGrid.appendChild(card);
+        });
+    };
+
+    const fetchDatasets = async () => {
+        try {
+            const response = await fetch('datasets.json');
+            if (!response.ok) throw new Error('Failed to load datasets');
+
+            const data = await response.json();
+            renderDatasets(data.datasets);
+
+        } catch (error) {
+            console.error(error);
+            document.getElementById('datasetGrid').innerHTML = '<div class="loading">⚠️ Error loading dataset vault.</div>';
+        }
+    };
+
+    // --- TAB LOGIC ---
+    window.switchTab = (tabName) => {
+        const newsGrid = document.getElementById('newsGrid');
+        const datasetGrid = document.getElementById('datasetGrid');
+        const tabNews = document.getElementById('tab-news');
+        const tabDatasets = document.getElementById('tab-datasets');
+
+        if (tabName === 'news') {
+            newsGrid.style.display = 'grid';
+            datasetGrid.style.display = 'none';
+
+            // Visuals
+            tabNews.style.background = 'var(--accent)';
+            tabNews.style.color = 'var(--bg-primary)';
+            tabNews.style.border = 'none';
+
+            tabDatasets.style.background = 'transparent';
+            tabDatasets.style.color = 'var(--text-secondary)';
+            tabDatasets.style.border = '1px solid var(--border-color)';
+        } else {
+            newsGrid.style.display = 'none';
+            datasetGrid.style.display = 'grid';
+
+            // Visuals
+            tabDatasets.style.background = '#60a5fa'; // Blue for data
+            tabDatasets.style.color = '#0f172a';
+            tabDatasets.style.border = 'none';
+
+            tabNews.style.background = 'transparent';
+            tabNews.style.color = 'var(--text-secondary)';
+            tabNews.style.border = '1px solid var(--border-color)';
+
+            // Fetch on first load of this tab
+            if (datasetGrid.children.length === 0) {
+                fetchDatasets();
+            }
+        }
+    };
+
     // Share functionality
     window.shareNews = (title, url) => {
         if (navigator.share) {

@@ -33,6 +33,14 @@
         <div class="hero">
             <h1>The Future of Waste, Decoded.</h1>
             <p>Autonomous intelligence aggregation for the modern recycling industry.</p>
+            <div class="tabs" style="display: flex; justify-content: center; gap: 1rem; margin-top: 2rem;">
+                <button onclick="switchTab('news')" id="tab-news" class="read-more"
+                    style="cursor: pointer; border: none; background: var(--accent); color: var(--bg-primary);">News
+                    Feed 📰</button>
+                <button onclick="switchTab('datasets')" id="tab-datasets" class="read-more"
+                    style="cursor: pointer; border: 1px solid var(--border-color); background: transparent; color: var(--text-secondary);">Dataset
+                    Vault 💾</button>
+            </div>
         </div>
 
         <div id="loading" class="loading">
@@ -41,6 +49,10 @@
 
         <div id="newsGrid" class="news-grid">
             <!-- News cards will be injected here by JS -->
+        </div>
+
+        <div id="datasetGrid" class="news-grid" style="display: none;">
+            <!-- Dataset cards will be injected here by JS -->
         </div>
 
     </div>

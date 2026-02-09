@@ -1,0 +1,46 @@
+{
+  "updatedAt": "2026-02-09T13:01:42.128Z",
+  "totalDatasets": 5,
+  "datasets": [
+    {
+      "title": "Waste Classification Data",
+      "url": "https://www.kaggle.com/datasets/techsash/waste-classification-data",
+      "source": "Kaggle",
+      "images": "25k+",
+      "updated": "2024",
+      "description": "Organic vs Recyclable items. Good baseline."
+    },
+    {
+      "title": "Garbage Classification (12 Classes)",
+      "url": "https://www.kaggle.com/datasets/mostafaabla/garbage-classification",
+      "source": "Kaggle",
+      "images": "15k",
+      "updated": "2023",
+      "description": " battery, biological, brown-glass, cardboard, clothes, green-glass, metal, paper, plastic, shoes, trash, white-glass."
+    },
+    {
+      "title": "TACO: Trash Annotations in Context",
+      "url": "http://tacodataset.org/",
+      "source": "External",
+      "images": "10k+",
+      "updated": "Ongoing",
+      "description": "The gold standard for litter detection in the wild."
+    },
+    {
+      "title": "Waste Pictures (Medical & Domestic)",
+      "url": "https://www.kaggle.com/datasets/wangziic/waste-pictures",
+      "source": "Kaggle",
+      "images": "24k",
+      "updated": "2024",
+      "description": "High variety of common domestic waste items."
+    },
+    {
+      "title": "Recyclable Waste (YOLO Format)",
+      "url": "https://universe.roboflow.com/material-identification/garbage-classification-3",
+      "source": "Roboflow",
+      "images": "3k",
+      "updated": "2025",
+      "description": "Pre-labeled for YOLO. Ready to train."
+    }
+  ]
+}

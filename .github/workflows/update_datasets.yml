@@ -1,0 +1,35 @@
+name: Weekly Dataset Watchdog 🐕
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Run every Sunday at midnight
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-datasets:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Run Dataset Hunter 🔍
+      run: node scripts/fetch_datasets.js
+
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name 'WasteBot 🤖'
+        git config --global user.email 'bot@wasteintel.com'
+        git add datasets.json
+        git commit -m "Updated Dataset Vault with new findings 💎" || exit 0
+        git push

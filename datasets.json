@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-02-09T13:01:42.128Z",
-  "totalDatasets": 5,
+  "updatedAt": "2026-02-09T13:30:58.154Z",
+  "totalDatasets": 25,
   "datasets": [
     {
       "title": "Waste Classification Data",
@@ -16,7 +16,7 @@
       "source": "Kaggle",
       "images": "15k",
       "updated": "2023",
-      "description": " battery, biological, brown-glass, cardboard, clothes, green-glass, metal, paper, plastic, shoes, trash, white-glass."
+      "description": "Battery, biological, brown-glass, cardboard, clothes, green-glass, metal, paper, plastic, shoes, trash, white-glass."
     },
     {
       "title": "TACO: Trash Annotations in Context",
@@ -41,6 +41,166 @@
       "images": "3k",
       "updated": "2025",
       "description": "Pre-labeled for YOLO. Ready to train."
+    },
+    {
+      "title": "WasteWise",
+      "url": "https://huggingface.co/datasets/l985215117/WasteWise",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2025",
+      "description": "Official HuggingFace Dataset. Downloads: 56676"
+    },
+    {
+      "title": "food-waste-dataset",
+      "url": "https://huggingface.co/datasets/Voxel51/food-waste-dataset",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2025",
+      "description": "Official HuggingFace Dataset. Downloads: 2723"
+    },
+    {
+      "title": "indoor-waste-detection-merged",
+      "url": "https://huggingface.co/datasets/hariharan944212005/indoor-waste-detection-merged",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2025",
+      "description": "Official HuggingFace Dataset. Downloads: 2293"
+    },
+    {
+      "title": "indoor-waste-dataset",
+      "url": "https://huggingface.co/datasets/hariharan944212005/indoor-waste-dataset",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2025",
+      "description": "Official HuggingFace Dataset. Downloads: 2118"
+    },
+    {
+      "title": "Waste-Dumpsites-DroneImagery",
+      "url": "https://huggingface.co/datasets/INS-IntelligentNetworkSolutions/Waste-Dumpsites-DroneImagery",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2024",
+      "description": "Official HuggingFace Dataset. Downloads: 330"
+    },
+    {
+      "title": "GreenLabel-Waste-Types",
+      "url": "https://huggingface.co/datasets/DamarJati/GreenLabel-Waste-Types",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2023",
+      "description": "Official HuggingFace Dataset. Downloads: 303"
+    },
+    {
+      "title": "waste-garbage-management-dataset",
+      "url": "https://huggingface.co/datasets/omasteam/waste-garbage-management-dataset",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2025",
+      "description": "Official HuggingFace Dataset. Downloads: 227"
+    },
+    {
+      "title": "WasteWise",
+      "url": "https://huggingface.co/datasets/luke-c/WasteWise",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2025",
+      "description": "Official HuggingFace Dataset. Downloads: 142"
+    },
+    {
+      "title": "ultrasonic-waste-bin-sensor-raw",
+      "url": "https://huggingface.co/datasets/SA61team5/ultrasonic-waste-bin-sensor-raw",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2026",
+      "description": "Official HuggingFace Dataset. Downloads: 134"
+    },
+    {
+      "title": "WasteWise",
+      "url": "https://huggingface.co/datasets/ungol/WasteWise",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2025",
+      "description": "Official HuggingFace Dataset. Downloads: 112"
+    },
+    {
+      "title": "detect-waste",
+      "url": "https://huggingface.co/datasets/Yorai/detect-waste",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2023",
+      "description": "Official HuggingFace Dataset. Downloads: 102"
+    },
+    {
+      "title": "augmented_waste_classification",
+      "url": "https://huggingface.co/datasets/griffinbholt/augmented_waste_classification",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2024",
+      "description": "Official HuggingFace Dataset. Downloads: 94"
+    },
+    {
+      "title": "TACO-Waste-Recognition",
+      "url": "https://huggingface.co/datasets/RandyHuynh5815/TACO-Waste-Recognition",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2023",
+      "description": "Official HuggingFace Dataset. Downloads: 64"
+    },
+    {
+      "title": "collect_waste",
+      "url": "https://huggingface.co/datasets/12e21/collect_waste",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2026",
+      "description": "Official HuggingFace Dataset. Downloads: 58"
+    },
+    {
+      "title": "waste_detection",
+      "url": "https://huggingface.co/datasets/moondream/waste_detection",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2025",
+      "description": "Official HuggingFace Dataset. Downloads: 49"
+    },
+    {
+      "title": "task_485_Pick_up_the_waste_paper_on_the_table_and_throw_it_into_the_shredder_for_destruction",
+      "url": "https://huggingface.co/datasets/BAAI-DataCube/task_485_Pick_up_the_waste_paper_on_the_table_and_throw_it_into_the_shredder_for_destruction",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2026",
+      "description": "Official HuggingFace Dataset. Downloads: 49"
+    },
+    {
+      "title": "waste-classifier",
+      "url": "https://huggingface.co/datasets/rootstrap-org/waste-classifier",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2024",
+      "description": "Official HuggingFace Dataset. Downloads: 39"
+    },
+    {
+      "title": "WasteBench-Dataset",
+      "url": "https://huggingface.co/datasets/aliman8/WasteBench-Dataset",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2025",
+      "description": "Official HuggingFace Dataset. Downloads: 38"
+    },
+    {
+      "title": "waste-containers-garbage-filling-level-dataset",
+      "url": "https://huggingface.co/datasets/Ibrahima8/waste-containers-garbage-filling-level-dataset",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2025",
+      "description": "Official HuggingFace Dataset. Downloads: 33"
+    },
+    {
+      "title": "food_waste_dataset",
+      "url": "https://huggingface.co/datasets/andandandand/food_waste_dataset",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2025",
+      "description": "Official HuggingFace Dataset. Downloads: 29"
     }
   ]
 }

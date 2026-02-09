@@ -9,8 +9,20 @@ const FEEDS = [
         url: 'https://www.wastedive.com/feeds/news/'
     },
     {
-        name: 'ScienceDaily',
-        url: 'https://www.sciencedaily.com/rss/earth_climate/recycling_and_waste_management.xml'
+        name: 'TechCrunch - Robotics',
+        url: 'https://techcrunch.com/category/robotics/feed/'
+    },
+    {
+        name: 'IEEE Spectrum - Robotics',
+        url: 'https://spectrum.ieee.org/feeds/topic/robotics'
+    },
+    {
+        name: 'ScienceDaily - Artificial Intelligence',
+        url: 'https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml'
+    },
+    {
+        name: 'Waste360',
+        url: 'https://www.waste360.com/rss.xml'
     },
     {
         name: 'Google News - Waste Tech',

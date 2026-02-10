@@ -26,10 +26,13 @@ jobs:
     - name: Run News Spider 🕷️
       run: node scripts/fetch_news.js
 
+    - name: Run Risk Radar ⚠️
+      run: node scripts/fetch_risks.js
+
     - name: Commit and Push Changes
       run: |
         git config --global user.name 'WasteBot 🤖'
         git config --global user.email 'bot@wasteintel.com'
-        git add news.json
-        git commit -m "Generated new waste intelligence report 📰" || exit 0
+        git add news.json risks.json
+        git commit -m "Generated new waste intelligence report & risk assessment 📰" || exit 0
         git push

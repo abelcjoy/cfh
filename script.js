@@ -83,46 +83,114 @@ const fetchDatasets = async () => {
     }
 };
 
+// Render Risk cards
+const renderRisks = (risks) => {
+    const riskGrid = document.getElementById('riskGrid');
+    if (!riskGrid) return;
+
+    riskGrid.innerHTML = '';
+
+    if (risks.length === 0) {
+        riskGrid.innerHTML = '<div class="loading">No active risks detected.</div>';
+        return;
+    }
+
+    risks.forEach(risk => {
+        const card = document.createElement('div');
+        card.className = 'news-card';
+        card.style.borderColor = '#ef4444'; // Red border for danger
+
+        const cleanSnippet = risk.snippet
+            ? risk.snippet.replace(/<[^>]*>/g, '').substring(0, 150) + '...'
+            : 'Click to investigate incident...';
+
+        card.innerHTML = `
+            <div>
+              <div class="news-meta">
+                <span class="news-source" style="color: #ef4444;">⚠️ ${risk.source}</span>
+                <span>${formatTime(risk.isoDate)}</span>
+              </div>
+              <div class="news-title">${risk.title}</div>
+              <div class="news-snippet">${cleanSnippet}</div>
+            </div>
+            <div class="card-actions" style="display: flex; gap: 0.5rem; margin-top: auto;">
+                <a href="${risk.link}" target="_blank" class="read-more" style="flex: 1; background: #ef4444; color: #fff;">Analyze Risk 🚨</a>
+            </div>
+        `;
+
+        riskGrid.appendChild(card);
+    });
+};
+
+// Fetch Risks
+const fetchRisks = async () => {
+    const riskGrid = document.getElementById('riskGrid');
+    try {
+        const response = await fetch('risks.json');
+        if (!response.ok) throw new Error('Failed to load risk database');
+
+        const data = await response.json();
+        renderRisks(data.articles);
+
+    } catch (error) {
+        console.error(error);
+        if (riskGrid) {
+            riskGrid.innerHTML = '<div class="loading">⚠️ Error loading risk radar.</div>';
+        }
+    }
+};
+
 // Tab Switching
 window.switchTab = (tabName) => {
     console.log('Switching to tab:', tabName);
     const newsGrid = document.getElementById('newsGrid');
     const datasetGrid = document.getElementById('datasetGrid');
+    const riskGrid = document.getElementById('riskGrid');
     const tabNews = document.getElementById('tab-news');
     const tabDatasets = document.getElementById('tab-datasets');
+    const tabRisks = document.getElementById('tab-risks');
 
-    if (!newsGrid || !datasetGrid || !tabNews || !tabDatasets) {
-        console.error('Tab elements not found');
-        return;
+    // Hide all
+    if (newsGrid) newsGrid.style.display = 'none';
+    if (datasetGrid) datasetGrid.style.display = 'none';
+    if (riskGrid) riskGrid.style.display = 'none';
+
+    // Reset buttons
+    if (tabNews) {
+        tabNews.style.background = 'transparent';
+        tabNews.style.color = 'var(--text-secondary)';
+        tabNews.style.border = '1px solid var(--border-color)';
+    }
+    if (tabDatasets) {
+        tabDatasets.style.background = 'transparent';
+        tabDatasets.style.color = 'var(--text-secondary)';
+        tabDatasets.style.border = '1px solid var(--border-color)';
+    }
+    if (tabRisks) {
+        tabRisks.style.background = 'transparent';
+        tabRisks.style.color = 'var(--text-secondary)';
+        tabRisks.style.border = '1px solid var(--border-color)';
     }
 
     if (tabName === 'news') {
         newsGrid.style.display = 'grid';
-        datasetGrid.style.display = 'none';
-
         tabNews.style.background = 'var(--accent)';
         tabNews.style.color = 'var(--bg-primary)';
         tabNews.style.border = 'none';
-
-        tabDatasets.style.background = 'transparent';
-        tabDatasets.style.color = 'var(--text-secondary)';
-        tabDatasets.style.border = '1px solid var(--border-color)';
-    } else {
-        newsGrid.style.display = 'none';
+    } else if (tabName === 'datasets') {
         datasetGrid.style.display = 'grid';
-
         tabDatasets.style.background = '#60a5fa';
         tabDatasets.style.color = '#0f172a';
         tabDatasets.style.border = 'none';
 
-        tabNews.style.background = 'transparent';
-        tabNews.style.color = 'var(--text-secondary)';
-        tabNews.style.border = '1px solid var(--border-color)';
+        if (datasetGrid.children.length === 0) fetchDatasets();
+    } else if (tabName === 'risks') {
+        riskGrid.style.display = 'grid';
+        tabRisks.style.background = '#ef4444';
+        tabRisks.style.color = '#fff';
+        tabRisks.style.border = 'none';
 
-        // Fetch on first load of this tab
-        if (datasetGrid.children.length === 0) {
-            fetchDatasets();
-        }
+        if (riskGrid.children.length === 0) fetchRisks();
     }
 };
 

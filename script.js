@@ -140,38 +140,96 @@ const fetchRisks = async () => {
     }
 };
 
-// Tab Switching
+// Render Hardware cards (NEW)
+const renderHardware = (hardware) => {
+    const hardwareGrid = document.getElementById('hardwareGrid');
+    if (!hardwareGrid) return;
+
+    hardwareGrid.innerHTML = '';
+
+    if (hardware.length === 0) {
+        hardwareGrid.innerHTML = '<div class="loading">No R&D items found.</div>';
+        return;
+    }
+
+    hardware.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'news-card';
+        card.style.borderColor = '#8b5cf6'; // Purple border for Tech
+
+        const cleanSnippet = item.snippet
+            ? item.snippet.replace(/<[^>]*>/g, '').substring(0, 150) + '...'
+            : 'Click to view schematic/research...';
+
+        card.innerHTML = `
+            <div>
+              <div class="news-meta">
+                <span class="news-source" style="color: #8b5cf6;">🦾 ${item.source}</span>
+                <span>${formatTime(item.isoDate)}</span>
+              </div>
+              <div class="news-title">${item.title}</div>
+              <div class="news-snippet">${cleanSnippet}</div>
+            </div>
+            <div class="card-actions" style="display: flex; gap: 0.5rem; margin-top: auto;">
+                <a href="${item.link}" target="_blank" class="read-more" style="flex: 1; background: #8b5cf6; color: #fff;">View Tech ⚙️</a>
+            </div>
+        `;
+
+        hardwareGrid.appendChild(card);
+    });
+};
+
+// Fetch Hardware (NEW)
+const fetchHardware = async () => {
+    const hardwareGrid = document.getElementById('hardwareGrid');
+    try {
+        const response = await fetch('hardware.json');
+        if (!response.ok) throw new Error('Failed to load hardware database');
+
+        const data = await response.json();
+        renderHardware(data.articles);
+
+    } catch (error) {
+        console.error(error);
+        if (hardwareGrid) {
+            hardwareGrid.innerHTML = '<div class="loading">⚠️ Error loading R&D Lab.</div>';
+        }
+    }
+};
+
+// Tab Switching (UPDATED)
 window.switchTab = (tabName) => {
     console.log('Switching to tab:', tabName);
     const newsGrid = document.getElementById('newsGrid');
     const datasetGrid = document.getElementById('datasetGrid');
     const riskGrid = document.getElementById('riskGrid');
+    const hardwareGrid = document.getElementById('hardwareGrid'); // NEW
+
     const tabNews = document.getElementById('tab-news');
     const tabDatasets = document.getElementById('tab-datasets');
     const tabRisks = document.getElementById('tab-risks');
+    const tabHardware = document.getElementById('tab-hardware'); // NEW
 
     // Hide all
     if (newsGrid) newsGrid.style.display = 'none';
     if (datasetGrid) datasetGrid.style.display = 'none';
     if (riskGrid) riskGrid.style.display = 'none';
+    if (hardwareGrid) hardwareGrid.style.display = 'none';
 
     // Reset buttons
-    if (tabNews) {
-        tabNews.style.background = 'transparent';
-        tabNews.style.color = 'var(--text-secondary)';
-        tabNews.style.border = '1px solid var(--border-color)';
-    }
-    if (tabDatasets) {
-        tabDatasets.style.background = 'transparent';
-        tabDatasets.style.color = 'var(--text-secondary)';
-        tabDatasets.style.border = '1px solid var(--border-color)';
-    }
-    if (tabRisks) {
-        tabRisks.style.background = 'transparent';
-        tabRisks.style.color = 'var(--text-secondary)';
-        tabRisks.style.border = '1px solid var(--border-color)';
-    }
+    const resetBtn = (btn) => {
+        if (btn) {
+            btn.style.background = 'transparent';
+            btn.style.color = 'var(--text-secondary)';
+            btn.style.border = '1px solid var(--border-color)';
+        }
+    };
+    resetBtn(tabNews);
+    resetBtn(tabDatasets);
+    resetBtn(tabRisks);
+    resetBtn(tabHardware);
 
+    // Show Selected
     if (tabName === 'news') {
         newsGrid.style.display = 'grid';
         tabNews.style.background = 'var(--accent)';
@@ -182,15 +240,19 @@ window.switchTab = (tabName) => {
         tabDatasets.style.background = '#60a5fa';
         tabDatasets.style.color = '#0f172a';
         tabDatasets.style.border = 'none';
-
         if (datasetGrid.children.length === 0) fetchDatasets();
     } else if (tabName === 'risks') {
         riskGrid.style.display = 'grid';
         tabRisks.style.background = '#ef4444';
         tabRisks.style.color = '#fff';
         tabRisks.style.border = 'none';
-
         if (riskGrid.children.length === 0) fetchRisks();
+    } else if (tabName === 'hardware') {
+        hardwareGrid.style.display = 'grid';
+        tabHardware.style.background = '#8b5cf6'; // Purple
+        tabHardware.style.color = '#fff';
+        tabHardware.style.border = 'none';
+        if (hardwareGrid.children.length === 0) fetchHardware();
     }
 };
 

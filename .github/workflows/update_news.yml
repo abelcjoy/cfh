@@ -29,10 +29,13 @@ jobs:
     - name: Run Risk Radar ⚠️
       run: node scripts/fetch_risks.js
 
+    - name: Run R&D Hardware Spider 🦾
+      run: node scripts/fetch_hardware.js
+
     - name: Commit and Push Changes
       run: |
         git config --global user.name 'WasteBot 🤖'
         git config --global user.email 'bot@wasteintel.com'
-        git add news.json risks.json
+        git add news.json risks.json hardware.json
         git commit -m "Generated new waste intelligence report & risk assessment 📰" || exit 0
         git push

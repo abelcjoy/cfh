@@ -41,6 +41,9 @@
                 <button onclick="switchTab('datasets')" id="tab-datasets" class="read-more"
                     style="cursor: pointer; border: 1px solid var(--border-color); background: transparent; color: var(--text-secondary);">Dataset
                     Vault 💾</button>
+                <button onclick="switchTab('hardware')" id="tab-hardware" class="read-more"
+                    style="cursor: pointer; border: 1px solid var(--border-color); background: transparent; color: var(--text-secondary);">R&D
+                    Lab 🦾</button>
                 <button onclick="switchTab('risks')" id="tab-risks" class="read-more"
                     style="cursor: pointer; border: 1px solid var(--border-color); background: transparent; color: var(--text-secondary);">Risk
                     Radar ⚠️</button>
@@ -57,6 +60,10 @@
 
         <div id="datasetGrid" class="news-grid" style="display: none;">
             <!-- Dataset cards will be injected here by JS -->
+        </div>
+
+        <div id="hardwareGrid" class="news-grid" style="display: none;">
+            <!-- Hardware cards will be injected here by JS -->
         </div>
 
         <div id="riskGrid" class="news-grid" style="display: none;">

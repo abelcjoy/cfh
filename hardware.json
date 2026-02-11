@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-02-11T06:00:27.100Z",
-  "total": 23,
+  "updatedAt": "2026-02-11T06:14:17.295Z",
+  "total": 28,
   "articles": [
+    {
+      "title": "Tactile-reactive gripper with an active palm for dexterous manipulation - Nature",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91YWJTQXQxclozZGozSkJtcER2MktscGJaU1dpZldueXVBQXpmdzJpMUJBbERnY2Uyci1wMXRLeUYtNGlEblRqeVNvZXREQTdwSWhiRXdnMWdXZ0N4cnhZ?oc=5",
+      "date": "Tue, 10 Feb 2026 10:18:08 GMT",
+      "snippet": "Tactile-reactive gripper with an active palm for dexterous manipulation  Nature",
+      "source": "Delta Robot Research (Google News)",
+      "isoDate": "2026-02-10T10:18:08.000Z"
+    },
     {
       "title": "Robot typu DELTA ABB IRb 360 - YouTube",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1iT2J3cUFPZW5qTzhaeWwzQnplWkpPVDluNmhLSURLSy1TeldLaTZrR2J5VG5OM0xOdnpSNFhTNDlzajdaNWRnMFUzNk9abmZRX243dzlB?oc=5",
@@ -11,12 +19,28 @@
       "isoDate": "2026-02-06T09:14:27.000Z"
     },
     {
+      "title": "This week, a supplier of shipyard safety goods and construction parts with annual sales of 10 billio.. - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtVFlSeUJrLUx4Y250Vm81UHhkMVVxd1dxbnphTVpGdFE4bm9OR3BhOTM0d3lfNTctWU5RaDF6djc1NTJkdy1UNEt4VHRPZTg?oc=5",
+      "date": "Mon, 02 Feb 2026 08:28:31 GMT",
+      "snippet": "This week, a supplier of shipyard safety goods and construction parts with annual sales of 10 billio..  매일경제",
+      "source": "Delta Robot Research (Google News)",
+      "isoDate": "2026-02-02T08:28:31.000Z"
+    },
+    {
       "title": "How To Beat Crypto with a Simple, Safe Trade! - YouTube",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aS0VwQXhsVnJCNU8zcGlFbUFYSmpSa1A2aWhKdjZsT3U2OXp3MWxwRWE5R1FlcFc1Y1VTYVVES3R6NXFLRlZMNVlaal9oS3dCYUVmTVFn?oc=5",
       "date": "Sun, 01 Feb 2026 19:06:06 GMT",
       "snippet": "How To Beat Crypto with a Simple, Safe Trade!  YouTube",
       "source": "YouTube - Delta Robot Prototypes & Demos",
       "isoDate": "2026-02-01T19:06:06.000Z"
+    },
+    {
+      "title": "4XRobots expands into US market with focus on greenhouse automation - Robotics & Automation News",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRld5ejB1SEpXbGppdGwyWEF5TWdBZWRCeGlBbEpBSFgwenRJYWpsX2tYMTBfRERaSFhUMWNVVkZnbGQ1NVdfVzZtT2huVE9SbDhYMXM1WVlhSjBPQ2JLLW9ZcGJkcGU4VTVJa0locGsyaGhTbkh0ZlVwUmpmbElRV0ZVTHV3M3FoejZYdkJEMHE5MkgwR1JMX2Z4NldWZWpKRmFDaHF5aUJ2bl9ZLU9lNExqanNrZU10Z1hsYlVBbkY?oc=5",
+      "date": "Sat, 31 Jan 2026 00:07:45 GMT",
+      "snippet": "4XRobots expands into US market with focus on greenhouse automation  Robotics & Automation News",
+      "source": "Delta Robot Research (Google News)",
+      "isoDate": "2026-01-31T00:07:45.000Z"
     },
     {
       "title": "High-Speed Delta Pick-and-Place Robot Sorting and Handling Parts in Industrial Automation System - YouTube",
@@ -33,6 +57,14 @@
       "snippet": "Robotic Top Loading Machines  YouTube",
       "source": "YouTube - Delta Robot Prototypes & Demos",
       "isoDate": "2026-01-29T17:09:08.000Z"
+    },
+    {
+      "title": "Actual test report on the operation data of the servo robot arm of a three-axis injection molding machine. - openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWjgtX1p4TUY5eW9XdGhxUTV4TmN6cHR5MmN3LU8xNVZDcHdiSlh5X3RRcl91cVpjVEFFZ3EzbzBDaVhkMUtMVlF1aDRhekhTUGtGY1VxUkpNSXdtbXQ1Smo3LVV3LTdBa2VUbDQyRWJlOFRFd0VoSkZMV3pIVjBWODdDUVhjci1ZWjJidWdYMjVYWEZMd0otc2RkVFp1ZVNVbS1PRw?oc=5",
+      "date": "Mon, 26 Jan 2026 08:00:00 GMT",
+      "snippet": "Actual test report on the operation data of the servo robot arm of a three-axis injection molding machine.  openPR.com",
+      "source": "Delta Robot Research (Google News)",
+      "isoDate": "2026-01-26T08:00:00.000Z"
     },
     {
       "title": "MOVJ vs MOVL vs MOVC Explained \\ Robot Welding Basics || What is Interpolation in Industrial Robots - YouTube",
@@ -59,12 +91,12 @@
       "isoDate": "2026-01-24T02:29:58.000Z"
     },
     {
-      "title": "Grand Theft Auto V : PS5 Edition.Gameplay - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1HNUtoSGdLbG1hNjJETmFXY29YTDFObmJnb0sxNDhhQzBadWpOX0xUSk1nRDdvcXVyUlRuNnF4TGlEdWhjU0l4cXdfbDhaSWhzQzdNZEdR?oc=5",
-      "date": "Thu, 22 Jan 2026 06:53:35 GMT",
-      "snippet": "Grand Theft Auto V : PS5 Edition.Gameplay  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2026-01-22T06:53:35.000Z"
+      "title": "A detachable crawling robotic hand - Nature",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CbGxXQlZsSlEwTUloV2hVdVRuaW44ZmdST2xCMXlYZU82bVVzSEprWm1UM2ZZR3E4aUN6Z0xmS05rMDlNczRPUGRoUEpWOVJqaGRGWTF0NzBaanpocEFN?oc=5",
+      "date": "Tue, 20 Jan 2026 08:00:00 GMT",
+      "snippet": "A detachable crawling robotic hand  Nature",
+      "source": "Delta Robot Research (Google News)",
+      "isoDate": "2026-01-20T08:00:00.000Z"
     },
     {
       "title": "How To Unlock Chat In Roblox - Full Guide - YouTube",
@@ -81,6 +113,14 @@
       "snippet": "How To Connect & Use Mouse and Keyboard on PS5 (2026 Easy Setup Guide)  YouTube",
       "source": "YouTube - Delta Robot Prototypes & Demos",
       "isoDate": "2026-01-19T17:43:21.000Z"
+    },
+    {
+      "title": "Segway Navimow robot mower pre-orders open, EcoFlow, more - Electrek",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaGRERDJ2aDJ4ZlFRTEdmby1ackoxY2puclVWNnpoYUhxU0xEeU5vT1I1LVN3NGNpYndxLVl3SEFxckZUWlVPZFpBSWE1dkdOWnZRVGViNzMzWVdSVnNZaDJ6MjlEdkRRV05uLW1pQnJLMmpXVEZZQjgyRzBIeXNXNk9FZFRwYTZITFVYYmxnMXRoWGtmd0x3?oc=5",
+      "date": "Mon, 19 Jan 2026 08:00:00 GMT",
+      "snippet": "Segway Navimow robot mower pre-orders open, EcoFlow, more  Electrek",
+      "source": "Delta Robot Research (Google News)",
+      "isoDate": "2026-01-19T08:00:00.000Z"
     },
     {
       "title": "ATOMROBOT - YouTube",
@@ -119,7 +159,7 @@
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XdlpaX0VNZDVVMU96YmFOQ0ZoT0Y0amdtb1pvNzdYcm9QWEk5VUF0Q2Q5dlBHaTY2aC16R1F5VWxBU215T1JwbnFXTDdNUzNMWmszc2I5dFlpeDZwY0o4?oc=5",
       "date": "Mon, 12 Jan 2026 08:00:00 GMT",
       "snippet": "The DroneHub: a multi-environment testbed for sustainability robotics  Nature",
-      "source": "Delta Robot Research",
+      "source": "Delta Robot Research (Google News)",
       "isoDate": "2026-01-12T08:00:00.000Z"
     },
     {

@@ -25,11 +25,19 @@ const FEEDS = [
         url: 'https://www.waste360.com/rss.xml'
     },
     {
-        name: 'Google News - Waste Tech',
+        name: 'Google News - Waste Tech (Global)',
         url: 'https://news.google.com/rss/search?q=waste+management+technology+when:7d&hl=en-US&gl=US&ceid=US:en'
     },
     {
-        name: 'Recycling Today',
+        name: 'Google News - Waste Tech (INDIA)',
+        url: 'https://news.google.com/rss/search?q=(waste+management+india+OR+swachh+bharat+OR+cpcb+OR+epr+credits)+when:7d&hl=en-IN&gl=IN&ceid=IN:en'
+    },
+    {
+        name: 'Down To Earth (Policy)',
+        url: 'https://www.downtoearth.org.in/rss/waste'
+    },
+    {
+        name: 'Recycling Today (Global)',
         url: 'https://www.recyclingtoday.com/rss'
     }
 ];

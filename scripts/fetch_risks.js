@@ -20,6 +20,14 @@ const RISK_FEEDS = [
     {
         name: 'Regulatory Crackdowns',
         url: 'https://news.google.com/rss/search?q=waste+permit+revoked+OR+illegal+dumping+charges+when:30d&hl=en-US&gl=US&ceid=US:en'
+    },
+    {
+        name: 'India - NGT & Pollution Board Actions',
+        url: 'https://news.google.com/rss/search?q=(national+green+tribunal+OR+pollution+control+board+notice+OR+cpcb+penalty)+when:30d&hl=en-IN&gl=IN&ceid=IN:en'
+    },
+    {
+        name: 'India - Municipal Crackdowns',
+        url: 'https://news.google.com/rss/search?q=(municipal+corporation+fine+OR+waste+dumping+penalty+india)+when:30d&hl=en-IN&gl=IN&ceid=IN:en'
     }
 ];
 

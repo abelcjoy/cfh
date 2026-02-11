@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-02-11T06:57:33.195Z",
-  "total": 21,
+  "updatedAt": "2026-02-11T13:02:58.764Z",
+  "total": 22,
   "articles": [
     {
       "title": "Robot typu DELTA ABB IRb 360 - YouTube",
@@ -35,6 +35,14 @@
       "isoDate": "2026-01-29T17:09:08.000Z"
     },
     {
+      "title": "MOVJ vs MOVL vs MOVC Explained \\ Robot Welding Basics || What is Interpolation in Industrial Robots - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mdWNOQW55aWVEa01zYUVUWmxwQzJoQXBzcWdqdnhyaDlUMVdXdV9JN1JZS0IzUnFuSUdNb0wtMjZESy16SW0ybGlGdnhYWTRCcVVOSVB3?oc=5",
+      "date": "Sun, 25 Jan 2026 15:32:09 GMT",
+      "snippet": "MOVJ vs MOVL vs MOVC Explained \\ Robot Welding Basics || What is Interpolation in Industrial Robots  YouTube",
+      "source": "YouTube - Delta Robot Prototypes & Demos",
+      "isoDate": "2026-01-25T15:32:09.000Z"
+    },
+    {
       "title": "CoreBotix Learning - YouTube",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfSExuYnJmRFlGSnM3LURra3NnY1ZBS0NaZTJrUk9JX1htdUtqamdnY1p1Y1BrZEtmVFVlQzQtUFdURHhyRUVYeXdTU3pGdWNzYk1QQ25FcnJkbFdCMDVweHprd3N4b2s?oc=5",
       "date": "Sat, 24 Jan 2026 14:15:21 GMT",
@@ -65,14 +73,6 @@
       "snippet": "How To Unlock Chat In Roblox - Full Guide  YouTube",
       "source": "YouTube - Delta Robot Prototypes & Demos",
       "isoDate": "2026-01-19T17:54:09.000Z"
-    },
-    {
-      "title": "How To Connect & Use Mouse and Keyboard on PS5 (2026 Easy Setup Guide) - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oWXBsb0FFZ3BfQW5sYjdmbHA2bmd5RzhLekYyT01waDBfdkRxVkN0ZlpmQ0U0ZFZTdS1UejVVMjJXVGVadlJsdVFudXN4ZlhoQk54TTZ3?oc=5",
-      "date": "Mon, 19 Jan 2026 17:43:21 GMT",
-      "snippet": "How To Connect & Use Mouse and Keyboard on PS5 (2026 Easy Setup Guide)  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2026-01-19T17:43:21.000Z"
     },
     {
       "title": "ATOMROBOT - YouTube",
@@ -107,14 +107,6 @@
       "isoDate": "2026-01-12T22:13:22.000Z"
     },
     {
-      "title": "The DroneHub: a multi-environment testbed for sustainability robotics - Nature",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XdlpaX0VNZDVVMU96YmFOQ0ZoT0Y0amdtb1pvNzdYcm9QWEk5VUF0Q2Q5dlBHaTY2aC16R1F5VWxBU215T1JwbnFXTDdNUzNMWmszc2I5dFlpeDZwY0o4?oc=5",
-      "date": "Mon, 12 Jan 2026 08:00:00 GMT",
-      "snippet": "The DroneHub: a multi-environment testbed for sustainability robotics  Nature",
-      "source": "Delta Robot Research",
-      "isoDate": "2026-01-12T08:00:00.000Z"
-    },
-    {
       "title": "Morfotech id - YouTube",
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5yRHFoU2MxajRrcWJGaEJtX3E3VEpia1V4Z2ZVU3BaWkowYW53c09Qa3ktV3BsQXRkMHpUOXhmdzFXREY1U21IcjFoM3g?oc=5",
       "date": "Fri, 11 Aug 2023 12:30:10 GMT",
@@ -123,12 +115,28 @@
       "isoDate": "2023-08-11T12:30:10.000Z"
     },
     {
+      "title": "INSIGHTS IAS - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9VTXJWNFE2Q3AtUk1iUHdYcFN5U2ZvdEhaSTFjRXNVNjJ2cV9RTmxlRkhZZjFOUWFORDlYWm40emUxVkZXa0pGVTMxNk5EQQ?oc=5",
+      "date": "Fri, 18 Nov 2022 00:23:29 GMT",
+      "snippet": "INSIGHTS IAS  YouTube",
+      "source": "YouTube - Delta Robot Prototypes & Demos",
+      "isoDate": "2022-11-18T00:23:29.000Z"
+    },
+    {
       "title": "CoSM - YouTube",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE13czBzT2haTUZoWGpxTzlEY1JraXIxaF81Z1FJTGtVZGplWVJ3RGdiZjlCU0dxaEsyYmdOamdrZDFQU2REZGxCRktGOA?oc=5",
       "date": "Sat, 12 Nov 2022 19:20:04 GMT",
       "snippet": "CoSM  YouTube",
       "source": "YouTube - Delta Robot Prototypes & Demos",
       "isoDate": "2022-11-12T19:20:04.000Z"
+    },
+    {
+      "title": "Michigan Collaborative for Type 2 Diabetes - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZalFvRWRRZVUyVkU5bktITHpLYXhZRGQ5eWxIUFI0UVBlWkxWaWVfNEo2MHU2NFNJMHZIbUQtOEpzakRmSzNXWDVsTmh1bUlFNmg3a2JZSHlOLWp4OUJrQU9KYXVnSDg?oc=5",
+      "date": "Tue, 13 Apr 2021 14:40:24 GMT",
+      "snippet": "Michigan Collaborative for Type 2 Diabetes  YouTube",
+      "source": "YouTube - Delta Robot Prototypes & Demos",
+      "isoDate": "2021-04-13T14:40:24.000Z"
     },
     {
       "title": "eduphoria! - YouTube",

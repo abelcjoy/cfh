@@ -20,6 +20,10 @@ const HARDWARE_FEEDS = [
     {
         name: 'IEEE Robotics (Hardware)',
         url: 'https://spectrum.ieee.org/feeds/topic/robotics'
+    },
+    {
+        name: 'YouTube - Delta Robot Prototypes & Demos',
+        url: 'https://news.google.com/rss/search?q=site:youtube.com+(delta+robot+OR+parallel+manipulator+OR+high+speed+pick+and+place)+when:30d&hl=en-US&gl=US&ceid=US:en'
     }
 ];
 

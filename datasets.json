@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-10T04:12:24.411Z",
+  "updatedAt": "2026-02-11T02:00:02.014Z",
   "totalDatasets": 25,
   "datasets": [
     {
@@ -56,7 +56,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2025",
-      "description": "Official HuggingFace Dataset. Downloads: 2723"
+      "description": "Official HuggingFace Dataset. Downloads: 2794"
     },
     {
       "title": "indoor-waste-detection-merged",
@@ -80,7 +80,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2024",
-      "description": "Official HuggingFace Dataset. Downloads: 330"
+      "description": "Official HuggingFace Dataset. Downloads: 341"
     },
     {
       "title": "GreenLabel-Waste-Types",
@@ -88,7 +88,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2023",
-      "description": "Official HuggingFace Dataset. Downloads: 303"
+      "description": "Official HuggingFace Dataset. Downloads: 304"
     },
     {
       "title": "waste-garbage-management-dataset",
@@ -96,7 +96,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2025",
-      "description": "Official HuggingFace Dataset. Downloads: 227"
+      "description": "Official HuggingFace Dataset. Downloads: 237"
     },
     {
       "title": "WasteWise",
@@ -128,7 +128,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2023",
-      "description": "Official HuggingFace Dataset. Downloads: 102"
+      "description": "Official HuggingFace Dataset. Downloads: 100"
     },
     {
       "title": "augmented_waste_classification",
@@ -136,7 +136,15 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2024",
-      "description": "Official HuggingFace Dataset. Downloads: 94"
+      "description": "Official HuggingFace Dataset. Downloads: 96"
+    },
+    {
+      "title": "waste_detection",
+      "url": "https://huggingface.co/datasets/moondream/waste_detection",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2025",
+      "description": "Official HuggingFace Dataset. Downloads: 71"
     },
     {
       "title": "TACO-Waste-Recognition",
@@ -144,7 +152,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2023",
-      "description": "Official HuggingFace Dataset. Downloads: 64"
+      "description": "Official HuggingFace Dataset. Downloads: 63"
     },
     {
       "title": "collect_waste",
@@ -155,12 +163,12 @@
       "description": "Official HuggingFace Dataset. Downloads: 58"
     },
     {
-      "title": "waste_detection",
-      "url": "https://huggingface.co/datasets/moondream/waste_detection",
+      "title": "WasteBench-Dataset",
+      "url": "https://huggingface.co/datasets/aliman8/WasteBench-Dataset",
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2025",
-      "description": "Official HuggingFace Dataset. Downloads: 49"
+      "description": "Official HuggingFace Dataset. Downloads: 52"
     },
     {
       "title": "task_485_Pick_up_the_waste_paper_on_the_table_and_throw_it_into_the_shredder_for_destruction",
@@ -176,15 +184,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2024",
-      "description": "Official HuggingFace Dataset. Downloads: 39"
-    },
-    {
-      "title": "WasteBench-Dataset",
-      "url": "https://huggingface.co/datasets/aliman8/WasteBench-Dataset",
-      "source": "HuggingFace",
-      "images": "Unknown",
-      "updated": "2025",
-      "description": "Official HuggingFace Dataset. Downloads: 38"
+      "description": "Official HuggingFace Dataset. Downloads: 40"
     },
     {
       "title": "waste-containers-garbage-filling-level-dataset",
@@ -192,7 +192,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2025",
-      "description": "Official HuggingFace Dataset. Downloads: 33"
+      "description": "Official HuggingFace Dataset. Downloads: 35"
     },
     {
       "title": "food_waste_dataset",
@@ -200,7 +200,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2025",
-      "description": "Official HuggingFace Dataset. Downloads: 29"
+      "description": "Official HuggingFace Dataset. Downloads: 33"
     }
   ]
 }

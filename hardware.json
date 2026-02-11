@@ -1,230 +1,254 @@
 {
-  "updatedAt": "2026-02-11T06:14:17.295Z",
-  "total": 28,
+  "updatedAt": "2026-02-11T06:18:43.889Z",
+  "total": 31,
   "articles": [
     {
-      "title": "Tactile-reactive gripper with an active palm for dexterous manipulation - Nature",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91YWJTQXQxclozZGozSkJtcER2MktscGJaU1dpZldueXVBQXpmdzJpMUJBbERnY2Uyci1wMXRLeUYtNGlEblRqeVNvZXREQTdwSWhiRXdnMWdXZ0N4cnhZ?oc=5",
-      "date": "Tue, 10 Feb 2026 10:18:08 GMT",
-      "snippet": "Tactile-reactive gripper with an active palm for dexterous manipulation  Nature",
-      "source": "Delta Robot Research (Google News)",
-      "isoDate": "2026-02-10T10:18:08.000Z"
+      "title": "Beyond gardens: Why global tech giants are flocking to Suzhou, China - news.cgtn.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVXUxMGhlU1FOTUxobjU2ZHRpMTB2bGVFb292XzNCUWU1RmlOLTZYeEp3MzhPUmVsSl9naWdvRm52WVpjYVM3amVBcElBc2dCUlgxS1FUWjFYWkpESlBtX3NKUG1CMWhJdmRQY1ZEck1qYlVjNHhSV01fMkhZRVc3RktUcDFmUWYtUFY1UDlsTkRVS0FiMzJzcmI0ZFpmX1V3ei1sZFowS1RsNUl3R2psMUF1RERxZmhoQ3M2QnRSajg?oc=5",
+      "date": "Tue, 10 Feb 2026 08:00:26 GMT",
+      "snippet": "Beyond gardens: Why global tech giants are flocking to Suzhou, China  news.cgtn.com",
+      "source": "Delta Robot Research (Google)",
+      "isoDate": "2026-02-10T08:00:26.000Z"
     },
     {
-      "title": "Robot typu DELTA ABB IRb 360 - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1iT2J3cUFPZW5qTzhaeWwzQnplWkpPVDluNmhLSURLSy1TeldLaTZrR2J5VG5OM0xOdnpSNFhTNDlzajdaNWRnMFUzNk9abmZRX243dzlB?oc=5",
-      "date": "Fri, 06 Feb 2026 09:14:27 GMT",
-      "snippet": "Robot typu DELTA ABB IRb 360  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2026-02-06T09:14:27.000Z"
+      "title": "Buying a car? Go to a 4S shop. Buying a robot? The answer is: Suzhou! - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SQm1rNHVUQ2ZMc2J1SzNCU085RENJNzd5bTRjVkNvVzlBY1Y4RjhmUUx0VGtEV2xkbkN2VUU3ck50ajEtVkttdWxBT0JFNW1yYm8teA?oc=5",
+      "date": "Mon, 09 Feb 2026 14:16:40 GMT",
+      "snippet": "Buying a car? Go to a 4S shop. Buying a robot? The answer is: Suzhou!  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-02-09T14:16:40.000Z"
+    },
+    {
+      "title": "Buying a car? Go to a 4S shop. Buying a robot? The answer is: Suzhou! - news.cgtn.com",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMzVTMVNOMmVnY1B6dGtWSG9NR2RNZjRyelh4bDdwT2NjNTQ4NV91UWg4QWR6RHBjbTJMUklRNjFMX09Xa3JLV0pLcUdoS2dlQUsyOUcxSV9GSXNUazFsbGRKU0liQUJ1VktaVE1CZHU5ZWxQWnpRRkFhQXd4cmZsY1hraWx2MXJhMnozN3h5aHRtN0xBRFJkQnhUSWlCYWJIanpxSHlXODZ4YldnV19lYkhaWW9pZ0pwNzhJS0VQY0JnM3F6cE9IWjRn?oc=5",
+      "date": "Mon, 09 Feb 2026 14:01:03 GMT",
+      "snippet": "Buying a car? Go to a 4S shop. Buying a robot? The answer is: Suzhou!  news.cgtn.com",
+      "source": "Delta Robot Research (Google)",
+      "isoDate": "2026-02-09T14:01:03.000Z"
+    },
+    {
+      "title": "Delta Robot Sausage Sorting & Tray Loading - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43d1RuSjJKdkI2enVkWDN5eDl6bzJTZG1tMUVKMHkwZXlra041OGZTWUNSazNUVmtRbWxtR2hrVXNsMV81VTFMdHV5UDBMZUxIcjJGNg?oc=5",
+      "date": "Mon, 09 Feb 2026 02:27:39 GMT",
+      "snippet": "Delta Robot Sausage Sorting & Tray Loading  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-02-09T02:27:39.000Z"
+    },
+    {
+      "title": "DELTA robot automation #video @#raushan_automation - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZNXlsY0tsamR6eXVHcG5SUEJ4VFdxSlZ4eHk1U19Jb0dlVzQxWktyS3BURFVfT1poZkJ4V1lpQ1BPbXRXTHFKM0pOUXVSMGN3RGkxTA?oc=5",
+      "date": "Sun, 08 Feb 2026 17:03:14 GMT",
+      "snippet": "DELTA robot automation #video @#raushan_automation  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-02-08T17:03:14.000Z"
+    },
+    {
+      "title": "Delta Robot Case Packer Cuts Food Production Costs by 30% - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VNWtBamxxbXZhN3JJdnVXMkM4TW1MWjhnMWNKalRSNk5xOTBVckhJVC10ZFRRZU9udWpLcDJ5ZGVsclU2QmlQODNuTE5OWWtiMG1zMDR3?oc=5",
+      "date": "Fri, 06 Feb 2026 12:07:50 GMT",
+      "snippet": "Delta Robot Case Packer Cuts Food Production Costs by 30%  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-02-06T12:07:50.000Z"
+    },
+    {
+      "title": "Packaging Automation Solution Market is expected to reach US$ - openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaHBLbURxaWhOM2RCT3pmazJmNV9jTWMwd0ZGMjhIeVloTzNNNXFNaVg2d1VlLTNOTjN0YllpM0c2REtCZGV4WlFOS2tOZWs3OFNTOE5xRW5rNEN0V0w1dHF5eE5FRk0weTJ4OU45Zk05YUtCT3ZyNU82VTh2cm1YaUpFVXlqNDJwdkd4Y05EQnRpeVZqRjJwRS1WdVU?oc=5",
+      "date": "Fri, 06 Feb 2026 11:41:35 GMT",
+      "snippet": "Packaging Automation Solution Market is expected to reach US$  openPR.com",
+      "source": "Delta Robot Research (Google)",
+      "isoDate": "2026-02-06T11:41:35.000Z"
+    },
+    {
+      "title": "Smart Automation for Ice Pop Packing - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aaGpFdDFOTmE5djNaMUduNFJWcExyenh6UlI5dld2Yl9KbG1SbjBrS3JFZklOd1Z1MVRuQ0tJR2RGa3FGVkIyYUo3OTY4cEUtM2dVTE5B?oc=5",
+      "date": "Fri, 06 Feb 2026 05:49:28 GMT",
+      "snippet": "Smart Automation for Ice Pop Packing  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-02-06T05:49:28.000Z"
+    },
+    {
+      "title": "Delta Robot Simulation & Control in MATLAB | PD + Feedforward | RK4 Dynamics - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05bmdlT3NpOXRjakRkUGd4Wng0NDNteXMwMHAxVFBsOGVPeTZEUFNJdXF1NE9RYjZrQnlnaUF6MmpnR1ZXdHF3YU1hX2JfUTI5bHJKV2V3?oc=5",
+      "date": "Thu, 05 Feb 2026 19:04:36 GMT",
+      "snippet": "Delta Robot Simulation & Control in MATLAB | PD + Feedforward | RK4 Dynamics  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-02-05T19:04:36.000Z"
+    },
+    {
+      "title": "Fast delta robot at MD&M West 2026 #mdmwest - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9md0ZkLVlTUEZIbzROX1MxcXgyclF0UUNrcURUdFVOblpmVEJhQi10aWJKWUpZVW5BbTlEVUFTRDZsS3FRUld5OGdQVThlQkp2bEpJTw?oc=5",
+      "date": "Thu, 05 Feb 2026 15:00:58 GMT",
+      "snippet": "Fast delta robot at MD&M West 2026 #mdmwest  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-02-05T15:00:58.000Z"
+    },
+    {
+      "title": "UNDERSTANDING DIFFERENT ROBOT CONFIGURATIONS– Explained by IRDM Students | ATC Hanumakonda - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZYW84UHc2d19sbmJaMU5PaHhhbHhjMUtUZDFmQmlMTWtYem9BSlhXVTVndjY5QllWc1VDbGwweURpaXMtRkRsMHpRWG1OYUMwcE9XMkdB?oc=5",
+      "date": "Thu, 05 Feb 2026 10:17:38 GMT",
+      "snippet": "UNDERSTANDING DIFFERENT ROBOT CONFIGURATIONS– Explained by IRDM Students | ATC Hanumakonda  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-02-05T10:17:38.000Z"
+    },
+    {
+      "title": "Soft gripper + Delta robot + vision recognition? - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9QNXhsa3lBTVVpMGRoQVgwbEJxV2Z4Q21qZTFuS3g5QVJEdEhLZmhGTEIyN3ZRN1NuS3FXcW9ZZEkyckx2TG9fQ0FEbHE1cl9zX1RaRg?oc=5",
+      "date": "Wed, 04 Feb 2026 05:11:29 GMT",
+      "snippet": "Soft gripper + Delta robot + vision recognition?  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-02-04T05:11:29.000Z"
+    },
+    {
+      "title": "Delta Robot for InjectionMolding Industry‌ - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tS0FFR0gxNU4wbHVSVkdsa1c5ejFObHpKX3d6SmVOWDhLNnVRc2NHNzRiNVJHZWxOMFBtTHBwdEhHV2R4aEl4Ny1NekZEYnROaTlseg?oc=5",
+      "date": "Tue, 03 Feb 2026 09:29:16 GMT",
+      "snippet": "Delta Robot for InjectionMolding Industry‌  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-02-03T09:29:16.000Z"
+    },
+    {
+      "title": "Delta Robotic pick-and-place System #delta #delta robot - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hdkt5RXpTeXRJc2lGbS1pRjB4VThWNjFGTWUyemJqbV93T21SQVFiMUk1aHA2czA4bjY0U3B3UnNET0dzbzRlLTlWSnJGYTNpMFktTg?oc=5",
+      "date": "Tue, 03 Feb 2026 09:03:11 GMT",
+      "snippet": "Delta Robotic pick-and-place System #delta #delta robot  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-02-03T09:03:11.000Z"
     },
     {
       "title": "This week, a supplier of shipyard safety goods and construction parts with annual sales of 10 billio.. - 매일경제",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtVFlSeUJrLUx4Y250Vm81UHhkMVVxd1dxbnphTVpGdFE4bm9OR3BhOTM0d3lfNTctWU5RaDF6djc1NTJkdy1UNEt4VHRPZTg?oc=5",
       "date": "Mon, 02 Feb 2026 08:28:31 GMT",
       "snippet": "This week, a supplier of shipyard safety goods and construction parts with annual sales of 10 billio..  매일경제",
-      "source": "Delta Robot Research (Google News)",
+      "source": "Delta Robot Research (Google)",
       "isoDate": "2026-02-02T08:28:31.000Z"
     },
     {
-      "title": "How To Beat Crypto with a Simple, Safe Trade! - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aS0VwQXhsVnJCNU8zcGlFbUFYSmpSa1A2aWhKdjZsT3U2OXp3MWxwRWE5R1FlcFc1Y1VTYVVES3R6NXFLRlZMNVlaal9oS3dCYUVmTVFn?oc=5",
-      "date": "Sun, 01 Feb 2026 19:06:06 GMT",
-      "snippet": "How To Beat Crypto with a Simple, Safe Trade!  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2026-02-01T19:06:06.000Z"
+      "title": "#DeltaRobot for #InjectionMolding Industry‌ - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE00NGdwWkw2Q2lmakFIRGpoYVA4RDUzVzh6TFdzeHFSNGdfaTBVS3RETEdjdklSTGlmM2FmaEhIaHZjUkw0elZTRHdxaVFDa2psVkpYSg?oc=5",
+      "date": "Mon, 02 Feb 2026 01:25:47 GMT",
+      "snippet": "#DeltaRobot for #InjectionMolding Industry‌  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-02-02T01:25:47.000Z"
+    },
+    {
+      "title": "ECOMG RSD Delta robot for pet bottles sorting - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93ejVkSWRheVQ5YkZhYlYyWDNtRklISnpPSEd6T1VPU0NJOHpWaXg0ZUdXVmFSa2JycnMwQVdGNHRFSnRpajFsbVVsY3ZhSnc0ZnpfUg?oc=5",
+      "date": "Sat, 31 Jan 2026 19:52:23 GMT",
+      "snippet": "ECOMG RSD Delta robot for pet bottles sorting  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-01-31T19:52:23.000Z"
+    },
+    {
+      "title": "Video demonstrating the Delta robot's operation with PID. - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WdjhUN1NFaTE0U0ZnM2xZMGlEXzkzYmRiN3cxQ25Ea3pudXFxLXNuUC1OTHlTaENsOXBvQzNXcE1hWEIxbi1zbi1HMTViM1RVWDU3cQ?oc=5",
+      "date": "Sat, 31 Jan 2026 17:15:25 GMT",
+      "snippet": "Video demonstrating the Delta robot's operation with PID.  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-01-31T17:15:25.000Z"
+    },
+    {
+      "title": "This video illustrates the operation of a Delta robot without a PID controller. - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5wUHR3VFRDcEtQTEFlMHdsNXZ0ZG1DRjdrejVOUkloVXEtWXY3R1JzbWI4T2l4TzdkbUF5Tmh6d0duUUxmS0gtTWxDa3NuLVgzcnNubA?oc=5",
+      "date": "Sat, 31 Jan 2026 16:55:29 GMT",
+      "snippet": "This video illustrates the operation of a Delta robot without a PID controller.  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-01-31T16:55:29.000Z"
     },
     {
       "title": "4XRobots expands into US market with focus on greenhouse automation - Robotics & Automation News",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRld5ejB1SEpXbGppdGwyWEF5TWdBZWRCeGlBbEpBSFgwenRJYWpsX2tYMTBfRERaSFhUMWNVVkZnbGQ1NVdfVzZtT2huVE9SbDhYMXM1WVlhSjBPQ2JLLW9ZcGJkcGU4VTVJa0locGsyaGhTbkh0ZlVwUmpmbElRV0ZVTHV3M3FoejZYdkJEMHE5MkgwR1JMX2Z4NldWZWpKRmFDaHF5aUJ2bl9ZLU9lNExqanNrZU10Z1hsYlVBbkY?oc=5",
       "date": "Sat, 31 Jan 2026 00:07:45 GMT",
       "snippet": "4XRobots expands into US market with focus on greenhouse automation  Robotics & Automation News",
-      "source": "Delta Robot Research (Google News)",
+      "source": "Delta Robot Research (Google)",
       "isoDate": "2026-01-31T00:07:45.000Z"
+    },
+    {
+      "title": "Single-Head Delta Robot Case Packer | High-Speed Automated Packaging - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9idXpxTkVvZEh2aFpzR0NaSVowRFlZNEljTHVrckFIQTFvQWJiSGZ0Tzk1aVJlcTJxdV9kQnBqMjREaTlmek5QOTZQODF2blRLUnFpQmx3?oc=5",
+      "date": "Fri, 30 Jan 2026 09:42:26 GMT",
+      "snippet": "Single-Head Delta Robot Case Packer | High-Speed Automated Packaging  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-01-30T09:42:26.000Z"
     },
     {
       "title": "High-Speed Delta Pick-and-Place Robot Sorting and Handling Parts in Industrial Automation System - YouTube",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Ja1JwOGpBc0NWOVg5dUlCbWJvTGxpY3ZsRnZuUVNBbWZjNWphQXBMbU9TempJYWE3bnZSQUpxVWRybHRLVmFHRnVPUGdGSGx3cGtQbQ?oc=5",
       "date": "Thu, 29 Jan 2026 17:45:33 GMT",
       "snippet": "High-Speed Delta Pick-and-Place Robot Sorting and Handling Parts in Industrial Automation System  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
+      "source": "YouTube - Delta Robot Demos",
       "isoDate": "2026-01-29T17:45:33.000Z"
     },
     {
-      "title": "Robotic Top Loading Machines - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ZaVFoVzNtMjU2U1JPWHZpQUVTdDlyQVRSVlJMeHM2aU0xcm9wbWhCLWRRVmpzbGh0TU5pVk8xWl9IdXNlYUdYWHZqUl9xX0stU0hfUE9jMllSMFJFN1l5TUhmWGRKWmM2bURicHZpakVnTXA1UDZlSmpZNjI?oc=5",
-      "date": "Thu, 29 Jan 2026 17:09:08 GMT",
-      "snippet": "Robotic Top Loading Machines  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2026-01-29T17:09:08.000Z"
+      "title": "EP.2: 💻การติดตั้ง PLC WECON A500 + ทดสอบสัญญาณ Analog (AE30-4AD / AE30-4DA) - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Lal9oY21sbUpGZWtyMEN3cUZ1bEJiQ2NJbHhwZDZhUmJlXzZ3UEpxZmJaSUduZDg0ZlgwMEVmYU1rX1cyV1pUbnI5dFNfbUpEZFYtcW9R?oc=5",
+      "date": "Wed, 28 Jan 2026 07:00:21 GMT",
+      "snippet": "EP.2: 💻การติดตั้ง PLC WECON A500 + ทดสอบสัญญาณ Analog (AE30-4AD / AE30-4DA)  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-01-28T07:00:21.000Z"
     },
     {
-      "title": "Actual test report on the operation data of the servo robot arm of a three-axis injection molding machine. - openPR.com",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWjgtX1p4TUY5eW9XdGhxUTV4TmN6cHR5MmN3LU8xNVZDcHdiSlh5X3RRcl91cVpjVEFFZ3EzbzBDaVhkMUtMVlF1aDRhekhTUGtGY1VxUkpNSXdtbXQ1Smo3LVV3LTdBa2VUbDQyRWJlOFRFd0VoSkZMV3pIVjBWODdDUVhjci1ZWjJidWdYMjVYWEZMd0otc2RkVFp1ZVNVbS1PRw?oc=5",
-      "date": "Mon, 26 Jan 2026 08:00:00 GMT",
-      "snippet": "Actual test report on the operation data of the servo robot arm of a three-axis injection molding machine.  openPR.com",
-      "source": "Delta Robot Research (Google News)",
-      "isoDate": "2026-01-26T08:00:00.000Z"
+      "title": "🎇 Customized Automatic Chocolate Bar Cartoning Line Solution. - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBORGhSUnRwN1d1QlhoTHJidklfdnItcEg3T3IwVVdRY1dyUE9UdFdaU3hoQTJwTk5QTEs2YVBIM1otbndmNnlNMzB0TzFFem9GZGNaaUNR?oc=5",
+      "date": "Wed, 28 Jan 2026 06:41:38 GMT",
+      "snippet": "🎇 Customized Automatic Chocolate Bar Cartoning Line Solution.  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-01-28T06:41:38.000Z"
     },
     {
-      "title": "MOVJ vs MOVL vs MOVC Explained \\ Robot Welding Basics || What is Interpolation in Industrial Robots - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mdWNOQW55aWVEa01zYUVUWmxwQzJoQXBzcWdqdnhyaDlUMVdXdV9JN1JZS0IzUnFuSUdNb0wtMjZESy16SW0ybGlGdnhYWTRCcVVOSVB3?oc=5",
-      "date": "Sun, 25 Jan 2026 15:32:09 GMT",
-      "snippet": "MOVJ vs MOVL vs MOVC Explained \\ Robot Welding Basics || What is Interpolation in Industrial Robots  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2026-01-25T15:32:09.000Z"
+      "title": "4XROBOTS Prepares for Greenhouse Automation Expansion in the U.S. - Greenhouse Grower",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ2Yyc0FqRUZyUDZRbV9fb2xjWTlYcy1EYXZiNTE4RnZkcXJaSmxEYzNMMUlLN2ZPLXlPZ0ZZZk5kTWw3QllkaG84Q1NXVnc1alJhM1BfclpVdGFLNi1DcTc4Wi1tOTlEQ2poaEg2VE9LSGdIQW9idVI3RFZkYno1bUF1d1QtU2ZCSzJmSHJCbXhFdkk4N1RCNmNEXy02dmRjNlhIQjBobXdwbW9lTlHSAbMBQVVfeXFMT3FxYmJOSGdlWUhrZGhvWDhoc0MzMGtabk50bkY1blBZTExiWHF4MDFHdTBjZVcwdkJ4WkJ2YlNmRFZYX0Nod0czSi1EWDFkZ2VRSUJEdFVwNkpnMG05d3lpVFpuT3pEQlhOVXZlT3NsX3JIaEt1Qm1ncjhnblAycVZOZHVvVk1FVmpYOTFoTUZHTzQ3MW9pZGMxZlNZaVBaeGNSRm9OaldEZjBlLXJldmJGbWs?oc=5",
+      "date": "Mon, 26 Jan 2026 20:02:51 GMT",
+      "snippet": "4XROBOTS Prepares for Greenhouse Automation Expansion in the U.S.  Greenhouse Grower",
+      "source": "Delta Robot Research (Google)",
+      "isoDate": "2026-01-26T20:02:51.000Z"
     },
     {
       "title": "CoreBotix Learning - YouTube",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfSExuYnJmRFlGSnM3LURra3NnY1ZBS0NaZTJrUk9JX1htdUtqamdnY1p1Y1BrZEtmVFVlQzQtUFdURHhyRUVYeXdTU3pGdWNzYk1QQ25FcnJkbFdCMDVweHprd3N4b2s?oc=5",
       "date": "Sat, 24 Jan 2026 14:15:21 GMT",
       "snippet": "CoreBotix Learning  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
+      "source": "YouTube - Delta Robot Demos",
       "isoDate": "2026-01-24T14:15:21.000Z"
     },
     {
-      "title": "Testing EVERY HIDDEN SECRET in Escape Tsunami for Brainrots! - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wbDgySUlJSFg3b0JnVDhLTER0T0hMNTI4Rkxza1pBQjc0UU83OEUwdDNtb2thcjJ0TnNmWHdqNHZGQ1N2OUpzbHVrYVZkaWwyMjlZcWt3?oc=5",
-      "date": "Sat, 24 Jan 2026 02:29:58 GMT",
-      "snippet": "Testing EVERY HIDDEN SECRET in Escape Tsunami for Brainrots!  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2026-01-24T02:29:58.000Z"
+      "title": "Delta Robot Cartoning | High Speed Automation - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Mcm9OUEtNdWd6N0xURXpiMXhIZWFYUzlWc05tcHk3SGc0MjQxX2lfSzgxWTZ0UDZ2WHEycmJ5RzMxZWZQX0FtTlhqUkNqZl9pb3hiNw?oc=5",
+      "date": "Fri, 23 Jan 2026 08:21:59 GMT",
+      "snippet": "Delta Robot Cartoning | High Speed Automation  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-01-23T08:21:59.000Z"
     },
     {
-      "title": "A detachable crawling robotic hand - Nature",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CbGxXQlZsSlEwTUloV2hVdVRuaW44ZmdST2xCMXlYZU82bVVzSEprWm1UM2ZZR3E4aUN6Z0xmS05rMDlNczRPUGRoUEpWOVJqaGRGWTF0NzBaanpocEFN?oc=5",
-      "date": "Tue, 20 Jan 2026 08:00:00 GMT",
-      "snippet": "A detachable crawling robotic hand  Nature",
-      "source": "Delta Robot Research (Google News)",
-      "isoDate": "2026-01-20T08:00:00.000Z"
+      "title": "Ignition Process in Engine 🔥 3D Animation Explained! - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpbENlWHBxMHp2UU1aVlU3Z2RHc3htd2R6dm1UX3M0ZHE4WHNtc0R6Y2l2TklZWXN0ZzFNakNWR29aUUpWdk5NWmVlSDRZV0Z0VlZ4Qw?oc=5",
+      "date": "Thu, 22 Jan 2026 08:00:00 GMT",
+      "snippet": "Ignition Process in Engine 🔥 3D Animation Explained!  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-01-22T08:00:00.000Z"
     },
     {
-      "title": "How To Unlock Chat In Roblox - Full Guide - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tdFhMTi1LcWU1Y29qMnItSm80UHRCT0NtZTdzQUxMZjhGTi1HQ0o2aXZraXREc2RDNnoxWk4zY1Vod1IxVGZlUEFuT3hvNm1VYmVScG1n?oc=5",
-      "date": "Mon, 19 Jan 2026 17:54:09 GMT",
-      "snippet": "How To Unlock Chat In Roblox - Full Guide  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2026-01-19T17:54:09.000Z"
+      "title": "Delta Robot Case Packer with Automatic High Speed Flexible Packing Machine for Easy Changeover - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xX2RpTXlSZldsbUtvTjBtZUQzQmtoakNTejViYlZfbHowWXpkMzhlcV9lQ3JBQW5aSDVleVAxRWNEV05qNEd2dE00ZERISkhpVU96REF3?oc=5",
+      "date": "Thu, 22 Jan 2026 07:02:39 GMT",
+      "snippet": "Delta Robot Case Packer with Automatic High Speed Flexible Packing Machine for Easy Changeover  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-01-22T07:02:39.000Z"
     },
     {
-      "title": "How To Connect & Use Mouse and Keyboard on PS5 (2026 Easy Setup Guide) - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5oWXBsb0FFZ3BfQW5sYjdmbHA2bmd5RzhLekYyT01waDBfdkRxVkN0ZlpmQ0U0ZFZTdS1UejVVMjJXVGVadlJsdVFudXN4ZlhoQk54TTZ3?oc=5",
-      "date": "Mon, 19 Jan 2026 17:43:21 GMT",
-      "snippet": "How To Connect & Use Mouse and Keyboard on PS5 (2026 Easy Setup Guide)  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2026-01-19T17:43:21.000Z"
-    },
-    {
-      "title": "Segway Navimow robot mower pre-orders open, EcoFlow, more - Electrek",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaGRERDJ2aDJ4ZlFRTEdmby1ackoxY2puclVWNnpoYUhxU0xEeU5vT1I1LVN3NGNpYndxLVl3SEFxckZUWlVPZFpBSWE1dkdOWnZRVGViNzMzWVdSVnNZaDJ6MjlEdkRRV05uLW1pQnJLMmpXVEZZQjgyRzBIeXNXNk9FZFRwYTZITFVYYmxnMXRoWGtmd0x3?oc=5",
-      "date": "Mon, 19 Jan 2026 08:00:00 GMT",
-      "snippet": "Segway Navimow robot mower pre-orders open, EcoFlow, more  Electrek",
-      "source": "Delta Robot Research (Google News)",
-      "isoDate": "2026-01-19T08:00:00.000Z"
+      "title": "Stewart Pro Platform V2 - YouTube",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXVnV3MVFOZmh1ekZHUGtCUmlmMndDbTJSOGJRSm16UVBUMDQ0c2JtNGxuZG1fSHdvOUJiR3F3a1M3VG1ZaEJlSU9mQkxIS1lYOWV2MTln?oc=5",
+      "date": "Tue, 20 Jan 2026 11:20:49 GMT",
+      "snippet": "Stewart Pro Platform V2  YouTube",
+      "source": "YouTube - Delta Robot Demos",
+      "isoDate": "2026-01-20T11:20:49.000Z"
     },
     {
       "title": "ATOMROBOT - YouTube",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqc1k5NUFZRUVQWHdvMExmQk44NnQ5SmluMmxjVmpFQlVqc2d2b1pqU21xWnV2RHQ4MHUxejZ3VVZrcHBCaE4zZG5TVkZySllpZUtXZllCQzNuMTJBNUE?oc=5",
       "date": "Sat, 17 Jan 2026 17:12:59 GMT",
       "snippet": "ATOMROBOT  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
+      "source": "YouTube - Delta Robot Demos",
       "isoDate": "2026-01-17T17:12:59.000Z"
-    },
-    {
-      "title": "[🌊NO KEY] Escape Tsunami For Brainrots Script – AUTO FARM | GODMODE | BYPASS TP | REMOVE TSUNAMI - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCVzdReFNZWWhpWDdkODkyUGRCYXFtM0s2ZDdpcjF1Z1BoV0NFeWhRby1FS3p6MEwweTFpNjN3alZtVW50b2g4MFdMUHYwT0dWNVVoWXRB?oc=5",
-      "date": "Sat, 17 Jan 2026 09:46:11 GMT",
-      "snippet": "[🌊NO KEY] Escape Tsunami For Brainrots Script – AUTO FARM | GODMODE | BYPASS TP | REMOVE TSUNAMI  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2026-01-17T09:46:11.000Z"
-    },
-    {
-      "title": "This SECRET Glitch Makes You IMMORTAL in Escape Tsunami for Brainrots Roblox - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15WG5yeG5DZExLU3pSUjFad1lkdmdQSkp4dV84V3daOGNpcDZpX1RfUWdENHpVT3pCN09KTldDZTh0QVBSQ2U3WnpWQUZkZ2x0VG9WRVRB?oc=5",
-      "date": "Fri, 16 Jan 2026 14:11:30 GMT",
-      "snippet": "This SECRET Glitch Makes You IMMORTAL in Escape Tsunami for Brainrots Roblox  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2026-01-16T14:11:30.000Z"
-    },
-    {
-      "title": "Firefighters rescue unresponsive puppies likely overdosing on fentanyl - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qSURiUE5RNm45dlNaZEZqQzNhWE1rRkFZam9KZV9FbTBwRG1MQjB6dnJ4UWtxRjhUUF95OE5kRFRjazRCVGRJX25qOHdEQlpiaThBX093?oc=5",
-      "date": "Mon, 12 Jan 2026 22:13:22 GMT",
-      "snippet": "Firefighters rescue unresponsive puppies likely overdosing on fentanyl  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2026-01-12T22:13:22.000Z"
-    },
-    {
-      "title": "The DroneHub: a multi-environment testbed for sustainability robotics - Nature",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XdlpaX0VNZDVVMU96YmFOQ0ZoT0Y0amdtb1pvNzdYcm9QWEk5VUF0Q2Q5dlBHaTY2aC16R1F5VWxBU215T1JwbnFXTDdNUzNMWmszc2I5dFlpeDZwY0o4?oc=5",
-      "date": "Mon, 12 Jan 2026 08:00:00 GMT",
-      "snippet": "The DroneHub: a multi-environment testbed for sustainability robotics  Nature",
-      "source": "Delta Robot Research (Google News)",
-      "isoDate": "2026-01-12T08:00:00.000Z"
-    },
-    {
-      "title": "Morfotech id - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5yRHFoU2MxajRrcWJGaEJtX3E3VEpia1V4Z2ZVU3BaWkowYW53c09Qa3ktV3BsQXRkMHpUOXhmdzFXREY1U21IcjFoM3g?oc=5",
-      "date": "Fri, 11 Aug 2023 12:30:10 GMT",
-      "snippet": "Morfotech id  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2023-08-11T12:30:10.000Z"
-    },
-    {
-      "title": "CoSM - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE13czBzT2haTUZoWGpxTzlEY1JraXIxaF81Z1FJTGtVZGplWVJ3RGdiZjlCU0dxaEsyYmdOamdrZDFQU2REZGxCRktGOA?oc=5",
-      "date": "Sat, 12 Nov 2022 19:20:04 GMT",
-      "snippet": "CoSM  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2022-11-12T19:20:04.000Z"
-    },
-    {
-      "title": "Michigan Collaborative for Type 2 Diabetes - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZalFvRWRRZVUyVkU5bktITHpLYXhZRGQ5eWxIUFI0UVBlWkxWaWVfNEo2MHU2NFNJMHZIbUQtOEpzakRmSzNXWDVsTmh1bUlFNmg3a2JZSHlOLWp4OUJrQU9KYXVnSDg?oc=5",
-      "date": "Tue, 13 Apr 2021 14:40:24 GMT",
-      "snippet": "Michigan Collaborative for Type 2 Diabetes  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2021-04-13T14:40:24.000Z"
-    },
-    {
-      "title": "eduphoria! - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sMy1KUnFtdWltdDljZjdDU3dLQ08wQmluYVREQUkxVTBoem54aG51YzNqVllyR1VkYzdoTm5XdVNhSkpVTGRjRHZVcE1aQzhMVUhr?oc=5",
-      "date": "Sat, 05 Sep 2020 07:27:23 GMT",
-      "snippet": "eduphoria!  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2020-09-05T07:27:23.000Z"
-    },
-    {
-      "title": "TMX Group - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1nZ1hmc0RqdFFlYzJHSWpTRi14SnUxQmZ1X1RxTGhGWVFJNjUxYTlQLTVNSEc4dmhTSVNhU3AyQml1SzZlOHln?oc=5",
-      "date": "Wed, 10 Aug 2016 00:26:34 GMT",
-      "snippet": "TMX Group  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2016-08-10T00:26:34.000Z"
-    },
-    {
-      "title": "MANOR (Official) - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5DdExjVk9OYzNzekdsNkhXSVQ5ekVsdDAzZmduWlB1U2labzRsaHgtcnJHeXYzSGwxZUVZbkFQMmlFUkRuZFE?oc=5",
-      "date": "Sun, 09 Aug 2015 00:17:32 GMT",
-      "snippet": "MANOR (Official)  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2015-08-09T00:17:32.000Z"
-    },
-    {
-      "title": "Zee Corporate - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11c3RxQlRiY1RBSm1qZkJMYU5kMUN0ZzZYQkhwMllBM1MxalJESFlNbGhRdjhhbVVKUVNUZjVNOHNsRE40cnBHZzBvNmdMdDBJR29EWFVsZkl5WkZOcDFpX0JhUG9Kejg?oc=5",
-      "date": "Sat, 15 Mar 2014 16:07:33 GMT",
-      "snippet": "Zee Corporate  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2014-03-15T16:07:33.000Z"
-    },
-    {
-      "title": "Inovance - YouTube",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00cndCR0xxanVQYzRUN1BTb2lMb3o3V1NIN0lacGRVSTItRk1COVdid0NPbllCdUtidnRGd1JTcWtSa2xGVjR2LUVDQUtscFlCZ2w0bG9n?oc=5",
-      "date": "Wed, 19 Oct 2011 03:56:09 GMT",
-      "snippet": "Inovance  YouTube",
-      "source": "YouTube - Delta Robot Prototypes & Demos",
-      "isoDate": "2011-10-19T03:56:09.000Z"
     }
   ]
 }

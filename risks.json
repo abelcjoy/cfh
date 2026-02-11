@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-02-11T04:54:56.091Z",
-  "total": 205,
+  "updatedAt": "2026-02-11T06:57:32.111Z",
+  "total": 285,
   "articles": [
     {
       "title": "Recycler avoids $3.4M penalty for collecting, hauling solid waste - Tri-Cities Area Journal of Business",
@@ -67,12 +67,28 @@
       "isoDate": "2026-02-10T15:00:00.000Z"
     },
     {
+      "title": "Man fined for illegal waste disposal in Stockport - Stockport Council",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcU42Q2J0WVRRMW5ESTFvNHZhNC11dmxaTGJGLW5JeVoxTklVdG8zZmdSVl8yVDB3Zl95MGEzb0c4Q2Z0cnp5cVl2UF9jZzVoQWs2c1o5VnlKOVFESXRETm5FSlFCRmRrbFkxNmR6N2hrU1dvZFlWb1VoTURiQ2tjVkFIdjZKUEUtdkI4?oc=5",
+      "date": "Tue, 10 Feb 2026 10:10:23 GMT",
+      "snippet": "Man fined for illegal waste disposal in Stockport  Stockport Council",
+      "source": "Regulatory Crackdowns",
+      "isoDate": "2026-02-10T10:10:23.000Z"
+    },
+    {
       "title": "NEMC halts operations at a plastic recycling factory - dailynews.co.tz",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQnFLb2dVOU85cWJhV2doOGhIWUVxSG85M3JSYlRUX3h0LWVOcGZFcVRkZjBESG1uNXc5VmNzWVZwbzhsWmV6bUExRkt0U2xiYkdweTE0Y0hkU1B2TDBOZHBQa2FLLV95aFRHQ1Q2LUJ6cWJWeEZlZjY5WDRjREg3akFRaw?oc=5",
       "date": "Tue, 10 Feb 2026 10:09:00 GMT",
       "snippet": "NEMC halts operations at a plastic recycling factory  dailynews.co.tz",
       "source": "Business Failures",
       "isoDate": "2026-02-10T10:09:00.000Z"
+    },
+    {
+      "title": "GCC mops up 11cr in penalties; waste disposal violators lead with 7cr in fines - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZldmbm16cVpqQjdrUDJHSkNFazBTQUQwLWgzd243REQ0alFlUVYyV2tEcUJLYjl6WG85TUNFQzVaWDlHNTRFZUNmeU1nOVRsRzVXbmJBM09lU0pmd1pzMl93V3pYYlBJT3Y0TUhDVzZJa190STJLaldPVnpqSUZUYnVzRmJQa0V3RWY1TTAyX3dQMEZDdFR3dS00TS03aktJd09Va191RkZHdHVjVjVVNGxOdEUwcHRuVmVwRTJtTXFvUW81enNOd1RpdVM5Slppa1lQdV9DMFB5YnR0TUpWUkM1NmJiVEnSAewBQVVfeXFMT0hVU0plOE02X1pIam05VUwzNzFlS0xMUm5YR3o3R24zRHJEekMtcWllQ1FPZzZRTWxHWVBuNWY0WXUxSzFBS01HWVMxVGpuSUNfZzBmVFZEdkN1N0ZkRGVSeUpJYk1jd2ZkQnpzdjV3cXEtVWpTUE5JMkRrR1BwSEZoQVB4V3FlVEdqMHVtd2NYaGkzNEFaRUpNVl83OUxmVWNaQS1jdzRHeE9GQVBGRC1pSUdHRldLcUNzOTJBY084WHQ2OHpvenREd0JPajRXUUphSnJ4RkVweUwwVjlBYjNnZWdGUkJTb2d2dWc?oc=5",
+      "date": "Mon, 09 Feb 2026 22:51:00 GMT",
+      "snippet": "GCC mops up 11cr in penalties; waste disposal violators lead with 7cr in fines  The Times of India",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-09T22:51:00.000Z"
     },
     {
       "title": "Septic operator accused of dumping sewage on neighbor’s land had 'impeccable reputation,' lawyer says - WTVR.com",
@@ -99,6 +115,22 @@
       "isoDate": "2026-02-09T19:30:00.000Z"
     },
     {
+      "title": "Breaking News Highlights Updates: ICC not to impose penalty or sanction on Bangladesh Cricket Board for r... - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNclhZQ0I3dVNvVzVmUlZvRW5IOFFNQjQ2NFFaOU05eTd6cWtrVzExT29WQ21tdmUyM2ZTQmVGcnh2cDRQbkdnVHpKdGRjYi1hUmp5cmVJend2VzF6NHltenFyaGwyLTBNU0ZYVS1sX3NRbmlPX2tGV2szTGpmZUR1RVZFVm1nOGtYMnBxcHg0QUl3SllYNHB1SHVZUWIzVUlPaWx2VG9XYTJmYi1WcXBwUGVGTkxRWC1zMzMxWnZVZ1NRejQ4SmJuMXlIQVFMWk9CdkxzMGE4dW9LTWcxajN0bmRVcFdzUFROQU5RdXdpR2ZPLVJvSENxU3owdlJyb05kZFRjelRKSGtGdVNRUk5DT9IBlgJBVV95cUxQZUxUbUtyeEJ3cGE2SWxuaWRVWEtxMEE3eGowQnZtcHhNVmUtQzljdS1aVk1uNzdfVkg0WFRYbTRORXQ0eHRqdzZ1eUFxZjdiRXZpclNFcTdXYS1yZ2lzRFJSTjFDSUxvSVJIZlVqYUExVnR0dzVmREwxSjVlNlUzczdjeVpQNmItdHFTakxwamhPMXRhZkFKMFNUaGRuTDFlVld2N0lsYl9VWFMza2phVWx0WDVxYlRnME1tVlQzY21lUjRSYVhuWVFpT291R3RaNlFlSmtrU0J0cDBUMlpCNmFUTHdrQUJSNy1mRVViZ1h4c3BXN0VmTlVRY3ludHZTT1JscHVUMW8xNlhhQ2pNOU12NDdNQQ?oc=5",
+      "date": "Mon, 09 Feb 2026 19:10:00 GMT",
+      "snippet": "Breaking News Highlights Updates: ICC not to impose penalty or sanction on Bangladesh Cricket Board for r...  The Economic Times",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-02-09T19:10:00.000Z"
+    },
+    {
+      "title": "City Mayor Saurabh Joshi launches 'Har Ghar, Har Dawar Swachhta Ki Dastak' campaign in Chandigarh - :: India News Calling ::",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYUpad0hCQVQwYWNQR1JxdU1DZjRBbEU1dDd2dUZGX2FDeW0tNUtZeXJrcTJOVlRaOVZQVkNtYzBKVFNRaWozUDdnMDhPa0pBcU94bXZrWW1XMEljSjdvVkwwdUF2U2dhbzUzNnQyTXBNOVdQLXdXNmpNOTB6dmRnUi1EaVl4RkFNWGtfOU4zT0lwVzlqN3dPZndod2JFbTRuakFUajJWTGY0b0h5WW11dzJYSkthbTBpZ3cyd1VpTDd3UlRxMGhTcm92a2JoWGNsTkFqcWZmZWU2UUlRZ3JIYUc3NXlkRFE1eWc?oc=5",
+      "date": "Mon, 09 Feb 2026 18:29:19 GMT",
+      "snippet": "City Mayor Saurabh Joshi launches 'Har Ghar, Har Dawar Swachhta Ki Dastak' campaign in Chandigarh  :: India News Calling ::",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-09T18:29:19.000Z"
+    },
+    {
       "title": "Radar has uncovered a secret Cold War base buried beneath 30 meters of ice in Greenland, and the most unsettling part is what was left trapped down there - ECOticias.com",
       "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPX05PR2xlV3dMQnl1VGhkTm5QLXNkQndXZWJmelhQVFlmcnJjdm5RbHk1TXVJSUdWam9qV19xdlhnMnlNVlZwWHIwd0pnNThJbHB3SFBmREZPaFQ2NFE1dHFmbW9zTFF2ajI1QXNVT2U1a05jZHI3N016STk3Yy1IZHVubUw3MEt5Qjg0elBjZUo0UDItLUxxanJjZnZOUmM5YWM2ekl2Q1NScHFRelFWZjROSkZBc21PQVhQN2FXaXRsQ2sweWtIVWFvMmIzcElETU02MGpTdF9TMGZ6MkpxajZfWS1fTktwOFo5eHVwcTNiX2RJUEd3LVZwZWphY1hSbGFwcjAtMFU4UTA2bVVic2habVYxRW8?oc=5",
       "date": "Mon, 09 Feb 2026 17:30:00 GMT",
@@ -121,14 +153,6 @@
       "snippet": "Solid Waste Enforcement: Mississippi Commission on Environmental Quality and Ridgeland Landfill Enter into Agreed Order  JD Supra",
       "source": "Legal Actions & Fines",
       "isoDate": "2026-02-09T16:15:02.000Z"
-    },
-    {
-      "title": "Cumberland Cracks Down on Illegal Waste Collector Operating Without Licence - Cumberland Council",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY2FCMGMwcjhsbmZUeHYyZTFXb2RISnpheWRwdXUwX2dlY3pRS0RqdzVLRnhMWTdtSV9aX2pBNVh2cDB3N2c0S1BlZjFPak5fRUJoUFpMaXZtSXRHREgwSVlsc0JNUWpJV0d5QkFMT1dRaXV1OEtGd2JiNU5aT3U4eDJkUU11NjVMUmYydUNNa3h6Uk4weXoxRTZXcFBLZWJWblFtUjlsT0ZNaTJ1bWh4am1n?oc=5",
-      "date": "Mon, 09 Feb 2026 15:37:03 GMT",
-      "snippet": "Cumberland Cracks Down on Illegal Waste Collector Operating Without Licence  Cumberland Council",
-      "source": "Regulatory Crackdowns",
-      "isoDate": "2026-02-09T15:37:03.000Z"
     },
     {
       "title": "Litigation lessons learned: What waste operators can do to prevent the next incident - Waste Today -",
@@ -169,6 +193,22 @@
       "snippet": "Garganera urges probe, rehab first as Binaliw residents call for landfill closure, reject WTE plant  SunStar Publishing Inc.",
       "source": "Fires & Accidents",
       "isoDate": "2026-02-09T09:42:04.000Z"
+    },
+    {
+      "title": "Municipal Corporation fines industrial units ₹1.80 lakh for dumping waste into drains in Indore - Dainik Jagran MP CG",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQOVRqbUJSQ3VTZ1Nybmt2ajBuOXNaOWFaMkJrcXlVb1dYTGRic1VrUjZ0QWRVOFVienNVTjhRcXkwX1NCakpYWWpHNkl0NEdMNUFtVEZnTWtPVGtEV2cyUVBBV1BEQ0NxV0VKZ0xWSi01VWYwdUU5QTRIMVptakVRTDR5U0ZMT0ZNZmNlRVdMWUI3LUxNc1lrUklWMHBqMGd1OGQyOGhFNHdNajJnTFF2V1VVQ3RTTlBLak5Gc3Y4NDJpajREQ24xY0FLSkUyZDhwWF9acGRINlo5SktPdnZxSlFFRFhoQ2U3?oc=5",
+      "date": "Mon, 09 Feb 2026 06:42:11 GMT",
+      "snippet": "Municipal Corporation fines industrial units ₹1.80 lakh for dumping waste into drains in Indore  Dainik Jagran MP CG",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-09T06:42:11.000Z"
+    },
+    {
+      "title": "CPCC directs Dadumajra biomining firm to pay over Rs 2L as environment cost - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQTI4c2g1QTdkT0I3WFBYV3hHeGlCc2RLSlk1dktPS0ZuaWxUc3haN0oxYnI1ekEwVVZNajRiWXlUSGlzVGYteW5aWHJWaU5SN3BoRkluTVIyVi1PVW1nUTl0dDVmdVF2VjhZN3NDa0M1VFl2UEx2ZlNEbnRzUjR0cEhhUHpFald0YXpCWTFpVHBqaldwVXlCb1dDRk1QalY3VG0tWER0bEVlVGlqRmJmRVphMzJfMTNmdGhzTkhUWHdacUhaTnBLX1pPZ1JMTWNNOVlkc3o2bzBWUXRlVk5vVERkSGhEMTFM0gHuAUFVX3lxTFBRMHRDU1Fnc0p6RlJ5aTlGR3dpSVN6RUpDdmc0N0JON1IzRGNMajJheGpZZHpWa0FIS3M3WEZnN3ZGRXB5VlJETnk4WWJnaUhqaVFqaC1xS2R2SDJENUlrUE5ZaGFReUd3bE10VTIyN3BKT0lJVE9hajNqV3hhczg2RklMS2diSFNGelZKVi1OU3dWekFEbnlKd3RySnppYWVuQjYyQXFyaDVYVk05dkZTUXFLSU55OWJ0d05INm5sUGJqSnJEdks0ZmxRZTZGTDRqeWJDRUlhSV9NNzc3NmV6cEpHU0c0VVcyVVhrRUE?oc=5",
+      "date": "Mon, 09 Feb 2026 03:36:00 GMT",
+      "snippet": "CPCC directs Dadumajra biomining firm to pay over Rs 2L as environment cost  The Times of India",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-09T03:36:00.000Z"
     },
     {
       "title": "List Of Market Shut Down By Lagos Govt Over Waste Disposal Violations - Naija News",
@@ -227,6 +267,14 @@
       "isoDate": "2026-02-08T11:44:00.000Z"
     },
     {
+      "title": "Authorities act against firms dumping garbage and wastewater into drains: Municipal Corporation fines compa... - Bhaskar English",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRFJBenJwTFUtMTVZN25uRmVnTzJqa3ZzdTNGX0ZXSGtHa3UxLTNwTXNITDlSZV9Rdlo0MmxDYzlGOWRKRnhsc01OTEE1bFRwTEl1MjRvQVBHOVRLQWVMT0VMbGJPdktDRXdaZ0d2UDl0Y3VGS2tqX2dsVUdCRVNSaEl4Sm5jRHE3aVA4Tjh1Z2FxcXgzajZ4UktmOTd5TjJlTXRQZ2FJUExfMnFMaEo1TUxkSXVIMlF2OTJYadIBwgFBVV95cUxOeUd0Z1J0dXVfNnFaTFV2aWl3ckJfR3dEY1Q3MGxvcDhKNHJlODdpcTRNb3d6NWg0VWliSVRZQ0dJYmZOc2RxXy1KLUhTeWx4Z212bUxhLWx6V0JhR1RuU2ZRVDBYaGxaa3IxMEN2b2ltZFYxTU40OHRLVEs5OVJPRzNYaGFhLVlhc0ZSOEtqQU5XejQzR3JoZjEzWlJ1WTF3Um1MRFpGeURJSnhTWFlZV0hLdVQ1dWtjbm5ldmp0ci0tQQ?oc=5",
+      "date": "Sun, 08 Feb 2026 11:09:42 GMT",
+      "snippet": "Authorities act against firms dumping garbage and wastewater into drains: Municipal Corporation fines compa...  Bhaskar English",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-08T11:09:42.000Z"
+    },
+    {
       "title": "Lagos shuts down Ladipo Spare Parts Market over environmental violations - Vanguard News",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNGxaRmdTeFJJNlo4b1h4ZGlPeUNqTm5yMjVyTzlMVERvaTItZ0RKU3BVcTA5d0luckJaUDdfa1UzenU0UGx3X3F1YVVUY2RNdzFJZnlleVFTVmpJM2ZMZG5QVXZ1TUhnTzRTNS16OXg1elRHdGxjY1c5MkhGRW1kdWEtV3Q1bDgtaEtOdEVGUnFIZXFoYkVEWFRhb3BZT2ZNM1hFUk1nRmR3UnEyTXfSAbMBQVVfeXFMTTVudk1xR29RTzc2RTA5dW52ZWlEUGRBQXh1Y0ZhamNLN3o1R3VoQTFGYmJTSExTRHZFcEhZTkhRRkhHMXJHREc2RVVYVF94ams3RkNQdUVkbU5LUjY4am5FbFl5aUwyMGpfYlRubko5bHdpRXdleTBIOFdqTXZ5bkM1dkFGbHNwN0VNSk5Pb1ljMnVaY1BMRlQzckVYN3dHekQ3Q2sxN0hZQlNYbDlMdThlajQ?oc=5",
       "date": "Sun, 08 Feb 2026 10:14:54 GMT",
@@ -275,12 +323,12 @@
       "isoDate": "2026-02-07T15:54:33.000Z"
     },
     {
-      "title": "Osmeña calls for review of incineration laws amid garbage crisis in Cebu - MSN",
-      "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNVzZvN2F5ckZVbk9ZelBlVXpHRFllTk9hbzRfUjZyc2FSUnZsMG9LOUFEckt1cVdlQkpVRE5fc3ltd0ZLdzJlX1N6VUM3VGpYU2FfWm5udk53Y3k3RjgxM0ZhTFFUMXRLRURjSlVsbkJKVk5Kb0IxQTV6M2x4VU92VUZWaXBrTnMyamtvTG1RMmcwR3lEWXBIUU50LU9ycDF6dElUdVVYVmNsNlVTM0U3QXRSZi1Ra3VUSTdJZzBNYkVOQi1LUVEycFoxVmtDZkxrZVVjQjhBT3Z5OUd6TEU0YmdNblctN1NFYlZvVXZJZTJnTHRmTEFaSDBaa0ZLSFEtZGxoU3diTHRkcXBpZkhXMDl2WUlpQVRNVV9zbmhmYXJmNHBFeS1MUm9iczVLT2FFLTNub0R0a0laQ2k1SXU5MnNWak9FZ3dBeDJzMTVLMGlZRGRjN0l1Nk9oWQ?oc=5",
-      "date": "Sat, 07 Feb 2026 11:37:38 GMT",
-      "snippet": "Osmeña calls for review of incineration laws amid garbage crisis in Cebu  MSN",
-      "source": "Business Failures",
-      "isoDate": "2026-02-07T11:37:38.000Z"
+      "title": "Waste-to-energy project planned at Turbhe landfill in Navi Mumbai - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMWswMFhxNEpfSDNfQVBUTDJHdnlHaWtac25kVHZtYVdLYlYyS25OaW91WVlLT3pCZmJMS0stWmdXazRlYnFZQVNTUkJNNjMwQnd6UWU0aEJsZExXbWRUOGhQQjc1VG4xUEt6ck9jbVFDaUNLcm40Y29qaHFOY2FQNjJQVWhkLWVpOTFOZlZ0cGZYVjlCTk0xYzV0LTFMVnBCVTB6Tm1BNWs0MDRkY2lDNWp0U1ZQbEJEUzVMeVM2d0dHNGY4ek5mc3l3MlhzdDNyWU1hNzN30gHbAUFVX3lxTE85dXlCT0Q1OGxNYk90ZkxWNVA0b1Z5M2R3eXlRNUx1U3pvT0JkUmJCbjBHckhqazhMTEdDQnY3QTd5NGdSSENrTW1yUFI4WHJ6VXZZZjgzbTI2MDJCbWZ0aHphRXR3M2ltMmVydWxvaVJ4N1p1cW5wYndhdC00OWtmU0JrU0paM3pKeWhUVkNnbjF1bFF3akFoTTdTaDdtMkVOc004SHZQVkt3elBSckJFcU4wSXlyOG1iWjg1Q3dicEF6eWNJMWl5Zy15QndWRlhHZTJSTkVqajFGbw?oc=5",
+      "date": "Sat, 07 Feb 2026 13:57:00 GMT",
+      "snippet": "Waste-to-energy project planned at Turbhe landfill in Navi Mumbai  The Times of India",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-07T13:57:00.000Z"
     },
     {
       "title": "Lady’s Island landfill odors result in lawsuit - - The Island News",
@@ -291,12 +339,28 @@
       "isoDate": "2026-02-07T07:09:54.000Z"
     },
     {
+      "title": "NGT issues show cause notice to CPCB for delay in report on use of chemical on natural water bodies | Hindustan Times - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNNXRaTm1BdVdnbEctb05mcXBmV0h0aUdkRE5BSzJOSkNjMzNjcWtKT3BDYkh1UWhEQ0djc2R4QWZpcXZoZjNSTHhaekc2bnpFem1NRGpMRkhNaVVuR1ZYWV9kTWd0RENBZkJNM0hYeGdrUHEzbTNiR3Nyb3FQWmdrZ3lGRm9TMXQ1VUFjeXV2WFlxQ09ucmdYMnNTMU1reGpBeXJXeEh2cGJoRDhvcVB2M0JBZEVkNzRGNnVwUkFFTTN6d3pKYW5rbzRJUFgxbkpzeElSb1kySThWUHNPeXhiTkgydXMxSmlhbXg5Sy1hUXp2VUFBNWVJblJfSWrSAYICQVVfeXFMUDROYUJvVWc3VmJ6TkNyN2ZkeHAwQmw1UFJDSm5jZlVYY3V0MWJpTGRDb2J6MW9RY0RwNXVWdkRFRmNwR1k0Z0hhVFQ3SXM2Sm9FWWh4bzhTTDI5WFNfd2VILVdyMnJtd3dGazUxeEJxQlNWM3dkUU0wLU5ELVV4SGZUQm9vYk9OM1VMWDNkTDFmRElVZUtFSHNKNVpSYnZrYnRUbmdwdEdGdjY0aDN2Nm9aNHdhVVF5YkhQRTJTN3pua1V0YVlRSDlzWGtZdGVCcHBPd2FxYWxPU0tfbU5TZVVpNktWZ1BpR1pHUm1QRGtBUmFrU3dxbFA3dUxrM292VGNR?oc=5",
+      "date": "Fri, 06 Feb 2026 22:56:19 GMT",
+      "snippet": "NGT issues show cause notice to CPCB for delay in report on use of chemical on natural water bodies | Hindustan Times  Hindustan Times",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-02-06T22:56:19.000Z"
+    },
+    {
       "title": "Environment Agency issues restriction orders against two illegal waste sites - Materials Recycling World",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdVpjRm5JdVFueHRELXNvcDd5U2t0TXU5ckRTSDk0UGtzRnhkRkJDNnpsd3Fpd0plZjZQVmVuc3hrRHBfanFENFhKaC1uamZWOW91MGR4UklSMkExM3FxREI0NlYyU1V4U3FQUXVSSkxaLXRybXRULTFWM1J3aXA2N0FiVmdzZjk0WmdIaHc0YjVUaWRxLVVPbW9fOHFYMHprVzY1N1F0akpOZ21uQWVyYmZpR2JWZw?oc=5",
       "date": "Fri, 06 Feb 2026 19:58:25 GMT",
       "snippet": "Environment Agency issues restriction orders against two illegal waste sites  Materials Recycling World",
       "source": "Regulatory Crackdowns",
       "isoDate": "2026-02-06T19:58:25.000Z"
+    },
+    {
+      "title": "CPCB flags gaps in Kedarnath STP, seeks action - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaElLTlc0Q0VNal9fUkI0Y0RpeGNJNzU2Uk5TLUEzVG1YS1NwdjVOWW51RExhQXR0SmlqVHJPRzFYSFgxZlRmQmVyYzBxSjFxUGxCdnBjRF9DQUNCX3pVcV9tbFl0Q3lVOVdCNVJYaC1POXMwcDVCSnJGTjFNV3JMaHpuT3AyUEtPOVpodndoVlUxVEd4c0pDUzBGZ19STXo5dzAzUGg0ZGVMYk4tNzN0WXdxRFVvdjJ1cFpRMXVB0gHDAUFVX3lxTE1ybVhQbk1icjJ5LW8tSVBWdkI2NmczUlNpX3NwcFZYQWdQa19Sa0dqUVVlZDhvd0RNQTgwRl9OR29jNTBTbldQWGFSeTR5WGdablozdWU0UHFfYjJEMWhPSkRYOVZKcDJpaVFJZzRrSl8wa01jTHJ0dTZfMTJKUVhvMkR2OXZ3NnV2UXhsQW9vMVJ3OFlYMmk1d1dBNXRwU2F3b1RrNmk4VzNCUEFfQ2szUjZ3bW1nMVBDVmZkNzVmZ0FUVQ?oc=5",
+      "date": "Fri, 06 Feb 2026 19:31:00 GMT",
+      "snippet": "CPCB flags gaps in Kedarnath STP, seeks action  The Times of India",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-02-06T19:31:00.000Z"
     },
     {
       "title": "Dump truck crashes into Upstate bridge, fire chief says - WYFF News 4",
@@ -323,14 +387,6 @@
       "isoDate": "2026-02-06T13:47:29.000Z"
     },
     {
-      "title": "Animal blood and sewage sludge dumped illegally by Cornwall waste firm - Falmouth Packet",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdkVtRmNGRTZJMmhhV2hOdUxzeU9IWGlDbGIzVmVtRXFDYWVhRnBVMTFnUG9MbnY1MXNXaEk3ckFzWUlTaDRpUm5OWVlUcFJqdGZNcWVmX0JGbHJRVTZSenJMVVE3SHFZa0dWR29RS2hNdUFWVDg2TDRMdWs0V2taVGdEOFJNME5NdXM0ckVHYlRLYUxZelk0Z29jVWZWWUlma256Y3Ixbw?oc=5",
-      "date": "Fri, 06 Feb 2026 10:31:00 GMT",
-      "snippet": "Animal blood and sewage sludge dumped illegally by Cornwall waste firm  Falmouth Packet",
-      "source": "Regulatory Crackdowns",
-      "isoDate": "2026-02-06T10:31:00.000Z"
-    },
-    {
       "title": "Frozen consensus: environmental advocates divided on Ayotte’s first year - The Dartmouth",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOblFzSmxYdnpoUXp0b3hCZGJwRTVYUVRqUFNUUEFiVzdIMnNxa3I1VDN2cjhRYzNFMXE1WGYweEQ3T0gtMDdWbnY5SFBIZGZZdXUwM2J5a08yQVhsVU42dUxocU5jRHA2Nmd3ODM5MTM3TkZkblNXTE91cVYzVzlWYlNWMDNGUDhEdnNZc0J6MVllSVkzNnIwRHdmUFd3alNIZXhoMkZ1UmdHYVRIWjJBSkdqQWVuQlJ5ODJqczdlLWg?oc=5",
       "date": "Fri, 06 Feb 2026 10:19:04 GMT",
@@ -339,12 +395,20 @@
       "isoDate": "2026-02-06T10:19:04.000Z"
     },
     {
-      "title": "WANTED: Volunteers to host nuclear waste, forever - Fine Day 102.3",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVnQ2YnJ2RjczUzh6eVBEczNrbS1YcmZBcUdKMVVUTXNtWjAyOHd6WW5tYkFlSVp1RkpWNkFRTFRaVFRIb05oU1ZmM1dfUmdRUURCOUlfSUhFY0pwcVRYQWVuaEg1NW8wSHh0RzFCWmNkc2ZTaFY3WURQbEpoaGhZUlZMRUNMT0JCWi1SWGFWUEFMZjB4cno3MmVGbw?oc=5",
-      "date": "Fri, 06 Feb 2026 08:16:02 GMT",
-      "snippet": "WANTED: Volunteers to host nuclear waste, forever  Fine Day 102.3",
-      "source": "Legal Actions & Fines",
-      "isoDate": "2026-02-06T08:16:02.000Z"
+      "title": "NGT asks PMC to frame construction pollution norms within three months - MSN",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMVVJOEhvOTFaVkpIT3hXSU1McmJIR2xMTFdIZjFXQ2xyLWg2aTJaM3NjYk1zNEc1NVRXQ0xWekNDazFmQ0RPbUVsSmdPa1NiT2pYUU9fc25qSWJwV2xKQjNtbnNZd0d4ZE9vd2xOTWdneklfUFpQNG9tVkxYcmdXVlJDY29USjZGaE9LTG4tNDAxX0lLTFVmNGRaNjFSVF85TjlwMmRKQ3pvakRTY1pfTWE4Z3FSc0VJMXYw?oc=5",
+      "date": "Fri, 06 Feb 2026 10:10:32 GMT",
+      "snippet": "NGT asks PMC to frame construction pollution norms within three months  MSN",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-02-06T10:10:32.000Z"
+    },
+    {
+      "title": "MC Commissioner Amit Kumar cracks down on littering; Heavy penalty ordered against Firm engaged for sanitation in Manimajra - :: India News Calling ::",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVFZkQVJKSnlheDdET1Fua0ZNQTNicnlGa2owRDBWX09QZ01PcHkxTms3TmkxdUwzU05Qb003WGxKQnFhM0xHQm1jNENOSnNPSWJtVnpmb2NXcjFkUnZGVC12cXlEUjFTY2xmZ2psU2hKLU1jZzg1R1RqS3ZMSENCa1owNVpKOGxxWlhrWDVCaFBuWkVkNEVKMGlYSHdEcEttTkp1UFdvenNnak05NTU0VzRCeU9vTVdpWVVGTU9lZ0xyZ1FxYk9QNDdHWWkteVhRMkQxamxPakpqcGs5VFFwS2V2eXVpTFpqVzhxd1BlM19NeWxNazBycTdTUQ?oc=5",
+      "date": "Fri, 06 Feb 2026 08:43:57 GMT",
+      "snippet": "MC Commissioner Amit Kumar cracks down on littering; Heavy penalty ordered against Firm engaged for sanitation in Manimajra  :: India News Calling ::",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-06T08:43:57.000Z"
     },
     {
       "title": "Waste dumping site in Craven shut down by Environment Agency - Yahoo News UK",
@@ -361,6 +425,22 @@
       "snippet": "Waste dumping site in Craven shut down by Environment Agency  Craven Herald",
       "source": "Regulatory Crackdowns",
       "isoDate": "2026-02-06T08:15:14.000Z"
+    },
+    {
+      "title": "Pune Municipal Corporation To Invest Rs 13 Crore In New Garbage Vehicles To Boost Waste Management - Free Press Journal",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS1o3akZTWjJBX2RzSzZPYXU4emQtaFJGTmZTRFNCSW5xZ0lBV281d2hyTUF6Mi1zQmkxalpKR1NScXBuTE1TUnFjYlNjb0htaktkY0RWTWl3azNkUW12NzBZOUg2U1gwUkpQLU5RX21QeldobVVUeHpzTWpKXzl5d3plcTI5RHVieVoxV2lqMFc5YS1oS1Qwelk2OEpjaVJPS2hHMFVRTUZ5NVFOUmNoU0lGdzJIZWJQQ21FUWxKRFdLZ2xtN0E4Zk9rZkhmZ0R60gHWAUFVX3lxTE9rZ0poV0FBalcyVXg0VFd4MmdWdFp1OUd6cFhCRUFHVF9ZaEZxWDhXMkYybE04M3NzQnRiTGNIbmg5NHppQWZ0VVFITGlLNF9Xbk93YWU2aEdUXzZWWUc3djExU3Z6UUxVcUpkelItV1NTQ2pnSnNUSmJLMm1wdkxaeVpUNk52NkROYlRPWXhCaFM3bnBqZGV2dm5rX1hnVzMtb2ZCYXhNeVhYYzdnZzRnRk1xeUdHTWtGQmo5aEVjcGloWnFTWENBenRwZjdveXRkRXJLbmc?oc=5",
+      "date": "Fri, 06 Feb 2026 07:27:52 GMT",
+      "snippet": "Pune Municipal Corporation To Invest Rs 13 Crore In New Garbage Vehicles To Boost Waste Management  Free Press Journal",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-06T07:27:52.000Z"
+    },
+    {
+      "title": "Government Launches Centralised Environmental Fund to Track Pollution Penalties—All You Need to Know - outlookbusiness.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYmFCOEU1Z3NMcnF2Ty13V21MX1RXUy1QWW9FSkVZaVRXa0ItbndhdW9MQ3FTa0pGR1dWTTJRcUdINW9WMk0wZzhjeFRqQjBicUlFNklBSWxndHEzVzgxZlFGcnFYRDdFWnZqUEdzQXRWWWQ0X2c1bGVPMGZwcloyX1JMNWNockx3aWROTVFkY01wQmJYOGNVRVptTUo3WEhKX3pfUdIBsgFBVV95cUxNSUM0Q3d0V2xJbXZKTkhQSEkyS1hqb1VGZmNQbmdQNTJXWUhiUHNQdEMyS2RXNWhZRS03aTd5QzJ1RDlsbEJQa2VTRmpGdTFES0JEYTdmaHNKeXVySnVsU3MtdDU4V2tKbGJNc3JQTFB4NUxUZGV3OGdXTTh6Q3lNMmYwRDFTOTZMVlBtbjJGSVQtM1REZ1YzcFkxMGtuVGl4TFZvUmNPVGZ2U1FhT1d3VXZR?oc=5",
+      "date": "Fri, 06 Feb 2026 06:02:15 GMT",
+      "snippet": "Government Launches Centralised Environmental Fund to Track Pollution Penalties—All You Need to Know  outlookbusiness.com",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-02-06T06:02:15.000Z"
     },
     {
       "title": "Environment Agency steps in to shut down illegal waste site near Skipton | News - Hits Radio (West Yorkshire) - Rayo",
@@ -387,12 +467,20 @@
       "isoDate": "2026-02-06T01:36:28.000Z"
     },
     {
-      "title": "Panvel Municipal Corporation Cracks Down On Dust Pollution; 38 Construction Sites Shut, Vehicles Penalised - Free Press Journal",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQVB4M3dfcGt0aUJHd3BBdzg5RTE4V0J1NUN6ZTd2bXZiWjI5REhFTlhpLV9iWWVhb2FRLURac3FiSTU5M2l4OWZPZF9rTk5BY0FSU3k2TlR4blA0UlBsUzZwazRheFo4R0x1WlZEMDhLMjBJRzlpUlgwR2VRLTc3R18ta1lUZl9PMWxJa0IwODhmX0htMksyY3VnNzdYcFZCbXIzWW1DTmJPc3dab1p4V0pVQ0VJeU40RU51M2FUZmR2bnA5SW01UTFvTDdsc09oTlRnbk9QUGNuLVHSAeABQVVfeXFMUGtHNl93M3JaajBPYlpPeVA1NHp5Y3lDRE5iYXBxblhRZXA3T0kzRDQ3ZVVYVTZRaEpjTFhRdmZlcDNSUU9pZVFJWUp3YlRSS2ZobnZnaVhJMmxHSmNLS21tWDZuMHhiWndFcFQtbjNsa2loR0NkMnJuQmpGRW9tUzg3d1lTZnZ0RFFRYXR3Zlo1TFI5dXluVGNIdU1iYWhmT3ZQbkhldmNWOTlIQVpVMTlFanY0bWJ4TzRJUGZXMzF5b3kxSU8ybkFFUGtOMkNSVmZMUFprOVFGZW90dm44UkE?oc=5",
-      "date": "Thu, 05 Feb 2026 19:34:31 GMT",
-      "snippet": "Panvel Municipal Corporation Cracks Down On Dust Pollution; 38 Construction Sites Shut, Vehicles Penalised  Free Press Journal",
-      "source": "Business Failures",
-      "isoDate": "2026-02-05T19:34:31.000Z"
+      "title": "BMC empowers junior supervisors to enter housing societies, penalise garbage burning - MSN",
+      "link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxONkl3MzQyTDlPdVhWNVBSUnoyWnIzdnRHTEtGRGNXaWhWMVB1U3g2RmdxOTJuRUFSS3JvNW8xT1RUX2V4SFJ0d3hkTFFKQ3dhYUFjQnVBZlBxenMtbEYydTJfQjg1RXhsZTJldWtCNVN0UXRBWkdhMHVyLWZrd1ZBSTNfNmJNM3prLTI4bkNUeDRsbnNrbnBvYnpUZ3RmNFp3dno0XzVyMy1NNktTMndwYng4R2UtcnZwTy0yaGp4Tlg5MzhrbnVOcHlWT1RGaXM4S0E1SEdXOUhvY3JwYTl3aWhtb2EzWU9JcVdEOU5TZVFGdFlPQ0FudzZZNVgzZ2ROSW96VGJsdWZsQmlLSkp2b3RuZUs3RzF6d2hYVkVGZ2R1MHNiR212T3ppbnJrejg5WWh6d2daVzIySGliNWcyTTlTcjRyeUtHcXMxSHRHMmdzME9YWElqRTVPR0phcTZxTkpN?oc=5",
+      "date": "Fri, 06 Feb 2026 00:56:15 GMT",
+      "snippet": "BMC empowers junior supervisors to enter housing societies, penalise garbage burning  MSN",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-06T00:56:15.000Z"
+    },
+    {
+      "title": "Texas sues wind turbine company for allegedly abandoning 3,000 blades in west Texas - AOL.com",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4zb010S0tFUmE0ck5GSk1KNXAtWHFna0gyZ012YU15a0JKOGNsWVk5TXV0STJNUWtXNWttcWQ1YkRZVzZOeEtDWlhZdENDQ1RpaUFLR29EVnhCOFZLa1ZTa18xZE83TWxPbUFrdHNiQnRvbmVSTzNkcktxNA?oc=5",
+      "date": "Thu, 05 Feb 2026 20:23:53 GMT",
+      "snippet": "Texas sues wind turbine company for allegedly abandoning 3,000 blades in west Texas  AOL.com",
+      "source": "Legal Actions & Fines",
+      "isoDate": "2026-02-05T20:23:53.000Z"
     },
     {
       "title": "Mass. lawmakers seek answers after apparent effort from Trump administration to wind down Cambridge research hub - The Boston Globe",
@@ -409,6 +497,14 @@
       "snippet": "Access to Skipton Farm restricted following illegal dumping of waste  Rayo",
       "source": "Regulatory Crackdowns",
       "isoDate": "2026-02-05T18:20:33.000Z"
+    },
+    {
+      "title": "MMC recovers Rs 40k in fines for waste dumping - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTDBYdzJCTGZzRVg2TERiTEdad2xaLVd6dnc3WGhyZ0tCUzctSE5pSHBiSHFnel9MaUM3NGRMWERUbjBzNEw3cjdGeEh1SjBCYW8yNmtxMU9rdmNSeHdPeGFJaG0yNDIwU0lyUmhkZVJKZ1h3X1Q2d2J3dmFDMVNmSU5fNXVVdXM0SENFWHlTaC1oODZiNUpPclV2ZDhnV094ZzNVT1NPQWJsX3hHaWtpZXo0TVJmR0I10gG-AUFVX3lxTFBCamZqMS1PaGhxem5fak1zbFR4a29PdnZJTk9tRERtVWM3N2J6NjhXSzNxY1d1eTBNa1BBMDNVWXREVTFyaWpERUs2YzZKY1IzUzYwLXp3c295Z2xvUkVfdmNaTklYU3VSaVJTZ0t0VFRtV2xyU0pRM3otVnpjTHR2VVBqRHpJc2puVENIdzlvbVVrZjN6cXE5enM4WHFjVDZaTGdrUmIxOVFMUVV2ckRGUmxtWi03eWhPdmV1ZHc?oc=5",
+      "date": "Thu, 05 Feb 2026 18:18:00 GMT",
+      "snippet": "MMC recovers Rs 40k in fines for waste dumping  The Times of India",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-05T18:18:00.000Z"
     },
     {
       "title": "Illegal waste dumping sees Yorkshire farm cordoned off by EA - ENDS Report",
@@ -475,6 +571,14 @@
       "isoDate": "2026-02-05T10:50:08.000Z"
     },
     {
+      "title": "Ballari municipal corporation takes action, dumped garbage outside errant hospitals - Hospet.online",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ0dvX1NBS3lUanNVcnVGS0E1c0tMVXFWTFlkWV82WTJ4UnluXzVnUVl0LXJuVkJKaEY3TE9jNWRFNWgwd3AwX3pNclVMZjJnSjQ2eUxRQ0VBQkI5RTdqREk5U1haOUstbjIzOHduYWdHdVJaYktHZ013TEo3QWR0V0hpUm5COVBSSlVqR1JUcjl0QVdaUzVnU0MzX0FLcWRmRGVjSEJwY0c?oc=5",
+      "date": "Thu, 05 Feb 2026 10:21:13 GMT",
+      "snippet": "Ballari municipal corporation takes action, dumped garbage outside errant hospitals  Hospet.online",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-05T10:21:13.000Z"
+    },
+    {
       "title": "'Utterly shocking': Eight awful photos show true extent of enormous illegal landfill - LiverpoolWorld",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNW9mbE95MWlUai1DSnlCVldVS1VVU3VObWw4WHdQN0tTUWNLNjlrRWRybGRZb0l4SXRzODh5dEFmQ0RDcXBrUlZOdlg1VXZINEtkZmlsWGlmNWNGUzhtSlFkbmpUbXl3cklrSXFMcTRja09XQ0txNG1jaHMzaThNdWVaSTVBbUpVOGV2eXRJZVBRN04yRzRvcUktT2YyMmk1NWVEWjlGUjVUU1dsaFBjYmdscEI5aDd6VUxPRzFoSTJRcDhOdEtqZ1VOdVRncVVGYWhfZ1h3Vm9OQ1JKVngyMGRpRFhqc2Uyc2Qw?oc=5",
       "date": "Thu, 05 Feb 2026 10:12:00 GMT",
@@ -483,12 +587,60 @@
       "isoDate": "2026-02-05T10:12:00.000Z"
     },
     {
-      "title": "Congress rescues industry watchdog earmarked for closure by Trump administration - Chemistry World",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYjZwVGpSQWdTclQ2dzdRa1kyN3BmbEU4N1o1MWZBY1hQbVVDa3Y3Z2RybWY4RU9nWE9uSkRrUjNHSURFLVp2ZlFiWVN5MkRJWW1Gd1pXaHo3SWc2RjZ0azZoeVFxcGl3TUk5U0I4d0RYaFpuRG9xWUJ6TDdDUTVxX2UxTW9RZjc5eDVFZTMzQ283czBvdTB0V1hyQmh3S1QzQ3hlbXloTDhreHRkSEtvRkRaYTFzTUZuNzFJRVVCZ0tmX0ZmRWVlaEdKM1k?oc=5",
-      "date": "Wed, 04 Feb 2026 14:39:31 GMT",
-      "snippet": "Congress rescues industry watchdog earmarked for closure by Trump administration  Chemistry World",
-      "source": "Business Failures",
-      "isoDate": "2026-02-04T14:39:31.000Z"
+      "title": "Government launches new fund for environmental levies - Mongabay-India",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWXdWMzVtd0Vob09mSHZXVWhXS2FIay1GV3hkdzd4WlFfRXZDVEdHUGhfNS1KVlJ0cGEzbTY3U2JXVWVWLXBYRWxsWjdNc3lkcXR4bFh3R0VuQVg0ZHd4NDZ2dDRBVGpxbVk5SU9sd1hVXzlJZ3VxQjI2cGVGelk5dnVrM1pkYUFmOE5JSjFTaU4xYU95ay1makVOUFJaNlNZZnZ6ZzRB?oc=5",
+      "date": "Thu, 05 Feb 2026 09:27:58 GMT",
+      "snippet": "Government launches new fund for environmental levies  Mongabay-India",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-02-05T09:27:58.000Z"
+    },
+    {
+      "title": "Mumbai Enforces Strict Cleanliness Rules With Fines Up To ₹25,000 To Improve Public Hygiene - The Logical Indian",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVDJTaV95QW1QeVp3NlZUWGhUUkg2NldYS1lCUHlScnNzZjA1SFlhWDdmbW8yRUZBTjR5TDdWbmRpQ2RvRVZ2Qm53SE9sYVdDTU5CUDRCQV9NZUpISFBLWTFVSXJJVGlBRkFfT1k1TVctM0tZWlNfajRfS2JVaVY0Z2RDQWgzVk5fYWozdk5PMk5QdXhIQ2pKckRLMFFkYklTRWtCUnFTY2tiYWZ1X1hxTTNmbkw2dWhsM2hwM3F4bjV6TDQzekkw?oc=5",
+      "date": "Thu, 05 Feb 2026 04:11:02 GMT",
+      "snippet": "Mumbai Enforces Strict Cleanliness Rules With Fines Up To ₹25,000 To Improve Public Hygiene  The Logical Indian",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-05T04:11:02.000Z"
+    },
+    {
+      "title": "People spitting, littering in Mumbai to be slapped with hefty fines: BMC - MSN",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVTYzaDl2YU03UjQxR3pyVmZtNEl2S0dLRVlqeFhESDh5SnM1NjRfdHNoV2haN2F6NmVDMEViTzNmbjhjbkRRNXFrTW1mNmFuX1N0eTE3cFItcVF1Nm41dlk1RTZ2cWx6bDRGbW13S3pOd0VsQ2FzR3NrTXBWeE9RZWpTTFhFemhRY3BmMEY3WU9IVFBCbFhpU1JtaHJaQXhTY2phTzhlSHBtYW5iMW1QbUhMY2tMb240SmtJ?oc=5",
+      "date": "Thu, 05 Feb 2026 03:36:26 GMT",
+      "snippet": "People spitting, littering in Mumbai to be slapped with hefty fines: BMC  MSN",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-05T03:36:26.000Z"
+    },
+    {
+      "title": "Puttenahalli Lake slips closer to ecological death - Bangalore Mirror",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTFRZZFR3c1lZejRxbWJFenc5R0xkU3BwU3VySHBCWnRKUFpxN29MNVBUNGtGSm8xQzNYS0M5a3JNRGd4RVUxejdZNWtreHoydDNDSFYzNUpUMnhidnI3WjluLWZET3dkTEl2VElLVkhyUWxPOThCNzlPbFhfRFRBYmlNWFU0NmlvTHZEOER1SnF4N3dTdk5zV3RLVHVkZXh4X09OTlk1T0ZibWRtV0drWHlUajRqVWtfQVltaERLdC1tTDBnOExfS3RBQdIB0AFBVV95cUxOZENkQTVwQm02NENxc085VnNsSzlkQ3F0SF9BQWNpRkZvOTV2Zk5MT05QZkNhMk9qaUhIQ1dXY2ptSUh3RG8yc292MU5pU2VnTEJ3TFhlRk5fLXVmNkgtdzNyNTNXRFljX3NsdTZCYnpxYjJTVmJOVUg5WWRuRk0zN0VFM1V0SlJvdGxYSzBFSkF0aEZ1M3hQWDg5eGpmdkIwMmVnNFBYSUhPNEdqQ0NGY2ExRk5fQ0s0MVRlLXgzYl81S2kxQTZwQmkxYTZTUW5I?oc=5",
+      "date": "Thu, 05 Feb 2026 00:30:00 GMT",
+      "snippet": "Puttenahalli Lake slips closer to ecological death  Bangalore Mirror",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-02-05T00:30:00.000Z"
+    },
+    {
+      "title": "Ballari civic body dumps garbage outside errant hospitals - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNS1pFWmtZUW5nN2NyUEROcUt4OWk5R2J5NEhYaXN2TmRmWk9SUU5wNEpYUlZSaE53Tk80R21aRC1HUU1lWXN5eTBiNlpJUzZjWWZxZ2VzZkM3QnFvRVA1Q1hXNmYtMXdSVWxDdW41aEo4d21Mc215WnlDTHViUFpvSGJZYTZTVzVsbHNSVEdjM1o5TUFNWmUyVTU5ZFNVNlo2OUVqUDZqYTFqc0JDaGVCZEhrT0xHUGdVN0Y0VTlrcWp5NmI0STFrQWY4ckJoZ9IB0wFBVV95cUxOQ1d4cXRaVjlGazJBMGExMUpZQl9LY1poSzRmUDhUa3hfZXc3RlAzLWxGRW5vdmJGTndBOXpZVmt6Rkk2YnREbGFKZ0NNdHUwa0psM3NKZ0dhZzlUM3pBMzZ3ZFY2OEYxNVZQN1pxdmMydTRNdElUb2dkY0VPWGUySHM3Uzd2ZkcxOVlVQXZLXzU3N2lFWUd6enpEWmRYMVc1alFPV2xQdXVGSVFnRUtoc0VjU1o5WndoTlpucTJkNl9IMS1FQ2xKUlBQeTJOUEREeVVj?oc=5",
+      "date": "Wed, 04 Feb 2026 17:46:00 GMT",
+      "snippet": "Ballari civic body dumps garbage outside errant hospitals  The Times of India",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-04T17:46:00.000Z"
+    },
+    {
+      "title": "Illegal cutting of heritage peepal trees: NGT slaps Rs 80,000 fine on Faridabad official - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdEQ0bTMtM2pLRHpsWUlrbU9IbGdZdHpzLUVYbkNDcWVMdzFWMGYtOGZCMHNYbzlWV1JIamhHZVU3SF94eTROeEpMZm5RYi1CTVlwNFp2Vklzd1NDQ2VpTUNMZHN6ZWpha3lFbWFPM2VSVjJMUlB4SUFKdWNmQnRJdHBtNUVCcHFMYXM2bnFNSWdEVnZmRkdBUXNZUExrRElLZ3BfYTY4ckVQRjVmcFNjQ3FYT1NpdGpiUVpj0gHCAUFVX3lxTE8wbUxPOVdSLUhPZHFheE0wNnZjLXBuUzJ5dHlRck1CTzJZVXBUOGlUWDJhcXJiQTBvWkh4UkNELV9RVmlWRjA0R2N5Q1hDZG40SzlNVC0wa284Z3Z0dVc4QUxoZ21RQmE2cnZMTm1vYkpkLUcyTzB0WVF3enlOZjJvbFhOUk9mWFFXRkJRQkEwZ3JULWV1ZEF0azNab3lrUjJtamdUTDN2RTNyVm4wcGp4UlJtdlRjMURSRk5vS3kyXzZn?oc=5",
+      "date": "Wed, 04 Feb 2026 14:29:34 GMT",
+      "snippet": "Illegal cutting of heritage peepal trees: NGT slaps Rs 80,000 fine on Faridabad official  The Indian Express",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-02-04T14:29:34.000Z"
+    },
+    {
+      "title": "Mumbai’s Pet Parents To Be Fined Rs 1,000 For Dog Poop: Full List Of BMC's Rules From Feb 3 - News18",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUzR3SVd2YmZWRDRCbzg5RkZocDZHczY1bm16VkhUQ2htaEFqMU1LaTVuWldpYmFvRFZqbE1NUjhQek90UjQ3a2Jfa1pIc0ktekxyUmJmQkJoVkxRX0ExTDh4MFQ1dTNTWDQwb0pYWDMtd2NfT1VDdE5aendYS1VJTTV1em9FdHhiT01GSjY0bWRDRmJBQWpsNXdFRWw0QnJxcUxUWVN5U2haT2FZc0Fadmh1YVNiS2l1SVRMMDgtaUFocG9XWWk2VGNPbWJGRFB5SE40VmdwZ3FBTnVzNGhmZ0RmM3hKUdIB6wFBVV95cUxQZWhVX0xPaW8zQ0pDdEZoWjdBR3R5ZFN6cDhXSUhpZ0ZGNVl4a0l1ckFjMWtsaWIyVUtDM2s4aHBNNjh4cUsxVEQ4czN4V3MtOFVWSllONktUaFlieURMMFA4Rmc4WlpVSXVYMjlsamE3dkVqajRNZWFfLWRUdXVWYVFYX3ZEd0lXeDgzZ2t1dUVCR3U1SlQ4UmNYRHd3bFl4QzBFN3hOS1FRTEN3Wk1mN0FaZWxseVFjbzF1V1JlVWhXUGVqdFdKX19WVW10R1NlY1lHc1pLTHNjVFkyejFoNzhuS3ctS1NBc2xv?oc=5",
+      "date": "Wed, 04 Feb 2026 14:18:00 GMT",
+      "snippet": "Mumbai’s Pet Parents To Be Fined Rs 1,000 For Dog Poop: Full List Of BMC's Rules From Feb 3  News18",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-04T14:18:00.000Z"
     },
     {
       "title": "Estée Lauder Companies fined $750,000 over environmental law violations - Cosmetics Business",
@@ -507,12 +659,36 @@
       "isoDate": "2026-02-04T08:11:29.000Z"
     },
     {
+      "title": "Gurugram Municipal Corporation Issues 1,881 Challans Worth Rs 31 Lakh For Sanitation Violations | Key Rules And Penalties - The Daily Jagran",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObEZjaW1lT2dWdGU0NkRHNTZBbmYyYlBoSHE3NzZEQk1MRFJsU1pITEZMLUhTUmRwSGtlYUJRd2tnWkszUFpSc0ZXeEt4cmdOeWExdUpzRGk0RV9EN2syYlpFM2pJekg5d0hYTGgtNkhrdHRoWVRiandtU0F4a0FVem9wUkh4SDQwdG83YTBKRllfdmRpVWpoYWlQRElEdUVmQzR2T3lORHN6MUd6YnpGVk82YjVWaE9qN1lLWVZhYXBMYmNzcmc4dG1pWS1fcnQwTTNrX283QXI1bEJUMFJkTW1KbmExWnU0OXEwQ2l4TXNjOHQ2RVdn?oc=5",
+      "date": "Wed, 04 Feb 2026 08:03:00 GMT",
+      "snippet": "Gurugram Municipal Corporation Issues 1,881 Challans Worth Rs 31 Lakh For Sanitation Violations | Key Rules And Penalties  The Daily Jagran",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-04T08:03:00.000Z"
+    },
+    {
       "title": "Sewage flood cripples Wellington wastewater plant, forces beach closures - 1News",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMDRhbzNvSGhkcUttTXE5WGdRVHhGZkJOa0hUakdCYVFOV3hpZVpWVV9fNjNOOEMwS2g4UWtYSVgybGl3Vk5xTnE0ZFVxNFhCaWNGYkZqUU5BQlpRYWVRQXFuV1FQTmNwVVNfZE1qWk5DZ3FHYWRlMWd2d3hTa0Q5YjF3YWFtbElhRnMzRmFFeHcwcExacXFzeWV0bTBnX2FKSWVoOTY0NXFQa00?oc=5",
       "date": "Wed, 04 Feb 2026 05:17:25 GMT",
       "snippet": "Sewage flood cripples Wellington wastewater plant, forces beach closures  1News",
       "source": "Business Failures",
       "isoDate": "2026-02-04T05:17:25.000Z"
+    },
+    {
+      "title": "Clean Mumbai drive! Think before you spit, litter public places; BMC invokes fresh fines — penalties up to ₹25,000 - MSN",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOck84VlNsVFZBMmVnaDFoZVR3RkF5d1NId2h5LUV1YnA5OFJ0RGFlOWdRdDZpNURROGNVZmFyc09HS1ZpdEhrV1BjbG5BS3BPcDdOYnh2LTllMUJPYlF5SlpLTzB2SndudzN0dEJBTTBvUGlocmxMN285WXgwbms4VjJWWEd6em56WGRudFJwbGZ5QWNBUnpEd2oxQTk4WC04RjJVWGV5Y0tLbzMxRkEwaDhmLVFFV0REQTlvWjlNRGRqLWl3ZXpOVEFSSkJQODFLbXZoeG56UER0YmE3c1ZnUDdvTUVubVpiZ0dtdndR?oc=5",
+      "date": "Wed, 04 Feb 2026 03:50:43 GMT",
+      "snippet": "Clean Mumbai drive! Think before you spit, litter public places; BMC invokes fresh fines — penalties up to ₹25,000  MSN",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-04T03:50:43.000Z"
+    },
+    {
+      "title": "STP not working for 2 years, Ajnara Homes fined Rs 50L - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWjBaSHRaZXk1UG1mVHRSdXBvZUE3d3NHVjlmZGwzQUdrR3Y5MFNDVHVYVHZyd2xsSG1kV1IxeXAyR1RxdWVxMWtuS2REYS1hWnl2dW42NWxocFkxd3BZZHdQV2NldWtrTGFmVFM0emlKRTZzSDdnRmVRaEtLYmNIT0dWMlVQcVFmV3otSG9nd01ON0kyQU1xazFuamtwYkpHYVFHV19wNUJwajdwNmNSYUpxNkdOUmxHMEFWeVNwc0N1aG5G0gHKAUFVX3lxTE8tcThqNUdNaDQ1dXNYZENZdTcyY3pBRFBGbXFZRlFSdVhmSTAtdV9ET2VoT2s3d3NkakJfaWtkbGlnSnVmOEpsZ09oRy1Tb0N1N09SMjdoYW8tUUpBMmdJb2ZqbVZRR3dtWnoyRm1DYkdxZjFwMllfY2xId1MyVkdrdkF6dVhtd3FUaGxNUmlFSnAtby00dzFzRXQzM1dMWkRjNTJGT2lrYVZBUlVOTTdPcUVxMDBOZTFKd2hiOGRaUEMxUG5Pc2g1eHc?oc=5",
+      "date": "Wed, 04 Feb 2026 02:39:00 GMT",
+      "snippet": "STP not working for 2 years, Ajnara Homes fined Rs 50L  The Times of India",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-02-04T02:39:00.000Z"
     },
     {
       "title": "One of the City’s wastewater buildings remains shut down after employees’ illnesses - WIBW",
@@ -523,12 +699,116 @@
       "isoDate": "2026-02-04T00:12:00.000Z"
     },
     {
+      "title": "Spitting, Littering Now Costly as Mumbai Enforces Cleanliness Bylaws With Fines Up to Rs 25,000 - Republic World",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYUtJTjhuU0hrZGhRZUdKVENTU2dHbUlmNE0wdnpLZkI2bUFwNjBPRTZON2hlV0ZndTRnVTZvWFdDZlg0eGNQcmFOMFZjekZ6WFFmcDc5YWNZczdGanoxNzJWMGkyT2J5V1ZpNEVpUzlkVW5nOGdmbkY4S0NMU2ZWNWtmNkwzNEZiamczRHFjREV6QjJmcEpoOWRnWkJlaWVoVDQ1N2htc1FJLTZCbDNudi1HSmhZak8ycFJmYndkRHFpZ2o1eVJaZNIBzgFBVV95cUxNdThxV2M0UDdtZWNjRkF5NXZBQ01LdjJZd2dPYlFlQVZDQ0E2ejNjMDVJSGhzOFlsQ1I1X0lFOWJPWTVqNU95QmlLR3JaT3ZaOVJzQnlXTDlLeEhsRHJENktQSVFUWThLUTFpLWV4YnBoWDRxT3k3OUM0RzkwWnFSR05vMUZMY1RQdkF6NkU2MzU0ZzNwZktleExXN2c1c2xvWFIwYThBYjRDWm9Edk43Vm5ILXFFY0czRW9QR1pCaFBGNE9yTXU3UlJGa0F6Zw?oc=5",
+      "date": "Tue, 03 Feb 2026 12:59:11 GMT",
+      "snippet": "Spitting, Littering Now Costly as Mumbai Enforces Cleanliness Bylaws With Fines Up to Rs 25,000  Republic World",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-03T12:59:11.000Z"
+    },
+    {
+      "title": "Mumbai’s new cleanliness rules from February 3: BMC rolls out fines for littering, spitting in public; offenders to pay Rs… - news24online.com",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVDdGQlQxUXQ0dWNSbkRqdlBXZElQczVpWUJ1c2xfQzI1YWpuWTIwbW1aY1doVkF1LUhfS3BZNXRHUW16TU9MUzlaOTRrZTFDNkNMenVjV3QtTlg3SXNPZDNla3V1Q29OdTNZMVhJdVBKNVVDRGtpSFRlWlN2R0RqZUVqSWc1WlZaTzNqRHNwTzZWTC1hVjBhM3V6eElsR2JJbG0xbVlwOEx0M0twYUxfSms1NWtUUzdrVjctX2ljUkZMeTRreHVmeEN0aXBpeTZWMmhnTkZaaDZwZEpCbHVIVHFyMnJqWS1xUE05VExR0gHyAUFVX3lxTE9Ob3N4MFVDelVwTlMwQ28tWFhlVjVwRUhsVm9hYTVlTWswX0R1dl8ybm9sSnMtdTNGb09XeW5WTU0teWx0UExvQVVLTFBDcDdTeGpxamxkYmlzd0lnM3FhUHlTaXZnYlFPbkI1anJDcHR4VDlnMnMyMUV4V1JHYy1LVFljS0pKNURZWTNpY29XOFgxWjNEMmwzSDNuQThwdXV2c2F4TE9NNmU1X2xza09PeWdXUERuNkxkN21kSmxYS25ueWJkMjlxVDVtMmc5S1RVTlhvRlExQWRfVUc5YTBzWkNFVGR2T3hYNXhKTm1HZkZ3?oc=5",
+      "date": "Tue, 03 Feb 2026 11:49:25 GMT",
+      "snippet": "Mumbai’s new cleanliness rules from February 3: BMC rolls out fines for littering, spitting in public; offenders to pay Rs…  news24online.com",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-03T11:49:25.000Z"
+    },
+    {
+      "title": "Mumbai Cleanliness New Rules From Feb 3: BMC Brings New Sanitation By-Laws; Spitting, Littering, Animal Feeding, Vehicle Washing Among Violations | Full List - The Daily Jagran",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQUjduMG9ENzlySW9UbnppV0lwMUd0azF2R2ZSRnJHYkVyMVpFQzFUalJhYTJwZmFUdHFWaW9Ea2ptTEQ4Q01MdDhOcTAwMGMzTE5YWjNqVWlOb3JnUV83YUJrOTdibWhFNmpXS3hDcGtHQUM3emxKdG9aRGRON1hzMXdhcGx2MlBUdmVyQlhKbGZsalJXZUttVTloLXA4cFBSSmxUTTNZS21Gdll5TnlCdWQxRFFFQW5vaVY3Z0ktUFRPNzNLVXZMTkNXVjh6YTRVRjBHZlRONThaWlZpMGtKM1pfemJYOWx2dkc2YjhWRVNPb0pKR2tuMndvR1hlcmtINGQ4MW5DS2VWWUlkQ0tYT0I2NG5UYlFqN1E?oc=5",
+      "date": "Tue, 03 Feb 2026 09:12:00 GMT",
+      "snippet": "Mumbai Cleanliness New Rules From Feb 3: BMC Brings New Sanitation By-Laws; Spitting, Littering, Animal Feeding, Vehicle Washing Among Violations | Full List  The Daily Jagran",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-03T09:12:00.000Z"
+    },
+    {
+      "title": "Mumbai’s clean-up drive: BMC rolls out fines up to Rs 25,000 for pet waste, spitting and more - Full... - Moneycontrol",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNUNtWTNOQVBNSmpwTjlrN3g2YWtMdHFPOGJ5ekdUNG96MVBfNENGc2ZEMFYwNURlX2hleThaem5kaVZyZW81VDZPYUNNaWZtOGk1RUUxd2w0Sm5BbnQ1NUYtaWM0ZWRuNDJzVi1xTUlMQUdJRVNaWmhrZ0VuVWVpeERnek80QXNiZGRRNkVvUnBQQlhFdjZyMFZSdzdMVUJjSjI4VDN2dkhuRGNBRUNXYWdnMFlobUhreW1Ic0Q5ZjlnWkJkRlJkelBrTTFlbjjSAdQBQVVfeXFMTThJZ0V0S2VjRUx5NG9GOHhaRUhjVU9GcTEyZGlrUTY1ZlNoOEtmcVpaQ05pZW1uaUg5NzQ4NFgzeXYybzBLQUYxa2hIUE8xUU1SZ3p5TDBqN1BVNGZQb2V4a1llb0xuTGJ3bk5MOFhlOE1tX1dzV0tMSVhZOG1xN3BpWlh6b1k0WUU3RG1JVGJIQ28tMFQ3QjZCXzZHTm42VE9qY29Vc3Y0V1lLQkRhSTZIbHdSX2VjOXlXa3JUMWRid1lQUS1YemhQc2Rud0otZDdVR1Q?oc=5",
+      "date": "Tue, 03 Feb 2026 08:46:52 GMT",
+      "snippet": "Mumbai’s clean-up drive: BMC rolls out fines up to Rs 25,000 for pet waste, spitting and more - Full...  Moneycontrol",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-03T08:46:52.000Z"
+    },
+    {
+      "title": "Mumbaikars, You Will Now Be Fined ₹25,000 For Littering And Spitting In Public Spaces - curlytales.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZDlvb2w5Y1VCdzhlVlV3dzZLZXFYSkM5elV1RVJmWm9STU9ybTEyS0JNZDZjQkJYWXlEV1BzN2x1VEM0Z2pHYjFNcnZXdnNSaVlmcExhLWV3aW9kXzRwWHN1dUVZekd3ZENOYmFuRWR4X2swWTY2czRSNnViaXZ6dmtZZWV6b2Z3ZmZIR21VaUZUQ2dueHBMWlAyYjBwOTdxV1VSTlpReGN1WjlrNXdsbmg4NTJud9IBuwFBVV95cUxQRXkydURyeElGTFVONk5zOExPdHRRTWJZSWF0eVNuLWdJRkIxVWZSMnVTT2xhYlNScGJkLUJyeUN3UnJORng3S041UDlPRTBPa0NrMjlwWC00bTdTc3pDenhhQnZLaHZlU0tmaU5BVk93d0lsaVU5ZUVWZENOZExucXoyWnB3NWVmNWgtOVI0dnZRNGRLa0lJaFVFMXNlNkZ6c05xZXkyOGU3X2thRHNERm1ybFpKQl9RSWxN?oc=5",
+      "date": "Tue, 03 Feb 2026 08:33:46 GMT",
+      "snippet": "Mumbaikars, You Will Now Be Fined ₹25,000 For Littering And Spitting In Public Spaces  curlytales.com",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-03T08:33:46.000Z"
+    },
+    {
+      "title": "Clean Mumbai drive! Think before you spit, litter public places; BMC invokes fresh fines — penalties up to ₹25,000 - Mint",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNOUpqZXpOU0Y5T1UzNXE1NjV6VmtKcmRjUk5Lb3FfQmZSRkRFT3VhN0RyS1NXUU9haFMySlRicWJGNkwyOGtpU2RSb1F2YlR4LXhhQTRkNm1KTExlQmlmUm80Vl93c3h1SWJ5bkVvYmJ1bGJwZkhXTmNRX2U5S3VpZjZWZkcxLVJrTTkzc2FVcVB5bTRlbGxJZk1fdklKQW5ZdWRGNTFEYmc3MlU0eFFUZW0zUmljbElzLVdJaWxsRHh6S0NhenRJZUYxZ1ZyQ2hvVC1mbGI0aXJjSndudjBwOG9fZENnSUljQVlYYll3dFhiRURKZTlIR0R30gH_AUFVX3lxTE1CMURfRWdEc3ZVMXpSZXJ5UkQzcXdsbjBlV0VfU2FaMUFKS1AwSlNCcXZLLUY5cWpzbndVb09rZThfb1VKRlJHWnRmLTlCdDR0cWRrSHR1bkx0SWtTdFBFZTZyeHpYaUdLMkdTTWo0d0U4QjhBZkUwczRuV09rTEtRdXljYnluY3FVczdfZmZkdjhpcEN1RDQtcktzcmRubzZkZDI4OHllM1d3cjlVaGJDMWhldTRvVkd2RzBUX2NQM3NyWHktY2JBeDY5Q3V5amYtcVVOc2dKM1kwNkUwcEh1Wk5WTjVVSGhVS1lKV211aUhndnlPTktnUFJraURYQQ?oc=5",
+      "date": "Tue, 03 Feb 2026 08:31:06 GMT",
+      "snippet": "Clean Mumbai drive! Think before you spit, litter public places; BMC invokes fresh fines — penalties up to ₹25,000  Mint",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-03T08:31:06.000Z"
+    },
+    {
+      "title": "BMC Announces Strict Sanitation Fines In Mumbai: ₹250 Fine For Spitting, ₹500 For Littering & ₹25,000 - Free Press Journal",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOdE5YZmo1SVFjczJFRURNYmRYQV9WTTVMOU12OE9BVEQ5NkZsLVYxWUJxTGZ0aWt1NHJMdjlVUG9oTFF4LV9mSndxcktETFM3VnZQRU9KdmlnZFIzaWpWMXFQalpWbUdiNkxZcFpZdHZkTUFIVVp1Z0wwbElROHltZUJyLVRlczNsLUFWT20zM0Jxd2VNbkZJMnhTLUpjcS1mTnpINE93VlZiNGM1R192cFRRYkpqZmRkLUM2UVllZDFxcURfc0EyaWZ6aVNVWG5KcXBuc19YVjMzYjZkbW51Y0d6azZCUy1jdVBEcDhZYU1rMDFlTng3RFhxckJsOXNtTnRj0gGIAkFVX3lxTE84azZEYmFkcDJlZlA4SDBNTGlrWGpxODgtcVpKTHd0MEZqX1BMVEk0N2ZldU9haEJPcnJ0WEFwOGRubndMYmdtOUZMalJXeUkxY0RMcTlUT3VVNXNEd1VCc1FQamFTNHZGZ0NkcVF5Wm9yTXpIbkJpd0V1Rmtocmhod1RwcFA5WlZOUHkzckt0bXQ1TTVwV0E0UzYxbmxWcHFnbDJrNEdJaXFOT3hnV2djX190ZTVOUnpzcEtnRFZwcEVxa3dBa0tmZVdxQzVyN0FPSFhqTkdzTjFfaWpaWkxHTDdFOVpUa0QybnFBNmd5M2djVnV2SldiVEZHOEdHa1Atd181R0Jjeg?oc=5",
+      "date": "Tue, 03 Feb 2026 08:09:00 GMT",
+      "snippet": "BMC Announces Strict Sanitation Fines In Mumbai: ₹250 Fine For Spitting, ₹500 For Littering & ₹25,000  Free Press Journal",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-03T08:09:00.000Z"
+    },
+    {
+      "title": "Mumbai Residents, Spitting & Littering In Public May Cost You Rs 25,000: BMC Rules, What You Must Know To A - News18",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWmI3ZGdiVEt4VlpRVzA4UmZuRi04OE9vRGdsREM1aThaZl9rMkdyVTZwdUI2Ml9GSzZXV0lHX2tnaDNJNHlHbFZtUUpoVmxmQi05bnA2Q1lmRURaaTczajF1MjRXZVBndVREWFoyNFBBRUl2QUR0MGtGMzl2cUNYSmpGeUplV2tlelQtUlBBQnR3Vi10VjZoVGp2bl9OVjRLemJ2dkN5b3duTm9rVndxekVMSTl5VXZtbkpqcG9ZaFhoeFY0V0ZEMUNReS16NUdoWXlCRnpiVdIB3AFBVV95cUxQLU9ZNEhteFVIV2FmQXFadlRCLVVraVd4OWNZeWpKREZiOURHQ0xJWTJPYVVidi1CUDdmSmtvUjVodkw1Z1lCaWc0SURQcWRNNlJDTm41NTBiM0VQbW9uT2JlcmVaR2pDZkJvNG1ON0RKdmtvN256SS10T3htTTRzVGNqOGNGRnB6TU43RTFyNlRHSjk4SVZRbFFIX3FsMkdBUVpRMGVYMWVMVTdoaVphMklNZ0I3TEN5aXRNUTRuVTRIbjd4STNCX3FUdENWdTBJeU44UlZGZDk4S2Jx?oc=5",
+      "date": "Tue, 03 Feb 2026 06:21:23 GMT",
+      "snippet": "Mumbai Residents, Spitting & Littering In Public May Cost You Rs 25,000: BMC Rules, What You Must Know To A  News18",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-03T06:21:23.000Z"
+    },
+    {
+      "title": "BMC Rolls Out Hefty Penalties Up To Rs 25000 For Spitting And Littering - urbanacres.in",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM0J2bmJLZFVRVk8zLWctSUZpUDd1XzlrUDhHYkVoTkJOZTdyM3QyVTAzWVJ2TnBUaHpzWFJTbVpTaEVuZk9QMGFTaHg1VVZuRDBCSEhxYk9BWGk1cGVfYURSdVMyUTM2R3E4S0RfUGktTDlyM3BBWDc4bXE2bHNMWmxZc2Y2cTloV05lMlphR2FIN0ZkRjBSdHdR?oc=5",
+      "date": "Tue, 03 Feb 2026 03:18:29 GMT",
+      "snippet": "BMC Rolls Out Hefty Penalties Up To Rs 25000 For Spitting And Littering  urbanacres.in",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-03T03:18:29.000Z"
+    },
+    {
+      "title": "Indore News: Indore Municipal Corporation Slaps Fine Against Two Industrial Units Over Pollution - Free Press Journal",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQjlsWU1odDhoNV9RUG56NnVQYkZyUlBTaVA0dVVnZEZyc3lRT2lLVzhfaTlpZlhzakR1WGdNejNvVV8yVnEwN2xkNzZSSk5IR1ZOWnA2SlEzN1RFc05kNlgzd1Y4aXJrWjJPUzNQaFpud0FjRVNHSjFlX2FheDQ4YjZlbFNaSG50aWEycU9NZ19BYzJxcXJuQ0UwVmV3QjM1alZ5bWxPM1Z0azF1SmFHMWlIbFFKYzZBMEpGanl3WWJid05BdFdpaHZNQTlmY3PSAdQBQVVfeXFMUE5nTEFONjBmTWpOX1ktcHQ4N3MyaEtEOHZ3bm1xWDdkdXlYRkdQYjZQQVAycmZPQkFycW90NzZMbldKY2l1cjBWM3lmYVBnUmNxZnlTVVNVZlBzZWU3aF8tM0I1X1p3dm5ST0xkYk9uN2JTWHc4Z2E1QW1CRG9BNEV4NG9VdHR6anhISFVSUHlxaFNEMHA0UWVxc0QzZG1wb0FQZFlxZnRWWG9ISG5aYjQ1TVYxdkFQeUFtRzdSZFdwRG5iUWZ4V0NVdGJYOW1RcXZ6aXI?oc=5",
+      "date": "Tue, 03 Feb 2026 01:54:00 GMT",
+      "snippet": "Indore News: Indore Municipal Corporation Slaps Fine Against Two Industrial Units Over Pollution  Free Press Journal",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-03T01:54:00.000Z"
+    },
+    {
+      "title": "Steeper fines for civic offences under new bye-laws | Mumbai news - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcGFNVE1oZ2ZrZnlwQkVGUWNsWlY1ZnpoRkRNZTFrMEljVlV4VVVLQ3EtY0dYY05aQUhnT1N2SjBINnQ5UVpiLVY3T3lBaHVxcnQwcUx0NERWSloweGtMa0kxWkJ3Xzd1amx2cnlGMkNEbGZiMHFpOFhyLTQwbVM1VTdadjhUaF9aVFRjWUpJT3VhUkp5NUFDSUUzSVdZTTU4MVJfVmswXzZrUHFXNnQ4VC1FaDJyZEpEWkVnU1ZB0gHDAUFVX3lxTE5HVnhDbWtETFVjX2d5c3VyRXVMemozd2NUYWluS2t5THBsY191YU1RZ1JMM2xoNHBuMnQ0RHFnbHVYb0FkenRCS0pSdzQ0XzdCeFhvSGZKa21uM1hQakVxcnhvS0liY1A3TENDeUdVNmN2QTc3bERKazd3dDdyYmxwM3JzWjFmcXpGQXR2blM2TVdhQS1wR0JXaGhTd21GRkZKR3lzZjJLd0kxaVpQQlNpMXpQMnFIUElOeko4OGVDLVpVcw?oc=5",
+      "date": "Mon, 02 Feb 2026 23:50:05 GMT",
+      "snippet": "Steeper fines for civic offences under new bye-laws | Mumbai news  Hindustan Times",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-02T23:50:05.000Z"
+    },
+    {
+      "title": "MC to challan Sidhwan canal polluters 5,000 - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSHE4SUx5MG9zV0k0TGlpcy1vWmhrdzMxclczRXp0QTVCbWFZS3V2dHNKWXFEMnlTTDhwbC1ma0pWdnFRTl9qZFpmV01UVEVQRU5VbGcyUnRFaU9GMk8zck5iWHlLNC1CUmNjYS1ONXo2Wll1QWdYb0lzb2w1V1pyUkpmMDc0UHB5QjJheUFBZ05RNFdNSm9FY0xPNHJ1MktYelVoN0hRR2hqNWhKQnk5QmVKd3JCMUlHOHfSAb8BQVVfeXFMTnBRMVVNWFZVOHVacEFhZWNnVnJGdEpUdU4tbHF0cGoyZTRjSUpHTjg5TmxYenFwcnFEZGJ6cklRdlczTHl2OTZLeEJuS2pYOTl2SndxMG8zckNUbk5HTEs3blBJTEJrWFowQldodGF6Z3ppVE43ZG1mQ3FYcHhya2wwN1oteXBIVHdsWktpVENkNjc0STYwUW9idy1KWXZ6eTI3VnJJTUtCY0tpOGFJZGlPZThJTEM0Q2Z2UUdOcWc?oc=5",
+      "date": "Mon, 02 Feb 2026 19:19:00 GMT",
+      "snippet": "MC to challan Sidhwan canal polluters 5,000  The Times of India",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-02T19:19:00.000Z"
+    },
+    {
       "title": "Class action claims InSinkErator disposals fail prematurely due to design flaws - Class Action Lawsuits",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNaEtSbnJudEJydVo3VUJ2aGJoNVRzemZPZDlEd0pWRlBfVmZwOVVTekNSb0FVNGtRNGdvTXlrNzA2TDZHTnJkaFU0eWd6ejFUeEFSN2twYW5UU0lGd3hGR3FQYXRxcDAxSFRHSE1XVmZVZDhUMlE0LWZVOUJFaFZDYWo4S1JieHJGSGpKRkY1emI3RFM3SmxodkpVaG5QTTJwRG5nMFdsVlRXT3hLTWdPSjc3ZTN0eHNvVkQ4c1FyeEY5eE55X1FrLWRBcHBnekc3V3lidEJnSHc?oc=5",
       "date": "Mon, 02 Feb 2026 16:05:36 GMT",
       "snippet": "Class action claims InSinkErator disposals fail prematurely due to design flaws  Class Action Lawsuits",
       "source": "Legal Actions & Fines",
       "isoDate": "2026-02-02T16:05:36.000Z"
+    },
+    {
+      "title": "Mumbai Cracks Down on Public Cleanliness Offenses - Devdiscourse",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMnp6Y01JOGF0UllkRnFwRDJVaFc1SUNFTllGSXdGdFZOTmsyNUwtNERlQmI3aEdIZmYzbUdwZlBCY1hWUl9waHc5VFMybzN4Nnd0bk9LdG5Mb2RWQkFMMTFSNmFEWmxOMmdYZVhoMEdDa29ySTJlU095R19iYmxqc3VKOElIMEg2cmJleWRvX0JVVWprRXE0STV4UURIOFJWcklRUlBMb2dNa0tGbmhBVms3RzjSAboBQVVfeXFMTTFjTlFwVGZCTlRkTWljc3R0S0VnNXJmRG54TVlDU2ZmR1ZWb29rSWxpYXFiZktERHFTbDBqRjlJLXBkQkZJY05Oc1doM0FBM3pqSWdfUGFQNzlCOEIyakRkRC1mcjRFbmZzY2pGcjBORVo3WGtjTktBU014YkFJYUxuQm15OVVCbzFIWjByR1FYQU1BUjF4d01pYi05TldiSEhRMUJ0dVNMYWFSbzZsSjc1SVpRQjh0UUFB?oc=5",
+      "date": "Mon, 02 Feb 2026 15:46:09 GMT",
+      "snippet": "Mumbai Cracks Down on Public Cleanliness Offenses  Devdiscourse",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-02T15:46:09.000Z"
     },
     {
       "title": "Lawsuit blames Springfield landfill worker's death on faulty equipment - Springfield News-Leader",
@@ -539,11 +819,43 @@
       "isoDate": "2026-02-02T10:04:00.000Z"
     },
     {
-      "title": "Zero-rated city restaurant with rat infestation and mould shut down - Oxford Mail",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYXN0LXFvS3RJLVpVY0dEQzJ0MFoxNUZnOE1MSFVlbkY4RjBaNllZeVM3RlBRVFJITnAySkRTWXRVRWh5eGFVZjBqWnBBNmF2ajE3Y3NnRnNRaTBDcTBlY1ZfRGFfazNGdnNER1BrU1ZGUnpyTURmX0NUdk9sU25xem5tdW5YazRXcm02QUJOMG5fbWdicjNXeA?oc=5",
+      "title": "Why India's Waste Challenge Is Not About Technology Or Law But People - ETV Bharat",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRDN4OEJVSkRqUWkzc0ZHdi1QUldfSzhUWU4yRVNYbTQwZ0U3S1oyWHlfaFVyMkExTVo4bDEyX1dSOU8ybm5RbFRoQ1JjMUJ1UkhmM1ZqUEJOSFh5R3MtRWF6Y2RVNTdsUGV0dFVnME4wbUhqZWdia2tzbXJJb1VXMWVBdzRjcC1EZkpxdmxJRkxYcngxRFRHOTV6X1pVSFRVaURGZTQyazljYWpqYi1JWFRFNG4xY01ad0daVmNFZ9IBxAFBVV95cUxQeXZSU2pOR2Y2ZTlrVGxhUFFweXNTQk00UEh3dGNKWjZsNTU5N0pvaV9uMXFOdUoxaTYybUlZWFBKSU9SaXRhRnZyVl9sMGF2T09oODIzUXZPRjVpT09QdnVXblllR2w2czF1LU9GeTFqR1NHV2Rta1hrTjM2N2Nxd3BGcmpua3I3MEx1SWd3Q2lYeGxXOHVPbm9UejFxQjB0R2JPUmVSSkxRYlFkSGZnTGlxckd6T0RPdFUwcXBzTlV3SDct?oc=5",
+      "date": "Mon, 02 Feb 2026 08:32:18 GMT",
+      "snippet": "Why India's Waste Challenge Is Not About Technology Or Law But People  ETV Bharat",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-02T08:32:18.000Z"
+    },
+    {
+      "title": "NGT Orders Pollution Probe Into Manasbal Lake - Kashmir Observer",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZW1xVkQ1TWVobjlVYzgySnVGNHh0WmZScnVva3J4NThQUVREUTRzdjBoV0p4T2ZDOVZRc012OWVmLTBTcklCZWtlMTJGY2oyZ05JTGZPbmZySTQ3dUlMWDRFZDVHeklFRTdoR0N6aDlLSTEteS04THdlU0ZWZ0swTHVGdEtGbGF3WXJyY09n?oc=5",
       "date": "Mon, 02 Feb 2026 08:00:00 GMT",
-      "snippet": "Zero-rated city restaurant with rat infestation and mould shut down  Oxford Mail",
-      "source": "Business Failures",
+      "snippet": "NGT Orders Pollution Probe Into Manasbal Lake  Kashmir Observer",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-02-02T08:00:00.000Z"
+    },
+    {
+      "title": "BMC fine: From spitting to washing cars in public, get ready to pay up to Rs 25,000 for 21 offences in Mum - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOQkh3anlzdnVIcWt3Z2Jqd3dMdG01ckRIVjVrRDNVb1NhNTNhTlZUSE8tVFRQTUQ3cUJPMGlESEFqZjQ1RkxHXzM2Y3Y2b0VYSEdXQ0ktVzhMOWFJQmo1M2t2MUF4Z1VEYXp3dTA2blN0MklNay1BaWxRcWRHTU0xbHF0dEJ0ZmxXNFB3clJGRFhuM1ZkZm82Ry05MDJBZzdxQml2UWU1dEI4Y0dISGptLWxIYzE2NnE4bENEY1Z4ZDB5TG1EVll5M1JrOEdFRzVicVU3eThKNEkwZ3I1ZEpJT25VQjRDRFpXYzFobXpaTHd6aXNZaWR6a0FteHJxLXNKTGRCWlJfM0ZPelXSAZACQVVfeXFMT0d0NG5sTkJ5NnZuSzVXcWR0NkJmc2FjbmR1SUt6OU5sZzBOclI4LXljSnVpa0NtdTZMeW9kelBNZkZlQnhybDZMQkJ6WmxNNkJZSThnYmxvWEgxSzRFbEVJeFBXTlV2ME9rUmFjLURrWmstMnREdmNYbF9VZmZsZFBlQnFGM1lDM1ZYZjhrZW04TGV2bHVUWWdPQWpWYlFDbDBmejdTQ09BdTJ2Qzk5VVd5MkhiQXN2ZFZIQkZEY0VrZUVWRlFBdTBIMk53TTlMMkowejM2Ul9ia0lQWGJ4SFFBM1BXZEoxMkVZNmpOeDNBU3JJTXQ2MWZWVVktUUpEMVhTN2RZQVJaX2JJejZXUG4?oc=5",
+      "date": "Mon, 02 Feb 2026 08:00:00 GMT",
+      "snippet": "BMC fine: From spitting to washing cars in public, get ready to pay up to Rs 25,000 for 21 offences in Mum  The Economic Times",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-02T08:00:00.000Z"
+    },
+    {
+      "title": "Spitting in Public to Attract Rs 250 Fine in Mumbai - Kashmir Observer",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNlJPUWh0WnZ1SlVMQ1hkQ3FLWEozNE8tbmUwSF9GWXF6Z0RlaDhpaEM3OG9DR093cVVib3A2dUVSa09OUE4weDFCTlN3cUZZS1loRGYyZ3JTNEUwb2JKMDlpZTRlWDkzc292dzBnM2hMZWNwb2g4bWJydFZoRFBSMFotMWh6MVhQUVo2SEQzd3lkS29QZGc?oc=5",
+      "date": "Mon, 02 Feb 2026 08:00:00 GMT",
+      "snippet": "Spitting in Public to Attract Rs 250 Fine in Mumbai  Kashmir Observer",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-02-02T08:00:00.000Z"
+    },
+    {
+      "title": "Spitting in public places to attract ₹250 fine in Mumbai: BMC | Mumbai news - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZXktbFlJUXdrSHJfUkNLNG1HN3VicTVLRFdYSXNjbE5mUXpxb3pqeURBUjBKUWFFLTM3eEhDR05fa25NRVJRbkUxbnFSQnhjLWo5ZU5vSzYyNHdVVHJFaEwwM2RoRlJuT0xkSjdlSDlNSmFrUlVnQTJrQmhmNHo5Y2ZJNTlvQzZMLWdubllhWWVwQmNyMjh3YUcwMHlGYk8tUzl0clZ3eUt0UmhvSXFYVzNrcUVoM2QtaVV2MGVJQ2FYd0lPSjZxWkRZZ21JUdIB0wFBVV95cUxQVW10NlZZQXpPMVYxaVFSaGRydVJmcFBxVkVsQmpnTHNPekc1dkpZUHFFNzJVZnhmSWozQkd6MmtPSFg5SVhXMmVKOGJscmtQTzh4NDJ6UGtja3E5NmdRVmZkSlAyNnI0MTVyNURWVmt3eE9tZjg3bkRObjM5dFZBOFNsX3Nlcl9OTlRTdW5pRWdjdkdwMkI1cFVtak1iYkZwSnhBWGkzMXRtazNVZXRDMUhSNTRMQnF5TEpkbE8xOXdwcXhsTkw2ckF6YjBHWTJGRV9N?oc=5",
+      "date": "Mon, 02 Feb 2026 08:00:00 GMT",
+      "snippet": "Spitting in public places to attract ₹250 fine in Mumbai: BMC | Mumbai news  Hindustan Times",
+      "source": "India - Municipal Crackdowns",
       "isoDate": "2026-02-02T08:00:00.000Z"
     },
     {
@@ -563,12 +875,12 @@
       "isoDate": "2026-02-01T08:00:00.000Z"
     },
     {
-      "title": "You could be fined £400 for making these common recycling mistakes - The Hereford Times",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTy1ZX2lyOHJtbWNpV25ITXJSSzJpMHV1RFhvcjZYZDVnNEM3dE9PeUJiZXhVZUhPQTF3eU9DZTI3alkyLVZEOHRmT0pRUnF0Z09nenJUYV9VTF93QVNjUmVzQUFRYUo4elpjd0RBMHV0NTdlejRNUUNYSG9Ubm16Y3AwdWFKUUU?oc=5",
-      "date": "Sun, 01 Feb 2026 00:04:16 GMT",
-      "snippet": "You could be fined £400 for making these common recycling mistakes  The Hereford Times",
-      "source": "Legal Actions & Fines",
-      "isoDate": "2026-02-01T00:04:16.000Z"
+      "title": "Fly ash draft notification fails to address concerns - The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTXBvamdkYm9DWHFUNlA5YjJYbXFZNm8wVTM5ME94bm44cnktcGN2bXEzdWFKN3hocnhsNG1MWndkR25yUUdMU2UtaHVHYWYwV3NMdXZhMzlzR0dJaGVqVThMZ0JDRU9GenQ2N1hLTktocXQwTlZ6Tk51YjI3aVFCS1NRQm1uTEtVcmZFNWplTkI4akthaXFaSG1IYmNlT1pDNUJVUVN1WlVSU25i0gG6AUFVX3lxTE9XSWNXUkllY183UTZXcVR3enVod2JqYU5qZWczM2xNc1Y2MGRIOC1NWElWWERmUW1MUUdwNEpVdmlIcnFQQ2FGRmZJcV80M3JaN2NQbFllR29hbktDQ2k4UDFzQkhRdmNHNWFDTTRPZm1sSGc4RGpDLTlRUDdYcG41c3hLVW15YW9TdG8yaW5KTlNlMXplR054RFY0UGVDcHpjZHJiQ1Vac041WnJxVFpqMFNHT0hlN1FDZw?oc=5",
+      "date": "Sun, 01 Feb 2026 08:00:00 GMT",
+      "snippet": "Fly ash draft notification fails to address concerns  The New Indian Express",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-02-01T08:00:00.000Z"
     },
     {
       "title": "Comstock Metals launches end-of-life solar recycling facility - American Recycler",
@@ -577,6 +889,14 @@
       "snippet": "Comstock Metals launches end-of-life solar recycling facility  American Recycler",
       "source": "Fires & Accidents",
       "isoDate": "2026-01-31T23:30:48.000Z"
+    },
+    {
+      "title": "Who pays the penalties? - The Goan",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5tb1NVVDJtRVp0a2pyb01UWG40Xzk3WEctTlAzVFhKM3dfYnVSeXVGejR2eHc1bjRaMU9jTlYwYmtOZ1hKRjdWZ0pLV2tZekxGYms5b0ZiWGRJTEpvYV82c2xpX0FlNHRKVFlXcXhHdWNxdXRpWmJRQ0pB?oc=5",
+      "date": "Sat, 31 Jan 2026 20:30:33 GMT",
+      "snippet": "Who pays the penalties?  The Goan",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-01-31T20:30:33.000Z"
     },
     {
       "title": "Villar turns waste into resources: Recycling and Composting Programs Reduce Landfill Hazards - Daily Tribune",
@@ -611,12 +931,20 @@
       "isoDate": "2026-01-31T08:00:00.000Z"
     },
     {
-      "title": "Andover man arrested after 21,000 tonnes of waste dumped in Oxfordshire - Andover Advertiser",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY0NvUkl2VC1WSEhJVy1LMFM5WGRsTXVDSENyNlBWNTRtWEltdGFUWlM0QWJwRWJNd014dzYwSXNCbnNMR2hzWDIzR2hHX2s4ZW94enVPcjRtQ0ZIaEs5dHY1djVjanUwc3dPcmZfSWlfNGRYV0gtZGptS2hlc29iWDNWVHg2MU43N0pYQWtxUmNlelg5cnFVSHE5aGg?oc=5",
-      "date": "Fri, 30 Jan 2026 09:46:28 GMT",
-      "snippet": "Andover man arrested after 21,000 tonnes of waste dumped in Oxfordshire  Andover Advertiser",
-      "source": "Regulatory Crackdowns",
-      "isoDate": "2026-01-30T09:46:28.000Z"
+      "title": "Millions of gallons of sewage spilled into the Potomac. Here’s what we know. - The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaXZXWU9VQ1lTVGUxTndiSWJDWXQ1QzRjNG9nUWFXbUJOUFh4T0NOMW80c0k1LV9FSTg5a25VRTRFRVg0d2owelNYV28tV05NSXlaaFZISDgweVpzRU9QYXkza005SDRnZjlrWlZna0tfZkVGaVV1RkFnUGJjdS0wVVlMV0RhT2FsOFE?oc=5",
+      "date": "Sat, 31 Jan 2026 08:00:00 GMT",
+      "snippet": "Millions of gallons of sewage spilled into the Potomac. Here’s what we know.  The Washington Post",
+      "source": "Business Failures",
+      "isoDate": "2026-01-31T08:00:00.000Z"
+    },
+    {
+      "title": "MCC announces strict fines for roadside waste dumping - newskarnataka.com",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeE9NcmVuNksycy15QTlhbHlERTVnaFdISE5xUHlZTEdFZjduVEl3d3ZlR0YxcW10M2dYblk0NjdBQ1h5QkxNam5IaGF3ZHVmMFFIYVUtZ2ZrZEpyZ2ZFWmc1NVdsN0poRkJJWHNwVTI5Y3YtUUxUWDBpbFhrNmpWc1d2dDhMSENXTGNtZkxZRkZXalZWZW1OdzdMc3ZuZVk?oc=5",
+      "date": "Fri, 30 Jan 2026 09:56:11 GMT",
+      "snippet": "MCC announces strict fines for roadside waste dumping  newskarnataka.com",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-30T09:56:11.000Z"
     },
     {
       "title": "Michigan OKs hazardous waste landfill expansion despite local outcry - MLive.com",
@@ -627,10 +955,34 @@
       "isoDate": "2026-01-30T08:00:00.000Z"
     },
     {
+      "title": "BMC plans stricter waste rules, user fee for large events under new norms - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd1BLVjZ0YnlhN3ZSUkEwajYzRGQweDJQakFCNkZTZEpnMUNESjZhQ3dPdEprMXJLUkJiMi1JSGlVeHVnal9ObzVCUDFtQWFRNjU5UGt4bWVneG9TSkRIaTFQaFdaNTcwWjVQcDRZb19yMDBnNlJ3UGdJcFhEeHZYdjFxa0VzWEx2MFU4WEJ0MmpDcEc4alhDM1FqNWl6eUpSMVdRRzVXM3RtWURaR3EycWtzVdIBugFBVV95cUxPZWZCTWc0bF9FMWt6UThaWHNWc19rMzdETzh4MHFTR2l6dGZHNHM4TlpuejIwS09tNjhsU1Uxb1M5ZHBNc0FuYkVROXlpVzFLQXh4NUtKRmtCQkN1QmMySWVGWkxDY00wWjNOZEhjaVhEODhpNTFzSXF3UkxMZ1hOT0JjRXJWTjgxZDV0STYySS0tS1ZmM1pJM2Z3UUpZQml3UEVDbl9FX0VaVU9hdDZPQjlubDhUNi1RaFE?oc=5",
+      "date": "Fri, 30 Jan 2026 08:00:00 GMT",
+      "snippet": "BMC plans stricter waste rules, user fee for large events under new norms  The Indian Express",
+      "source": "Legal Actions & Fines",
+      "isoDate": "2026-01-30T08:00:00.000Z"
+    },
+    {
+      "title": "Knott Landfill, transfer stations expand recycling options for items blue bins can’t take - Central Oregon Daily",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNa3VpQmVpc0dRTjFfQmpHWmpoTHZPUlFMak4wdVF5UU92T2NLR254dDBESVA0QmVRLVV2WURocGdObnNrM3Y1a2hpdW9GSWRPQm15VEZzZWZGSHJ6a3hYbmJUSkxxbGtNT1FaeVlocmVYcDJaTTRJWnQtV0xBeExlTjZqVDJuVHRnV1A5NUhnTy00R096MGtyb01xOWtxV3dXNkR5dDJib0pwc3Zub1ZxS0FDaW0tQzlUU2xFbXRWYTg2OGJHVF9YeG1uaXZpLWJxem1lREtXUGo?oc=5",
+      "date": "Fri, 30 Jan 2026 08:00:00 GMT",
+      "snippet": "Knott Landfill, transfer stations expand recycling options for items blue bins can’t take  Central Oregon Daily",
+      "source": "Fires & Accidents",
+      "isoDate": "2026-01-30T08:00:00.000Z"
+    },
+    {
       "title": "Woman, 81, dies following dump truck crash in PGA National; driver cited in accident - WPEC",
       "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxQLTluZUtkdXI0bzRDZG9BSmRvMGx0d0F6U1ZaVHVGaDhvdU5IZm0xcHctc2IzT3pwTjZrdDl6ck83Skk0ZWhSYUpEWmgzeHlBaUEyYmNHYnVqazZ3eGhKdHlkc3MzTVJEaDNJTmM1RTV1WkhWYzdUb09PSmVnTFd5S2h3Q2NxVUN3dzM1dE1DNlpZN3pkekRTMXhHZDlVdU01b1hFaXZGcFc1LV9aQm0weXFNc0ptODI0ZUxBYVRIZ2xTUzZFNGpackpKSWpKM2tGQ2x6cmwzNzhwQjAzVEtOdkI3bFY4a2Y0US15QmJtQXBEQ1kyYmR6VWQtcnRTOUFYc1duajdVMHFRR0FXUWN3REtZWTJocXRudWd2TS1GamdieE5YYVpDMWNIV1FMY1hIbTA0WGZmZ3dROHBya0VHaE1qdWtxRkpmbVVpV0g1XzJ2SENaczBfSGxaQnc5ZE5FVzJMU3pxZHMzMmZIaldhSFdRS3ZLLVNPS0ZNdWJRNlRzTkNMYlJPcldqNmk?oc=5",
       "date": "Fri, 30 Jan 2026 08:00:00 GMT",
       "snippet": "Woman, 81, dies following dump truck crash in PGA National; driver cited in accident  WPEC",
+      "source": "Fires & Accidents",
+      "isoDate": "2026-01-30T08:00:00.000Z"
+    },
+    {
+      "title": "LIST: Offices closed, events cancelled due to snow, ice across Grand Strand, Pee Dee - WPDE",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNTDJRc240dFl5Vm04NTRYV1BmNVg1dWNNM1ZRcVVvUmYtZzVBa1gxVGFzMlVVZjBwTUFIeXE5amlwTnE1ZHk4M0FfVnVZSFZXZ3RkQzI2R3RHdmJ5cUk0UHNEenlyaE42anBTdks1cUhaaXhoMWQydWdhOUtFN1h3eVdLN2xOcmMwNlp5Ui1ETHlLOEsyemo0S0xCTGsxR1pWelJHMVJfTGk4WlM1Qjc4TXNQR2l5VUdHRlg4OUdvVzZzbEtxRDM0T3VCcGdrQlZBOHFnZFRIT2VxVFRqSG0yRUJrOGI0OUFLS2ZvQUttUnVYalFZczdBbGw3SUYwM2RB?oc=5",
+      "date": "Fri, 30 Jan 2026 08:00:00 GMT",
+      "snippet": "LIST: Offices closed, events cancelled due to snow, ice across Grand Strand, Pee Dee  WPDE",
       "source": "Fires & Accidents",
       "isoDate": "2026-01-30T08:00:00.000Z"
     },
@@ -667,6 +1019,22 @@
       "isoDate": "2026-01-30T08:00:00.000Z"
     },
     {
+      "title": "NGT orders probe into alleged pollution in Nimgaon Bhogi near Ranjangaon MIDC | Hindustan Times - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVmlEUU9QTWVPd2R1cW85blk0QXJjRmFpZGc3eXpYb1Zaamk5WGFCc2FheC1RTHgzdXpBOENqUmxaV3E2akFsUzdYWl94Zm9RMUtoaE1FNDBBdDRWUGg2OFk3ZnFkYVV1UXVfa2xFcTlRdUlBMDRQZTB2UHZaVTFmQVN6enZQS0xYSm9Pdi1yUDZqMklrQU9RLXU3d2tUdTBlMnk0c3psVmpBdEVaeVJXZC1IXzRZZTJCYm1LOE55aHB0LUNva0I5Qm1UZVJ3d21xZ25saU81MkhXQWowVWtF0gHkAUFVX3lxTFBmWEI2NDRTOWwxenEwZENiVDZEbUhPMEhoQkJQZkF2Um5QNWl5RDIxTFg2REdlQWhlQmNiQllBVDZDbXA4QkE3QkxaS25nYXJ1dHB3ZS1ocTAzVjh1elYwZXZ2T0VpWmM3MUdkN1hNUG40eXFuM0JVUVpQUFR0aFQ4aDZJX3FYc3NlZ3E4V1RaMlRjRDgtcHRJR0t5T0o2VWVWelFjN1dlaktvUlgxdTlqVFVGX1hhTldneUZLdDA5N2VwR3IzUng3OWI1NEtaNnFkWGlBWWNxemJtTUhqZTR0TzMxQQ?oc=5",
+      "date": "Fri, 30 Jan 2026 08:00:00 GMT",
+      "snippet": "NGT orders probe into alleged pollution in Nimgaon Bhogi near Ranjangaon MIDC | Hindustan Times  Hindustan Times",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-01-30T08:00:00.000Z"
+    },
+    {
+      "title": "NGT Upholds ₹8.94 Lakh Penalty on Bhopal Municipal Corporation, Orders Payment Within 30 Days - Dainik Jagran MP CG",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbjV4ZVVvNDNjQjNaYlkzRGI2T3hHM2hmSHlnSjhuM0xFOWYtcHlOeDRPamVjb254X0doMG9XOHU4WVRNVUhxLVdlS283RE1qWG9Qcm5oeXVkYzRsc05pTEFPZGJaWHB6TTdVSGM3aUZSelIzUU5SQWhWQ0ZOQ0R3aGgtT3ZQM0NyREFpRm5Nb3h3TVJpdDVMY1NDRnhyTEFhd2pJeW04T2Y2M1RnYTBlRHhIWlBpWWpqTlNjUW15ZE9UaG9ZS1hYNldWTkhxR29oZ2ZJVHNXRnczRXNpTkZTZUZjTQ?oc=5",
+      "date": "Fri, 30 Jan 2026 08:00:00 GMT",
+      "snippet": "NGT Upholds ₹8.94 Lakh Penalty on Bhopal Municipal Corporation, Orders Payment Within 30 Days  Dainik Jagran MP CG",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-30T08:00:00.000Z"
+    },
+    {
       "title": "Company and Director Fined $30,000 for Environmental Protection Act Violations - Ontario Newsroom",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdWhGRXRyTHBIZVljS0g1Sk1lM3FCdzRRNGRkV1ByWl9KTDk3S2thdFdqQUl2OHFlQm9EQms1Z1lGLUNOV0s4RlF3bTYyT1lqUGFHcW9tTmdjbGNmU043VXBhNHhEcWdTTmlUU2lpMnQ5b1l0eDVGclNYTzN1ZktoMXczVzdWNXJQSGhLVldhU2ZuS1REU2Y4VE43SE82NTZXRHFJREV6OTFuYnkyaEtnbFpiWmNVbHBw?oc=5",
       "date": "Thu, 29 Jan 2026 21:29:19 GMT",
@@ -681,6 +1049,14 @@
       "snippet": "The Memorandum with \"Pestrim\" preceded the illegal contract of the Municipality of Pristina with private individuals  KOHA.net",
       "source": "Legal Actions & Fines",
       "isoDate": "2026-01-29T20:07:14.000Z"
+    },
+    {
+      "title": "Juneau recycling center closed, in need of repairs - Juneau Empire",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMjMwMXZqT1BPdlJvTzAxMzdRaENQN3h0VFN1ZnllTVlLYXZKS2VXTFRlNWY0S1NTbE9sQjBYR1dPU3VBOTJHTVJiWDFEVXdUVnhEZEQzRjRsQ2Yyd0tnZEM4Ykt0bnVxU2hGM2dHTHFNQlh1TUZaZFZrOEU4N2MtZkVHdWMwV0VOOHFRbw?oc=5",
+      "date": "Thu, 29 Jan 2026 19:30:00 GMT",
+      "snippet": "Juneau recycling center closed, in need of repairs  Juneau Empire",
+      "source": "Business Failures",
+      "isoDate": "2026-01-29T19:30:00.000Z"
     },
     {
       "title": "Food waste drop-off expands in Seneca Falls - Fingerlakes1.com",
@@ -707,12 +1083,44 @@
       "isoDate": "2026-01-29T08:00:00.000Z"
     },
     {
-      "title": "Palm Beach County Fire Rescue contains nuclear gauge hazard after dump truck collision - cw34.com",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSzNweDdQRWJ2a2M5WlVhREN6WHN5aWkxMmJQRHVwaE5xUHJWQllQamdBNkdsQ1IxZU9ya3hOVkcyRjQ1eWFNRWNHbEhzWWJpSnVFaEZfNGZQRTlrYTF6bVBlTEhHNnhRcGdDTWo1aTRTSm93TjNzUzdWbm8xQ1d3T1RiaFBmNy1wcTlXU25GMUNERTk2SmtudnhfY3Q2cl85STg5dmJTMkdCMThLQmFGU2o0OHVHVkhVRDlNc0theFJRb292b3d1NFBMTlJuMWh1czduMjM0S1BERTA?oc=5",
-      "date": "Thu, 29 Jan 2026 03:50:41 GMT",
-      "snippet": "Palm Beach County Fire Rescue contains nuclear gauge hazard after dump truck collision  cw34.com",
-      "source": "Fires & Accidents",
-      "isoDate": "2026-01-29T03:50:41.000Z"
+      "title": "JB lorry driver gets RM100,000 fine, three months in jail for illegal dumping - The Star | Malaysia",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNLVZYeU90c1RhVDMta0hVN2tSZkhJN2NmODBfeEIyTHczNk91X3laWnp1Z3ZjLWVrV25FVWFhdENaWFJxOEZfQVhFSjRiYmU1dFh5ZkFVU0JyVnVmZkdqVS1KRDR0MVl4dm16Z2Y2QXIzYTRqaENfSm9TRmd5eS1takpfdmpMSWFBLW5jNjlUc2JJa0lwbFFtSDF4Q08tOUNRQjJIS0c3TW9QVDN4dVUxN3k1MkxyM1hQd1psOTJXQTQzTk0?oc=5",
+      "date": "Thu, 29 Jan 2026 08:00:00 GMT",
+      "snippet": "JB lorry driver gets RM100,000 fine, three months in jail for illegal dumping  The Star | Malaysia",
+      "source": "Regulatory Crackdowns",
+      "isoDate": "2026-01-29T08:00:00.000Z"
+    },
+    {
+      "title": "Punjab civic bodies paying Rs 10 lakh waste penalty daily - Tribune India",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbE84SHNEN2dETlloaVp3ZUFwX1NfOUVsOWhhbkdoMUxZWHp0WHFWbzVTRlByWVdweUhEYWpPUFBzREVXMGxoNGpKZG4zNU83ckk5ZFk4bnQ2TXE3Wm9KcER1WTVxQU9lLTFSczM4Nk0wUmdQLU5OanoxNW5MR2Ywd0Z2THlVbjhFXzVWc0NEcnVhdEJfN25yT1FlcmrSAaABQVVfeXFMUFgtY1E4bnVhbnRYamltT3Jvd2VJOUR3dEtyVVJTdS1lNlRGSjRnV1RzSDZ5OVN4X2dGeTVzUXRDcWRrZDRlYW5QM1RIWUFkdDRLNHl6YUlZMVhHN1ZWemViM3JXNEd1blBEYXY5Yi13UzdXRFlIYnVBWkpwYWxYZndaYkFCQUx1d1R1UmRjeGVxR3dsTWRRNlA5TXpfdlZzSw?oc=5",
+      "date": "Thu, 29 Jan 2026 08:00:00 GMT",
+      "snippet": "Punjab civic bodies paying Rs 10 lakh waste penalty daily  Tribune India",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-29T08:00:00.000Z"
+    },
+    {
+      "title": "Mangaluru to impose fines up to Rs 25,000 for dumping waste on roadsides - PulauJudi",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYjBKZjJ5R1lqVG5UbktuSE1ESEdOUnJORDVCZS1qaXA1QTRhV0gxZVJtaHBkRy05RjN0ampia3hkSGtZOWdYNDNjOUdyR2tSVjdwVzV6Q3Y2NlJqemE1Y3ZMWXVWbGsya1Zxb1ZSd2Q1eTRIbENmY212V2t0bjJtM3JLNmxNS3p6Y0tPejVBQmpNRktGVlo3WmxYeFNtUXdiWUJXcmhfTS1fOHNIeEt2Z3E0UQ?oc=5",
+      "date": "Thu, 29 Jan 2026 08:00:00 GMT",
+      "snippet": "Mangaluru to impose fines up to Rs 25,000 for dumping waste on roadsides  PulauJudi",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-29T08:00:00.000Z"
+    },
+    {
+      "title": "India’s new Solid Waste Management Rules promise greater discipline, while navigating familiar fault lines - Down To Earth",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNXduOHR5VUh2TWZPZW5hd3dFMk1sVDZfb2Q5QXFOSk5Wak11S0FpOHhNckM5MmU0R2ZiY25PbmRuakxBZ1dqU2xiREZTX0stSzhSMTRtWlE0d3NvbVJfakE4Ui02QUctWWpnQXZNVlNka0FNNmtUVXBOTVpQdnNCQ3JVUU03cmZFWlRoaFZXTDcydHI2ZjRZLTBUNmUxN1FRYUNDSWFsQzFtbW9HZU9xcWxTRzVja3lpU0hEaXVkYWZpZVhxdzVSUzQwU1ZjbHJPTWxJQXUzdEnSAeYBQVVfeXFMTlhVU0FsSThvVEY5RDgxYW1QV3hlMW5xUDlFV1VzSUpfbUN3RjJhLVJpYl9HWnpOTWVvVmNrenM0dlY1MTUwb1FXckFhR2ZSNVNnME1RRVhVWWx4TnBJVW44a2hNMDFuLXkyRmdFd3pacWxsandNNHREUTdjS2tSU2dVZTIxZDgzNHJkSlRwb1FHYThscDRnenJVN2dnV2pVWmQyLVhsR01CU2hWekpMc0FnRHZabERwMHVJc05XaXowaXRoeE1tY1F3cThJMUhYN3FVNTg2SUtaSk44eldnemhMVFdacnc?oc=5",
+      "date": "Thu, 29 Jan 2026 08:00:00 GMT",
+      "snippet": "India’s new Solid Waste Management Rules promise greater discipline, while navigating familiar fault lines  Down To Earth",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-29T08:00:00.000Z"
+    },
+    {
+      "title": "After Binaliw landfill collapse, Aloguinsan and Toledo ready to accept Cebu City garbage - SunStar Publishing Inc.",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uYVBNYnVCUjJkQUpyZXBIdjI3M1RoQTJqQm92S3VOVGVaanhHTVh1akxyV1dNWkVNRktoM18tYWdoamc0OVpWRWtvOTJnZTRfQXNteWtCRTlCNlFfUjg3azJoanY2SGJlbjJFZnVnRmVQZ9IBf0FVX3lxTFAxQjFXelRzbHFNOW9WcmxGa2RNeElLLWFDSWFMaDRrSlFmdGZmYWhqWWc1LTZiTnZoOHNlaFZvNXhIZkhaam5aNjlOamVFNkJEWE5qQmlzMkJoQkVnT05BYzJvWFhkX0tVcVZmSHM2WklLckdraFZnbXE0NzNaMnc?oc=5",
+      "date": "Thu, 29 Jan 2026 01:48:48 GMT",
+      "snippet": "After Binaliw landfill collapse, Aloguinsan and Toledo ready to accept Cebu City garbage  SunStar Publishing Inc.",
+      "source": "Business Failures",
+      "isoDate": "2026-01-29T01:48:48.000Z"
     },
     {
       "title": "Municipality of Pristina signs negotiated contract for waste management - KOHA.net",
@@ -755,6 +1163,14 @@
       "isoDate": "2026-01-28T08:00:00.000Z"
     },
     {
+      "title": "Retroactive fines from day 1: Haryana’s big warning to Murthal’s famous dhabas amid concerns about pollution - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc2JXX1p5RnRQOTFWQjI2NWtvU2dqUWtMTDBwbmlfaUFscXBQOWl1aVBkcUU5enlqSXktcFdfVkp0cl9fcURQT1ZOVUxqM2QtSzZsejFwd25Qcjc5RGlRVVppcWhBRGpfUEp1OHlrOHhYQ3p0VkdIZnpvQkJNVVJnampYNm5rTVR1ZGpFa1FRVnZ2VEgxUXRmN3hfNGtLclZZSFNMaUJrT1hLQmlYbV8tV2QzX1BCdmpkdXJDZFpB0gHEAUFVX3lxTFBTcWxibElBTnl5cDJiY0FxNEtWUWpFakFVTFNCSUpiaUxRb3gyY0pBZXQ2ZUVhRWx6N0hJZ0pXX1pWUzRqN0xTQXhvdFR1OER3R01tMlh5cHBlNnpxVUl3MkZDYTZvaUNXODVMMnc5VjVJSFBIbDRUaVU4ZURQZlJlX1RVbUdkelYtcjJNdUsxWHEtYkNseGRyemhtVHAtT0ZUcWFuQVBuOFUza3Y3VmJzY0VORldHNk43aTBXOE80ajVXamc?oc=5",
+      "date": "Wed, 28 Jan 2026 08:00:00 GMT",
+      "snippet": "Retroactive fines from day 1: Haryana’s big warning to Murthal’s famous dhabas amid concerns about pollution  The Indian Express",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-01-28T08:00:00.000Z"
+    },
+    {
       "title": "Hanoi police charge 4 over illegal dumping of thousands of tonnes of construction waste - Tuoi Tre News | The News Gateway to Vietnam",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdWViNkV0YkI3NU1ZWWJFeDBkZEE2cEFDUEFpR18xSHMzcWNhOFhXNG1aRVk5bWVNRFU0U3NnLUdXM2dHMHpPQU1VbEZCbHR3dnRPWDRVWnNXNFlBQllBaFJQbXI5bTlmaU51Nk9DemVOSkE1V1dJQUhnbHpSUGkzSGRadTlsMXp1UTFUY0dPa1pBaC1oNS1WNVdJZDZaRGdvOWpqZy02MkZxY0hOMXA5dURGUHFsX01TNXEzU1Q1VmFfRFgzRkpQbnlkcm50WFE?oc=5",
       "date": "Wed, 28 Jan 2026 05:29:00 GMT",
@@ -787,14 +1203,6 @@
       "isoDate": "2026-01-26T08:00:00.000Z"
     },
     {
-      "title": "Tajikistan Is Drowning in Plastic: Inside a Waste System Under Strain - The Times Of Central Asia",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbFdkeExfbmJDMUpFZ2pNVVFBY0Z4MWZiN2Q4T1h1amRuZmRoRWRaMS14TzhmTDVNUmJkSnM4NWV3c1NQQkxVUXgxNmtBb0Z5NXY4Y2tPYnhNSHUxN3Q5RHUyTUROVmVKWm1aYnZ5dEd3dTFsMGJBRHJZS0RtNHdxa0pISVFvaU5GWU41U28wLVF3X1U?oc=5",
-      "date": "Mon, 26 Jan 2026 08:00:00 GMT",
-      "snippet": "Tajikistan Is Drowning in Plastic: Inside a Waste System Under Strain  The Times Of Central Asia",
-      "source": "Legal Actions & Fines",
-      "isoDate": "2026-01-26T08:00:00.000Z"
-    },
-    {
       "title": "Lawsuit Claims Hasbro Misled Investors Regarding Sales of Controversial Magic: the Gathering Anniversary Set - IGN",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUEF2YzJBU0dfNHZ1YU8zVXhqbDRzVEhxUUsta0hGWThMZU9RYW9US19jZHE5cFB0a29ybXVWUXBmLTdHZHk3ZDVlWFNlM1ZBdjJNSC1qTURlUW1ZOVZVSzJidWFkTGZtamEzU0JuUjc2M3V3M0IxRFJqdHN0QTlLMndMbldRRC1NeV84eFpnZDNUek45TlMtR3k0dWVTQmVSRkJfV0JheGJnZENtT2wycXBYeDYyUGVlSVg2RUlIa0pxZXJ6WE1vcFRBbEVCeG9PN1E?oc=5",
       "date": "Mon, 26 Jan 2026 08:00:00 GMT",
@@ -807,14 +1215,6 @@
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObVEzYUNQTDB4b0haV216blZsZElrZU1pTmNudjRiQ0ZoMTJTemRKTTdxY0hyeExFbmZQYlZQdDNOVG9JT0M0X1VYQWlTZm1sOFhUcnFQNE1Cc1RONGd4c3FaSTZLT21xLVZDdEJKX2RZb0JrX1pIeVRTc0ctQWc2Sk8wY0VqZzhrSnk4dURBWmJKRW9kMnRRaHExSk1VYXFpNG9Z0gG3AUFVX3lxTFBlZHRDemxlZlJDdDFRS0RZMlV3WkI1WWNhajRhOE9hQ3RJWEp5YTNrc1BxLWE2NTcydVdwWGQyR0lzNV9mZXk1VzN4NVVUUU02MlRKUVIzWl9IYXgtRDVvaml6VWdYbjRjbVlZNU9iVXBIWlk5R1NrVzY3NHZaTkVFVmxzREtlOWZTSjEzUVdmWWtsaDRhNXItTHhDZko3NUEzWjdGb2U0a2pZcEJBUDZrRmt5RU41RQ?oc=5",
       "date": "Mon, 26 Jan 2026 08:00:00 GMT",
       "snippet": "Fairbanks borough plans new recycling facility at landfill  Alaska's News Source",
-      "source": "Fires & Accidents",
-      "isoDate": "2026-01-26T08:00:00.000Z"
-    },
-    {
-      "title": "Hillsville FD handles tractor-trailer and dump truck fire - WFXRtv",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNTZPNnk1NjdXbVFhX3VjWWRIZHBfeFdCZTlqcmhNYmVFWkc5ZnpnQ0J4T2hXamtxNlhWaElvQzNGczVLNjk4LWF0ZTRRWnI1STRrYUlIRlFqdVpBc3N2cjhsRENKNnJTN1V1Vmpwbnh0ckZZd042Rm51OVBrYmN0N29NZ05sQ3ZaRVBhX1lSdUhrQ1VaU2o4X1hqYXXSAaIBQVVfeXFMTng1My1ndnNiR3hac3FMTTlrWDBYVFgzWEVESmJzeDUxVlczM0JHM1NwczNjdW1kZlUzUGFNSnA3ZGI1V3dxVkZzMHlfNHFBVmhtRnA4d1F5WC1wLUdsblVKeVBCRTdhVlY3dFV1N2RNZGFUc19Ua2VSRVRqZWpKNXo1N0M2UTVNTGMyZVBOM2dRX1V2MXVYWG9QSGdrSTJwX0h3?oc=5",
-      "date": "Mon, 26 Jan 2026 08:00:00 GMT",
-      "snippet": "Hillsville FD handles tractor-trailer and dump truck fire  WFXRtv",
       "source": "Fires & Accidents",
       "isoDate": "2026-01-26T08:00:00.000Z"
     },
@@ -835,26 +1235,10 @@
       "isoDate": "2026-01-26T08:00:00.000Z"
     },
     {
-      "title": "Maine is using outdated rules to close contaminated compost plant - Bangor Daily News",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWGU0YXZXQkp6b3V2WGdCU2paa2J3SlhHZnhPTEltQkVGRnFjV0dMcmJWdl9pMUs5VHFUTHVjRkxJVXV5ODJHcW8zcTRsakNqWENDVGVMMEV6RWJ4SVVmWU9RNkd6dXhkYTVOcWhtRTNiMF9HT1VqbVoyc0ctZFRHOHZwcnNxSmJaM2pqd0xRZGdYY3JNM3RTMHZzOFVCS1U?oc=5",
-      "date": "Mon, 26 Jan 2026 08:00:00 GMT",
-      "snippet": "Maine is using outdated rules to close contaminated compost plant  Bangor Daily News",
-      "source": "Business Failures",
-      "isoDate": "2026-01-26T08:00:00.000Z"
-    },
-    {
       "title": "Aberdeen incinerator reopens after second closure in six months - BBC",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwbXpFUlhYak91WXF2VzRiMG5ZRW5JVmtWdXhwSGtTcnZqVW8zWXVlU2FmU1UtLUtLVHBUVmswbGd5T2RzdzBpUS1RbXNEQ29oOHgyb2hRaTlMUQ?oc=5",
       "date": "Mon, 26 Jan 2026 08:00:00 GMT",
       "snippet": "Aberdeen incinerator reopens after second closure in six months  BBC",
-      "source": "Business Failures",
-      "isoDate": "2026-01-26T08:00:00.000Z"
-    },
-    {
-      "title": "Pittsburgh, Allegheny County declare emergencies after snow storm - Pittsburgh's Public Source",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWVZHWkVzMHIySjdJZnc1Z09venN1WEJaWVpZbkdBck1VS1JaM2gydTRpSXJMZG83SnJjQTNFOG5falFjMWZBWEp5RGRFUEJKSDhQUHVRSmQ5eDhadUFnclhYdlpGNjk1WGRKaTh4SzQ0ZEFScGw3OS0yTU1HeFRmREFGdjBpVC1D?oc=5",
-      "date": "Mon, 26 Jan 2026 08:00:00 GMT",
-      "snippet": "Pittsburgh, Allegheny County declare emergencies after snow storm  Pittsburgh's Public Source",
       "source": "Business Failures",
       "isoDate": "2026-01-26T08:00:00.000Z"
     },
@@ -875,19 +1259,35 @@
       "isoDate": "2026-01-26T08:00:00.000Z"
     },
     {
+      "title": "Dumped rubbish costs ratepayers $1.14m​ - Otago Daily Times",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQjhUZ0VtZjBHMnJCQnFxcEgxeFp0bXItWjBWc0JCSU5vdmtVZ2VZRXg0T0ZPak5YOWpLclBrYWhnN0ZLSkZYcFQ4M3pzR000dTVsbE5Kb1hVT05uTkMzOEYyclRHLUM2eDJ0WkM1UlI4a0lXZTRiQTVoUzBuUGd3SV9vYk5qX0M3MXQxQWFnNTFxZlJtcWFjTzd2Yw?oc=5",
+      "date": "Mon, 26 Jan 2026 08:00:00 GMT",
+      "snippet": "Dumped rubbish costs ratepayers $1.14m​  Otago Daily Times",
+      "source": "Regulatory Crackdowns",
+      "isoDate": "2026-01-26T08:00:00.000Z"
+    },
+    {
+      "title": "Orissa HC quashes NGT order for recovery of environmental compensation - The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOVdwWlR3aGc1RTdWVjRiSnVIVG1mcUg2cFM2eWZFaW1QX0xNTy1RYV9qMlJRY2JyX0hyb081SGktYmVBMDQ2WS01aXZoYjFBZ29XT3Rad2FqU293ejRDS3IwZEJVUzVfT3p6Umhwc3RhWmRkcmV6Y1hBcTFERk1RZW1wV29YZXhwVDIzb0VRM1NqdDA5ZkJBVzNHY3E0SndxTVpKRmRmTTE4UG1tVTlhVzBWWnR2LVd5amJtSGx3dFA3eE81VWV6MNIB1gFBVV95cUxOdG41aU1pb1VNUnRBa0xDVGh5MUl6UG16Z2RnWXRsYnozTk9DeXBWcFZMMTRMQzR2NWUzRmVXcEZXRTFRLVBBR3ZmaHBPZHhaWHh4S2VDZnE0blltTUM4eWFDWlFvRTBCVzV5d2I2ejl0TjNHN0VGTTQ1UkpKV0I1dDlTbVQ4bWpleHBVdF82WnQ5QUFhUUFmSWd2UU8yaEFFeEZrcDhqekQwQUlzRE5hME1GUkRKY0htbWF2TWlKak83YXAyc200bXJGOWxPTmZ6S1RtSV9B?oc=5",
+      "date": "Mon, 26 Jan 2026 08:00:00 GMT",
+      "snippet": "Orissa HC quashes NGT order for recovery of environmental compensation  The New Indian Express",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-01-26T08:00:00.000Z"
+    },
+    {
+      "title": "Paharganj hotels, guest houses get ₹22.46 crore compensation notice: Delhi govt tells NGT | Latest News Delhi - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNUGM0M1BwN1FUYTg2a3NFNjhBTzJTbjBNYW56QXZtTC1kODhRdnJLRlVuZ3BwWjFBbmt5NTFtSUs2NkZtajFZdXM0WmVlT0dpMnE0VHF1dEEtRzhaN3I0Rmh5VmdIT0gyV21UTmNMbGxKdFhTbHV4SFFvRDhIc0VZT1RGazJZUjQyQXQtMExFNmlXeDJwU0ZHQzNlRDZvOVJ4QkNZMXVLNWg1ZEc2c2lRbEJmQzBTU2NfXzFuZF9YbU13dGFxSWNYSkJ1cS1NbXpyemNySllzOGluT3E5ZUhacHRHbWFYZEpBSmx4atIB8gFBVV95cUxPYkxWY0otdERYa1dHVmMtLTNacm5lTWF0VkUxVUtmc1JiVTJUZkFXN0VVZmJScm1rdVgzbmllYWVDVmYwbkNyM2FNV051UThldXVPMEVNeEVPSzhSY0gyYVB2MC1ZVG9QdElVbjE3cExlUFdpMkNGZjNhTHhRaHByMFV0ZlBYOXoyVlZxcm9MSVJoOERxM0lKWVNxMzZXZE1JSUNvSEdlQW5VZURlT3h0clFpc055b09HMEJhRTNZeGw3OGhDU0U2cEFXRWs2UXlfcnBzTzM2RmhnQUZRdDIwZUZZVV9aLWQyVEVLZjRjOFRSQQ?oc=5",
+      "date": "Mon, 26 Jan 2026 08:00:00 GMT",
+      "snippet": "Paharganj hotels, guest houses get ₹22.46 crore compensation notice: Delhi govt tells NGT | Latest News Delhi  Hindustan Times",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-01-26T08:00:00.000Z"
+    },
+    {
       "title": "HIPAA Enforcement by State Attorneys General - The HIPAA Journal",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MR1oyZnNmeHV4SURGSDd0SEZEZnlIaDJsV0NneW5xOGZ3aW51bVNnd1drT0ZQNXp5dVNLYm9PSWFtNDVhMS1hTVdEMnRkLW5QNUFHTHAwbDhzQ0dwcUxKLUIxOGpRQ05HWTdXNG9VQVVoMHVmSHZhOHV0MjllYVU?oc=5",
       "date": "Sun, 25 Jan 2026 08:00:00 GMT",
       "snippet": "HIPAA Enforcement by State Attorneys General  The HIPAA Journal",
       "source": "Legal Actions & Fines",
-      "isoDate": "2026-01-25T08:00:00.000Z"
-    },
-    {
-      "title": "MCD Commissioner Reviews Okhla Landfill Operations, Inspects Tehkhand–Okhla WTE Plant - Times Now",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNeWpTaHlsMVUzODdRc0l4QkI4a2xGeWdZejJwR1RRTGp3S281WXNONkRPV2FNWHJ5Uk9NR191MWVTSWRtOHltb2cwdEFLdjZCbnJrZ25wVF9FZHYwT0NuMVFFakJNcVNKaHNYX2QxaGZZR1g1bzBNTHdieHNzVnZSYkx3RHBmamo5QVQxSjRvbi13cTZfd2tIWFpjMG5QMjNpMjJQbVNQS1lTUTc2SF9DVkpKOG5CUm1xODFZQ0Nxdll6anpXM0kzanZ2RDZ2aXR2Rjc4RGVQdnZEUWgyU3NaNHZpS2t2RHdJSEVSbHZwRVlVZS1hUVk0T29aSXg2M2ZDbUVSadIBigJBVV95cUxQVmNxd09DSTFTNXloMmV6WVA5TWFiTUhxOVhQN0llX0lCcXNVcjFib0phQkNiOS1yS0lfRHR3SFRTbjVZTHc2TGo1ZElRSjY3aXM1RFhmaWc0OGZ3TTVxRUJTMWlIdEZPTUZsNXhHTV9Jd3h6YjF1SHZWVUFmcm1wb1E1bHRlbHZyLWcxT2RibVBHTjZQTEJHTnJNNElURVcxVXhMUS1JRG5GR3dkUzAzWFVYcUtJX1JNNVIzaWN6NThLc1ROT29wMnlyZE1LaVdmd1k5aUV4aV9KeU40WDJnemhURTIyWmNKbnNVbVhlYXY1Z1lYVTROMmpUcWJQbmVtN1FPRndFX1ROQQ?oc=5",
-      "date": "Sun, 25 Jan 2026 08:00:00 GMT",
-      "snippet": "MCD Commissioner Reviews Okhla Landfill Operations, Inspects Tehkhand–Okhla WTE Plant  Times Now",
-      "source": "Fires & Accidents",
       "isoDate": "2026-01-25T08:00:00.000Z"
     },
     {
@@ -947,11 +1347,11 @@
       "isoDate": "2026-01-24T08:00:00.000Z"
     },
     {
-      "title": "Cyngor Gwynedd warns public after illegal waste dumped in cemetery - North Wales Chronicle",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdEllLVhkZHJYT19jVmwtRDVNbVQwWkJMbFRTd3BvVzgtQ3JTSmg4N1ZRc0N5dzhsdnhqS0ZtUnRyYXE3OHNnRlFRZjQ5TGRDZW5NQ0VpOFBNaG5SOUkxM2duZ2xWa21lemZ1dkZkcEVCQWdnRjBfVGlLSUtJNHNRMnZuRG5LWmdaMzY2eExEdXVLNVg0Smpj?oc=5",
+      "title": "NGT fines MahaGenco ₹5cr forfly ash violations at Koradi plant - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQT3NlRWhldE9VUUF6eWV4czBvQmItQUMtT1NqM1AzcEthM2xWQWh6TnIxdjNxcmpZVWVzQmVvSkdwaTEtX0tielAtcExUR1JWYU94ZURoRkJnSlZhOWFPXzU1UUxMVkdsRzdwdm16RXBCNUdkWS1xb2dvYldIMXhHTzh5THF6SnpRc19KdHFmTGZoa2JnU3hOMndsdmxiM3F3eHZoaWxxRXZ3TjlyZkl5M0VXYjh3Z29LVWhNQjQ0Q3RBaVlNVkRNYnpfTl9PNkZx0gHWAUFVX3lxTE4zN2FNQ3JIakRwVnl5X3cwOEs1RUpuQktzVXdHN0tMWWRaRllDZkhZLUN0a0tWeXRDcHBEYUVhMmFsNnVweVhqdlNFX2x0cTRsN1psSWNQc2xaM2JSWmNLRWRzQllRVmpyZklIdFpoNmkzdGtFNWZ1ZWwyNGxpV0NwTlVVTFYxZHYzNk5UdXl3ZU5lck1WaW1jcUZpSWZUV2pfQjBpalFxVFZZNmtfd1VseUdYSDg2RjFBSzBxWmdpQlZZVHlaUW1PU1lYenJDekNDQUo3bmc?oc=5",
       "date": "Sat, 24 Jan 2026 08:00:00 GMT",
-      "snippet": "Cyngor Gwynedd warns public after illegal waste dumped in cemetery  North Wales Chronicle",
-      "source": "Regulatory Crackdowns",
+      "snippet": "NGT fines MahaGenco ₹5cr forfly ash violations at Koradi plant  The Times of India",
+      "source": "India - NGT & Pollution Board Actions",
       "isoDate": "2026-01-24T08:00:00.000Z"
     },
     {
@@ -1027,6 +1427,38 @@
       "isoDate": "2026-01-23T08:00:00.000Z"
     },
     {
+      "title": "Plastic purge: Cleanup Kabadkhana & shift it to green zones, orders NGT - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWlczS1FrRDdIY1RmaFZRVXlaWjVteTNJS2w4cHRHQzBOc016bGFPWVlONDc2MDh6eU5hbnVLQ3lOS0lMa3NyeFJYY1RycWE3THZZRlJyVzRtbURYMHQ5ejZZSXhocUhZb0pNdEFxTmZYR25qT2c4Z3V4dWNsY3ZONC1iem16V1M5eFJnbkZhWjNFSHNJMVcyQVBvVFd2VXAzNEJ3OFZMM3FzckZQWlJzczV6bWFkV3FNQU9fSllUY3B0QUllNEZTenA5d1p1c1NQdFlacWtwSi3SAd4BQVVfeXFMTmJBRUFGSnJBak5PbTF2ckNwNHBpSnktaFJvVC1tYllzQVk1c3ktYy1TWWxiZ21wUFl5RGZfcl9jNUZuUU9lU0JoYWFpNmd3dEJiR01OQnJHbnVtRUlvYXR6WTJPNnRJWGRaNzhDekpaS196U2JmVmN5Q2tBSzI5OTdPdlFkYVk5ZUxxN2hDN3RkOXhVdlhjMFVfNEtzTUtZcU1uUzliMmhmZEcyWm5JRURhUE9yMjk2ak9aYmRsakNzWkpmOFlYekhkOEFEZkt4dWpVSFlOQW1Ub3hjamlR?oc=5",
+      "date": "Fri, 23 Jan 2026 08:00:00 GMT",
+      "snippet": "Plastic purge: Cleanup Kabadkhana & shift it to green zones, orders NGT  The Times of India",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-01-23T08:00:00.000Z"
+    },
+    {
+      "title": "Update: Fiery Crash On HWY 49 In Calaveras County - myMotherLode.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLURnWkplWTVUODc2blZQelJqNzhhejA4SWExZkl3QzZjcVIyaTRaeUIyODhQMzl4M3BfS0ZLWEU2QmNvdGs2eVlOQkUwWC1tOXBIT0dkVUJhMzRZTGhiY1hSS1YxSmZDNjhQRlZibkxhUWpFVGZxZi1xbGltVDJWZWZsN0cwd0dlRnBRWWlvWmo1V0ZZRVHSAZsBQVVfeXFMTmc5X1lzcl9nU1ROUVJFdGFxeElrQ1g2akZyVEVrbFhvZldZTmo1bDFNb092MVlmRnZWUFpNSlNhczc0OVZXcmI0aUdBOGxwSzc4RmFXQzdrbTJhMEVlZ3UwMmpUTHNESDJMdmM4amNxZGtwVjhhU2E0N3p0QURMcjNVWHhiY0Jfc1NOMHVKMlNfT2F0cWF0MEVPa1E?oc=5",
+      "date": "Thu, 22 Jan 2026 21:38:13 GMT",
+      "snippet": "Update: Fiery Crash On HWY 49 In Calaveras County  myMotherLode.com",
+      "source": "Fires & Accidents",
+      "isoDate": "2026-01-22T21:38:13.000Z"
+    },
+    {
+      "title": "Detroit hazardous waste facility settles with residents for $2.3 million over ‘horrific odor’ - Planet Detroit",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16TTBocnl3aE5pM1NNMGxzNHlRM1ZBVWIycTZSa3AteVJyVC1HUUJfWWp2RHZpWEs5M0xURDNXVkdTQ1R4STlDSjhfak8tbXlJSl9LVHp0RVplMkFBSG5ab0dpVW43U0ZfWTg1bGNDUWJWQVFpM2N6VU44bXk?oc=5",
+      "date": "Thu, 22 Jan 2026 18:14:41 GMT",
+      "snippet": "Detroit hazardous waste facility settles with residents for $2.3 million over ‘horrific odor’  Planet Detroit",
+      "source": "Legal Actions & Fines",
+      "isoDate": "2026-01-22T18:14:41.000Z"
+    },
+    {
+      "title": "EPA Enforcement Roundup Q4 2025 - ehsleaders.org",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40dkh1TjdFc1JMUVFrVHdVTlg1OHdwUkUxdy1TRHFPcTZIalFUbEd0a3VjRDgxQmVRbTNkc0RTN3huWGt6S1g5dDZXSnVvZklGWXYwTE9JWXprMXhkUWVMOGRTNHk0X2tkTnZMM1FHNF8?oc=5",
+      "date": "Thu, 22 Jan 2026 08:00:00 GMT",
+      "snippet": "EPA Enforcement Roundup Q4 2025  ehsleaders.org",
+      "source": "Legal Actions & Fines",
+      "isoDate": "2026-01-22T08:00:00.000Z"
+    },
+    {
       "title": "Business | Hasbro CEO Cocks and Execs Sued for Alleged Securities Violations - GoLocalProv",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcGp1ZXByV0VpMUxhQktVVWhWSW93ZWpZSnEyOTdYQ2FBOVM5dmt0bnIwb3oyeW90Q2Q0bHNJQ3lxVzhVMl92dUdKWnBMTUU5QUJnVkdteFFReHVZNlJfZ0lkUmtIaWtYM0dyVHpoMTRObHdEUkdUdUFUUm9tUDFkVWdwUGhkUVFKbGtOUTJBVmR4OTd5R0Z4NlF4Zml2cmdQd1hmZA?oc=5",
       "date": "Thu, 22 Jan 2026 08:00:00 GMT",
@@ -1091,6 +1523,22 @@
       "isoDate": "2026-01-22T08:00:00.000Z"
     },
     {
+      "title": "Coimbatore corporation halts open dumping at Vellalore, to clear legacy waste by Oct - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZG91ZGo5UHl4SkIwX1VwY0hrOHE0ODB4dnp2bkNRbVVpVXQ0Tk5uMllRc0NpbU9fVHl5SXdVUUZxNDhDcXJVbU12a2owUHo0M1h2NUtGdXI5OEwwSjNiblJMZkpkZDJLLWlLVFdjUXJVSWJIeWs1bmJCVktXRzZ4bnZoMDZ1d3Bob0FmRjlHMDBnNVdkWXEzcU9PZ1djRFRJell6LXZjM2owMzVmVW12UnlpcFV5LVlJZUgya3ZnNVFiRXpTbmJUM19QY3ZIYXE1NDEtQXYtbkhycFNyUG9EME5XVGhibnF1TllucFhZU0loT03SAfgBQVVfeXFMTXVOTkk4MDFEUm9XQzM5UnpUeEE0VzhhekRFM2FYSWtqVUhMQ0dQN2p0S2FGZTZycE9QYUpNQ2ZJOHNsT2QtQ2wxSElXSkpSdXAteGRXNHJCemJqcnRsNy1oQWFlVC00YnFqaFJrbENraXVHcTFFTnkxZWVtUlVnajNtUHp4Ty11Zm12WURuV2VkeGxXN1lZbUZON0V6UHBoQWRReVFPTld4ckJrRkRYUHl3TTRvRmRjODU1R3FuYzMtTFl2QkhUanhic2E2SmlDeXU4bHVVejVmSFFudk82Z1k2VDBpQmFhOEgzS01RQ2Vzbl9yZWV6N3c?oc=5",
+      "date": "Thu, 22 Jan 2026 08:00:00 GMT",
+      "snippet": "Coimbatore corporation halts open dumping at Vellalore, to clear legacy waste by Oct  The Times of India",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-22T08:00:00.000Z"
+    },
+    {
+      "title": "Farmers increasingly left counting cost of fly-tipping - Farmers Guardian",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQekg5eG1sR3Nmd2lZQWN6cWtpbTUtQXEtSklrVlVKU0hKNlNFUUdoS290RFRjdkhvWXdLLXRBc0p4bnR5ZVF4YW52MUdDT2ZqcEF2SzBHbmRwa1lvNjNuMWxwRmZLRjJIOWtnTkJ1SzhTNGo2MGhiYndZX3d3cDFUOWxUZ3NTTnBVMzRjd1VIWks0ckd5ZjFfS3ZvMWQ?oc=5",
+      "date": "Wed, 21 Jan 2026 11:05:06 GMT",
+      "snippet": "Farmers increasingly left counting cost of fly-tipping  Farmers Guardian",
+      "source": "Regulatory Crackdowns",
+      "isoDate": "2026-01-21T11:05:06.000Z"
+    },
+    {
       "title": "Everything we know after fire crews rush to blaze in Linwood - Renfrewshire Gazette",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY3MzZUxrQ2c5OTFvOWpKQk5RSnd4bnVCYU1oV2tPNVNpVXVubWN2X0hNSVF2bzZ0YWh0SFBKQVpadjUtTWNCNld2RzBhNlZnWGE2cEQzajMxYmtIRVg2UkFHTXVBR2lVUGRfWWctc3czb2J1SnNCSVRGeDQxVGJUbFFZRDdTSE1FMlRBeFB0V0RBNXd4TnluZ09R?oc=5",
       "date": "Wed, 21 Jan 2026 08:00:00 GMT",
@@ -1120,6 +1568,38 @@
       "date": "Wed, 21 Jan 2026 08:00:00 GMT",
       "snippet": "Greater Manchester duo arrested in connection with illegal waste dumping  GOV.UK",
       "source": "Regulatory Crackdowns",
+      "isoDate": "2026-01-21T08:00:00.000Z"
+    },
+    {
+      "title": "Investigation under way over Galway bogus waste collectors after multiple illegal dumping incidents - The Irish Independent",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNekF0T1lWcko4bURETkdYeVlreEZ0cGJpbHYyVmUtbThFM3VfNWlxYnZKZVQ2YzNoR1p5RmVWV2pLeVhvRDJ4eEZTT0NxMDdmWGY5V1Jla2pzdnRJOGhFUEFaLUpUcnRuX2otOHg2OG1fU0x2MGFSekdEYkE0WlRMdXQtcC1zVnJnMUtBVFE4UHJfMFZ0NGZDaTF5OWt3LTJyWTA2TlM3a1JsdjgtWEx2WUUwOXRGNHVPRkM5WHU3Q0p6N0JaMkVpYlpMTlU4eTJwVHFMNVJIQ09rYXduSmRnbzk5YmVNcTFidS1lNzd6N1NIUVRpcE85TA?oc=5",
+      "date": "Wed, 21 Jan 2026 08:00:00 GMT",
+      "snippet": "Investigation under way over Galway bogus waste collectors after multiple illegal dumping incidents  The Irish Independent",
+      "source": "Regulatory Crackdowns",
+      "isoDate": "2026-01-21T08:00:00.000Z"
+    },
+    {
+      "title": "Centre Notifies New Rules on Use of Environmental Penalties - Deccan Herald",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNDFDaXhkUHRZYlJiTWcwdGdyRU4yVnNqYkxLTmdxZEY1NXNvYUc0QmlNS0hjRmVLSDFoSnNlZmhuLU5PUWRudFNmTUdyXzdHMU9INzB2UXBQeWplbG9BZ3M5Y0hUM3Q4TElLNDV2aFlkQnRPTG1WU0VDWFMtbTctT2dnWktRRy1pLWZ3TnkzV2JGNngyUGl0SHpsYkxESFJtdG1oaC1vanVMZXBTdEU4YjV0Zy1FZHZJMTZrcnVHOWhDTVg2LXJj?oc=5",
+      "date": "Wed, 21 Jan 2026 08:00:00 GMT",
+      "snippet": "Centre Notifies New Rules on Use of Environmental Penalties  Deccan Herald",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-01-21T08:00:00.000Z"
+    },
+    {
+      "title": "Gifting rose Haridwar's way of curbing littering - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRlhTdWc1VVRTVmdTVlJXVTR4M1gya05YT0ZBQUJQbGF6T0lsVEpBdm1fcTczZ2JrQTVnd0ZNbzRXYkNUZm1GWUgyRmsyMU5nX29fbWFHVGpqX1VJR2dVNERxTGJsNVJLVk1RV0l6R3doWUFNQ2FjblhDMXpsMHVlaWlPVEhJMzZXOGFhT0czZ0t1ckJ4VXZXVnVFeV9DUE9STnJvNGktMmFudl9BNnQ3dUJIZjgtLVdVMXFzVWdxazfSAcYBQVVfeXFMTW45NXF5alZwb192aG1iTUUtaEpCcDRPWG9oVXFja3dCd291X1ZEZnluVHFUVFlOZHFhbXMzazdRRHJHTG9pTXJfS01wTXVhVTFkdXV0cVBQMkRmc2ZnV2xueVBOZ2JUTDlGVHBFeFlvR01iTkJqYUZkRUNjMU1xZHNvcWFBcXFsd3dnTlk2ZFhVT05XSDQzV3J1aUwydzZYaFNZMmd0T3kxck5jaHRJOWQ3S2FZWExITkhXTHB5VGpGSGdUWExn?oc=5",
+      "date": "Wed, 21 Jan 2026 08:00:00 GMT",
+      "snippet": "Gifting rose Haridwar's way of curbing littering  The Times of India",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-21T08:00:00.000Z"
+    },
+    {
+      "title": "How One J&K Town Ended Up Paying For Its Own Pollution - Kashmir Observer",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPckZtWVRRbzUwdzVhQnFJU1pSNXNLUGtmc2hwTGluTXhfRzZqWnU1VGRBd1gtQTZ5aGZMYmFpX1NWRWdIRk1kYnJlYTlFaVZ6SjlRc3N4Mk9vV1pPdzZBbEY1YTlNbWJGMmpRcjk1Q1R3elQzUmFfY0lhbjhENDJhRC1Mdll6U1F4ZnE1bFpHbmtNUDc1dVN1Nw?oc=5",
+      "date": "Wed, 21 Jan 2026 08:00:00 GMT",
+      "snippet": "How One J&K Town Ended Up Paying For Its Own Pollution  Kashmir Observer",
+      "source": "India - Municipal Crackdowns",
       "isoDate": "2026-01-21T08:00:00.000Z"
     },
     {
@@ -1155,14 +1635,6 @@
       "isoDate": "2026-01-20T08:00:00.000Z"
     },
     {
-      "title": "What Canada’s nuclear waste plan means for New Brunswick - NB Media Co-op",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdXB4UDEzVjNWeGE0ZVE5ZVBfTkk5V2htV01ESmVPRVp0VjFydDRiQWZtWTFXb3B3OUFaMzRDNENjejk1ZEd1SmFlcWFDYmV4OGVkaDRfbGMweFVQbkZWUUsweHpEUFcwMERpcENWNDhhT0phck5UTnBFX0psLW9wN2h2dHlGMENhbEd4U1NEeW8yemdlVEE?oc=5",
-      "date": "Tue, 20 Jan 2026 08:00:00 GMT",
-      "snippet": "What Canada’s nuclear waste plan means for New Brunswick  NB Media Co-op",
-      "source": "Legal Actions & Fines",
-      "isoDate": "2026-01-20T08:00:00.000Z"
-    },
-    {
       "title": "Italy’s Sogin Completes Civil Works For New Repository At Enrico Fermi Nuclear Plant - NucNet",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSHc0R3oyZ3lUdTljS3IyQVhJSjVFZE1VdzJmMDlNUVpQb21zR2VCVzFFY29FYVhkSzRSYTF1UVRYQ0xTVzQ4VlhoTlctYi1ic1RHUEVEcUlWQW1QSmhIUVpzOTdYU1BHYUp4QUViYW1SMTZoRHZwN00yT3NGOEgxcmJ4LUNqa1RxcXlEMjhaaXZiRmJaS0IzVllnblE3TjhlQlNuVG5zWUFMVVBNcTRCWk9FdmN3SWt2N2NvNl9B?oc=5",
       "date": "Tue, 20 Jan 2026 08:00:00 GMT",
@@ -1187,6 +1659,22 @@
       "isoDate": "2026-01-20T08:00:00.000Z"
     },
     {
+      "title": "Govt notifies rules for use of Environmental (Protection) Fund - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeVJnRkpRUG5CZkVKcWZ3M1p2MjBJMU1sam5rTlUyTkoyZVJKTm04R3AtZ2ptUDY2TXFHSlpzRTMtR3Q2bFZ0R0NGMTZ2cGlhZDlwcEljdlBzZEs1VlJXSXJqN3hlQVZ2UDNwX0hyeWhzWDFIR3lySEQ3MnVwYjhld0ZFR3c2WUlfajF3YXNIYUJNczg3Q0NnOFRqVGgtZHdtLUlwMmF1b0hBbFNLbU1OV1NxWXI0VGloa3g2dmw0N1JGeHJUdFJV0gHMAUFVX3lxTE4wVTc1WkpYR0Z5a09nRmhaNjJBaTRsUWZHaGM4dExFcmRkeXl6UzhpdWJ1R25VbnNaM0RjMl9KSkxPendlWXcwOTJITkFIZGFsc3laY3BITnZKdW5DZFVWaUV6dURxelpDM0FrczI0THNNZk0yemdjVV9hbDNCemxFR0dzRllaNnhOSUNINXJsbmstaTZuQ3VfalAxTmtKUHBuUmRBUHUyTFJ3ZndRMkFyTGFoY3kzYlZxOUlWVFY3RmE2VWRLR3RWTGFDeA?oc=5",
+      "date": "Tue, 20 Jan 2026 08:00:00 GMT",
+      "snippet": "Govt notifies rules for use of Environmental (Protection) Fund  The Times of India",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-01-20T08:00:00.000Z"
+    },
+    {
+      "title": "Govt brings 4 more sectors under GHG emissions cut regime - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSnBMS2l5aDhxcDhkb28tbE9rejRnVVZkYUgwRnMySVAxVlBlMmpRMGtxZU9KNGhSaktHODh6dVQ4NWRDUF90QWNUWDBOVUZfTFoyRmEwS0x6Y24wZ1NKbDYwU2JKN2EyeWxIQkp2NXppS2hXZkEzc1R4dWVWZk5JVk9hS1NfZWEzMFNqQndJTy0xRG1hXzRNOGxhdnRBLVJTaXhKQ0pBMDZOdjBDVWl5bFRLcGR4SGc5YUJaZEZtWUNWWGvSAcgBQVVfeXFMTjlaTzZFTkZUU01nTDJIVklqaWYzU2RhUnFPZl9ydEp5ako1VXhxYTQ1QVhHdHdKcDQ4Z2k1ckhucG5CM1lVcmhnVl9TMXM2VkdtNTFoQkJuYTNadkxFQVBrdXU0MDZsQlhUS3ZEb1l1UEUtV2kzZ2VlNnNtSVNjUjNjYUdXVUE3VXptUmc1WHpOS0diaEdIYXhQempMVXdtR05kQVpGazY0WnRQYTQwVTM4ODdLRUNueXR1UzJaNHJWbkdXSDZuTjk?oc=5",
+      "date": "Tue, 20 Jan 2026 08:00:00 GMT",
+      "snippet": "Govt brings 4 more sectors under GHG emissions cut regime  The Times of India",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-01-20T08:00:00.000Z"
+    },
+    {
       "title": "Brazil: Three waste and overburden piles operated by Sigma Lithium shut down due to risk of collapse; incl. company's comments - Business and Human Rights Centre",
       "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPTWdXTGhkRDQ3bkZqdkRLRTlkdTZYS3NXSFlyNU1YeWNERDNLZEFldlVuNlVFQkJGekZubFJOT1QtdXlUX3dCTXdNNmNXdmxIT0Ryd0haVWk2aVJ1dDhxc0N3NU51NmVQcm1NMVM4U0dmT1huX2pMaEsxWENBbmdZYUUydkFEX2RMWUFsem4wVmREbHdtU19OMW02SklmRnZ5T1E4dkhPVWpJa2JKN0ItUTg5LTVVblBnOWZ0d2oyNmtoQXRKWnN5Q1B3SkVqeFhqMUhDbjFPd2VDNEpvbXR3cGNQZ3hwWkFsdVNwOVU4Sk5wdDA3MU5ySWJna0xZM1RoNEpTcHR3?oc=5",
       "date": "Mon, 19 Jan 2026 15:55:25 GMT",
@@ -1195,11 +1683,27 @@
       "isoDate": "2026-01-19T15:55:25.000Z"
     },
     {
+      "title": "Mayor asks attorney general to investigate FPI Management over Reno housing complaints - This Is Reno",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1penhnRHNwbkkyQ2Q4Vm52c0tpenlSYmV3NFdtNm1PT0o1R2lfWF9wMncxUldXa3B3aVc2cjNub1JNdlY5LUItLXpYRUVCa2NqRl9jd3FiSmVBUHlnZXYxNFB1SkpJdlEy?oc=5",
+      "date": "Mon, 19 Jan 2026 08:00:00 GMT",
+      "snippet": "Mayor asks attorney general to investigate FPI Management over Reno housing complaints  This Is Reno",
+      "source": "Legal Actions & Fines",
+      "isoDate": "2026-01-19T08:00:00.000Z"
+    },
+    {
       "title": "Court throws out £50m Biffa lawsuit over failed Scottish DRS - Circular Online",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOelAtWS1XOTJxTmxTMzJYLWJSYUstSGNwRFUxczVqWmRUdzgzVVRyOEs2T25rajliWF9aMjk0dHpOQk5zbEk4OVJLR2pqdE9taXFiTWpmcV8xdjE0NHhucl9vbnJna0QtT2xsLVVWQWc4RFdxNTJYVjE1OGZHa3czSkJQQkJkSk9NRFhTaVlKaU9NSjUtcWktenJqTy1xY1U?oc=5",
       "date": "Mon, 19 Jan 2026 08:00:00 GMT",
       "snippet": "Court throws out £50m Biffa lawsuit over failed Scottish DRS  Circular Online",
       "source": "Legal Actions & Fines",
+      "isoDate": "2026-01-19T08:00:00.000Z"
+    },
+    {
+      "title": "Top Waste Management Stocks To Consider - January 19th - MarketBeat",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQ0VFWHA0RHR2MEZmWlFiUXRxZDk0N0k0Zk5namtHQ0E2Q21tQlNUcEpwY1F5ZE10ckRva2YxRi1UQVo4WWZYMGtpeW0tWlFhdkFHMDcxTU0xWnl2TlAzcDcxZ3loOXdta284aUhUQmRrOEw2UDlNWUV3dXZRZEVONFFKVGMya0J1SUk5aHhNMV9QakNoc2RtWnBzb3ZDR0diOUxDYXJJVWtYdw?oc=5",
+      "date": "Mon, 19 Jan 2026 08:00:00 GMT",
+      "snippet": "Top Waste Management Stocks To Consider - January 19th  MarketBeat",
+      "source": "Fires & Accidents",
       "isoDate": "2026-01-19T08:00:00.000Z"
     },
     {
@@ -1235,6 +1739,22 @@
       "isoDate": "2026-01-18T08:00:00.000Z"
     },
     {
+      "title": "MCG proposes second C&D waste plant to ease Gurugram’s burden | Hindustan Times - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaE15TVZGanBiOVQ4NzhwQVNEVGdWSTZ5SWpoQzBidjJ6cXRGdjY0TjdLQnNFTTZ2WnZRNnRvdkVOYlVVY3oyZFFFbENScl9CU1hrQjhwT2ZnTnJ0YlhMaEV0NlZFLUFFRURlNUs2NmNpTzVYMUR2U0oxV3psM3N6aFdpcWhpZEp1NkxjMDVqTGhNQ01ad182Znd3N3FqREJZdlhJTDc0S0ZoWDF5VnZzMjltNzV0RmV4WjBUSHlLNVdWdUhqaHlTV2NZLUpZYk3SAdQBQVVfeXFMTnU4dnNLekdDdzRlQzRtdl9Yc3JpS1hjVzRKM2JLY2tQbGlFb3VXQXJDUFRPZUdZUWVJZkVsdFMwYlF5azZ0dzN6dHJFZmxoVHZyUFNyLUFjcURfLWQxX0JXM0FaOEdUZTk4eDcwMUc5TnlaSy1sTjBCU1NTQ19WMHZYMUI3NGdWSTVGREVFWTNqamVnck1UcElNM3RON2hFa1QwcFVRM1lST1h5cVpjSGRfQ1JUS3dwdFRCNXNRRmNHMXdDejJ2bmt2dDdGQlVMS09uQ20?oc=5",
+      "date": "Sun, 18 Jan 2026 08:00:00 GMT",
+      "snippet": "MCG proposes second C&D waste plant to ease Gurugram’s burden | Hindustan Times  Hindustan Times",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-18T08:00:00.000Z"
+    },
+    {
+      "title": "Garbage under bridge near DIG office adds to city’s ugly facade - Tribune India",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNUU4b2ZJYlMzQU5hRGh3WDNXRU0zSzhGUXMyY1JMdUxhd3BYNnR4NXROVnh2SXI3M1lBVjNQdWNhOW9qUnRpelJCdVlJLTZPT25wOU0zMzhzN2MzZXE1TzlNN0pMRFp1X1J3WkJnbHE4WnhmNmFXVDhiWlNYTUNoQnJZOTBGV0FJX3FNdElaR1o5aXN3MGpIQVl1SEZoWEpCZkJmenQtaVkxZ9IBrgFBVV95cUxNQl9wOVlJRmVsd0hlNGJkVzNZT2pqSk9fZlFLUlJFNkNqU01LNVZ2SVRpQjRFVEVBVGlWUjhQVkNIRzd0XzdEVi1HSU9hZmlONEd1Yzd6ZnhEWF96QmRJUWZGUVA4Q2pSREJQTmxwbGhUcjY5SDJRRk95YTRGR08tdzBEcjA5aFRrV3J0amMyUmsyVEM3M2pvNkVFQUoyd2U4MFZwM2IzM0gzM0cxZGc?oc=5",
+      "date": "Sun, 18 Jan 2026 08:00:00 GMT",
+      "snippet": "Garbage under bridge near DIG office adds to city’s ugly facade  Tribune India",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-18T08:00:00.000Z"
+    },
+    {
       "title": "‘Lack Of Norms Poses Persistent Environmental, Fire Risks’ - Times of India",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNM0VCb0podnNsV2ZRQ1RGemxUZC1PT0FGVkJPSGF4eWNjaVFrOGVwcUl4bFVxTWpmbmxsQmtUMVQ0WWFQTVZDYnlsRUtmcEYxUEZuRlFoQ0hJNXp6dHlIWUxjU0hmc2ZPa2k0YlRpMWNORjZRTThCc1RTUmhrOTFxekNfTWkwcDdJSHJ0RE40cUY1cmNNTlUyd1VnX0MwSkw4dE15bzJWZ1JDY1NQN2NMTnB5c0dVQmNlamswNHlIRlFqVU9VajFDdtIBzgFBVV95cUxPNVh5bXhBSHR2NW1JSVcxTlpiZDFYU0tYT3dLSHlwNDR5bFpxWDd0dE5hVTg4OFpReHp1YndhTVRZNndkbWk5Mjc3QU5EWE9ITW9hMy1FMTduUGxzczBZb0Q4S2ZoVnJoVDdkZnpqNTdhVTUySHdFYV80RXMxano3YnM3aDVhbi1vRHpBdVM4SnJXZHlJem1lYTVERzBoTnpYTEFmWkFTUTNZcmlXWjRCNVRnZFJIRXlKZDlxZ2dXVWFZcUVqNXpyTklFZmI5dw?oc=5",
       "date": "Sat, 17 Jan 2026 08:00:00 GMT",
@@ -1256,6 +1776,30 @@
       "date": "Sat, 17 Jan 2026 08:00:00 GMT",
       "snippet": "Matt Damon Says Clint Eastwood Shut Down His Request to Film More Takes in 2009’s Invictus : ‘You Wanna Waste Everybody’s Time?’  People.com",
       "source": "Business Failures",
+      "isoDate": "2026-01-17T08:00:00.000Z"
+    },
+    {
+      "title": "NGT takes cognisance of environmental damage to Deepor Beel in Guwahati - India Today NE",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNWkwenhCbG9NSWczbW5ucTdrYUlwTWpNeXI0S2p1NzNPNi1BNnBBUGR4NDNUSVF0VWVabmhnR3R4ZmhkU0QwVVhJeFdhS25RelBCQnNSQzJndnNON1ptejgzSzV1Ykd5ZjBmdks0TTVPeEJJaThWcEotajNIVmgtLXBFSlRIQjIyVGF3NjJqQnBjSnF3a0w0dDRBY09XU09JazBxV2xGTUgxYXp1T3R3czVpZkRZUkw3RG00YkZwLTVkdE1qN2huQ2l30gHPAUFVX3lxTE1vWVpSRzRMQlcxaXl6QkVPRndtOTJjdHFjNE10dzkybW9sQUM0blVrNml6eng2TzJLS3lzTmZmOWwtUTUyWGNTUlpmX2tRLVlMUnhfY0tia19VeC1JYXpoS1pRck53M0RodEdubGFyX2pWb2VleGdhcDE2Rm5LN0EtZ1VxeG10a29yWlFRdy16SHh6cEM4X2wxZ1YwMTFyckcxQVVqYTJJU1VMbURNZko1VmtRa3VydVdGenRrMnhQNWtsbV9fYTNfTXJsc1ZKaw?oc=5",
+      "date": "Sat, 17 Jan 2026 08:00:00 GMT",
+      "snippet": "NGT takes cognisance of environmental damage to Deepor Beel in Guwahati  India Today NE",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-01-17T08:00:00.000Z"
+    },
+    {
+      "title": "Poonch Municipality to Auction Assets to Pay Rs 2.71 Crore Pollution Fine - KNS Kashmir",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUzN1cUZkenBVSlNCbjQ0aWdramVyOGoxemdzaUtTUVd3c04zajNvdVIzSkozU2VxMXNZZDE0cE02QTlINF90XzlFWGtua1gyYU5RRTB3S3Q1ckpUNzlwaVhwOEZUQ0FPaHlxb2NFUDZnZlVxQkx3blh2M19RNkgzeXE1UER4UEpWWUxlOURiOTJwR2dDY05Wa2dMa2dpMTg4U3dDc25PaFRNQ2M?oc=5",
+      "date": "Sat, 17 Jan 2026 08:00:00 GMT",
+      "snippet": "Poonch Municipality to Auction Assets to Pay Rs 2.71 Crore Pollution Fine  KNS Kashmir",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-17T08:00:00.000Z"
+    },
+    {
+      "title": "Rotting rubbish breeds woes in Uppal amid civic lapses - The Hans India",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRGdZLWd2OGo0eWd3MTFvRUQzYmRRYXpRdGhObTVwWmR5R1MyVzZvSkZHNzBBOXBCMXAyeVpVeTN1U3h3ZGR3NnNxZVpuYlBJR3JxUDZtS1VTeV82UUVFVTZxOGQ3eXdRVFE0S2NwS0t6U2dmLXNyTFZqa0VRSUlpRS1tNEVkY1hGdi1SUld2TVByU2hKWUpydWVKTmJ1MWxoRmYzWXBSTVdxRWRXODJpNTBqSdIBuAFBVV95cUxQZVJVcTVoQkFvdWxMX21QNjhKMXFrNkVkaGs2Z2l6NmdURjMzbEhzYUVodjV3Q19rUXZtVU95UzJTc1p5bEpDMzUzQnd0bl9ZSHdsdmZjT1NDd2J3LVpsT2dIdkNQbHhzLS0yaHlUM0FFdzBPSGxnTFF2eXJZUUtVaEswbDhPMk9BNU9xNnJrODZMR2h6RW9nQW5uZk1UbExXYUhieUxPMjA5UmFncW1EVThmLXE3SVot?oc=5",
+      "date": "Sat, 17 Jan 2026 08:00:00 GMT",
+      "snippet": "Rotting rubbish breeds woes in Uppal amid civic lapses  The Hans India",
+      "source": "India - Municipal Crackdowns",
       "isoDate": "2026-01-17T08:00:00.000Z"
     },
     {
@@ -1299,6 +1843,46 @@
       "isoDate": "2026-01-16T08:00:00.000Z"
     },
     {
+      "title": "LG & CM must explain why no action has been taken against officers in illegal sand mining case: Saurabh Bharadwaj - aamaadmiparty.org",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQ2RWR2oxTVBYQzdNRnpMRW12VVVKVVB1SFF2Znd6S1RndjZxZFBvalpXdUFPOUF1Q1d6c250S28xTEw2eW53WjRvUnE1WWFlWmt0cllFanVJWjJ0M1Z6STF2TUVZRmhiSHY4MXhvMFk2amZsOVE0WVl0bDBEdEFDNGNSS2kyY1hwckNKclJMQ2dZYlpjaEVTTWphN1pCVmlWWlpVeWRrSEJRTHdtOGtFNHI2RWh1QnowUXVmS2F6X0NfTVNlbm5FYzg1V19pb2piTlZHX0R3clh1SGxPRlZ1ZVFEa0otZw?oc=5",
+      "date": "Fri, 16 Jan 2026 08:00:00 GMT",
+      "snippet": "LG & CM must explain why no action has been taken against officers in illegal sand mining case: Saurabh Bharadwaj  aamaadmiparty.org",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-01-16T08:00:00.000Z"
+    },
+    {
+      "title": "Clean up or pay up: Over Rs 1cr EC imposed on MC - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRm5zT2l6MHVJMlpCaENxWUR5S0pFWnFFRjI1bURxWjk1UmlfZE5nUE9EZ08xaXAtY0NWVUVTLTVmbjVXcVBSX2sxLWo5LThnNjZWQ1dZZmFweHZRenYwcElMUjM4VW9QLWFTbldEOWZDTjl3MENUNlFpYThDTXJwVGZwS0N0UDMtOTh4X1BqS3JXTVdfYjZzdUo5c2hLNVM2X3RVb1hHLW9HTk10QkQyYW1WVXVmbjRlQUlYaG9US0TSAcYBQVVfeXFMUHpIVFN1Ull6QUdKcG9lazEzM19rdGFXQlNkZU9NelJmb1J3OFlJbS1HNUtmNXBIbFhBU0tZbkxZQlZNMmoySDllTEF4cm5PNHNpZXFfR00waEM5emp6d29DdTJhNE1vNFc5VHlIZVNxN1BXX2FaalJrSC1PMTl6aU9xd3YwZDVRNkZYVURmdWNyVFlnWGhKMEtnakcxMGVXY2pTWS0zQnI0b19XN3VGTjhQNklsYllrMmo0MkVsSW4tcHNTbExB?oc=5",
+      "date": "Fri, 16 Jan 2026 08:00:00 GMT",
+      "snippet": "Clean up or pay up: Over Rs 1cr EC imposed on MC  The Times of India",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-01-16T08:00:00.000Z"
+    },
+    {
+      "title": "Ludhiana: PPCB slaps ₹1.5 crore penalty on MC over waste dumping | Hindustan Times - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMEVFRVcwNkEzWldscUh1NVhzWGlJNEhqdUtkX0tUMXV1b0d2Q0FZY2RRWjZGVFJsb202dFAtd2YyNG5uaTFHWk1OU1d3ci1BR2d2MExJUEhuTEw1Mmd4R0xraEQ5dURwY1RkbDhSV0EzcG1yVXpGMkxzakRLdFFGSml1aTB3RU5VVWhwd194bDYzNVl2dzZoa3J3dkJnc0dWZGdSTDEwNFpQejJuNDNYXzVMOWh3ZThrWHBuSVVnSU1ob1RhaExTYUwxUElFUm5mWWfSAdcBQVVfeXFMUDRManBnOWo5c1dLam5sMEIxQkJNazFUdnloOTJlSVZBVEtTNXhrMWNVNUxpV3FqSy16ZzZVQ1JkU1N4R1BKNHdIenl3TDZhVm5VbnV3a1l1NkdFSDg3dEw0RGhmb3BRT1ViQm1GUDFaWXNsUmp6WWR0cnREYmtKWTdJVURxcnNheDRhYnI1TDRKNUZuSm9hanoxWGtoVTdoTEo5anloSi1uYk53RGNjVGxnSEFJb0dEXzk4RWl0cjdlUmoyeTlGTWYtWjlla2JHUTN3VFgxRlU?oc=5",
+      "date": "Fri, 16 Jan 2026 08:00:00 GMT",
+      "snippet": "Ludhiana: PPCB slaps ₹1.5 crore penalty on MC over waste dumping | Hindustan Times  Hindustan Times",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-01-16T08:00:00.000Z"
+    },
+    {
+      "title": "NGT imposes Rs 1.54 crore fine on Ludhiana Municipal Corporation over improper waste management - PTC News",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOGVpa0MwVDBlbWtUSWtCYnVvNE1KdHhnZzk4c3lKUjlsYkpZcDBEYU02eEpYclk4MnlhbE11Z0l0RS1xaG5rOTNzTUZVbC1WSGhSMnFyNllLN185MnJnSE5CU3VhY2FvTWt1R0F1OVVuTVRFZDFGNmZCbmhjc1BwTUFCSEhNWUJMRFBRWTJJc3pKamp4NlZrVnE2U1pVZU9JemVnaUR30gGrAUFVX3lxTE5SNlViZlB4M21JR2ZlMDBtTldkbmdsd1NrZFFzMEhEbkZZMXVzX1BVOWdkRFpRckx3VTVOY1lwczJndEItd0s5OHkzbVpOQUpNeHlrTDgxSW5OaXF5Q3hSVjVTOFlaNDFabXZuaHNSd19IT3RpaFlFNnBnWGdSWl91dXduV3JWTl85ZVB5cEFxb1NqUjRCZG02cTV6STVQT2lheW9SQUl3b3phbw?oc=5",
+      "date": "Fri, 16 Jan 2026 08:00:00 GMT",
+      "snippet": "NGT imposes Rs 1.54 crore fine on Ludhiana Municipal Corporation over improper waste management  PTC News",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-16T08:00:00.000Z"
+    },
+    {
+      "title": "BMC’s non-veg waste disposal norms - orissapost.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Ya044aEdaWUhJLU9kanNteTQ2VWt4by1lNjl1dTVyV0tGMkxWWE5kOUE5aUtJOVYzZnlndUZRc0VyMXpseXk2dmI0d3JOZFNfSjZFeU1heW5rdktCaVR0aF9wcS1ibU5rejk1OHJn0gFuQVVfeXFMT1hrTjhoR1pZSEktT2Rqc215NDZVa3hvLWU2OXV1NXJXS0YyTFZYTmQ5QTlpS0k5VjNmeWd1RlFzRXIxemx5eTZ2YjR3ck5kU19KNkV5TWF5bmt2S0JpVHRoX3BxLWJtTmt6OTU4cmc?oc=5",
+      "date": "Fri, 16 Jan 2026 04:34:42 GMT",
+      "snippet": "BMC’s non-veg waste disposal norms  orissapost.com",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-16T04:34:42.000Z"
+    },
+    {
       "title": "DEP issues notice of violation for Eureka Resources in wake of waste spillage - sungazette.com",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNckdILWJiN0Z6dnBkZjBrZWxGeTJWdktFT1FxS3U2dVR0ZTFxOFljdFp6dHpkVFE5R2h3S1NvR1RNMHpteGxnLXBXbVdXTmtha0ZmcnJNT3FGSzNsQk8zaTlJWlF5d3A3S0d3Uk1ORWQ3amNheGVxX3NFUjlVSzhiVEpwbVlCRmJnZjNid1hsX0h1V0ViYWd6RVhERWpUZ2o4RjVLYkVnbVE2R0ZpMUkwMFdibHgzWk44dnFKek9RLWx2dEdYVHc?oc=5",
       "date": "Thu, 15 Jan 2026 08:00:00 GMT",
@@ -1319,6 +1903,22 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaktJOFUyRVNkeUVxeGFYNzBkSzFfblNfZGl0NFlpNlY0OFhwUWYzdnB2bGVIVzhMemdYY0M5T3Y1TDY4VTRkUUx4UTUwTk91alBhcXFqOHFLOWJXRjc0MnpEVUJpYlYzWVBraG11QnR2UUZFOWhvbVBxOXZKUmZZeFVsOXlhMnVFUEtpWDJJU1NQSXVyVWpUZ2VvQ1paTHM?oc=5",
       "date": "Thu, 15 Jan 2026 08:00:00 GMT",
       "snippet": "Ohio Judge Adds $28M in Fines Against Austin Master Services  Marcellus Drilling News",
+      "source": "Legal Actions & Fines",
+      "isoDate": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "title": "Phosphate giant turns to Florida Legislature for help thwarting lawsuits - Florida Phoenix",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVXJ1ZTcyR1lqWGdqaXFuUXRMRExfejJZMDJwMU9iNmJHWWh6M2ltTjVOYWRPcjJhU0txeDQ3SFgtU25UeHlMeE1UMWpoWnJuTXZfdklfUkhnVDFkTGE3UXVuU3lJbU5fVmJkRDlCTnVhcXRxZDBlZkFLNVZqM05oRGtYZG9tVEhXdXJuMHBKOTg3LVVGRUdUbEJmNUdEaDdTdGxzQXlaUGJKcmxvamZCNg?oc=5",
+      "date": "Thu, 15 Jan 2026 08:00:00 GMT",
+      "snippet": "Phosphate giant turns to Florida Legislature for help thwarting lawsuits  Florida Phoenix",
+      "source": "Legal Actions & Fines",
+      "isoDate": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "title": "Shareholder sues B. Riley execs for allegedly hiding partner's $294M fraud ties - InvestmentNews",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdEwzVk9MS3drS3F6UWN3MnlWVVVZbmZIOGhnTkRvN2JDdUItQ2lnMlhRcnpXYzFrMDVOMjVlaWtaUEJaWTlUVC1FS1dwNll2ZHJTYVZFenhfSU1ham1VZ0tDUjVuVHluTjl6bkZlVV9lOUZTZ2otaHU4NVlKSnl3QkpBOVVjQVBONVU0MmxfdjBvanNvdTQ4LWs1SEFzcWhvV2Z3ZGdsczF4TndOR1ItcGpmdkJ0YjdoaGdZZ0pjYjByLWdmLXdDbmVDOHloSHhIM251MndQRWpuZw?oc=5",
+      "date": "Thu, 15 Jan 2026 08:00:00 GMT",
+      "snippet": "Shareholder sues B. Riley execs for allegedly hiding partner's $294M fraud ties  InvestmentNews",
       "source": "Legal Actions & Fines",
       "isoDate": "2026-01-15T08:00:00.000Z"
     },
@@ -1363,6 +1963,14 @@
       "isoDate": "2026-01-15T08:00:00.000Z"
     },
     {
+      "title": "Death toll rises to 22 after landfill collapse in the Philippines - The Star | Malaysia",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZGJnNE1GNW1TNWVZYlExekt3VWdxb0J2MHN3Vk9YLVlraGlKS2xEWTZnS01UZlBzT1dJWE5QLVE0X010aExSUVktU2Q3NkJhSUZSajlTT2NZY2xWZEVoaDhBWGtQeU83bkdLZC1kVHlpVWRnWmNlVUljUFcxdXE3LWdYb0FvMzFwUDExU0hIaXZlelRUY1dCRFI0TDBjVTZOaUlrVWZtdGdJVlowZGMzY2txN1NlcjlnTXVwUVFPM0lJRVJVYnFj?oc=5",
+      "date": "Thu, 15 Jan 2026 08:00:00 GMT",
+      "snippet": "Death toll rises to 22 after landfill collapse in the Philippines  The Star | Malaysia",
+      "source": "Fires & Accidents",
+      "isoDate": "2026-01-15T08:00:00.000Z"
+    },
+    {
       "title": "Sigma Lithium's Brazil mine waste piles ordered shut over safety concerns - Reuters (SGML:NASDAQ) - Seeking Alpha",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeEFOSV9UamtaRDFwRmJOOWpGUGdPSktUSi1OWk5UT2FrMENYUndOUm0yNU0tM0NsQ0szV2E3VWJUVl9GVWJVZTVGTVc2Sk43NVd6c05zekJscW51NnBrSUNkRXVYdmt2NnJvY0tTdWZaUk4yY3ZUNHBReHBNWnhDY0NuUUt4ZUt2cml6N3J6ekpXN3NYUWZMeUloVnlQTUNNbGtqZG43LXloUkhUMDUwV3JHWk05NDd1R2xNeg?oc=5",
       "date": "Thu, 15 Jan 2026 08:00:00 GMT",
@@ -1403,6 +2011,30 @@
       "isoDate": "2026-01-15T08:00:00.000Z"
     },
     {
+      "title": "Event management agency fined Rs 40,for leaving a mess at Mahatma Mandir in Gandhinagar - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQQlFuZk1jaXZwRmxqTGprcXdPNkZTRGRuVGY2ZzlaVlplazdtSE9EUDZaZ0tmMnNfTTZ1bWJJa2I4a0k5MWNtWHRramF6ZjdrbGhXbFVQMU1MeWI4ZjlUUUctUHhvSkVLaGhBQkJfTFNqU2NidHViblhXTWE4T1FIMWVSdGs3SHNMRkF3ZDlIMTI1TTNBVXdhUE5XbXJ3SzV4dVdoanp0T1Vvek82Y1JHaTh2NnBDNElFMEI4TkR0c21lZ3c0TkRHMG5DOEhwYnJycDZEOXgxTHRUWThZekVjT3JNZktaS3F6OUVKNkh6UU52MG83NFHSAfsBQVVfeXFMT3dxQUlrQmFKY0pkZjlyd0hNVjZpQ2t5ejF3N2lJMG5wUUdLWHhabnp5RE01YjB2aU1HRmhUc0V4WTFXX0VPSGZ3WmlMSm5LdWhPNzhnNm1JUWtCYlZYRjhnUkVCTXBUbjFka1dKX2daWkg5MW9TQ01PSURQNDJIYVV5ci1GemtNYzBCcFliRW1Kdm5yU2VDanR6VDhtd1Utc09EVWhEYUhVVkdNS294UGRlQXRaU1g4Z3ZPOWt4LTA5NlpoSEZIalY0V0tjNndJdzBlN2cxdXVKYmFpMGxsSFlQbkVvMzR4a0tWMUlueHh5UU9UT2laSFJzdnc?oc=5",
+      "date": "Thu, 15 Jan 2026 08:00:00 GMT",
+      "snippet": "Event management agency fined Rs 40,for leaving a mess at Mahatma Mandir in Gandhinagar  The Times of India",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "title": "NGT imposes penalty on SMC - Daily Excelsior",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54NHcydFJ5bWFiSEJwX0J6OGpaS2plaDZPVG5RR1FuZzA1TWlPbEVsUVlCRWhkSWl2SzlJNS1uYmFYRF9BOHVJX09wVjd2QkYwalEwZks3cWdlLU1zUWRrM3pnLV84X3p1Vmc?oc=5",
+      "date": "Thu, 15 Jan 2026 08:00:00 GMT",
+      "snippet": "NGT imposes penalty on SMC  Daily Excelsior",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "title": "Bhubaneswar civic body asks fish, meat shops to follow strict guidelines on animal waste disposal - Sambad English",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbkxMVFUtZFNHX1BKa0VnSjRGeXlHMFdtazJNdUN4RDJtcnpGSXlrTHJhYWVNSGdNNS15Wm1randKR3ExQ3VVU0ZjMEZwS1djcmRoR3dZSmZaX1BJWVZsbGdhNjZyT3IxOUZHXzJ4ZFU2V3ZPWDRBRU04TE5nWERyX0E2SXJ0VDNodmpyV0VudUJfcDFVM2xYbm9Ga1VfWUo2NmpVdmVPWTJpdWlIYTZLOVcxSXV6UTdaYTdxRXRDUlQ3X1dTOXEzLURZV1lhanRqWWMyZHY3M3ktX1HSAeABQVVfeXFMUDN4bnBUeHlWdlZSM3JDOTQyWDlqMGFTakREQzItVE82bjFVY3g0Yk5MNnlnWE5hN1lFRnNIQWpYZ24yekxNNTF2RkZZRXNXZlRjYmNQSWEtT0NneFNhUEZPSko2T3M1bW5nR25TaWtYbDB3ei1SUm04S3ZnQmh5SlBNV0lhbkQ4TzB2MVhUZjgxdHkyb2pSQzRsc0Npc0s3d09Ebms0UTJaU3VmY3FSVm5jNUpnMzUyTU9DWXFoMjRnREJrUUJwTHFTWDBjb1l1aEpXYS12QUtFNHp1cEdSOXM?oc=5",
+      "date": "Thu, 15 Jan 2026 08:00:00 GMT",
+      "snippet": "Bhubaneswar civic body asks fish, meat shops to follow strict guidelines on animal waste disposal  Sambad English",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-15T08:00:00.000Z"
+    },
+    {
       "title": "Casella fined $1.9M amid New Hampshire landfill debate; GFL seeks Michigan expansion - Waste Dive",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd3hHQ0ptczFWRmhtNlBXa0xyLU1SQkpveTRQUHVRSEhsYVhkSTdKYmlaMXgtd1YyaDZpSWVJbTVUU3lkZW5HVXBwWTBUeHNmSWM0a0pDWjZ0c1FmMWVMX25aWnNRX3dhbndPZkFveXIyd1E2YUVtWWY4NjhnWXh1YXpZT3pNZTN5OVE5MHZWTzdrTGUxcndXaEdmMzMzSk95LVJLcWhBRjdraVNW?oc=5",
       "date": "Wed, 14 Jan 2026 08:00:00 GMT",
@@ -1416,14 +2048,6 @@
       "date": "Wed, 14 Jan 2026 08:00:00 GMT",
       "snippet": "Ten items banned from your trash cans and landfills across the US - from grass clippings to old computers  the-sun.com",
       "source": "Legal Actions & Fines",
-      "isoDate": "2026-01-14T08:00:00.000Z"
-    },
-    {
-      "title": "JUST IN: Death toll at Binaliw Landfill lansdlide is now at 23, according to the Cebu City Fire Station. | via Annie Perez, ABS-CBN News - facebook.com",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRGZfVlVFWW9uWDU3UzUwbmhOMzdFX09aeThlTVZRN2VtNzQtRGQtOTVHSzV4d0k1Q0dKSXZrc09EZHB3TzlQVmxBLTZ6dUl3QVdMdnZvWXNmSDFsbXo1b1NnQXNyVWZSSGRXcGV6MC04eG5wTEt4RXd2Z3NMWl9ZSFE2a1VkYTd0ZUQyNHF3MENjRkV5amFkc0xzc0w1Ni1Fd3BaYW9uTDJxcUF1SHp4amlzLWFXenNmdEV3azhMZlctTHpLb0loYzh1ZU9LS0JPZVZ3amNNMA?oc=5",
-      "date": "Wed, 14 Jan 2026 08:00:00 GMT",
-      "snippet": "JUST IN: Death toll at Binaliw Landfill lansdlide is now at 23, according to the Cebu City Fire Station. | via Annie Perez, ABS-CBN News  facebook.com",
-      "source": "Fires & Accidents",
       "isoDate": "2026-01-14T08:00:00.000Z"
     },
     {
@@ -1443,18 +2067,18 @@
       "isoDate": "2026-01-14T08:00:00.000Z"
     },
     {
+      "title": "Bacolod officials inspect sanitary landfill amid safety concerns after Cebu incident - Panay News",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVZSMWJOYVdRalZzTEkyRnlpM1FDd2QzVTRBZ0FzaVNadVZmalJKUDAxQlU3Y0JsTE9PczZNQTRYR0lTUmdfbjhZRklyUnFhNXJnS21BUHlhYmo0NU5uamJrbWJUTWRrNU96VVQzbXBHeldKZUFScHJ3eUl3U1Y1VFVFa0lEeFRPdjk4WUNPTk5XelhJR0lTLW9DMXZBMUNIbkdJbGFpZXVXRGZOSHg5Qg?oc=5",
+      "date": "Wed, 14 Jan 2026 08:00:00 GMT",
+      "snippet": "Bacolod officials inspect sanitary landfill amid safety concerns after Cebu incident  Panay News",
+      "source": "Fires & Accidents",
+      "isoDate": "2026-01-14T08:00:00.000Z"
+    },
+    {
       "title": "German steam generators arrive in Sweden for recycling - World Nuclear News",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPd3RTNWNHWlBfRDhOR2xDakNlYTgwcVBYOTF6R1didkZHcmloenQ2WXRVTnFuSUdoTlQweWJWNlFzS3A3MTR3NTNoTVl3R2hMd2VCbUx0S19zeFJpUldPVTZKNktPNUhtWHc2Z3pGYzZlRzhHY1kzazBQMkJZNGsxaHZXYkxFNEJGUlp0blFzNnUxTHVuYnhKM01mNmNnbnM?oc=5",
       "date": "Wed, 14 Jan 2026 08:00:00 GMT",
       "snippet": "German steam generators arrive in Sweden for recycling  World Nuclear News",
-      "source": "Business Failures",
-      "isoDate": "2026-01-14T08:00:00.000Z"
-    },
-    {
-      "title": "Lotilla seeks long-term solid waste management solution for Cebu - InsiderPH",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUVBLblZ0Vk1jcW1tVS1GZkh2VC1SVDJ5TEJ5RzlUTENRdHRDbFFVN0xvZWpzNHRQZkZoLUp4Rkl0SzZZWEdUcHRtMjdUV093ajA5WGtWRDFCN0UwMTNnZ2RJd3hVbFdiaEQ5YU9LTVNLZ3l6dWY4ckNOMEhkcVdzTkF3cmJPbGgxbVpBNDdQTQ?oc=5",
-      "date": "Wed, 14 Jan 2026 08:00:00 GMT",
-      "snippet": "Lotilla seeks long-term solid waste management solution for Cebu  InsiderPH",
       "source": "Business Failures",
       "isoDate": "2026-01-14T08:00:00.000Z"
     },
@@ -1475,6 +2099,14 @@
       "isoDate": "2026-01-13T08:00:00.000Z"
     },
     {
+      "title": "Public Meeting Set As Jerseyville Considers Exclusive Residential Trash/Recycling Contract - RiverBender.com",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ2NXZ25DbzctSkpleDhhYl85YXJVTTlCVTdKUk9Zb3Bud1o4OVZYZHVuWVBXVHpUSklUYUloclNiMnFvaDd4VEZ3TWpJc1pydzljbGpsTzRZd0gyNy1FVk9hZjB4UGhqMGhGeE40d05RRlB4QlBmS0QydVRiM3NTRjFSSE5rdXdxM1BmcUw3aGtGNmVpanZkdGF6RzczZWM0ZXV2T25yWVMzZw?oc=5",
+      "date": "Tue, 13 Jan 2026 08:00:00 GMT",
+      "snippet": "Public Meeting Set As Jerseyville Considers Exclusive Residential Trash/Recycling Contract  RiverBender.com",
+      "source": "Legal Actions & Fines",
+      "isoDate": "2026-01-13T08:00:00.000Z"
+    },
+    {
       "title": "New Jersey sues Camden scrap metal recycler over repeated fires - 6abc Philadelphia",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWVFBZGtxeEx5SVZmZW1EemdfSjVCYVh5LTREQm80eEtfYzZ5d05wQ3hvUC1ITFFjVHpKb3hlNU1CU1hPOUNwUlZZemtISnZtN1VLU3UzVHROUUsyYzUxUW1Cakc3YkEzOUFJS3FTUExmYnNWNUtVSTQ1YnlWN3BYZkhibnp6bjRUYnhyLUtwdjlsWnhq0gGaAUFVX3lxTE9wQUdyeVRsYndra2R0NGl2UnZtZk9LQktBdm9YRWxDaUl2MjFmSWlwOFRCTEVYcDczOEx3RUdYMGhBT3VxQS1aUHJFTEo4Mi1RZldXMFQ5RGVfTWczVUNnUlRsckdvWXR0NldqZWI1UDZWUDBwRFFUU2NWZUZTVHh0NDRVRGQyUlJDenBUcE9hdWtsSG1saUZIaHc?oc=5",
       "date": "Tue, 13 Jan 2026 08:00:00 GMT",
@@ -1487,14 +2119,6 @@
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUWxtZ1UtTXlUY05zYVVaZmN0b3l6YW56aDE2UHpWamJ2VlcyenU5eGh0eERQSUlvQUd0LUJTVG1venhoeXFPazdUa2VWRWUzclJBTHVFdVM1VjI3V2hXMXJJXzdPMW5YX0xRdzJ1Slh5WFNGaF90UFdNWWtkX0M4anU5bUFuWkhuTkQzdGMyNTBXRVBw?oc=5",
       "date": "Tue, 13 Jan 2026 08:00:00 GMT",
       "snippet": "Bethlehem landfill operator to pay $1.9M settlement with state  WCAX",
-      "source": "Legal Actions & Fines",
-      "isoDate": "2026-01-13T08:00:00.000Z"
-    },
-    {
-      "title": "Public Meeting Set As Jerseyville Considers Exclusive Residential Trash/Recycling Contract - RiverBender.com",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ2NXZ25DbzctSkpleDhhYl85YXJVTTlCVTdKUk9Zb3Bud1o4OVZYZHVuWVBXVHpUSklUYUloclNiMnFvaDd4VEZ3TWpJc1pydzljbGpsTzRZd0gyNy1FVk9hZjB4UGhqMGhGeE40d05RRlB4QlBmS0QydVRiM3NTRjFSSE5rdXdxM1BmcUw3aGtGNmVpanZkdGF6RzczZWM0ZXV2T25yWVMzZw?oc=5",
-      "date": "Tue, 13 Jan 2026 08:00:00 GMT",
-      "snippet": "Public Meeting Set As Jerseyville Considers Exclusive Residential Trash/Recycling Contract  RiverBender.com",
       "source": "Legal Actions & Fines",
       "isoDate": "2026-01-13T08:00:00.000Z"
     },
@@ -1555,12 +2179,20 @@
       "isoDate": "2026-01-13T08:00:00.000Z"
     },
     {
-      "title": "IAEA Extends Central Asia Uranium Cleanup Plan Through 2030 - The Times Of Central Asia",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOREd0d01hcERzZXFGX3dOVEVOMkZzMFhjUmU1VlNBVzZiVENDT1VaT1JSMGwyaVFiNkh1bzJCNjBtTW52TEdsQmI4NUFTekMyLVdCZGVQNFlRYUhUSHp3eWtPYTVUV1hrbmZPaHFuQUtEeF9EWmppT2RGUklJZjlBLVBaNkx0bXc?oc=5",
+      "title": "Foreigner Captures Mumbai Man Dumping Waste Into Arabian Sea, Sparks Outrage On Social Media - Oneindia",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOUxKOE5PSENwOVIwa0Q2QTUxa1BKYU5hbWdmM1hRVnJwSXJwUkxDUFN3el9ReEhoY1R3RUMzbC01VFl3b29iNEpZaGJJSkZKa1M4NEJnTTA0bFBnc1hiR2F4S3BxZnR5Q1h2YWk5WkJxTk5wVWhESGozVDJPeW91QWlabHdJSlpoMEZpSkpCdWMzWGV6TXV3SUI0MDhQZkNVamMydkpPR0lsZ1ZEd3hGWUlVSFNhT2IxV3k0SmVHcUczN203SUhHM1RHdTloQjdw?oc=5",
       "date": "Tue, 13 Jan 2026 08:00:00 GMT",
-      "snippet": "IAEA Extends Central Asia Uranium Cleanup Plan Through 2030  The Times Of Central Asia",
-      "source": "Business Failures",
+      "snippet": "Foreigner Captures Mumbai Man Dumping Waste Into Arabian Sea, Sparks Outrage On Social Media  Oneindia",
+      "source": "India - Municipal Crackdowns",
       "isoDate": "2026-01-13T08:00:00.000Z"
+    },
+    {
+      "title": "Residents suffer due to road work in Malviya Nagar as contractor defies dust pollution norms - thehitavada.com",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTXlnZXR0Z2ZaQUhMRXZUeHJ3QlBvTkdKczNpTTJPZUxFeVpVMzZpb0tfd01nQVgyQkhMX1ZzYmdkQWdpckU2WWtSNk1qSk44Qnk0WGZCSkc1cHJRZnBtTHJFU3FKUS1wY2doakt1MXdKU3g5cDE1Q2JMYjdJUU1HSHZ3ajJBTkZXWHl1Y1d1czdPLXo5OG90bEozVVludE5fMHdodFZn0gGrAUFVX3lxTE15QmdhemJoa1M1bllTZFdCVDl5eHdhdzRLcktPNVRhT0hKeUJuN3o0bm0tbUJ6a1p3MWduWUNzT2Z3WEk0SlFLTm5XYTcxUkl3SmZ6dEZFZGJMcUNRT0ZYcDJIeGt1MFZoVzl5cVhGaWZBdmFjXy04YzQtbFpSV3U0eGdlc0NYXzdwRXBNX2pxV3F5Q29oZ2dVSkRkOS1hb1BtaTZDSkNMVHNqdw?oc=5",
+      "date": "Tue, 13 Jan 2026 06:29:36 GMT",
+      "snippet": "Residents suffer due to road work in Malviya Nagar as contractor defies dust pollution norms  thehitavada.com",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-01-13T06:29:36.000Z"
     },
     {
       "title": "Bethlehem landfill owner to pay $1.9m penalty - MyChamplainValley.com",
@@ -1579,14 +2211,6 @@
       "isoDate": "2026-01-12T08:00:00.000Z"
     },
     {
-      "title": "Human Rights and the Environment - Geneva Environment Network",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMExrMXZIX2tYWGFJX3hkZkxEOEQzTUJhTGVyX1VndDR4WXRWMWJ4WjU2b3Z2NUVvRFFmRjZybVNuUXBKRU5hcWUxZ2RLWTM5MnhNVUxBVHVXa3BUSzZoQ2xSN2UyZ3Znd3lOQVhXNVY3Y21RUWFBd0NFS1NzakRZMVJYYk9iUGV0SEZlV201M3NYN3ZpZlpF?oc=5",
-      "date": "Mon, 12 Jan 2026 08:00:00 GMT",
-      "snippet": "Human Rights and the Environment  Geneva Environment Network",
-      "source": "Legal Actions & Fines",
-      "isoDate": "2026-01-12T08:00:00.000Z"
-    },
-    {
       "title": "Philippines landfill collapse: Death toll rises to 11 - BBC",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PQzZ3TVcxWjkwc082eVplZko1U3YxbmEzOGJHY0lnTnJETVBjYngxXzF5dGhERWhTMm5DcDRyS2tic2VWZjBpSnVuR1BuOTlOaDV3eDVIVGRaUdIBX0FVX3lxTE5NU2k4X2RlRWt0RUozQlBKNUhocl8wZ3RYMXREc1B2QXVQX09mdVpMb1lFelduOXBSQVgyNFR0UjlaZ25YTXJpb09IZHNqdkNuaDNJQ2FsVDRzaVRrcEln?oc=5",
       "date": "Mon, 12 Jan 2026 08:00:00 GMT",
@@ -1595,18 +2219,10 @@
       "isoDate": "2026-01-12T08:00:00.000Z"
     },
     {
-      "title": "1 dead, 3 hurt after trucks collide on I-95 in Howard County - DC News Now",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZkR4UExVaUFtODI3ZS1iNmJvbWlQODJHekhaWEpPY1MxS1Nvc3BCOGpOa3pXRXlGaVFzbVNBbFJnTm1WbTRReFZfOFVqT19Rem1xNHNENUdjUEtNRGZJY2ZjR0ZzNmNuWDFsaHRwREhsam9wRFVMc3Fjalg5aG9mWmtzT0g2Qm5ZbW1FeDBleC1fUTNSenZ3bVlIVkxEOFE4NmNkRW93WUxoa25ia0h6MjhrRUk2WHMzRFFVT0NxVXFsZ9IBxwFBVV95cUxOY3AyRV9EbVZfM19BWGs0T19xVDZJWDlPOFBkUDRSQm1Ock1DUldrQnlEamNMRktpNVZSQmQyMkFSRlpwcy01Zy1pR053czdLTlk2WV9ZZ2F6bmNYRmFXQUw3b09LWk9jZ3ZkWnpSVzFwVXp1QlVkWDdWbk5LeFFxdUY3SkRxMnRZdnU1UlNaeVNBM2llQlNsbnA0UzN4c0RPbzdUSFBXeVU1Wm5vZk51akdkOVJIcHRCd2ZEeXAtbGJ1TVpWcVUw?oc=5",
-      "date": "Mon, 12 Jan 2026 08:00:00 GMT",
-      "snippet": "1 dead, 3 hurt after trucks collide on I-95 in Howard County  DC News Now",
-      "source": "Fires & Accidents",
-      "isoDate": "2026-01-12T08:00:00.000Z"
-    },
-    {
-      "title": "Businesses must separate food waste - Nsw Epa",
+      "title": "Businesses must separate food waste - NSW EPA",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdTBiRXE5QXlXbXN2RG1fVGJNbEtBYktCZWtIejVGTkxpUEpiN29Xa1JUeWNCUDZoOFBPRldkaGY3UXd4Y094RmY4MUsxWlZja3I5eTVhQWliazVGRFdNVHkxOGhoSE1BS0xteDdXVEtxNmFGNzNHOUlHam5YUHd0bFgwSExiVkx1M2kw?oc=5",
       "date": "Mon, 12 Jan 2026 08:00:00 GMT",
-      "snippet": "Businesses must separate food waste  Nsw Epa",
+      "snippet": "Businesses must separate food waste  NSW EPA",
       "source": "Fires & Accidents",
       "isoDate": "2026-01-12T08:00:00.000Z"
     },
@@ -1640,6 +2256,30 @@
       "date": "Mon, 12 Jan 2026 08:00:00 GMT",
       "snippet": "Two men found dead at North Portland recycling center, homicide detectives investigate  KATU",
       "source": "Business Failures",
+      "isoDate": "2026-01-12T08:00:00.000Z"
+    },
+    {
+      "title": "Thick layer of toxic froth resurfaces on Yamuna river in Delhi - Nagaland Post",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQUMtUkhGR0tXSzZXUXZobVZsZnBnWWNBNEF4TUM0SmFmOURHZW1Jbmw1d1dlN2ZVVkZ1ekxFQWNDc0E2emtzTXlHeTF6VHB0YUdJRTk0REphcmJvQXlBbGRnX2ZJcWp1MVpiSDRsMHM4VDY5UHNHVkFmT0xvdEluek1wTFdBUVNqVXg3R3JEZURZZw?oc=5",
+      "date": "Mon, 12 Jan 2026 08:00:00 GMT",
+      "snippet": "Thick layer of toxic froth resurfaces on Yamuna river in Delhi  Nagaland Post",
+      "source": "India - NGT & Pollution Board Actions",
+      "isoDate": "2026-01-12T08:00:00.000Z"
+    },
+    {
+      "title": "55,000 tonnes compost piles up at Bhandewadi, no takers found - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQ3VVNzdsM1IxSmp4aUc5VElsUnAyd1RJai1ES2cyVHRpbXdjMjIxUkJoQWRQM2czTzdoYXRiSUNiaVhtZW5XNmxaZWhaQlJ3d1BnODd0c3pLcmdUSnAwWk5SS1B5ak1RcFdSWjVjRTlOMDBwendGMFhSR1NYR2ZkdjF4ek9nWlRnUUJBbkttdllHdHZKSi16WUtOX1hoXzR2Q1RTQlphWktRWm1SejNmQ21uZ2Y0VEEyUjk2ZWNMcUNjOHIxeVlyYVdfVTJtZ9IB0wFBVV95cUxOYTRvQXJjTFZ3Vk1EOGhtSU5uRjFHZG1CQ2ZZSllxbzlUeUJwRDBYU2VXNEpHN2laS0k1VVJRcGhINS1oLW5iVzVfWGNjbDZMWnFvNUJzRHRsVUx4UkVtUHZOd1QzZ3h6QkZMdjJhVHBVaFJ4VmJ3aENvb0JDLTMwbktLNDZPMDNMNHkteDJaMnBfUjJia0kzckVxOGU5Z01salNQdmJrMmNtYktNYlFBdlc1NVFRU3Y1aVNDNFRlXzc1OHAxbmRqcy1lN3llUHBQQzBV?oc=5",
+      "date": "Mon, 12 Jan 2026 08:00:00 GMT",
+      "snippet": "55,000 tonnes compost piles up at Bhandewadi, no takers found  The Times of India",
+      "source": "India - Municipal Crackdowns",
+      "isoDate": "2026-01-12T08:00:00.000Z"
+    },
+    {
+      "title": "How India’s ‘Cleanest City’ Indore Failed Its Residents: Inside the Deadly Water Crisis - Frontline Magazine",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa2RlcEd6alg2YTU4eTJtY0RGcS01Q1FNdS11a3BrT3F4V0xaeDFraFhYYURkM2dRQjFpVDhVRlNrTWtDRkkyTTlIVl9ZZGdlNFl2d2dFX2E2S0c2M1U5RmdvSTJ6eUR3R0RoQjU2ZmVqZThUek5wYk0xNXhCaVVOelhBbWtVRWNlUTVSOGNVVVE0TzdnRjdscXhCN2c3NVhBak1MZ0hwUExIVHdraklUUzNiblQxVlJObXhwRNIBwwFBVV95cUxPWnZTM0FWSGVrMDF0TU9VcXBVQkQxWkVYQXA2Njl5anJJMGRrOGtrRHFRTGhjWkxVYTlLd2FrazZLRzRMTnljUDVzYnRITWZwb1M4VnNhaEk0Q2JGOFE2R3pydHc5eFVIY1JFSVdOeVNQcXR3ZHJ0cWV0el9zWjNaSWVjWGdFV3FwYVQzMHlPblUxd2U3cEdvekRxX0l6LXNpU0ZMNTZlbVFWa1hUSG5DTDJnakNJdGdMSG04UGM3UTIwYXc?oc=5",
+      "date": "Mon, 12 Jan 2026 08:00:00 GMT",
+      "snippet": "How India’s ‘Cleanest City’ Indore Failed Its Residents: Inside the Deadly Water Crisis  Frontline Magazine",
+      "source": "India - Municipal Crackdowns",
       "isoDate": "2026-01-12T08:00:00.000Z"
     }
   ]

@@ -1,7 +1,15 @@
 {
-  "updatedAt": "2026-02-13T18:42:44.520Z",
-  "totalArticles": 240,
+  "updatedAt": "2026-02-14T01:49:13.962Z",
+  "totalArticles": 243,
   "articles": [
+    {
+      "title": "Environmental Remediation Explained: Definition, Purpose, and Practical Context - Florida Today",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdEttUTVZejJCTzhua3kycEplRzNWV0djOE41czU3OHktR0xsaVRDZzN0YVh3MGZUOTdxUC1fTjBVeWdfU3lacG4tdE4wVEdteFhsdXVmbW5Tc0Q5Tmx5Mno1QW5aX0o3WGVwQUFfWmhXYUcxZXI1TDY5TGNwS3k2a2daNFY0NWl6YldCbmhGUklNUkgtdW53RHVFRnctUWlfNWRUUkxWQUVMNGt4VVhPTFcxZG1VNVlnQkVya1RUMDZpcGhCdnZmVmd1R3c?oc=5",
+      "pubDate": "Fri, 13 Feb 2026 18:46:32 GMT",
+      "contentSnippet": "Environmental Remediation Explained: Definition, Purpose, and Practical Context  Florida Today",
+      "source": "Google News - Waste Tech (Global)",
+      "isoDate": "2026-02-13T18:46:32.000Z"
+    },
     {
       "title": "AI burnout, billion-dollar bets, and Silicon Valley’s Epstein problem",
       "link": "https://techcrunch.com/podcast/ai-burnout-billion-dollar-bets-and-silicon-valleys-epstein-problem/",
@@ -35,20 +43,20 @@
       "isoDate": "2026-02-13T16:00:00.000Z"
     },
     {
+      "title": "EPR implementation working group adopts nationwide focus",
+      "link": "https://www.recyclingtoday.com/epr-implementation-working-group-adopts-nationwide-focus",
+      "pubDate": "Fri, 13 Feb 2026 15:50:00 GMT",
+      "contentSnippet": "The National Stewardship Action Council and Stewardship Action Foundation scale their S.B. 54 Working Group model nationally while also releasing a circular economy policy guide.",
+      "source": "Recycling Today (Global)",
+      "isoDate": "2026-02-13T15:50:00.000Z"
+    },
+    {
       "title": "Domestic markets and policy could help weather rPET woes",
       "link": "https://www.wastedive.com/news/postconsumer-recycled-content-pet-pcr-challenges-solutions-webinar/812205/",
       "pubDate": "Fri, 13 Feb 2026 10:38:22 -0500",
       "contentSnippet": "Speakers addressed domestic rPET’s market challenges during a webinar hosted by The Recycling Partnership. The discussion comes in the wake of recent PET reclaimer closures.",
       "source": "Waste Dive",
       "isoDate": "2026-02-13T15:38:22.000Z"
-    },
-    {
-      "title": "Seva Teerth, Kartavya Bhavan 1 and 2 mark important milestones in Indias journey towards Viksit Bharat: PM Modi - Zee News",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZjBuUDhhUk9YTk9ZT2RmOUlpQUQ1UEZ3ZzMtWG5sUzFHOU5fZEhxeEt6bVJkWTYwWkhoSzAyczlaRG12czVDLVByMU4xUFNXSVBPY3ppY0VPRUJqSm90RF9SWDJOenhDOHVvYzJtSGF6X18zS0hkSDIxMDhvMm5YNUtBc0tvcHRCZGw2Q2VxazQwRG9OOEptMEl2WGtqa1ZWNUxGZ0JERWRhQmRjZ1FSSXBKSlpuak9hbzA0aDVVVkpNWDQ3OFFzTEg1Nk9xZGxydkEwV0xOTWZXU0NOMTdXX0h4RTE3UDcxOGfSAe8BQVVfeXFMTWQ4SHhPdE14Q1pGQmdXeEJ2aXRmeFhLOHRkbUJKRC04UUpRbkpKS2JDZlNCMkRuaU1xc2hUc2J3d1AzQlQ3R3BWWV9sUHhRNl9BbEk0RzZBc1hXaVZRTWI4Y181ZHFHdTkzY0d2VnlmR0hoRWEyampheTFVVGYyblRBNmkzd2JpMjd2cjRzQWtkM3lFMXpoN1hjZnZ5MzF6NExsVnFmZXliel96OGdWeEFXWHA2UkZMV3RqU2h0UUd0aEVwTmllVzRDMERqU216bUFuU1ZvbTA4eW56a01TYThBNmRMNGhMejl4RXBwN0k?oc=5",
-      "pubDate": "Fri, 13 Feb 2026 15:05:25 GMT",
-      "contentSnippet": "Seva Teerth, Kartavya Bhavan 1 and 2 mark important milestones in Indias journey towards Viksit Bharat: PM Modi  Zee News",
-      "source": "Google News - Waste Tech (INDIA)",
-      "isoDate": "2026-02-13T15:05:25.000Z"
     },
     {
       "title": "President Murmu Launches ‘Karmayoga for Empowered Bharat’ Campaign - Devdiscourse",
@@ -59,12 +67,20 @@
       "isoDate": "2026-02-13T14:36:54.000Z"
     },
     {
-      "title": "TDB Backs Odisha Startup’s Antibiotic-Free Smart Protein - Devdiscourse",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRFFoX3d0ZlV0U2ZCQ0lJclBrZkYtUVZlSmZteUIybG5HcXp6dkFrRkx0TTY4alpSMVlBbURtM3BoZUh1Ujc3Yk5XSUd2cEV0NXpUYzVSekJRUE9zUVJ2bGFpSWM3UFlpdTdJUlZHb0pKTEVESV9uRzRZM3puV2hXRzBIYmtDdlAwVXpHWnl5bkJWczg4aE1oZTlrVURHbmx3X3ZuU1pIZ05ZYXRub0N4eEFyUlTSAbQBQVVfeXFMT0RRaF93dGZVdFNmQkNJSXJQa2ZGLVFWZUpmbXlCMmxuR3F6enZBa0ZMdE02OGpaUjFZQW1EbTNwaGVIdVI3N2JOV0lHdnBFdDV6VGM1UnpCUVBPc1FSdmxhaUljN1BZaXU3SVJWR29KSkxFRElfbkc0WTN6bldoV0cwSGJrQ3ZQMFV6R1p5eW5CVnM4OGhNaGU5a1VER25sd192blNaSGdOWWF0bm9DeHhBclJU?oc=5",
-      "pubDate": "Fri, 13 Feb 2026 14:33:30 GMT",
-      "contentSnippet": "TDB Backs Odisha Startup’s Antibiotic-Free Smart Protein  Devdiscourse",
+      "title": "CPM Crown to open European operations hub",
+      "link": "https://www.recyclingtoday.com/cpm-crown-open-european-operations-hub",
+      "pubDate": "Fri, 13 Feb 2026 14:22:00 GMT",
+      "contentSnippet": "This move brings CPM Crown Europe together under one roof for the first time.",
+      "source": "Recycling Today (Global)",
+      "isoDate": "2026-02-13T14:22:00.000Z"
+    },
+    {
+      "title": "Seva Teerth, Kartavya Bhavan 1 and 2 mark important milestone in India's journey towards Viksit Bharat: PM - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNMDdCUnAzVlE0WFdsZmYzU0pCVXZTUG42NTlvVTd3WlBYbEcxZnFrY0hEVDl6ZTFZdjd5Z0tMQkpIOEttc18xWFJ3bWtzUFZKeDBrSnFaU1NZXzJmNllzLTBYYjZ5T1BMR1NFWGFFU3BmbmdKTVhTVTV6am9oZkx4Ykl0S1ItRUl5SVB1QXRHYksxQlRjMkNMRlZ5b3lyaXI5OVVVVXdIdlU1dl9KNFpuczV4MXNJOHozUEdJU2QtMjdJMGQzTE94NFJ0Z2t0dTFiTGFUYW84U25PajNSSGNFNEFBeGRZMDd1TS12Rmc4VUFoVkNYNUdwdm1IbXExNzBGUzFV0gGIAkFVX3lxTFBwUVJITURhajV0aHNNVG9RQnIwb3BMcmpaZVRuajJwazJtN3RRaGE5NnFUQ0ZyM3B2X2dTU0ZtRFlLYXlUQWxDcDZkdkVSV09fcTRQUTdWd01VMFFzUEZtb3pwaFMzMUNUenJlVFRqSlpEOGZBdUV0ellfTEdRMmhxZ1pOcm5vcThuakZuSlg3NjhKal9IYk51UjBXb1c1NGdnRGpWck1Jemp2TU5OaTY1R0VoSGI1TkRzM2J3TTJHMTBra1hmSDNlX21kRTA4Wm9MQ0pETXhxVEQ3SEQ4dzVMdHRZemdubmNzYWhRLWFpVHBRc2tsajRTVkNEWVBWRlVnempXUGhHSw?oc=5",
+      "pubDate": "Fri, 13 Feb 2026 13:49:46 GMT",
+      "contentSnippet": "Seva Teerth, Kartavya Bhavan 1 and 2 mark important milestone in India's journey towards Viksit Bharat: PM  The Economic Times",
       "source": "Google News - Waste Tech (INDIA)",
-      "isoDate": "2026-02-13T14:33:30.000Z"
+      "isoDate": "2026-02-13T13:49:46.000Z"
     },
     {
       "title": "Republic Services, Inc. Appoints Ian Craig to Board of Directors",
@@ -73,14 +89,6 @@
       "contentSnippet": "Republic Services, Inc. (NYSE: RSG), a leader in the environmental services industry, today announced that Ian Craig has been appointed to its board of directors. The company's board now consists of 13 members, including 12 independent directors.",
       "source": "Waste360",
       "isoDate": "2026-02-13T13:41:31.000Z"
-    },
-    {
-      "title": "CLEAN SMART bill reintroduced in Senate - American Nuclear Society",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZmJqa2hzdUV1S2xXSGZjc2p6SUVDbmoxR1ptVjVZeTdKMjRDLTFyeTRNWGhvZGplWFlRUURRbG1FUV9BdUQ5R3VJdk0zSzZwN3JiX3p3bzNrcTMzS2dVOHVhYUxlYkIxa21RaDJQV29Ya0x1UDh4ejNTTjRBV2tpTi1WOTM?oc=5",
-      "pubDate": "Fri, 13 Feb 2026 13:31:22 GMT",
-      "contentSnippet": "CLEAN SMART bill reintroduced in Senate  American Nuclear Society",
-      "source": "Google News - Waste Tech (Global)",
-      "isoDate": "2026-02-13T13:31:22.000Z"
     },
     {
       "title": "Waste Connections Q4 Earnings Highlight Pricing Strength, Acquisition Growth and Expanded AI Strategy",
@@ -97,6 +105,14 @@
       "contentSnippet": "The recycled material collected includes more than 70,000 aluminum cans, 30,000 plastic bottles, 6,500 glass bottles and 16,000 throws.",
       "source": "Recycling Today (Global)",
       "isoDate": "2026-02-13T13:19:00.000Z"
+    },
+    {
+      "title": "Daily Court Digest: Major environment orders (February 12, 2026) - Down To Earth",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNM2t5NGE2TE1vSGU1ZnhBOEVvUTNMZjd2eHF3U0g2aERfWHJnZXdZODBROFFWQ1dxc1YzblpPaU5yYjExSG1sVmZKdHdxLUtpcXhJc3otamVFa3hfRkNYc2JMUFR6NHJvMGZCV2FpRXpEWVp3a1JCa3hMMXFFRkpVWk5vS0NXdnZkcC0tOGdJZXFxRlk0b3dwZl9wNkN0WDQxZk9CcTZZRjJIVXFHYmpuV0h0d9IBswFBVV95cUxNM2t5NGE2TE1vSGU1ZnhBOEVvUTNMZjd2eHF3U0g2aERfWHJnZXdZODBROFFWQ1dxc1YzblpPaU5yYjExSG1sVmZKdHdxLUtpcXhJc3otamVFa3hfRkNYc2JMUFR6NHJvMGZCV2FpRXpEWVp3a1JCa3hMMXFFRkpVWk5vS0NXdnZkcC0tOGdJZXFxRlk0b3dwZl9wNkN0WDQxZk9CcTZZRjJIVXFHYmpuV0h0dw?oc=5",
+      "pubDate": "Fri, 13 Feb 2026 12:13:00 GMT",
+      "contentSnippet": "Daily Court Digest: Major environment orders (February 12, 2026)  Down To Earth",
+      "source": "Google News - Waste Tech (Global)",
+      "isoDate": "2026-02-13T12:13:00.000Z"
     },
     {
       "title": "Reju selects site for French textile recycling facility",
@@ -339,6 +355,14 @@
       "isoDate": "2026-02-12T13:55:22.000Z"
     },
     {
+      "title": "Railway Board introduces emergency quota in Vande Bharat sleeper, Amrit Bharat trains - The Hindu",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNWFqVXdwVUJYNUdtbzZ2alM0RFh0cG9janAycVczRnJaeTZ2NG1IUkJFLWppU1ppcVNvblZYcjNRUUgxMGVhekFtMlMtWnFhTVphOUR6YWc5LVoyNnF0TG1XM3JDM3pSRENNZlhjUncxb2U2bS1tSGRXVHRpYlF4bUdSeUdDYUdLN3B2SE9xdVFraExUMlZlWS12aVNMaFZjcWljVWVlQ0h2TmV5YmpZbVd4T1ZFeHV4emJjXzdnMkpEVEdUaWlnalFZMVU0T2dad3AzbjhKRzhTUGc3SUQtMEU5R3hnZ9IB7AFBVV95cUxOSVM3YmNEby1VdFdwTTY5Z3Q5SEtuVkFTckltRnE2ZEg4MWtHLUFMMjZTTW5ZVWYtN2tGdXZiOUkyM01kUThhcFQ0d0o2SkdYUmNCZ3lpZ3U4RXFJTzBLUWZWRjNid0lTem9qd3ZFd2kxeEZqajBXdlNqYVZvakVNS0xSNjFINXNJM2VrRnVmaEpNbk9jT1VBb0ZrVFo1alk3czNKM2JmNmJDMXBjSjdlOGRaQ3RkaFhUX1AzNzVOVUVISGdoNEU3QUZRUVZ1RUgwYjBRMXUtWmItLXRncXNWQ1BLQkgzNHc1bm42Rw?oc=5",
+      "pubDate": "Thu, 12 Feb 2026 13:31:00 GMT",
+      "contentSnippet": "Railway Board introduces emergency quota in Vande Bharat sleeper, Amrit Bharat trains  The Hindu",
+      "source": "Google News - Waste Tech (INDIA)",
+      "isoDate": "2026-02-12T13:31:00.000Z"
+    },
+    {
       "title": "Metals Innovation Initiative appoints sustainability project coordinator",
       "link": "https://www.recyclingtoday.com/metals-innovation-initiative-appoints-sustainability-project-coordinator",
       "pubDate": "Thu, 12 Feb 2026 13:25:00 GMT",
@@ -427,6 +451,14 @@
       "isoDate": "2026-02-12T07:43:54.000Z"
     },
     {
+      "title": "Current Affairs 12 February 2026 - FreeJobAlert.Com",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbVh2d3FxUGQ1V0tvWHdMYWROQWRvSWJuclFkMWZyOV9WdEZOdG1DbGhsX241WGo0OXVwNEdSY2cweDFrLTJaeVd5NVVMWW1ucG9tcmRnZm1NMVJPdFludWJxNEd0T0VUNnJOank2cURGdXdodF9SVGhvXzFqeE1CTA?oc=5",
+      "pubDate": "Thu, 12 Feb 2026 04:45:31 GMT",
+      "contentSnippet": "Current Affairs 12 February 2026  FreeJobAlert.Com",
+      "source": "Google News - Waste Tech (INDIA)",
+      "isoDate": "2026-02-12T04:45:31.000Z"
+    },
+    {
       "title": "Council approves notices for sewer rate increase - Bakersfield.com",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWlE1Y3ROSVlVcTJXLVctR0R4S0UzSzJDeGNNQXE3ZXZLNFhicW92V1JkV1pwRC14UFIyc1FzNThBcGpFeTNOQl9lb1NqeUt1UlF5eldybU9sTTRzelRCeWF0NHNyTHVEYjAzcGpnRDBpSEdBTTRyc2lZenlKcnh3Z0xiY2JPUjN2ekNVSjZMWEY5VWo2S0RNbGhReThUZnppRFlWaDNRYURrUUdHQVlzWkdiUjhFbXlVTzkwQmtrSElPc2ZlWXh5T1gxeGhRVURT?oc=5",
       "pubDate": "Thu, 12 Feb 2026 04:45:00 GMT",
@@ -465,6 +497,14 @@
       "contentSnippet": "The Iowa equipment company’s Curt Spry is retiring from Al-jon and its parent firm after 33 years.",
       "source": "Recycling Today (Global)",
       "isoDate": "2026-02-11T21:30:00.000Z"
+    },
+    {
+      "title": "Bioenergy & Waste-to-Energy Market: Powering a Sustainable Circular Economy - openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa2YyVUNBNVI4emM3WFozd3RlalhBaUhCWU5EanU2a1FHQTU4aTZuZ1hBb0pqd29fR1RFdGVVWDlDV2ZqRUIwRjduMmQxR252UVdXRjBaVjh0ekJsR180NWo1VmJ3RGN1ZmV5U2loMGRSZ2hvai1ZQjFNQUF4T29BczcyWUphcjRJT0JiZEd1dmNWeFFUU1E?oc=5",
+      "pubDate": "Wed, 11 Feb 2026 18:05:59 GMT",
+      "contentSnippet": "Bioenergy & Waste-to-Energy Market: Powering a Sustainable Circular Economy  openPR.com",
+      "source": "Google News - Waste Tech (Global)",
+      "isoDate": "2026-02-11T18:05:59.000Z"
     },
     {
       "title": "2026 Circular Steel Summit: The supplier relationship",
@@ -531,14 +571,6 @@
       "isoDate": "2026-02-11T15:28:00.000Z"
     },
     {
-      "title": "News in brief (11/02/2026) - letsrecycle.com",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qYUQweTBHZUNZRTEwMXRsMVh1cFZhVWpoNU5MZFlBLXlxYWxSeFMxdEx2aEF1Rm5ubnFCMk9NS1NGSDctdWp5ZHBDQTJOT2dRUk9sUjM1WDAzZjV6ajNBblZobzNQTWp1N0E?oc=5",
-      "pubDate": "Wed, 11 Feb 2026 15:13:32 GMT",
-      "contentSnippet": "News in brief (11/02/2026)  letsrecycle.com",
-      "source": "Google News - Waste Tech (Global)",
-      "isoDate": "2026-02-11T15:13:32.000Z"
-    },
-    {
       "title": "NITI Aayog Releases Study Reports on Scenarios Towards Viksit Bharat and Net Zero - PIB",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BQjdfcDM5VnFNajAxMXBXa3Z0XzBmODU5Rk5tUDk1ZHM3bXByWlRZc0ltNUlYTGdtTGVkZ3RGMkd0ZGZIRzU3RWNMY3dqUld6dWZrSzBkSnNveGlzaUhjWTY0SVFYYUpYQWRB?oc=5",
       "pubDate": "Wed, 11 Feb 2026 15:11:00 GMT",
@@ -564,19 +596,11 @@
     },
     {
       "title": "President urges faster adoption of micro waste processing technologies - ANTARA News",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOThmdGhXbHNmZy1BY0lJekp6NHVaWm9IbmpPMV9aVnN0dmdIcURlLTV1UHdkTW9XaXZ2bE5hTTZVSkk3bk5mVFF5QldESTNPOHJCZ0R0M1psQkJrbVRqNHJYeFlDb1hzTE5MNTdVQjUyNHdQSjBvdWQ5dDdjWDhGMVhHd25GNEhhdElvZl90SWFoSFNnQnVpay0za01BYjlaVjBYT2YyTGdGWmVVUkJNU1JB0gGyAUFVX3lxTE45OGZ0aFdsc2ZnLUFjSUl6Sno0dVpab0huak8xX1pWc3R2Z0hxRGUtNXVQd2RNb1dpdnZsTmFNNlVKSTduTmZUUXlCV0RJM084ckJnRHQzWmxCQmttVGo0clh4WUNvWHNMTkw1N1VCNTI0d1BKMG91ZDl0N2NYOEYxWEd3bkY0SGF0SW9mX3RJYWhIU2dCdWlrLTNrTUFiOVpWMFhPZjJMZ0ZaZVVSQk1TUkE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdmtBbFQyVDhreXBDRUFqYVN1cVA3UXA5eHZBcFJqTFozVjNfODl2eEZySktpcVNGN1NQYXpXOVlraDhlS3c1M1c4NU9rSEVTd251RWdNUjU4b2VoNG5qcXFtTlVuYi03Nnh1VmlmMTFXekd5aC0zTmhReFhkN2g3NlJ3TTNOZ1dSSFFqTmt4LVFFZW0zZEVQeW80LVNMMmI1aVpSSHQyT0dPVzU20gGyAUFVX3lxTE45OGZ0aFdsc2ZnLUFjSUl6Sno0dVpab0huak8xX1pWc3R2Z0hxRGUtNXVQd2RNb1dpdnZsTmFNNlVKSTduTmZUUXlCV0RJM084ckJnRHQzWmxCQmttVGo0clh4WUNvWHNMTkw1N1VCNTI0d1BKMG91ZDl0N2NYOEYxWEd3bkY0SGF0SW9mX3RJYWhIU2dCdWlrLTNrTUFiOVpWMFhPZjJMZ0ZaZVVSQk1TUkE?oc=5",
       "pubDate": "Wed, 11 Feb 2026 14:44:05 GMT",
       "contentSnippet": "President urges faster adoption of micro waste processing technologies  ANTARA News",
       "source": "Google News - Waste Tech (Global)",
       "isoDate": "2026-02-11T14:44:05.000Z"
-    },
-    {
-      "title": "Borealis and Borouge to establish circular waste management system in Indonesia - Packaging Europe",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbWp3TmVRTXV0eUg2bjA0aUVVWklVcXJvd0dpWmd1RDk2NTFIWGp6M1Y4ZW9zSkhhOHBMODAzUFZ6QW1Wd0tRODk3SFpXQjhWVnE5S21RU2NyUWMyWUM5bTcyLU5ETGw4b2I2OXRNeHo1RnhnUlhfb3E4Y0NZZW9QVGZUN241Uk1SZXhlX2pjcVdTQkJqelpRWjRHVGhYSlBpZVRmcWVRYmhLSzFMZHUzTExsVTFLaGZOTk1neG5nTHlVb3R2?oc=5",
-      "pubDate": "Wed, 11 Feb 2026 14:29:02 GMT",
-      "contentSnippet": "Borealis and Borouge to establish circular waste management system in Indonesia  Packaging Europe",
-      "source": "Google News - Waste Tech (Global)",
-      "isoDate": "2026-02-11T14:29:02.000Z"
     },
     {
       "title": "Amcor says Q2 performance in line with ’26 expectations",
@@ -587,12 +611,12 @@
       "isoDate": "2026-02-11T14:29:00.000Z"
     },
     {
-      "title": "Aduro Clean Technologies achieves operational milestone for NGP pilot plant",
-      "link": "https://www.recyclingtoday.com/aduro-clean-technologies-achieves-operational-milestone-for-ngp-pilot-plant",
-      "pubDate": "Wed, 11 Feb 2026 14:25:00 GMT",
-      "contentSnippet": "The company has concluded commissioning close-out activities across all major systems, transitioning the facility from project execution to operations.",
-      "source": "Recycling Today (Global)",
-      "isoDate": "2026-02-11T14:25:00.000Z"
+      "title": "Borealis and Borouge to establish circular waste management system in Indonesia - Packaging Europe",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbWp3TmVRTXV0eUg2bjA0aUVVWklVcXJvd0dpWmd1RDk2NTFIWGp6M1Y4ZW9zSkhhOHBMODAzUFZ6QW1Wd0tRODk3SFpXQjhWVnE5S21RU2NyUWMyWUM5bTcyLU5ETGw4b2I2OXRNeHo1RnhnUlhfb3E4Y0NZZW9QVGZUN241Uk1SZXhlX2pjcVdTQkJqelpRWjRHVGhYSlBpZVRmcWVRYmhLSzFMZHUzTExsVTFLaGZOTk1neG5nTHlVb3R2?oc=5",
+      "pubDate": "Wed, 11 Feb 2026 14:21:00 GMT",
+      "contentSnippet": "Borealis and Borouge to establish circular waste management system in Indonesia  Packaging Europe",
+      "source": "Google News - Waste Tech (Global)",
+      "isoDate": "2026-02-11T14:21:00.000Z"
     },
     {
       "title": "Sustainable Wastewater Treatment: Scaling Decentralized Systems for Dense Urban Areas - Waste360",
@@ -627,16 +651,8 @@
       "isoDate": "2026-02-11T13:59:50.000Z"
     },
     {
-      "title": "USPP outlines ways to advance film and flexible packaging circularity",
-      "link": "https://www.recyclingtoday.com/us-plastics-pact-outlines-ways-to-advance-film-and-flexible-packaging-circularity",
-      "pubDate": "Wed, 11 Feb 2026 13:10:00 GMT",
-      "contentSnippet": "U.S. Plastics Pact says its new paper draws on full value chain expertise to identify priority actions across design, collection and end markets.",
-      "source": "Recycling Today (Global)",
-      "isoDate": "2026-02-11T13:10:00.000Z"
-    },
-    {
       "title": "‘When Will This Mindset Change?’: Poor Civic Sense Inside Vande Bharat, Waste Dumped On Floor Of Coach - News18",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMVlUZC1JQ0xwakFqMWJoRVRvcnpCZGJJRmxCUkNNejNqTmVMMzR3eGE4TUJSZzZ6YXNBWlM5WC13d0U0TEV0eGZGa0FfYzdySkZ5MWFFaHJYUW93Z05PU2U5VzVvbENGaE14bDZadk00clpqaDhHRGZhOVBrczZlM3BJajdCNFA1cWo0QXk2QWE0TjMwME9iaUtDWVlNcTMyUnlGc2xYVXh1YnhPR1FUMHRyRkkwcHhWYmI3OGZveEYyQmgzYmlfR9IByAFBVV95cUxPMVlUZC1JQ0xwakFqMWJoRVRvcnpCZGJJRmxCUkNNejNqTmVMMzR3eGE4TUJSZzZ6YXNBWlM5WC13d0U0TEV0eGZGa0FfYzdySkZ5MWFFaHJYUW93Z05PU2U5VzVvbENGaE14bDZadk00clpqaDhHRGZhOVBrczZlM3BJajdCNFA1cWo0QXk2QWE0TjMwME9iaUtDWVlNcTMyUnlGc2xYVXh1YnhPR1FUMHRyRkkwcHhWYmI3OGZveEYyQmgzYmlfRw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOW41MzFDMG5hTVo3SUc4WDJIN0FRWUJCRm93dUpHdVV0ek10UV9zeXhmemJLLWlmcHNwanA0dHJ2RXpEZ3Z4TXRQTXNuZ0ZUOHhOeGlzazlBblBydjVnUzdWSHlfUy1ub1h6UTc2bEdMSFBXSTlEcTlqMHNjcEhyQ2x0Yi15WHc4VHhhcjJwRnZSRFdISXRzLUdSNTY1YjVnN3VOTWozeGEyTDk5bXpTeE1VRkoyWnRfSDQtRS1oMVNSWmfSAcgBQVVfeXFMTzFZVGQtSUNMcGpBajFiaEVUb3J6QmRiSUZsQlJDTXozak5lTDM0d3hhOE1CUmc2emFzQVpTOVgtd3dFNExFdHhmRmtBX2M3ckpGeTFhRWhyWFFvd2dOT1NlOVc1b2xDRmhNeGw2WnZNNHJaamg4R0RmYTlQa3M2ZTNwSWo3QjRQNXFqNEF5NkFhNE4zMDBPYmlLQ1lZTXEzMlJ5RnNsWFV4dWJ4T0dRVDB0ckZJMHB4VmJiNzhmb3hGMkJoM2JpX0c?oc=5",
       "pubDate": "Wed, 11 Feb 2026 13:04:00 GMT",
       "contentSnippet": "‘When Will This Mindset Change?’: Poor Civic Sense Inside Vande Bharat, Waste Dumped On Floor Of Coach  News18",
       "source": "Google News - Waste Tech (INDIA)",
@@ -675,22 +691,6 @@
       "isoDate": "2026-02-11T09:40:56.000Z"
     },
     {
-      "title": "Enhancing hazardous waste management in Uganda for public health and environmental safety - PML Daily",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdzVuenZraHR0TjROSjN0ZkZhQmxfdjhVVDZDNlZ0MDhzRmhKaG5GT0w1X1hhZHQtbmtlR2s1NEJibENyLXV2bVgza2hfZWVGTWtjQ2xrUGxEN0lJejFMc2FPX2NpVHVWa3RuMXEyOXBRVm5yVTF5OFdVZUc4cnpFYThBU0pPaHh3VnY5UGxjMS1RdU96MGpkOEdyZGlnbnRIRHNneGl0OVowS0UzeDJKVkNYaEJVX2t5RDhFSTdCbGNraWoycXQ0?oc=5",
-      "pubDate": "Wed, 11 Feb 2026 08:29:50 GMT",
-      "contentSnippet": "Enhancing hazardous waste management in Uganda for public health and environmental safety  PML Daily",
-      "source": "Google News - Waste Tech (Global)",
-      "isoDate": "2026-02-11T08:29:50.000Z"
-    },
-    {
-      "title": "Key Features Of APEX MACHINERY's Global Leading Pesticide Wastewater Management Factory Solutions - isStories",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQa3A1R3VjbXVUQVFKNkRVWW9nS1U0Uy1FdXluMjFuYlZEUDJIZmNwem5JeE50YS1UdGlqNjlYX2RDVGNGSmwyQXlPMTBPMDRJX0JpSWY4ZE1MeDdlUnVobEc0elBpMXdCSExwU3JrM09tVXRtRDloX1czbmp0NmpYTlJYTllXY3IwM1NpRlBzWS0tQWpnVXhYWVNTNkxMVVVQN09lZ0twdlFVT3lYZGVVdjRiak95aWZTSTdwN3lIbFJLMGtwU2xWTUpidzhSSHM?oc=5",
-      "pubDate": "Wed, 11 Feb 2026 08:29:38 GMT",
-      "contentSnippet": "Key Features Of APEX MACHINERY's Global Leading Pesticide Wastewater Management Factory Solutions  isStories",
-      "source": "Google News - Waste Tech (Global)",
-      "isoDate": "2026-02-11T08:29:38.000Z"
-    },
-    {
       "title": "TaTU introduces MSc in Circular Design and Recycling Technologies, Integrating Sustainable Energy Programme - Modern Ghana",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR1o3NVBkX3hvdy1YaHdNYXh0V3NWM0l5TVBKM1VHam9sVGV2TER0aXJtcGREd01LRHRJV0dhMHp6NldLLVc3M0JfbXBCaEgxYVVwOHFaYkNPazVFVjRNQzNnZEkzczRSZ0hOZHNmVDZDV0E4UVJJTnJxTW0wZDZPQTlocldmbkVHQ2xKLUF5R3lkVjhrd3JvbWVoa9IBmwFBVV95cUxOR1o3NVBkX3hvdy1YaHdNYXh0V3NWM0l5TVBKM1VHam9sVGV2TER0aXJtcGREd01LRHRJV0dhMHp6NldLLVc3M0JfbXBCaEgxYVVwOHFaYkNPazVFVjRNQzNnZEkzczRSZ0hOZHNmVDZDV0E4UVJJTnJxTW0wZDZPQTlocldmbkVHQ2xKLUF5R3lkVjhrd3JvbWVoaw?oc=5",
       "pubDate": "Wed, 11 Feb 2026 08:23:00 GMT",
@@ -707,12 +707,36 @@
       "isoDate": "2026-02-11T08:19:30.000Z"
     },
     {
-      "title": "Cyberzone made e-waste disposal easy: 14,000+ kg collected through strategic drop-off points - Inquirer Technology",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeFE4U193eVBTYlBGRUMxUHAxMTRsb1g4Vi1BQjhCSzZUdU1yZS1iNWpURXZyS3g2ZTFiSnpBV2ViUi03ZERKX25kX3Z5UUdnM2tTZVNBM19fTWxYRjE4VDBqSzMwUkJXa19PR3dzVlBaYnZCVXMwRmxEWXVqQWRLaEhlUGJ4NG9uazFRWTc0eFI4TG1tRkdiNXFfQWtNeGpLdGozWXVja1Q1MVl5ODhCSUoyZW5BMkg5ZjJJa2tfLVNxTHVYdENB0gHMAUFVX3lxTE5ldWlsdWZ3cmJjbmNBSjBtWE1MdXdubUFwdzRrSDZONFRxYk96aHE1XzRfcHZNYnhtY1FBU25TWGx5dFBwZkIwWGR3TUZtUHQ3MzFnamN2Nm1IUFJVdXZFR1Zla0NqV2NFWUhXLXJQd2JDUXNzbXJua1RpdzJLaFpVMjNncWxjTDF2X0VScGNqOG1Xd2Uya0FfYUpjSTZ3TmhxVG1vaVlPeEVpQmt5VGN5SUNaVkNtaUloOHZ2NzRqVzNfbHJkNEdDc0F3aQ?oc=5",
-      "pubDate": "Wed, 11 Feb 2026 03:09:00 GMT",
-      "contentSnippet": "Cyberzone made e-waste disposal easy: 14,000+ kg collected through strategic drop-off points  Inquirer Technology",
+      "title": "Leading Companies Spearheading Innovation and Growth in the Electric Waste Collection Trucks Market - openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNXkxcHZSNjdJLThHY3Y3VUZWZGJ0eEkyNzNpUHNqNW9SX1dyR2VTYTVtM3FLTjNFaUdUZnU3aVR0cTNvNW1wTklURlpSaWtRa2twTHdDVFV1WEpWYkRKQURmS0dUa1JPX0FuYlc4MHF4RWtxX0U5X2ZOS0dSMzIwb2JFU1VNXzNBT0xHNktKQ2pnUXF0Rmc?oc=5",
+      "pubDate": "Wed, 11 Feb 2026 04:54:04 GMT",
+      "contentSnippet": "Leading Companies Spearheading Innovation and Growth in the Electric Waste Collection Trucks Market  openPR.com",
       "source": "Google News - Waste Tech (Global)",
-      "isoDate": "2026-02-11T03:09:00.000Z"
+      "isoDate": "2026-02-11T04:54:04.000Z"
+    },
+    {
+      "title": "Wireless sensors cut industrial water waste by 50 percent across manufacturing sectors - Digital Journal",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQV1I0WEVBN1g4WXBwN3I0cFhjSHBISTdrdXdJeVZmQ0otdEs4cTJMY2dVMEg2eDJHbVFDbE13eC1WU0x3RnNjNG9fTU51WXJOV1o2Uml2a1kyT1duNldzOF9mSHd3VXV0cVVTdkpCcjdBV0dXcGkzdWV0Q1prdDB4c2sxWl9Bc3E3bGpxRnN2TzhYR0VtTEZTTVVwWF9TcTF2YTYwSWZJZjJqRHBmQXVmX3NjRzNOM1F3X1RYUGY4ZXEwRWh6Wnh4WHRCaXFDaDg?oc=5",
+      "pubDate": "Tue, 10 Feb 2026 23:43:26 GMT",
+      "contentSnippet": "Wireless sensors cut industrial water waste by 50 percent across manufacturing sectors  Digital Journal",
+      "source": "Google News - Waste Tech (Global)",
+      "isoDate": "2026-02-10T23:43:26.000Z"
+    },
+    {
+      "title": "Greenwave Technology (GWAV) Appoints New CFO, Chelsea Pullano - GuruFocus",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYWpNYnhFeVNwUGtpdjM2ZWpMNVBOQVVCUEwzVVNMYXlYUnNBVnpqZzZteEFfcVNUb0ppeWwzSENPVXUtZTk5S2pHM2I3ME5oVjZhbVJxOWlmaFpIMGdQb2lBR2dvQ2tMb1RMZ2k0V1pwd1hTV3pJcmR0dU9ZUUU4M2VaM240Tm9pQ1JjVjBscDVJX3Z0azg4dGJ1d05Vdw?oc=5",
+      "pubDate": "Tue, 10 Feb 2026 22:41:24 GMT",
+      "contentSnippet": "Greenwave Technology (GWAV) Appoints New CFO, Chelsea Pullano  GuruFocus",
+      "source": "Google News - Waste Tech (Global)",
+      "isoDate": "2026-02-10T22:41:24.000Z"
+    },
+    {
+      "title": "CM Naidu seeks Central support for irrigation and infrastructure projects in A.P. - The Hindu",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZWlxS3pXdEJpSXJMZkVkZ29IWS1LR1JVODBLb1pURjZKT2tSMEFMTW8zOF8wc1VRekhVZExSdTFJMkczZDF3M2FtQXByT1RPd2RyRFQ2cmFTZVg0ZjNpUER6RTItOUtMT1BYYnFIMzRCTjUyV09HdkJKU1dCRFVVeUtaVC1VUGUzVW9PNjlfWFo1d1pzVDNzdk4zdERFTXd3YUhWYmlzRzFabmxCMHJ4U0RvX2UtcHRFSVM5X0pSdEFEQmhsc3dMenpLdXJPdmdUS3NGYXRsVVZFNU9fZHA2Y2VSalQ0SGFQ0gHvAUFVX3lxTFBPMmYtc0pRbVNrY0FkS1RVWXBSWDgzMkk5a09hZmVqb1FlNERZcXVLTTUtLVEtdlJNeXQwaXJsTGpXS3ZqZGhJVVBfcmV6MHBFRFZua3JZWHQxWWMxb3RlRTVMRmhySVBWNFpDUlJuYWRWV0hFMWJZMHVtUGNCZjFwd2FtMUZkbUNLZzhHX2FrRERrUUFiQjdadGk0TDM0WjQ2ZWFXWGhTNkRZb09SS0l4N3FhTWE3eVJCaGJQSlN6MHhzWTEyYzRTdmo2VVVVX2d5dEJYR1NiX19jVUVPUzd0NzZYbFhmaEtoWUtHU2Nv?oc=5",
+      "pubDate": "Tue, 10 Feb 2026 21:52:00 GMT",
+      "contentSnippet": "CM Naidu seeks Central support for irrigation and infrastructure projects in A.P.  The Hindu",
+      "source": "Google News - Waste Tech (INDIA)",
+      "isoDate": "2026-02-10T21:52:00.000Z"
     },
     {
       "title": "Sensor-Based Sorting Technology Transforms Mining Waste Into Revenue - Discovery Alert",
@@ -745,6 +769,14 @@
       "contentSnippet": "Hauler Hero, an all-in-one tech platform that helps waste management companies scale their businesses, today announced $16M in Series A funding led by Frontier Growth with participation from Disruptive Founders Fund, Somersault Ventures, and several waste industry and ServiceTitan executives.",
       "source": "Waste360",
       "isoDate": "2026-02-10T18:00:00.000Z"
+    },
+    {
+      "title": "SUEZ and PYREG launch an innovative integrated pyrocarbonisation solution to produce biochar from sewage sludge - SUEZ Group",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSnhVODNBS2tIUW81ZWVKTmR5UGw1OFVYdDhIOUo0YlZsVHM5ZEJnMVRoUWxOSHhPNkhjTDFIOGo5dFdLM2VnMDFfSFB0TDRpUjZDZWx1cnEyUnVmeEs5ZzRNTXpucGR5R21UNGlaWUd6NjU0ZU90UDZBMzk2MGlweXByV2Y5WUhvNkRzU25IMldGc2J5VVpGUENFTnNmY0FaYW9JUjAtX2NidjV4UVNBYjVvczY0YkVKMXdoVmdLMA?oc=5",
+      "pubDate": "Tue, 10 Feb 2026 17:54:40 GMT",
+      "contentSnippet": "SUEZ and PYREG launch an innovative integrated pyrocarbonisation solution to produce biochar from sewage sludge  SUEZ Group",
+      "source": "Google News - Waste Tech (Global)",
+      "isoDate": "2026-02-10T17:54:40.000Z"
     },
     {
       "title": "Canada explores protectionist biofuel policies, prompting industry pushback",
@@ -803,6 +835,14 @@
       "isoDate": "2026-02-10T15:25:11.000Z"
     },
     {
+      "title": "Hauler Hero raises $16M as AI waste management doubles revenue - The Tech Buzz",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONTE1Y3JHSC1nUjhqOUhSeFhtQ3NKTXU4SE5IdWR3SUlBTHdpckdVdmdxS3FHb3N3Yi1KWGtoRnBkRFdrLWpXc2hUd19MRDA2bklzdGFEaERKaDFkdldMaERBM1p2TWVDUXRDRDZuTWxDZGlKcFVqdS1ZVUg0TkJuY2RHbXh5TC1UT25peXlLbUNOc0d5OTlXcjNR?oc=5",
+      "pubDate": "Tue, 10 Feb 2026 15:17:00 GMT",
+      "contentSnippet": "Hauler Hero raises $16M as AI waste management doubles revenue  The Tech Buzz",
+      "source": "Google News - Waste Tech (Global)",
+      "isoDate": "2026-02-10T15:17:00.000Z"
+    },
+    {
       "title": "Hauler Hero collects $16M for its AI waste management software - TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeW1veEt0XzNjbWZNTFhMRUJfVW5BVUFYekdEVG5zTnJYZko2VjIzU1RnR21CU0x0TlFhWHhXLURpVnlNNDN1WFd3RzFvVjlVRGVrTlQ2VFEzMFU5ZHlNQ2xQNFdyNHdER1lsT3VUTWVvRGhCOGxpajhoQmRpa1pmazQ0ekwwRWUwRVVuSnNlN0Z2bWlrcDRyY1V5bkc?oc=5",
       "pubDate": "Tue, 10 Feb 2026 15:00:00 GMT",
@@ -851,14 +891,6 @@
       "isoDate": "2026-02-10T12:45:00.000Z"
     },
     {
-      "title": "E-Waste Management Market is Expected to Grow at a CAGR of 4.2% - openPR.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUDNCczh0SnlQRHNRTmo4MlYzQzVneENQUVZjeUR2MzJsaXdkYkdwMnVrUVBmU2VNR3YweG1ralNFZDBDR2VHb0NuWFA3WnVPMjd6emZEUWFISmNmT3ZzVnZCR2gxZEMwQVdnU3JCWnVjQnFraUNBbmxHdFUyYlRHMW9GRTFSUDV0ZUlQTnZXSUhnZ0NPTl9OYld1ZGxmQlU?oc=5",
-      "pubDate": "Tue, 10 Feb 2026 12:39:08 GMT",
-      "contentSnippet": "E-Waste Management Market is Expected to Grow at a CAGR of 4.2%  openPR.com",
-      "source": "Google News - Waste Tech (Global)",
-      "isoDate": "2026-02-10T12:39:08.000Z"
-    },
-    {
       "title": "PadCare Labs Raises $3 Mn in Pre-Series A to Scale Sanitary Waste Recycling - TheCSRUniverse",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOHRsZkNkUThNdndFNlBMT28yRXc3aXQ0XzYzc0RZV3pJUDczLUZRSzdOc1h2QWtVT1NVYUJETHZTYVJDMV96cXVaLUVQVkV3YVZhalB5V2dtc1VHN0hCWkZRRWZKdkZwNkl1RTV5bUgxOGxQUFBrQ29VV3ZfSFlqS1pucWc0SllEdVkyQWU3V1pnVHItNVc3cTY0Ql9yamV1OFZOOENiVmduQV9kSzYw?oc=5",
       "pubDate": "Tue, 10 Feb 2026 12:03:44 GMT",
@@ -875,12 +907,12 @@
       "isoDate": "2026-02-10T12:00:00.000Z"
     },
     {
-      "title": "Qatar signs partnership to recycle wastewater sludge into clean energy - Smart Water Magazine",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWW5RWnVlTFVjQ1JjdjY3SzE0MUhKU1FwU0c3bWRlb00ya24xWnBXVlFwQzJVaHJTSUpIZE5hUEhySzB2UG5FYXlkVzF2VU1hZllKenVkaXJOYU1pLVpFTGdxalZOUkswbmQxMzZLSVFTNjdtamx5ZGswc0NESHNGX29ETmVRSExndFZuTDFOM25kZ0FNRGxzU2o5Y1lISHZYZHlhajR0UHF5NUZ3TndzZ2VMSHd1TE90NW5V0gHAAUFVX3lxTE9wb1ZHbnlIQ2RvTXQ5Z1dKSVlvX3l2eVBXb2hxZzlURE5ZbjYxNUVxZkdubUw2YW10TmY1VWszY1NtTGM1a1FIMW1CdFg3R01UUjRESmpLUHQ3ZHFUSTdnMkZzcjlpVlU4anNjaXNKOFVmSThMa0Z1UDlvUUZXNkxERVRMR1d2T0I4Qzh0emQ3MGdjRHBFTS03b2c0blFaaEVlMllNRE16a0EzUlpFbTFDZEgycTJmSm5yV044YkgtMA?oc=5",
-      "pubDate": "Tue, 10 Feb 2026 11:28:36 GMT",
-      "contentSnippet": "Qatar signs partnership to recycle wastewater sludge into clean energy  Smart Water Magazine",
+      "title": "Funds on table for Town of Worthington's sewage system - Times West Virginian",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONS0wLUUwdWc4aXZxVzB6cV9scmNQUlBEbjZQcjkyY0U3b2xTQXFKbk5SaFVEel9IdnZPbS1IdWJIbER0eHVmUmt1cEpCT2g4TUdLb0VoUW9vTV9QWGRHSHpHSkdWV3hQWVpiR0Y0Q1ZtSkoyRzRSbFNST0RJcnZBS0RxZko1THhfY0JTQkZDU21wMGdFaEFsUDJzTHltUWxEUVctRTNPVmxFYnJtQkNRTzF3LU5NOG9Id29rcnFYVHVfakRSWWhiZTlMYmlqS09qMkZUbWRGSVQ2Ykk?oc=5",
+      "pubDate": "Tue, 10 Feb 2026 11:00:00 GMT",
+      "contentSnippet": "Funds on table for Town of Worthington's sewage system  Times West Virginian",
       "source": "Google News - Waste Tech (Global)",
-      "isoDate": "2026-02-10T11:28:36.000Z"
+      "isoDate": "2026-02-10T11:00:00.000Z"
     },
     {
       "title": "Town of Worthington receives $1.25M for overdue sewage system upgrades - Times West Virginian",
@@ -889,6 +921,14 @@
       "contentSnippet": "Town of Worthington receives $1.25M for overdue sewage system upgrades  Times West Virginian",
       "source": "Google News - Waste Tech (Global)",
       "isoDate": "2026-02-10T11:00:00.000Z"
+    },
+    {
+      "title": "Zacks Industry Outlook Highlights Donaldson, CECO Environmental, Energy Recovery and Fuel Tech - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVVBSWlVoeXpqLWIwYXItNHViN0tDUDRNNW0wZkxLMnZKaGxmNXBGYnZjU0lGSmQycERocktTR0hrVFRLTzhkc1cxamlvUU4zQ3FNbG5YWFJmS2pnRDZDUjUyZHg2MHlBN3dWNlNOZWNKVlNhU1EzYTlOYWNPTG5oY0hkZUVrTC04TEItRDMtUW1QRkRuRlZiSFFqWmU0QXZNR1ZqM0FBd094aXhudUg5VXV6NTl3LXF5ZFA0RndSYmV3RXNVVkdCX1dHWGpia2lDcTlSQTN4RmFnaXBORmhFbXpB?oc=5",
+      "pubDate": "Tue, 10 Feb 2026 10:14:00 GMT",
+      "contentSnippet": "Zacks Industry Outlook Highlights Donaldson, CECO Environmental, Energy Recovery and Fuel Tech  TradingView",
+      "source": "Google News - Waste Tech (Global)",
+      "isoDate": "2026-02-10T10:14:00.000Z"
     },
     {
       "title": "Decoding Waste Management Inc (WM): A Strategic SWOT Insight - GuruFocus",
@@ -905,14 +945,6 @@
       "contentSnippet": "Researchers at the University of Michigan have created an AI system that can interpret brain MRI scans in just seconds, accurately identifying a wide range of neurological conditions and determining which cases need urgent care. Trained on hundreds of thousands of real-world scans along with patient histories, the model achieved accuracy as high as 97.5% and outperformed other advanced AI tools.",
       "source": "ScienceDaily - Artificial Intelligence",
       "isoDate": "2026-02-10T06:04:12.000Z"
-    },
-    {
-      "title": "What is biochar? Miami-Dade thinks it might help reduce waste in landfills - Tech Xplore",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95eEtXNnZNTnp6QWU2TXpxYzYzQWZoOUdDbTFwUmItRXZ3UmV6VVJKcWt3M1J5Zk44U3cyRGxtN1FsWXlBNTZoRW1CY2M5TGltMkd0cS1yc3VNU3YzU0FBdWZhVDRsV2RMQ1ZablhiX0dGUlpXVXBoWg?oc=5",
-      "pubDate": "Tue, 10 Feb 2026 02:20:01 GMT",
-      "contentSnippet": "What is biochar? Miami-Dade thinks it might help reduce waste in landfills  Tech Xplore",
-      "source": "Google News - Waste Tech (Global)",
-      "isoDate": "2026-02-10T02:20:01.000Z"
     },
     {
       "title": "India@2047: Business leadership for an environmentally resilient nation - ET Edge Insights - ET Edge Insights",
@@ -953,14 +985,6 @@
       "contentSnippet": "Brown Gibbons Lang & Company (BGL), a leading independent investment bank and financial advisory firm, is pleased to announce the merger of Vecta Environmental Services (Vecta), a leading regional provider of specialized industrial services, with EnviroVac, a provider of environmental, industrial, and infrastructure solutions.",
       "source": "Waste360",
       "isoDate": "2026-02-09T21:52:26.000Z"
-    },
-    {
-      "title": "Exterra Technologies Rebranding Transforms Mineral Processing Platform - Discovery Alert",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY2NnZlAwRGJtdU1ra0FQV2UyejJSRGk5UkhvR0w5VXVOa1pHdnNlREVDVUE0Z01sc01nXzFKTVJpb1FwTy1OVVYzdk1WS1NtT0w3cnozLTlKNGdhSF95UkdNT0Y1ZV8xdFhITzVaMGYxYi1VdTJZVC1yeFg4OWZ6b0lTMXZKT2VPNERqQjRyVQ?oc=5",
-      "pubDate": "Mon, 09 Feb 2026 18:40:41 GMT",
-      "contentSnippet": "Exterra Technologies Rebranding Transforms Mineral Processing Platform  Discovery Alert",
-      "source": "Google News - Waste Tech (Global)",
-      "isoDate": "2026-02-09T18:40:41.000Z"
     },
     {
       "title": "WW and SW Operator Certification Program - State of Michigan (.gov)",
@@ -1051,12 +1075,28 @@
       "isoDate": "2026-02-09T06:03:17.000Z"
     },
     {
+      "title": "Six Ways Telematics Reduces Costs for Waste Management Fleets - Institute of Public Works Engineering Australasia",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTG00eVpPX2p4a3VBLXN2dmIzZWgyY0I0aVFyblpiZ2x1SURGUEZRWWwyTm12R1g2UWxjbzBQUGdKSWJlcjl5U0EzZjNndHUtOWl5MHZjbGpXc0VwM05BQU5nNzA2cXhEQjlBZ01FekFnQnpiN3MxTko0Y3pscXFZeE5CUTZuWk5UYm42dVN3cGI?oc=5",
+      "pubDate": "Mon, 09 Feb 2026 04:39:03 GMT",
+      "contentSnippet": "Six Ways Telematics Reduces Costs for Waste Management Fleets  Institute of Public Works Engineering Australasia",
+      "source": "Google News - Waste Tech (Global)",
+      "isoDate": "2026-02-09T04:39:03.000Z"
+    },
+    {
       "title": "APEX MACHINERY Unveils China Power-Saving and User-Friendly Waste Drying Systems - The Desert Sun",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVHZMS3lNZkJYUk9uZGhoZzR1dnk5RkN5c0JTVWM2blBvaTMzZG5UUnlHT0V0TzhrblV6UHUwWExtWWt2ajdYRFRFU21zQ0FKZ2Rsb1cxbnpDSHg5YlFVa3ZsdTFHQ04zUUloeDJfNWo3UlVWMmFMV295dXRjTlRDc3ZLMzhaS05ldmduRjdrbFRIYWJuZEN0elBrdTNjLVFVRkRncjNyQU91WDMzYWZiWVFmZ28zUm56Snp0amRFaG5MWG5XbE5aNDIwVG94Zw?oc=5",
       "pubDate": "Mon, 09 Feb 2026 03:48:01 GMT",
       "contentSnippet": "APEX MACHINERY Unveils China Power-Saving and User-Friendly Waste Drying Systems  The Desert Sun",
       "source": "Google News - Waste Tech (Global)",
       "isoDate": "2026-02-09T03:48:01.000Z"
+    },
+    {
+      "title": "Plastic and Solid Waste Pollution: A Global and Regional Challenge - Rising Kashmir",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZDhXamVpUW1TZE56SDgxcG9wNFhMRmVZcE1mOEIzZjExaVhabFZRc25fbzdxLVU0YWJGclg4Mm9OZ1hwLXk4Y1BMTDdOSlVrUnBOSEhmb2Z5aG16N3BFdURsbmlseXlCOVFndDlWSmhWRktJaW5sS25oZlBsSGNWeEVWZVVScTBoeGZWblFhVTAtaFJmbngw?oc=5",
+      "pubDate": "Sun, 08 Feb 2026 21:00:06 GMT",
+      "contentSnippet": "Plastic and Solid Waste Pollution: A Global and Regional Challenge  Rising Kashmir",
+      "source": "Google News - Waste Tech (INDIA)",
+      "isoDate": "2026-02-08T21:00:06.000Z"
     },
     {
       "title": "Research reveals cost-effective food waste treatment through sewage systems - Phys.org",
@@ -1089,14 +1129,6 @@
       "contentSnippet": "Budget 2026 And Climate Crossroads: Can India Align Growth, Resilience, And Net-Zero Ambition?  ETV Bharat",
       "source": "Google News - Waste Tech (INDIA)",
       "isoDate": "2026-02-08T02:29:54.000Z"
-    },
-    {
-      "title": "Carnival Corporation secures fleetwide Evac system maintenance pact - CruiseMapper",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMGdBbm5DVUhiX0FMQm8zYlpsdHZUc3daY0lVNFFuSXN2elNVNld2ZkhQZklvWXFCVEE4WUcteWlmOXAtWUdyUzNtb3NENTN4WkV2b0pPaFR0clRZSDItdlkzaFZWVUJzSkFkYTRLNF8xaUhzNXJCdjRHRjc1Slh2VTM3Nkw5d0Q5VW5SQWZtZ0JxMmlMcWNBZzFRbUNkRGJ1NmF4QkM1ZlZXcUtC?oc=5",
-      "pubDate": "Sat, 07 Feb 2026 20:04:00 GMT",
-      "contentSnippet": "Carnival Corporation secures fleetwide Evac system maintenance pact  CruiseMapper",
-      "source": "Google News - Waste Tech (Global)",
-      "isoDate": "2026-02-07T20:04:00.000Z"
     },
     {
       "title": "Government Integrates Waste Management Rules in New Presidential Decree - VOI.id",
@@ -1153,14 +1185,6 @@
       "contentSnippet": "City has lots of free compost available  Bryan Times",
       "source": "Google News - Waste Tech (Global)",
       "isoDate": "2026-02-07T02:30:00.000Z"
-    },
-    {
-      "title": "Puregold Mining: 2026 Innovations For Sustainability - Farmonaut",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYXIyQjFBZ3B6NGg4ZjNIWjBpa1hidHk4aU5WV0dtOXYwNzZNRktiQkwxNHNMZVVaTGV3N05PZmZ2aUlFS2M0Wi02ZF9Jak13ckJNclJyazBUZDRLR2pTOTdsZHlxWGJ0c0JudnZVZ2N2OFdOeF90UHJ2dDVMRXVTd1Q4MGJGR28?oc=5",
-      "pubDate": "Sat, 07 Feb 2026 00:25:06 GMT",
-      "contentSnippet": "Puregold Mining: 2026 Innovations For Sustainability  Farmonaut",
-      "source": "Google News - Waste Tech (Global)",
-      "isoDate": "2026-02-07T00:25:06.000Z"
     },
     {
       "title": "Scientists create smart synthetic skin that can hide images and change shape",

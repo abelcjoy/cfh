@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-15T01:54:57.256Z",
+  "updatedAt": "2026-02-16T01:51:04.108Z",
   "totalDatasets": 25,
   "datasets": [
     {
@@ -48,7 +48,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2025",
-      "description": "Official HuggingFace Dataset. Downloads: 56681"
+      "description": "Official HuggingFace Dataset. Downloads: 126724"
     },
     {
       "title": "food-waste-dataset",
@@ -56,7 +56,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2025",
-      "description": "Official HuggingFace Dataset. Downloads: 2730"
+      "description": "Official HuggingFace Dataset. Downloads: 2666"
     },
     {
       "title": "indoor-waste-detection-merged",
@@ -80,7 +80,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2024",
-      "description": "Official HuggingFace Dataset. Downloads: 369"
+      "description": "Official HuggingFace Dataset. Downloads: 378"
     },
     {
       "title": "WasteWise",
@@ -96,7 +96,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2025",
-      "description": "Official HuggingFace Dataset. Downloads: 218"
+      "description": "Official HuggingFace Dataset. Downloads: 214"
     },
     {
       "title": "ultrasonic-waste-bin-sensor-raw",
@@ -107,20 +107,20 @@
       "description": "Official HuggingFace Dataset. Downloads: 174"
     },
     {
-      "title": "256x256-litter-sort-annotated-wastes",
-      "url": "https://huggingface.co/datasets/mnemoraorg/256x256-litter-sort-annotated-wastes",
-      "source": "HuggingFace",
-      "images": "Unknown",
-      "updated": "2025",
-      "description": "Official HuggingFace Dataset. Downloads: 109"
-    },
-    {
       "title": "waste-garbage-management-dataset",
       "url": "https://huggingface.co/datasets/kdkd1/waste-garbage-management-dataset",
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2026",
-      "description": "Official HuggingFace Dataset. Downloads: 106"
+      "description": "Official HuggingFace Dataset. Downloads: 137"
+    },
+    {
+      "title": "256x256-litter-sort-annotated-wastes",
+      "url": "https://huggingface.co/datasets/mnemoraorg/256x256-litter-sort-annotated-wastes",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2025",
+      "description": "Official HuggingFace Dataset. Downloads: 110"
     },
     {
       "title": "WasteWise",
@@ -128,7 +128,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2025",
-      "description": "Official HuggingFace Dataset. Downloads: 103"
+      "description": "Official HuggingFace Dataset. Downloads: 101"
     },
     {
       "title": "augmented_waste_classification",
@@ -136,7 +136,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2024",
-      "description": "Official HuggingFace Dataset. Downloads: 102"
+      "description": "Official HuggingFace Dataset. Downloads: 100"
     },
     {
       "title": "detect-waste",
@@ -144,7 +144,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2023",
-      "description": "Official HuggingFace Dataset. Downloads: 100"
+      "description": "Official HuggingFace Dataset. Downloads: 85"
     },
     {
       "title": "waste_detection",
@@ -152,7 +152,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2025",
-      "description": "Official HuggingFace Dataset. Downloads: 75"
+      "description": "Official HuggingFace Dataset. Downloads: 76"
     },
     {
       "title": "TACO-Waste-Recognition",
@@ -160,7 +160,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2023",
-      "description": "Official HuggingFace Dataset. Downloads: 67"
+      "description": "Official HuggingFace Dataset. Downloads: 66"
     },
     {
       "title": "WasteBench-Dataset",
@@ -179,12 +179,20 @@
       "description": "Official HuggingFace Dataset. Downloads: 51"
     },
     {
+      "title": "bower-waste-annotations",
+      "url": "https://huggingface.co/datasets/BowerApp/bower-waste-annotations",
+      "source": "HuggingFace",
+      "images": "Unknown",
+      "updated": "2025",
+      "description": "Official HuggingFace Dataset. Downloads: 42"
+    },
+    {
       "title": "collect_waste",
       "url": "https://huggingface.co/datasets/12e21/collect_waste",
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2026",
-      "description": "Official HuggingFace Dataset. Downloads: 45"
+      "description": "Official HuggingFace Dataset. Downloads: 41"
     },
     {
       "title": "waste-classifier",
@@ -192,15 +200,7 @@
       "source": "HuggingFace",
       "images": "Unknown",
       "updated": "2024",
-      "description": "Official HuggingFace Dataset. Downloads: 40"
-    },
-    {
-      "title": "bower-waste-annotations",
-      "url": "https://huggingface.co/datasets/BowerApp/bower-waste-annotations",
-      "source": "HuggingFace",
-      "images": "Unknown",
-      "updated": "2025",
-      "description": "Official HuggingFace Dataset. Downloads: 40"
+      "description": "Official HuggingFace Dataset. Downloads: 39"
     }
   ]
 }

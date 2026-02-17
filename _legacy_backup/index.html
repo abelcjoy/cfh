@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Global Waste Intelligence - Real-time updates on waste management technology, policy, and innovation.">
+    <title>WasteIntel | Global Intelligence Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♻️</text></svg>">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">
+            <span>♻️</span> WA.STE.INTEL
+        </a>
+        <div class="search-container">
+            <span>🔍</span>
+            <input type="text" id="searchInput" class="search-input" placeholder="Search technology, policy...">
+        </div>
+        <div style="font-size: 0.9rem; color: #22c55e;">● LIVE FEED</div>
+    </header>
+
+    <div class="container">
+
+        <div class="hero">
+            <h1>The Future of Waste, Decoded.</h1>
+            <p>Autonomous intelligence aggregation for the modern recycling industry.</p>
+            <div class="tabs"
+                style="display: flex; justify-content: center; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
+                <button onclick="switchTab('news')" id="tab-news" class="read-more"
+                    style="cursor: pointer; border: none; background: var(--accent); color: var(--bg-primary);">News
+                    Feed 📰</button>
+                <button onclick="switchTab('datasets')" id="tab-datasets" class="read-more"
+                    style="cursor: pointer; border: 1px solid var(--border-color); background: transparent; color: var(--text-secondary);">Dataset
+                    Vault 💾</button>
+                <button onclick="switchTab('hardware')" id="tab-hardware" class="read-more"
+                    style="cursor: pointer; border: 1px solid var(--border-color); background: transparent; color: var(--text-secondary);">R&D
+                    Lab 🦾</button>
+                <button onclick="switchTab('risks')" id="tab-risks" class="read-more"
+                    style="cursor: pointer; border: 1px solid var(--border-color); background: transparent; color: var(--text-secondary);">Risk
+                    Radar ⚠️</button>
+            </div>
+        </div>
+
+        <div id="loading" class="loading">
+            Initializing Spider... Fetching Global Data...
+        </div>
+
+        <div id="newsGrid" class="news-grid">
+            <!-- News cards will be injected here by JS -->
+        </div>
+
+        <div id="datasetGrid" class="news-grid" style="display: none;">
+            <!-- Dataset cards will be injected here by JS -->
+        </div>
+
+        <div id="hardwareGrid" class="news-grid" style="display: none;">
+            <!-- Hardware cards will be injected here by JS -->
+        </div>
+
+        <div id="riskGrid" class="news-grid" style="display: none;">
+            <!-- Risk cards will be injected here by JS -->
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

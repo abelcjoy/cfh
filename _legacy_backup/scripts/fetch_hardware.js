@@ -3,32 +3,21 @@ const fs = require('fs');
 
 const parser = new Parser();
 
-// Highly specific R&D / Hardware queries
+// The "Zero Tolerance" Feed: ONLY "Delta Robot"
+// No synonyms. No approximate matches.
 const HARDWARE_FEEDS = [
     {
-        name: 'Delta Robot Research',
-        url: 'https://news.google.com/rss/search?q=(delta+robot+OR+parallel+manipulator+OR+picker+robot)+when:30d&hl=en-US&gl=US&ceid=US:en'
+        name: 'Delta Robot Research (Google)',
+        url: 'https://news.google.com/rss/search?q="delta+robot"+when:30d&hl=en-US&gl=US&ceid=US:en'
     },
     {
-        name: 'Robotic Grippers & End-Effectors',
-        url: 'https://news.google.com/rss/search?q=(robotic+gripper+OR+soft+robotics+OR+end+effector+OR+suction+cup+robot)+when:30d&hl=en-US&gl=US&ceid=US:en'
-    },
-    {
-        name: 'Industrial Automation (Sorting)',
-        url: 'https://news.google.com/rss/search?q=(high+speed+pick+and+place+OR+waste+sorting+robot+OR+robotic+arm+mechanism)+when:30d&hl=en-US&gl=US&ceid=US:en'
-    },
-    {
-        name: 'IEEE Robotics (Hardware)',
-        url: 'https://spectrum.ieee.org/feeds/topic/robotics'
-    },
-    {
-        name: 'YouTube - Delta Robot Prototypes & Demos',
-        url: 'https://news.google.com/rss/search?q=site:youtube.com+(delta+robot+OR+parallel+manipulator+OR+high+speed+pick+and+place)+when:30d&hl=en-US&gl=US&ceid=US:en'
+        name: 'YouTube - Delta Robot Demos',
+        url: 'https://news.google.com/rss/search?q=site:youtube.com+"delta+robot"+when:30d&hl=en-US&gl=US&ceid=US:en'
     }
 ];
 
 async function fetchHardware() {
-    console.log('🦾 R&D Protocol Initiated... Scanning for Hardware Innovations...');
+    console.log('🦾 R&D Protocol: ZERO TOLERANCE scanning for "Delta Robot"...');
     let allHardware = [];
 
     for (const feed of HARDWARE_FEEDS) {
@@ -66,7 +55,7 @@ async function fetchHardware() {
     };
 
     fs.writeFileSync('hardware.json', JSON.stringify(output, null, 2));
-    console.log(`🔩 Blueprint Acquired! Saved ${uniqueHardware.length} R&D items to hardware.json`);
+    console.log(`🔩 Purity Achieved! Saved ${uniqueHardware.length} "Delta Robot" ONLY items.`);
 }
 
 fetchHardware();

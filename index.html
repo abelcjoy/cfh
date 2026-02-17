@@ -4,75 +4,238 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Global Waste Intelligence - Real-time updates on waste management technology, policy, and innovation.">
-    <title>WasteIntel | Global Intelligence Hub</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/svg+xml"
-        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♻️</text></svg>">
+    <title>The Hardware Codex</title>
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --card: #141414;
+            --text: #e0e0e0;
+            --accent: #00ff9d;
+            /* Matrix Green */
+            --locked: #333;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid #333;
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+        }
+
+        .card.locked {
+            opacity: 0.5;
+            border-style: dashed;
+        }
+
+        .icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: var(--accent);
+        }
+
+        .desc {
+            font-size: 0.9em;
+            color: #888;
+            margin-bottom: 15px;
+        }
+
+        .progress-bar {
+            height: 4px;
+            background: #333;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--accent);
+            width: 0%;
+        }
+
+        /* Modal for Quests */
+        #modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 100;
+            overflow-y: auto;
+        }
+
+        .modal-content {
+            max-width: 800px;
+            margin: 50px auto;
+            background: var(--card);
+            padding: 40px;
+            border: 1px solid var(--accent);
+        }
+
+        .quest-item {
+            border-bottom: 1px solid #333;
+            padding: 15px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .quest-item:last-child {
+            border-bottom: none;
+        }
+
+        .quest-checkbox {
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--accent);
+            margin-right: 20px;
+            cursor: pointer;
+        }
+
+        .quest-checkbox.checked {
+            background: var(--accent);
+        }
+
+        .quest-details h3 {
+            margin: 0 0 5px 0;
+            font-size: 1em;
+        }
+
+        .search-link {
+            color: #888;
+            text-decoration: none;
+            font-size: 0.8em;
+            border: 1px solid #333;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        .search-link:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .close-btn {
+            float: right;
+            cursor: pointer;
+            color: #888;
+            font-size: 1.5em;
+        }
+    </style>
 </head>
 
 <body>
 
-    <header>
-        <a href="#" class="logo">
-            <span>♻️</span> WA.STE.INTEL
-        </a>
-        <div class="search-container">
-            <span>🔍</span>
-            <input type="text" id="searchInput" class="search-input" placeholder="Search technology, policy...">
-        </div>
-        <div style="font-size: 0.9rem; color: #22c55e;">● LIVE FEED</div>
-    </header>
-
-    <div class="container">
-
-        <div class="hero">
-            <h1>The Future of Waste, Decoded.</h1>
-            <p>Autonomous intelligence aggregation for the modern recycling industry.</p>
-            <div class="tabs"
-                style="display: flex; justify-content: center; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
-                <button onclick="switchTab('news')" id="tab-news" class="read-more"
-                    style="cursor: pointer; border: none; background: var(--accent); color: var(--bg-primary);">News
-                    Feed 📰</button>
-                <button onclick="switchTab('datasets')" id="tab-datasets" class="read-more"
-                    style="cursor: pointer; border: 1px solid var(--border-color); background: transparent; color: var(--text-secondary);">Dataset
-                    Vault 💾</button>
-                <button onclick="switchTab('hardware')" id="tab-hardware" class="read-more"
-                    style="cursor: pointer; border: 1px solid var(--border-color); background: transparent; color: var(--text-secondary);">R&D
-                    Lab 🦾</button>
-                <button onclick="switchTab('risks')" id="tab-risks" class="read-more"
-                    style="cursor: pointer; border: 1px solid var(--border-color); background: transparent; color: var(--text-secondary);">Risk
-                    Radar ⚠️</button>
-            </div>
-        </div>
-
-        <div id="loading" class="loading">
-            Initializing Spider... Fetching Global Data...
-        </div>
-
-        <div id="newsGrid" class="news-grid">
-            <!-- News cards will be injected here by JS -->
-        </div>
-
-        <div id="datasetGrid" class="news-grid" style="display: none;">
-            <!-- Dataset cards will be injected here by JS -->
-        </div>
-
-        <div id="hardwareGrid" class="news-grid" style="display: none;">
-            <!-- Hardware cards will be injected here by JS -->
-        </div>
-
-        <div id="riskGrid" class="news-grid" style="display: none;">
-            <!-- Risk cards will be injected here by JS -->
-        </div>
-
+    <h1>The Codex <span style="font-size:0.5em; color:#666">v1.0</span></h1>
+    <div style="text-align: center; color: #666; max-width: 600px; margin: 0 auto;">
+        "The future belongs to the formidable. Those who can build, and those who can repair."
     </div>
 
-    <script src="script.js"></script>
+    <div class="grid" id="grid">
+        <!-- Cards will be injected here JS -->
+    </div>
+
+    <div id="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title" style="color: var(--accent)"></h2>
+            <div id="gear-list"
+                style="margin-bottom: 30px; padding: 15px; background: #222; border-left: 3px solid var(--accent);">
+                <strong>REQUIRED GEAR:</strong> <span id="gear-text"></span>
+            </div>
+            <div id="quest-list"></div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script>
+        const grid = document.getElementById('grid');
+        const modal = document.getElementById('modal');
+
+        // Render Grid
+        hardwareCurriculum.forEach(item => {
+            const card = document.createElement('div');
+            card.className = `card ${item.locked ? 'locked' : ''}`;
+            card.onclick = () => !item.locked && openModal(item);
+
+            // Calculate progress (mock data for now)
+            const progress = 0;
+
+            card.innerHTML = `
+                <span class="icon">${item.icon}</span>
+                <div class="title">${item.title}</div>
+                <div class="desc">${item.description || "Project currently locked."}</div>
+                ${!item.locked ? `<div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>` : ''}
+            `;
+            grid.appendChild(card);
+        });
+
+        function openModal(item) {
+            document.getElementById('modal-title').innerText = item.title;
+            document.getElementById('gear-text').innerText = item.gear_required.join(", ");
+
+            const list = document.getElementById('quest-list');
+            list.innerHTML = '';
+
+            item.quests.forEach((q, index) => {
+                const div = document.createElement('div');
+                div.className = 'quest-item';
+                div.innerHTML = `
+                    <div class="quest-checkbox" onclick="this.classList.toggle('checked')"></div>
+                    <div class="quest-details">
+                        <h3>LEVEL ${q.level}: ${q.title}</h3>
+                        <p style="color: #888; font-size: 0.9em; margin: 5px 0;">MISSION: ${q.task}</p>
+                        <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(q.search_term)}" target="_blank" class="search-link">
+                            SEARCH: "${q.search_term}"
+                        </a>
+                    </div>
+                `;
+                list.appendChild(div);
+            });
+
+            modal.style.display = 'block';
+        }
+
+        function closeModal() {
+            modal.style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>
